@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Oh Tidepool public content index",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "revision", "media_revision", "conditions_revision"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "revision": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "media_revision": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "conditions_revision": {"type": ["string", "null"], "minLength": 1, "maxLength": 200, "pattern": "^[!-~]+$"}
+  }
+}

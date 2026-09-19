@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Oh Tidepool daily briefing versions 1 and 2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "published_at", "expires_at", "revision", "sources", "locations"],
+  "properties": {
+    "schema_version": {"type": "integer", "enum": [1, 2]},
+    "generated_at": {"$ref": "#/$defs/instant"},
+    "published_at": {"$ref": "#/$defs/instant"},
+    "expires_at": {"$ref": "#/$defs/instant"},
+    "revision": {"type": "string", "minLength": 1, "maxLength": 200, "pattern": "^[!-~]+$"},
+    "sources": {"type": "array", "maxItems": 16, "items": {"$ref": "#/$defs/weatherSource"}},
+    "locations": {"type": "array", "maxItems": 500, "items": {"$ref": "#/$defs/location"}},
+    "local_updates": {"type": "array", "maxItems": 100, "items": {"$ref": "#/$defs/update"}}
+  },
+  "$defs": {
+    "instant": {"type": "string", "format": "date-time", "pattern": "Z$"},
+    "url": {"type": "string", "format": "uri", "maxLength": 2000, "pattern": "^https://"},
+    "temperature": {"type": ["number", "null"], "minimum": -100, "maximum": 160},
+    "wind": {"type": ["number", "null"], "minimum": 0, "maximum": 250},
+    "weatherSource": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider", "url", "retrieved_at"],
+      "properties": {
+        "provider": {"type": "string", "minLength": 2, "maxLength": 120},
+        "url": {"$ref": "#/$defs/url"},
+        "retrieved_at": {"$ref": "#/$defs/instant"},
+        "attribution": {"type": ["string", "null"], "minLength": 2, "maxLength": 600}
+      }
+    },
+    "location": {
+      "type": "object", "additionalProperties": false, "required": ["location_id", "weather"],
+      "properties": {
+        "location_id": {"type": "string", "pattern": "^[a-z0-9-]{3,80}$"},
+        "weather": {
+          "type": "object", "additionalProperties": false,
+          "required": ["weather_code", "observed_at", "forecast_date_local", "forecast_time_zone"],
+          "properties": {
+            "weather_code": {"type": "integer", "minimum": 0, "maximum": 99},
+            "observed_at": {"$ref": "#/$defs/instant"},
+            "forecast_date_local": {"type": "string", "format": "date"},
+            "forecast_time_zone": {"type": "string", "minLength": 3, "maxLength": 80},
+            "temperature_f": {"$ref": "#/$defs/temperature"},
+            "apparent_temperature_f": {"$ref": "#/$defs/temperature"},
+            "temperature_high_f": {"$ref": "#/$defs/temperature"},
+            "temperature_low_f": {"$ref": "#/$defs/temperature"},
+            "precipitation_probability_max": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+            "wind_speed_mph": {"$ref": "#/$defs/wind"},
+            "wind_gusts_mph": {"$ref": "#/$defs/wind"}
+          }
+        }
+      }
+    },
+    "update": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "category", "headline", "summary", "affected_location_ids", "verification", "impact", "status", "observed_at", "published_at", "expires_at", "source", "official_guidance"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+        "category": {"enum": ["water_quality", "wildlife", "harmful_algal_bloom", "access", "weather", "other"]},
+        "headline": {"type": "string", "minLength": 1, "maxLength": 180},
+        "summary": {"type": "string", "minLength": 1, "maxLength": 1200},
+        "affected_location_ids": {"type": "array", "minItems": 1, "maxItems": 30, "uniqueItems": true, "items": {"type": "string"}},
+        "affected_area": {"type": "string", "minLength": 1, "maxLength": 300},
+        "verification": {"enum": ["official", "corroborated", "reviewed"]},
+        "impact": {"enum": ["official_restriction", "official_caution", "context_only"]},
+        "status": {"enum": ["active", "cancelled", "resolved"]},
+        "official_status": {"type": ["string", "null"], "enum": [null, "closure", "warning", "advisory", "danger", "caution", "information", "open"]},
+        "observed_at": {"$ref": "#/$defs/instant"},
+        "published_at": {"$ref": "#/$defs/instant"},
+        "expires_at": {"$ref": "#/$defs/instant"},
+        "official_guidance": {"type": ["string", "null"], "minLength": 1, "maxLength": 2000},
+        "source": {
+          "type": "object", "additionalProperties": false, "required": ["publisher", "url", "retrieved_at"],
+          "properties": {
+            "publisher": {"type": "string", "minLength": 2, "maxLength": 120},
+            "url": {"$ref": "#/$defs/url"},
+            "retrieved_at": {"$ref": "#/$defs/instant"},
+            "evidence_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          }
+        }
+      }
+    }
+  }
+}

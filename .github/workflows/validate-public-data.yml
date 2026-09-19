@@ -1,0 +1,48 @@
+name: Validate public data
+
+# A read-only contract check. It does not fetch provider data, generate a daily
+# report, process images, modify files, commit, push, deploy, or run on a
+# schedule. `media/**` is deliberately not a trigger: adding or replacing an
+# image is an ordinary repository update, and an image only becomes visible to
+# the app once an editor also regenerates and commits the JSON locally.
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/index.json
+      - data/media.json
+      - data/daily-conditions.json
+      - schemas/**
+      - scripts/**
+      - .github/workflows/validate-public-data.yml
+  pull_request:
+    paths:
+      - data/index.json
+      - data/media.json
+      - data/daily-conditions.json
+      - schemas/**
+      - scripts/**
+      - .github/workflows/validate-public-data.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-public-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install --disable-pip-version-check jsonschema==4.25.1
+      - name: Validate the committed public data contract
+        run: python3 scripts/validate-public-data.py
+      - name: Prove the check modified nothing
+        run: git diff --exit-code

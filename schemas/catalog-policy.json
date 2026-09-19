@@ -1,0 +1,184 @@
+{
+  "assets": {
+    "aggregating-anemone": 1,
+    "bat-star": 1,
+    "bird-rock-reef-context": 1,
+    "black-turban-snail": 1,
+    "cabrillo-profile": 1,
+    "california-mussel": 1,
+    "california-sea-hare": 1,
+    "childrens-pool-profile": 1,
+    "conspicuous-chiton": 1,
+    "coralline-algae": 1,
+    "dike-rock-context": 1,
+    "hospital-point-profile": 1,
+    "juvenile-opaleye": 1,
+    "la-jolla-cove-profile": 1,
+    "lined-shore-crab": 1,
+    "ocean-beach-pier-context": 1,
+    "owl-limpet": 1,
+    "pelican-point-context": 1,
+    "periwinkle-snails": 1,
+    "purple-urchin": 1,
+    "rockpile-context": 1,
+    "scour-brush-algae": 1,
+    "sea-lettuce": 1,
+    "shell-beach-seal-rock-profile": 1,
+    "spanish-shawl": 1,
+    "sunset-cliffs-profile": 1,
+    "swamis-profile": 1,
+    "tourmaline-context": 1,
+    "two-spot-octopus": 1,
+    "windansea-profile": 1,
+    "woolly-sculpin": 1
+  },
+  "authorities": [
+    {
+      "gate_categories": [
+        "water_quality"
+      ],
+      "id": "county",
+      "location_ids": [
+        "bird-rock-reef",
+        "cabrillo-tidepools",
+        "childrens-pool-casa-beach",
+        "dike-rock-scripps-beach",
+        "hospital-point",
+        "la-jolla-cove",
+        "ocean-beach-pier-reefs",
+        "shell-beach-seal-rock",
+        "sunset-cliffs-reef",
+        "swamis-reef",
+        "tourmaline-reef",
+        "windansea-reef"
+      ],
+      "publisher": "County of San Diego",
+      "status_impacts": {
+        "advisory": "official_caution",
+        "closure": "official_restriction",
+        "open": "context_only",
+        "warning": "official_caution"
+      },
+      "tier": "A",
+      "url_prefixes": [
+        "https://www.sandiegocounty.gov/content/sdc/deh/lwqd/",
+        "https://sandiegocounty.gov/content/sdc/deh/lwqd/",
+        "https://sdbeachinfo.com/",
+        "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
+      ]
+    },
+    {
+      "gate_categories": [
+        "access"
+      ],
+      "id": "nps-cabrillo",
+      "location_ids": [
+        "cabrillo-tidepools"
+      ],
+      "publisher": "National Park Service",
+      "status_impacts": {
+        "caution": "official_caution",
+        "closure": "official_restriction",
+        "danger": "official_restriction",
+        "information": "context_only"
+      },
+      "tier": "A",
+      "url_prefixes": [
+        "https://www.nps.gov/cabr/",
+        "https://nps.gov/cabr/"
+      ]
+    },
+    {
+      "gate_categories": [],
+      "id": "noaa",
+      "location_ids": [
+        "bird-rock-reef",
+        "cabrillo-tidepools",
+        "childrens-pool-casa-beach",
+        "dike-rock-scripps-beach",
+        "hospital-point",
+        "la-jolla-cove",
+        "ocean-beach-pier-reefs",
+        "shell-beach-seal-rock",
+        "sunset-cliffs-reef",
+        "swamis-reef",
+        "tourmaline-reef",
+        "windansea-reef"
+      ],
+      "publisher": "NOAA Fisheries",
+      "status_impacts": {},
+      "tier": "B",
+      "url_prefixes": [
+        "https://www.fisheries.noaa.gov/"
+      ]
+    },
+    {
+      "gate_categories": [],
+      "id": "sccoos",
+      "location_ids": [
+        "bird-rock-reef",
+        "cabrillo-tidepools",
+        "childrens-pool-casa-beach",
+        "dike-rock-scripps-beach",
+        "hospital-point",
+        "la-jolla-cove",
+        "ocean-beach-pier-reefs",
+        "shell-beach-seal-rock",
+        "sunset-cliffs-reef",
+        "swamis-reef",
+        "tourmaline-reef",
+        "windansea-reef"
+      ],
+      "publisher": "SCCOOS",
+      "status_impacts": {},
+      "tier": "B",
+      "url_prefixes": [
+        "https://sccoos.org/",
+        "https://erddap.sccoos.org/"
+      ]
+    },
+    {
+      "gate_categories": [],
+      "id": "cdfw",
+      "location_ids": [
+        "bird-rock-reef",
+        "cabrillo-tidepools",
+        "childrens-pool-casa-beach",
+        "dike-rock-scripps-beach",
+        "hospital-point",
+        "la-jolla-cove",
+        "ocean-beach-pier-reefs",
+        "pelican-point-crystal-cove",
+        "rockpile-beach",
+        "shell-beach-seal-rock",
+        "sunset-cliffs-reef",
+        "swamis-reef",
+        "tourmaline-reef",
+        "windansea-reef"
+      ],
+      "publisher": "California Department of Fish and Wildlife",
+      "status_impacts": {},
+      "tier": "B",
+      "url_prefixes": [
+        "https://wildlife.ca.gov/"
+      ]
+    }
+  ],
+  "location_ids": [
+    "bird-rock-reef",
+    "cabrillo-tidepools",
+    "childrens-pool-casa-beach",
+    "dike-rock-scripps-beach",
+    "hospital-point",
+    "la-jolla-cove",
+    "ocean-beach-pier-reefs",
+    "pelican-point-crystal-cove",
+    "rockpile-beach",
+    "shell-beach-seal-rock",
+    "sunset-cliffs-reef",
+    "swamis-reef",
+    "tourmaline-reef",
+    "windansea-reef"
+  ],
+  "schema_version": 1
+}
