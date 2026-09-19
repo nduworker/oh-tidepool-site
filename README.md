@@ -11,3 +11,7 @@ The `media/` directory publishes the app's reviewed, versioned WebP
 renditions. The iPhone catalog resolves an asset with ID `bat-star` and
 revision `1` as `media/bat-star-v1.webp`; filenames are immutable so GitHub
 Pages and the on-device cache can safely retain them.
+
+The `data/daily-conditions.json` path is reserved for the app's daily weather
+snapshot. CI may replace that single file after validating the full schema;
+the previous file should remain published when a provider run fails.
