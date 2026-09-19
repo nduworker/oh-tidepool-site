@@ -1,0 +1,60 @@
+:root {
+  --ink: #113d4b;
+  --deep: #075d6d;
+  --sea: #15a9a5;
+  --foam: #e3f5ef;
+  --sand: #f7f0df;
+  --sun: #f6b44b;
+  --coral: #e9724a;
+  --muted: #56717a;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--sand);
+  font-family: ui-rounded, "Avenir Next", Avenir, "Trebuchet MS", sans-serif;
+  line-height: 1.55;
+}
+a { color: inherit; }
+.site-header, footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 25px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; letter-spacing: -.02em; font-size: 1.15rem; }
+.brand-mark { position: relative; width: 32px; height: 32px; border-radius: 44% 56% 49% 51%; background: var(--deep); overflow: hidden; transform: rotate(-15deg); box-shadow: inset 0 -6px 0 #064e5e; }
+.brand-mark::before { content: ""; position: absolute; inset: 7px 5px 5px; border-radius: 50%; background: #75d6d0; }
+.brand-mark span { position: absolute; width: 11px; height: 11px; border-radius: 50%; right: 3px; bottom: 3px; background: var(--sun); border: 2px solid #f28b4b; }
+.nav-link, footer a { font-size: .9rem; font-weight: 700; color: var(--deep); text-underline-offset: 4px; }
+.hero { max-width: 1180px; min-height: 570px; padding: 78px 32px 88px; margin: 0 auto; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 40px; }
+.eyebrow { margin: 0 0 16px; color: var(--deep); font-weight: 800; letter-spacing: .12em; font-size: .71rem; }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: .98; letter-spacing: -.045em; }
+h1 { max-width: 670px; margin: 0; font-size: clamp(3.6rem, 7.5vw, 6.7rem); }
+h1 em { color: var(--coral); font-weight: inherit; }
+.lede { max-width: 540px; margin: 27px 0 14px; font-size: 1.18rem; color: #305967; }
+.availability { font-size: .89rem; font-weight: 800; color: var(--deep); }
+.tidepool-scene { position: relative; width: min(100%, 430px); aspect-ratio: 1; margin: 0 auto; border-radius: 50% 45% 48% 52%; background: #e8c982; box-shadow: 0 17px 0 #d4b06d, inset 22px 20px 0 rgba(255,255,255,.22), inset -18px -16px 0 rgba(130,89,42,.22); transform: rotate(-6deg); overflow: hidden; }
+.pool { position: absolute; inset: 18% 15% 20% 14%; border: 14px solid #8c734a; border-radius: 48% 52% 45% 55%; background: radial-gradient(circle at 57% 40%, #baf3e5 0 5%, #53c5bf 6% 30%, #147f8a 66%); box-shadow: inset 0 0 0 8px #43806e, 0 0 0 8px #b28a50; }
+.ripple { position: absolute; border: 2px solid rgba(244,255,250,.7); border-radius: 50%; }
+.ripple-one { width: 44%; height: 18%; left: 28%; top: 24%; }
+.ripple-two { width: 62%; height: 26%; left: 19%; top: 51%; }
+.rock { position: absolute; display: block; background: #9a7c54; border-radius: 45% 55% 52% 48%; box-shadow: inset 8px 8px rgba(255,255,255,.19), inset -9px -9px rgba(76,55,31,.16); }
+.rock-one { width: 30%; height: 19%; top: 7%; left: 8%; transform: rotate(22deg); }
+.rock-two { width: 28%; height: 20%; right: 4%; bottom: 13%; transform: rotate(-18deg); }
+.rock-three { width: 21%; height: 15%; left: 6%; bottom: 12%; }
+.seagrass { position: absolute; z-index: 2; width: 8px; height: 100px; background: #438b51; bottom: 24%; border-radius: 100% 0; transform-origin: bottom; box-shadow: 9px 7px 0 #60a655, -7px 13px 0 #36754a; }
+.grass-one { left: 29%; transform: rotate(-23deg); }.grass-two { right: 28%; height: 77px; transform: rotate(16deg); }.grass-three { right: 36%; height: 60px; transform: rotate(31deg); }
+.star { position: absolute; z-index: 3; top: 38%; right: 21%; color: var(--sun); font-size: 4.4rem; line-height: 1; text-shadow: 2px 3px 0 #db803e; transform: rotate(16deg); }
+.features { background: var(--foam); padding: 75px max(32px, calc((100vw - 1116px) / 2)); display: grid; grid-template-columns: repeat(3, 1fr); gap: 52px; }
+.features article { max-width: 315px; }.feature-number { color: var(--coral); font-size: .78rem; font-weight: 800; letter-spacing: .1em; }.features h2 { margin: 14px 0 12px; font-size: 2.35rem; }.features p, .ethos p { margin: 0; color: var(--muted); }
+.ethos { max-width: 760px; text-align: center; margin: 0 auto; padding: 120px 32px; }.ethos h2 { margin: 0 0 20px; font-size: clamp(2.4rem, 4.5vw, 4.2rem); }.ethos p:last-child { max-width: 560px; margin: auto; }
+footer { border-top: 1px solid rgba(17,61,75,.14); font-size: .8rem; color: var(--muted); justify-content: flex-start; } footer span { margin-right: auto; }
+.policy { max-width: 760px; margin: 45px auto 100px; padding: 0 32px; }.policy h1 { font-size: clamp(3.2rem, 7vw, 5.5rem); margin-bottom: 28px; }.policy h2 { font-size: 2rem; margin: 48px 0 10px; }.policy p { color: #365b66; }.policy .policy-intro { font-size: 1.22rem; color: var(--ink); }
+@media (max-width: 780px) { .site-header, footer { padding-left: 22px; padding-right: 22px; }.hero { grid-template-columns: 1fr; padding: 55px 22px 70px; }.tidepool-scene { width: min(84vw, 380px); }.features { grid-template-columns: 1fr; padding: 55px 32px; gap: 35px; }.ethos { padding: 82px 22px; } footer { flex-wrap: wrap; } footer span { width: 100%; }.policy { margin-top: 25px; padding: 0 22px; } }
