@@ -132,6 +132,8 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
             raise ContractError(f"{field}.weather: invalid local date or IANA timezone") from error
         low, high = weather.get("temperature_low_f"), weather.get("temperature_high_f")
         require(low is None or high is None or low <= high, field + ".weather", "low cannot exceed high")
+        if "daily_rank" in location:
+            validate_rank(location["daily_rank"], field + ".daily_rank")
     require(not value["locations"] or bool(value["sources"]), "daily.sources", "weather requires attribution")
     for position, source in enumerate(value["sources"]):
         field = f"daily.sources[{position}]"
@@ -168,6 +170,54 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
             if official_status is not None:
                 require(authority["status_impacts"].get(official_status) == update["impact"],
                         field + ".official_status", "status does not support impact")
+
+
+def validate_rank(value: dict, field: str) -> None:
+    """Require a daily rank to agree with the inputs published beside it.
+
+    A rank is only worth showing if it cannot contradict itself, so these rules
+    are re-checked at the contract boundary rather than trusted from whichever
+    generator produced it. They encode the safe defaults: a rank may never claim
+    the best level from incomplete inputs, and no official notice may sit beside
+    an unconditionally good day.
+    """
+    level = value["level"]
+    inputs = value["inputs"]
+    impacts = inputs["official_impacts"]
+    best_low = inputs["best_usable_low_feet"]
+    precip = inputs["precipitation_probability_max"]
+    gusts = inputs["wind_gusts_mph"]
+
+    require(
+        level != "good" or best_low is not None,
+        field + ".level", "a good day must name the usable low tide that makes it good",
+    )
+    require(
+        level != "good" or (precip is not None and gusts is not None),
+        field + ".level", "a good day must not come from incomplete weather inputs",
+    )
+    require(
+        level != "good" or not impacts,
+        field + ".level", "an official notice cannot sit beside an unconditionally good day",
+    )
+    require(
+        "official_restriction" not in impacts or level == "poor",
+        field + ".level", "a current official restriction caps the day at poor",
+    )
+    require(
+        "official_caution" not in impacts or level != "good",
+        field + ".level", "a current official caution cannot be presented as a good day",
+    )
+    require(
+        inputs["tide_data_available"] or level != "poor",
+        field + ".level",
+        "a poor day must have had tide extremes to judge it by; a provider gap is not a verdict",
+    )
+    require(
+        inputs["tide_data_available"] or level == "fair",
+        field + ".level",
+        "without tide extremes the day may only be presented as fair, not as a verdict either way",
+    )
 
 
 def validate_media(value: dict, schemas: Path = SCHEMAS) -> None:

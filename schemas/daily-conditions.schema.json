@@ -5,7 +5,7 @@
   "additionalProperties": false,
   "required": ["schema_version", "generated_at", "published_at", "expires_at", "revision", "sources", "locations"],
   "properties": {
-    "schema_version": {"type": "integer", "enum": [1, 2]},
+    "schema_version": {"type": "integer", "enum": [1, 2, 3]},
     "generated_at": {"$ref": "#/$defs/instant"},
     "published_at": {"$ref": "#/$defs/instant"},
     "expires_at": {"$ref": "#/$defs/instant"},
@@ -33,6 +33,7 @@
       "type": "object", "additionalProperties": false, "required": ["location_id", "weather"],
       "properties": {
         "location_id": {"type": "string", "pattern": "^[a-z0-9-]{3,80}$"},
+        "daily_rank": {"$ref": "#/$defs/rank"},
         "weather": {
           "type": "object", "additionalProperties": false,
           "required": ["weather_code", "observed_at", "forecast_date_local", "forecast_time_zone"],
@@ -48,6 +49,38 @@
             "precipitation_probability_max": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
             "wind_speed_mph": {"$ref": "#/$defs/wind"},
             "wind_gusts_mph": {"$ref": "#/$defs/wind"}
+          }
+        }
+      }
+    },
+    "rank": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "reason", "inputs"],
+      "properties": {
+        "level": {"enum": ["good", "fair", "marginal", "poor"]},
+        "reason": {"type": "string", "minLength": 12, "maxLength": 600},
+        "inputs": {
+          "type": "object", "additionalProperties": false,
+          "required": [
+            "tide_data_available",
+            "tide_threshold_feet", "best_usable_low_feet", "best_usable_low_at",
+            "lowest_low_feet", "lows_published", "precipitation_probability_max",
+            "wind_gusts_mph", "reviewed_hazard_count", "official_impacts"
+          ],
+          "properties": {
+            "tide_data_available": {"type": "boolean"},
+            "tide_threshold_feet": {"type": "number"},
+            "best_usable_low_feet": {"type": ["number", "null"]},
+            "best_usable_low_at": {"type": ["string", "null"]},
+            "lowest_low_feet": {"type": ["number", "null"]},
+            "lows_published": {"type": "integer", "minimum": 0, "maximum": 8},
+            "precipitation_probability_max": {"type": ["number", "null"]},
+            "wind_gusts_mph": {"type": ["number", "null"]},
+            "reviewed_hazard_count": {"type": "integer", "minimum": 0, "maximum": 50},
+            "official_impacts": {
+              "type": "array", "maxItems": 2, "uniqueItems": true,
+              "items": {"enum": ["official_restriction", "official_caution"]}
+            }
           }
         }
       }
