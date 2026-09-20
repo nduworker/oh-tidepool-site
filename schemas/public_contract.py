@@ -7,7 +7,7 @@ import json
 import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from jsonschema import Draft202012Validator, FormatChecker
@@ -101,8 +101,10 @@ def authority_for(source: dict, policy: dict) -> dict | None:
             continue
         for prefix in authority["url_prefixes"]:
             allowed = urlsplit(prefix)
-            if (url.hostname == allowed.hostname and url.path.startswith(allowed.path)
-                    and url.port in (None, 443)):
+            if (url.scheme == "https" and url.hostname == allowed.hostname
+                    and url.path.startswith(allowed.path) and url.port in (None, 443)):
+                if unquote(url.path) != url.path or any(segment in (".", "..") for segment in url.path.split("/")):
+                    continue
                 return authority
     return None
 
@@ -156,7 +158,7 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         observed = instant(update["observed_at"], field + ".observed_at")
         released = instant(update["published_at"], field + ".published_at")
         ends = instant(update["expires_at"], field + ".expires_at")
-        require(observed <= ends and released < ends <= expires and released <= published,
+        require(observed <= published and released <= published < ends <= expires,
                 field + ".expires_at", "invalid effective interval or expiry exceeds document expiry")
         source = update["source"]
         https_url(source["url"], field + ".source.url")
@@ -169,11 +171,14 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         if update["impact"] != "context_only":
             require(authority["tier"] == "A" and update["category"] in authority["gate_categories"],
                     field + ".impact", "only Tier A operational evidence can gate recommendations")
-            require(bool(update.get("official_guidance", "")), field + ".official_guidance", "official guidance required")
+            require(update["verification"] == "official" and update["status"] == "active",
+                    field + ".impact", "a gate requires an active official notice")
+            require(bool((update.get("official_guidance") or "").strip()),
+                    field + ".official_guidance", "official guidance required")
             official_status = update.get("official_status")
-            if official_status is not None:
-                require(authority["status_impacts"].get(official_status) == update["impact"],
-                        field + ".official_status", "status does not support impact")
+            require(isinstance(official_status, str) and
+                    authority["status_impacts"].get(official_status) == update["impact"],
+                    field + ".official_status", "explicit agency status must support impact")
 
 
 def validate_rank(value: dict, field: str) -> None:
@@ -182,16 +187,24 @@ def validate_rank(value: dict, field: str) -> None:
     A rank is only worth showing if it cannot contradict itself, so these rules
     are re-checked at the contract boundary rather than trusted from whichever
     generator produced it. They encode the safe defaults: a rank may never claim
-    the best level from incomplete inputs, and no official notice may sit beside
-    an unconditionally good day.
+    the best level from incomplete inputs, and it may never carry an official
+    cap.
     """
     level = value["level"]
     inputs = value["inputs"]
-    impacts = inputs["official_impacts"]
     best_low = inputs["best_usable_low_feet"]
     precip = inputs["precipitation_probability_max"]
     gusts = inputs["wind_gusts_mph"]
 
+    # A notice expires on its own clock, so a cap baked into a published rank
+    # would outlive the notice that justified it and could not be lifted until
+    # the whole briefing was rebuilt. A base rank must therefore be uncapped;
+    # the app applies a current, location-matched notice at display time.
+    require(
+        not inputs["official_impacts"],
+        field + ".inputs.official_impacts",
+        "a published rank must not embed an expiring notice cap",
+    )
     require(
         level != "good" or best_low is not None,
         field + ".level", "a good day must name the usable low tide that makes it good",
@@ -199,18 +212,6 @@ def validate_rank(value: dict, field: str) -> None:
     require(
         level != "good" or (precip is not None and gusts is not None),
         field + ".level", "a good day must not come from incomplete weather inputs",
-    )
-    require(
-        level != "good" or not impacts,
-        field + ".level", "an official notice cannot sit beside an unconditionally good day",
-    )
-    require(
-        "official_restriction" not in impacts or level == "poor",
-        field + ".level", "a current official restriction caps the day at poor",
-    )
-    require(
-        "official_caution" not in impacts or level != "good",
-        field + ".level", "a current official caution cannot be presented as a good day",
     )
     require(
         inputs["tide_data_available"] or level != "poor",
