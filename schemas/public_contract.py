@@ -141,7 +141,11 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         require(instant(source["retrieved_at"], field + ".retrieved_at") <= published,
                 field + ".retrieved_at", "cannot be after publication")
     updates = value.get("local_updates", [])
-    require(value["schema_version"] == 2 or not updates, "daily.local_updates", "version 1 cannot contain updates")
+    # Schema 3 is schema 2 plus the daily rank, so it carries updates too. A
+    # `== 2` test here would have rejected the first briefing that had both a
+    # rank and an official notice — the exact document the news agent publishes.
+    require(value["schema_version"] in (2, 3) or not updates, "daily.local_updates",
+            "schema version 1 carries no local updates")
     seen_updates = set()
     for position, update in enumerate(updates):
         field = f"daily.local_updates[{position}]"
