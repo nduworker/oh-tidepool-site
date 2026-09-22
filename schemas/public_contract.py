@@ -143,10 +143,11 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         require(instant(source["retrieved_at"], field + ".retrieved_at") <= published,
                 field + ".retrieved_at", "cannot be after publication")
     updates = value.get("local_updates", [])
-    # Schema 3 is schema 2 plus the daily rank, so it carries updates too. A
-    # `== 2` test here would have rejected the first briefing that had both a
-    # rank and an official notice — the exact document the news agent publishes.
-    require(value["schema_version"] in (2, 3) or not updates, "daily.local_updates",
+    # Schemas 2-4 all carry local updates; only schema 1 predates them. A
+    # `== 3` test here would have rejected the first v4 briefing that had both
+    # a rank and an official notice — the exact document the news agent
+    # publishes.
+    require(value["schema_version"] in (2, 3, 4) or not updates, "daily.local_updates",
             "schema version 1 carries no local updates")
     seen_updates = set()
     for position, update in enumerate(updates):
@@ -205,13 +206,23 @@ def validate_rank(value: dict, field: str) -> None:
         field + ".inputs.official_impacts",
         "a published rank must not embed an expiring notice cap",
     )
+    # A rank is a verdict about a day with tide data. A day with no extremes
+    # is left unranked entirely (the payload and client read that as
+    # insufficient-data), never given a level.
+    require(
+        inputs["tide_data_available"],
+        field + ".inputs.tide_data_available",
+        "a rank requires tide extremes to judge; a provider gap is not a verdict",
+    )
     require(
         level != "good" or best_low is not None,
-        field + ".level", "a good day must name the usable low tide that makes it good",
+        field + ".level",
+        "a good day must name the usable low tide that makes it good",
     )
     require(
         level != "good" or (precip is not None and gusts is not None),
-        field + ".level", "a good day must not come from incomplete weather inputs",
+        field + ".level",
+        "a good day must not come from incomplete weather inputs",
     )
     require(
         inputs["tide_data_available"] or level != "poor",
@@ -222,6 +233,15 @@ def validate_rank(value: dict, field: str) -> None:
         inputs["tide_data_available"] or level == "fair",
         field + ".level",
         "without tide extremes the day may only be presented as fair, not as a verdict either way",
+    )
+    # A super-low badge is a claim about exceptional water, so it must cite
+    # the datum it was judged against and the low that qualified. Neither may
+    # come back as a silent null.
+    require(
+        not inputs["super_low_tide"]
+        or (inputs["mlw_feet"] is not None and best_low is not None),
+        field + ".inputs.super_low_tide",
+        "a super-low badge requires the station low-water datum and a named usable low",
     )
 
 
