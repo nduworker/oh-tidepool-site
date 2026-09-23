@@ -1,83 +1,79 @@
 {
-  "expires_at": "2026-09-24T08:49:17Z",
-  "generated_at": "2026-09-23T02:49:17Z",
+  "expires_at": "2026-09-24T17:18:55Z",
+  "generated_at": "2026-09-23T11:18:55Z",
   "locations": [
     {
-      "ai_advisory": "The deterministic rank for Bird Rock reef on September 23, 2026 is None, meaning no reliable conditions data supports a tidepool visit at this time. I cannot confirm a low-water window or any suitable period for exploring the intertidal zone here. Species associated with this site—periwinkle snails, black turban snails, sea lettuce, and coralline algae—depend on exposed rock to be seen, and without a confirmed low tide they will most likely remain underwater. Do not assume the reef is accessible, dry, or in any particular condition without checking tide tables and local weather independently. This is not a recommendation to visit.",
       "location_id": "bird-rock-reef",
       "weather": {
-        "apparent_temperature_f": 70.6,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 72.6,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
+        "observed_at": "2026-09-23T11:15:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.4,
-        "temperature_high_f": 77.2,
-        "temperature_low_f": 66.2,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 5.5
+        "temperature_f": 68.3,
+        "temperature_high_f": 75.4,
+        "temperature_low_f": 66.8,
+        "weather_code": 3,
+        "wind_gusts_mph": 2.7,
+        "wind_speed_mph": 2.2
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Cabrillo National Monument Tidepools on September 23, 2026 is poor. The best low tide in daylight is 2.4 ft at 1:22 PM, well above this site's 1.5 ft guidance, so the intertidal zone will likely stay largely submerged throughout the day. Conditions are not favorable for meaningful tidepool exploration today, and no good low-water window should be expected. This site's best low-tide exposure during park hours tends to fall in fall, winter, and spring, so a different date may serve visitors better. Do not assume exposed pools or clear access will be available today.",
       "daily_rank": {
         "inputs": {
-          "best_usable_low_at": "2026-09-22T13:22:00",
-          "best_usable_low_feet": 2.384,
-          "lowest_low_feet": 0.392,
+          "best_usable_low_at": "2026-09-23T13:56:00",
+          "best_usable_low_feet": 1.868,
+          "lowest_low_feet": 0.24,
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 2.0,
+          "precipitation_probability_max": 0.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 10.3
+          "wind_gusts_mph": 3.4
         },
         "level": "poor",
-        "reason": "The best low tide in daylight is 2.4 ft at 1:22 PM, well above this site's 1.5 ft guidance."
+        "reason": "The best low tide in daylight is 1.9 ft at 1:56 PM, well above this site's 1.5 ft guidance."
       },
       "location_id": "cabrillo-tidepools",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 71.0,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 68.9,
-        "temperature_high_f": 77.6,
-        "temperature_low_f": 66.8,
-        "weather_code": 1,
-        "wind_gusts_mph": 10.3,
-        "wind_speed_mph": 5.2
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 0.0,
+        "temperature_f": 67.5,
+        "temperature_high_f": 76.4,
+        "temperature_low_f": 66.7,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 3.2
       }
     },
     {
-      "ai_advisory": "Today's conditions for Children's Pool / Casa Beach cannot be determined from the available data, so no visit recommendation can be made. The site's intertidal rock and pools are home to periwinkle snails, black turban snails, sea lettuce, and coralline algae, but without a confirmed low-tide window or current access information, you should not assume the pools will be exposed or that the area is open to the public. Check independent tide, weather, and local-notice sources before planning any trip. If you do go, leave all organisms—snails, algae, and the like—attached and in place, as they are living habitat. No claim about safety, surf, or access can be made from the information on hand.",
       "location_id": "childrens-pool-casa-beach",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.7,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.3,
-        "temperature_high_f": 76.5,
-        "temperature_low_f": 66.3,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 7.9
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 67.0,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 0.3
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Dike Rock Tidepools on 2026-09-23 is poor: the best daylight low tide is 2.3 ft at 1:19 PM, well above this site's 1.0 ft low-tide guidance. Dike Rock is a very-low-tide rocky bench, and at today's predicted level the intertidal zone will remain largely underwater, so we do not recommend a visit. No species viewing or pooling opportunity can be assumed under these conditions. Access, surf, and footing on this stretch between Scripps and Black's Beach are not assessed here; treat all conditions as uncertain.",
       "daily_rank": {
         "inputs": {
-          "best_usable_low_at": "2026-09-22T13:19:00",
-          "best_usable_low_feet": 2.317,
-          "lowest_low_feet": 0.319,
+          "best_usable_low_at": "2026-09-23T13:52:00",
+          "best_usable_low_feet": 1.832,
+          "lowest_low_feet": 0.202,
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
@@ -86,84 +82,80 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 9.2
+          "wind_gusts_mph": 2.9
         },
         "level": "poor",
-        "reason": "The best low tide in daylight is 2.3 ft at 1:19 PM, well above this site's 1.0 ft guidance."
+        "reason": "The best low tide in daylight is 1.8 ft at 1:52 PM, well above this site's 1.0 ft guidance."
       },
       "location_id": "dike-rock-scripps-beach",
       "weather": {
-        "apparent_temperature_f": 72.2,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 72.4,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
+        "observed_at": "2026-09-23T11:15:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 69.7,
-        "temperature_high_f": 77.0,
-        "temperature_low_f": 67.2,
-        "weather_code": 1,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 5.9
+        "temperature_f": 68.3,
+        "temperature_high_f": 74.4,
+        "temperature_low_f": 67.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 2.6
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Hospital Point on September 23, 2026 is **None — None**, so no low-water window or exposure assessment has been generated for this date. With no usable rank, there is no basis to recommend a visiting time or to suggest that intertidal zones—home to periwinkle snails, black turban snails, sea lettuce, and coralline algae—will be exposed. Tide timing, surf, and on-site access are not established in the data provided, so you should not assume the shore will be reachable or that any habitat will be visible. If you still plan to go, confirm current tide charts and site conditions independently, and remember that organisms like coralline algae and sea lettuce are living habitat; leave them attached.",
       "location_id": "hospital-point",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.7,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.3,
-        "temperature_high_f": 76.5,
-        "temperature_low_f": 66.3,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 7.9
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 67.0,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 0.3
       }
     },
     {
-      "ai_advisory": "The deterministic rank for La Jolla Cove rocky intertidal on 2026-09-23 is None — None; no low-water window can be confirmed from the available data. Because no window is established, there is no basis to plan a tidepool visit today, and conditions along the rocks are simply unknown. The species catalogued for this site—periwinkle snails, black turban snails, sea lettuce, coralline algae—will be in their usual intertidal zones whether or not conditions happen to be favorable, but that does not mean they will be reachable or visible. Check back on a date with a determinable rank before committing travel time, and never assume the rocks are dry, clear, or safe to step on without confirming conditions on site.",
       "location_id": "la-jolla-cove",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.7,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.3,
-        "temperature_high_f": 76.5,
-        "temperature_low_f": 66.3,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 7.9
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 66.9,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 0.3
       }
     },
     {
-      "ai_advisory": "No deterministic conditions have been determined for Ocean Beach Pier reefs on September 23, 2026, so no low-water window or visit recommendation can be offered. The reef habitat may hold species such as periwinkle snails, black turban snails, sea lettuce, and coralline algae, but without a confirmed tide or surf assessment for this date, timing any visit is uncertain. Do not assume the area is accessible, clear, or suitable for intertidal exploration on this day. Check a local tide chart and current surf forecast before heading out, and if conditions are not clearly favorable, the best choice is to skip the trip rather than risk an unsafe or unproductive outing.",
       "location_id": "ocean-beach-pier-reefs",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 71.8,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 68.7,
-        "temperature_high_f": 77.0,
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 67.8,
+        "temperature_high_f": 74.9,
         "temperature_low_f": 65.9,
-        "weather_code": 1,
-        "wind_gusts_mph": 9.6,
-        "wind_speed_mph": 5.5
+        "weather_code": 3,
+        "wind_gusts_mph": 2.7,
+        "wind_speed_mph": 2.3
       }
     },
     {
-      "ai_advisory": "Pelican Point Tidepools in Crystal Cove State Park rates poor for September 23, 2026. The best daylight low tide reaches only 2.3 ft at 1:24 PM, well above the site's 1.5 ft guidance for meaningful pool exposure, so the rocky reef and sandy cove will stay largely submerged. We do not recommend a tidepool visit today; the low-water window does not come close to the threshold needed to explore the pools. Species such as California sea hares, Spanish shawl nudibranchs, limpets, and periwinkle snails are unlikely to be accessible when the water holds that high. Consider a different day when the low tide drops to or below 1.5 ft.",
       "daily_rank": {
         "inputs": {
-          "best_usable_low_at": "2026-09-22T13:24:00",
-          "best_usable_low_feet": 2.278,
-          "lowest_low_feet": 0.284,
+          "best_usable_low_at": "2026-09-23T13:56:00",
+          "best_usable_low_feet": 1.797,
+          "lowest_low_feet": 0.169,
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
@@ -172,161 +164,155 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 10.7
+          "wind_gusts_mph": 2.2
         },
-        "level": "poor",
-        "reason": "The best low tide in daylight is 2.3 ft at 1:24 PM, well above this site's 1.5 ft guidance."
+        "level": "marginal",
+        "reason": "Low tide 1.8 ft at 1:56 PM only approaches this site's 1.5 ft guidance."
       },
       "location_id": "pelican-point-crystal-cove",
       "weather": {
-        "apparent_temperature_f": 70.8,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 65.3,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
+        "observed_at": "2026-09-23T11:15:00Z",
         "precipitation_probability_max": 0.0,
-        "temperature_f": 68.5,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.8,
+        "temperature_f": 63.7,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 62.4,
         "weather_code": 0,
-        "wind_gusts_mph": 10.7,
-        "wind_speed_mph": 5.6
+        "wind_gusts_mph": 2.2,
+        "wind_speed_mph": 2.1
       }
     },
     {
-      "ai_advisory": "The tide conditions for Rockpile Beach Tidepools on September 23, 2026 rank poor: the best daylight low tide is 2.3 ft at 1:24 PM, well above this site's 1.5 ft guidance for productive tidepooling. That 0.8-foot gap means the lower intertidal zones where aggregating anemones, periwinkle snails, bat stars, and black turban snails typically show up will stay under water or only briefly splashed. We would not plan a visit for this date; the pools simply won't drain far enough to reward the effort of wading in. If tidepooling here is a priority, look for a day when the predicted low falls at or below 1.5 ft. Access, surf conditions, and site safety for any given day are not addressed here, so check local sources before heading out regardless of tide.",
       "daily_rank": {
         "inputs": {
-          "best_usable_low_at": "2026-09-22T13:24:00",
-          "best_usable_low_feet": 2.278,
-          "lowest_low_feet": 0.284,
+          "best_usable_low_at": "2026-09-23T13:56:00",
+          "best_usable_low_feet": 1.797,
+          "lowest_low_feet": 0.169,
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 0.0,
+          "precipitation_probability_max": 1.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 11.2
+          "wind_gusts_mph": 3.4
         },
-        "level": "poor",
-        "reason": "The best low tide in daylight is 2.3 ft at 1:24 PM, well above this site's 1.5 ft guidance."
+        "level": "marginal",
+        "reason": "Low tide 1.8 ft at 1:56 PM only approaches this site's 1.5 ft guidance."
       },
       "location_id": "rockpile-beach",
       "weather": {
-        "apparent_temperature_f": 70.0,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 66.2,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 0.0,
-        "temperature_f": 68.1,
-        "temperature_high_f": 75.8,
-        "temperature_low_f": 65.5,
-        "weather_code": 0,
-        "wind_gusts_mph": 11.2,
-        "wind_speed_mph": 7.4
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 63.3,
+        "temperature_high_f": 73.9,
+        "temperature_low_f": 63.4,
+        "weather_code": 1,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 0.9
       }
     },
     {
-      "ai_advisory": "No deterministic tide or conditions rank is available for Shell Beach / Seal Rock on 2026-09-23, so a low-water window or any visit window cannot be confirmed or recommended. Without that ranking, there is no basis to say when (or whether) the intertidal zones here—where you might otherwise look for periwinkle snails, black turban snails, sea lettuce, or coralline algae in the rock crevices—will be exposed or accessible. Please check a live tide table and local access notices for the site before planning a trip, as conditions may not be suitable on this date. Do not assume the beach or Seal Rock area is open, that surf and surf zones are calm, or that any path down to the rocks is clear. If you do go, stay on firm footing, watch for the next incoming tide, and leave all living organisms and algae in place.",
       "location_id": "shell-beach-seal-rock",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.7,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.3,
-        "temperature_high_f": 76.5,
-        "temperature_low_f": 66.3,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 7.9
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 67.0,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 0.3
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Sunset Cliffs intertidal benches on 2026-09-23 is None — None, so no reliable low-water or exposure window can be confirmed from the available data. Without a usable ranking, we cannot indicate that the benches will be dry, that any time of day will offer meaningful intertidal access, or that conditions will differ from an average high-splash day. Species such as periwinkle snails, black turban snails, sea lettuce, and coralline algae are documented at this site, but whether any of them will be visible depends on conditions we cannot verify for today. Before planning a trip, check your own tide tables, local surf and weather forecasts, and trail or parking status; nothing in this note speaks to safety, access, or whether the area is open.",
       "location_id": "sunset-cliffs-reef",
       "weather": {
-        "apparent_temperature_f": 70.8,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.1,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.1,
-        "temperature_high_f": 76.6,
-        "temperature_low_f": 65.7,
-        "weather_code": 1,
-        "wind_gusts_mph": 10.3,
-        "wind_speed_mph": 7.5
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 74.5,
+        "temperature_low_f": 67.0,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.6,
+        "wind_speed_mph": 0.4
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Swami's reef on 2026-09-23 is None — None, so no reliable low-tide or condition score exists for that day. With no ranking to anchor a visit, there is no basis to suggest a productive low-water window, and we would not recommend building a trip around an unranked date. The reef is associated with intertidal organisms such as periwinkle snails, black turban snails, sea lettuce, and coralline algae, but that does not confirm access, surf state, or tide timing for September. Before making any travel plans, verify tide predictions through a separate local source and confirm that the site is actually reachable on the day you intend to go.",
       "location_id": "swamis-reef",
       "weather": {
-        "apparent_temperature_f": 73.2,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 68.2,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
+        "observed_at": "2026-09-23T11:15:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 69.9,
-        "temperature_high_f": 77.2,
-        "temperature_low_f": 67.0,
+        "temperature_f": 65.1,
+        "temperature_high_f": 74.6,
+        "temperature_low_f": 64.5,
         "weather_code": 1,
-        "wind_gusts_mph": 8.1,
-        "wind_speed_mph": 5.1
+        "wind_gusts_mph": 3.6,
+        "wind_speed_mph": 2.8
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Tourmaline / Pacific Beach reef on 2026-09-23 is None — None, so no low-tide window has been established for this site today. With no rank available, there is nothing to suggest a productive or favorable visiting period, and I would not plan a tidepool trip on this information alone. The reef hosts species such as periwinkle snails, black turban snails, and sea lettuce, but whether rocks are exposed or accessible cannot be confirmed from what is on file. Please wait for a dated, ranked entry before considering a visit, and do not assume the site is open or that conditions will be suitable.",
       "location_id": "tourmaline-reef",
       "weather": {
-        "apparent_temperature_f": 70.6,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 72.6,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
+        "observed_at": "2026-09-23T11:15:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.4,
-        "temperature_high_f": 77.2,
-        "temperature_low_f": 66.2,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 5.5
+        "temperature_f": 68.3,
+        "temperature_high_f": 75.4,
+        "temperature_low_f": 66.8,
+        "weather_code": 3,
+        "wind_gusts_mph": 2.7,
+        "wind_speed_mph": 2.2
       }
     },
     {
-      "ai_advisory": "The deterministic rank for Windansea reef on 2026-09-23 is None — None, so no low-water window or visit quality can be confirmed from the data available here. The reef's intertidal zone may include periwinkle snails, black turban snails, sea lettuce, and coralline algae, but whether any of these are exposed depends on conditions this summary cannot verify. Do not plan around an assumed tide timing; check a current tide table, surf forecast, and local access notes independently before making a trip. Road, parking, and trail conditions at this site are not established by this guidance.",
       "location_id": "windansea-reef",
       "weather": {
-        "apparent_temperature_f": 71.1,
-        "forecast_date_local": "2026-09-22",
+        "apparent_temperature_f": 74.7,
+        "forecast_date_local": "2026-09-23",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-23T02:45:00Z",
-        "precipitation_probability_max": 2.0,
-        "temperature_f": 69.3,
-        "temperature_high_f": 76.5,
-        "temperature_low_f": 66.3,
-        "weather_code": 0,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 7.9
+        "observed_at": "2026-09-23T11:15:00Z",
+        "precipitation_probability_max": 1.0,
+        "temperature_f": 68.9,
+        "temperature_high_f": 73.8,
+        "temperature_low_f": 67.0,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 0.3
       }
     }
   ],
-  "published_at": "2026-09-23T02:49:17Z",
-  "revision": "2026-09-23T02:49:17Z",
+  "published_at": "2026-09-23T11:18:55Z",
+  "revision": "2026-09-23T11:18:55Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-23T02:49:17Z",
+      "retrieved_at": "2026-09-23T11:18:55Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-23T02:49:17Z",
+      "retrieved_at": "2026-09-23T11:18:55Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
