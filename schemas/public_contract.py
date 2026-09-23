@@ -136,6 +136,13 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         require(low is None or high is None or low <= high, field + ".weather", "low cannot exceed high")
         if "daily_rank" in location:
             validate_rank(location["daily_rank"], field + ".daily_rank")
+        if "visit_guidance" in location:
+            guide = location["visit_guidance"]
+            require(guide["target_date"] == weather["forecast_date_local"], field + ".visit_guidance.target_date",
+                    "must be the forecast's local date")
+            window = guide.get("window")
+            require(window is None or window["start"] < window["end"], field + ".visit_guidance.window",
+                    "start must precede end")
     require(not value["locations"] or bool(value["sources"]), "daily.sources", "weather requires attribution")
     for position, source in enumerate(value["sources"]):
         field = f"daily.sources[{position}]"
