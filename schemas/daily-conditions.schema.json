@@ -62,6 +62,17 @@
         "target_date": {"type": "string", "format": "date"},
         "headline": {"type": "string", "minLength": 3, "maxLength": 120},
         "bullets": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 3, "maxLength": 200}},
+        "basis": {"type": "string", "minLength": 10, "maxLength": 320},
+        "templated": {
+          "description": "The same text with unit tokens {t:°F}, {d:km}, {w:mph} for clients that render the visitor's units.",
+          "type": "object", "additionalProperties": false,
+          "required": ["headline", "bullets", "basis"],
+          "properties": {
+            "headline": {"type": "string", "minLength": 3, "maxLength": 120},
+            "bullets": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 3, "maxLength": 200}},
+            "basis": {"type": "string", "minLength": 10, "maxLength": 320}
+          }
+        },
         "window": {
           "type": "object", "additionalProperties": false,
           "required": ["start", "end", "threshold_feet"],
