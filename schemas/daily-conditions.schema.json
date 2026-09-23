@@ -33,6 +33,7 @@
       "type": "object", "additionalProperties": false, "required": ["location_id", "weather"],
       "properties": {
         "location_id": {"type": "string", "pattern": "^[a-z0-9-]{3,80}$"},
+        "ai_advisory": {"description": "Optional AI-assisted visit guidance (non-authoritative; deterministic rank stays authoritative).", "type": ["string", "null"]},
         "daily_rank": {"$ref": "#/$defs/rank"},
         "weather": {
           "type": "object", "additionalProperties": false,
