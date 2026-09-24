@@ -1,6 +1,6 @@
 {
-  "expires_at": "2026-09-25T19:41:09Z",
-  "generated_at": "2026-09-24T13:41:09Z",
+  "expires_at": "2026-09-25T21:41:54Z",
+  "generated_at": "2026-09-24T15:41:54Z",
   "locations": [
     {
       "location_id": "bird-rock-reef",
@@ -11,7 +11,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 7 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -39,7 +39,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -54,8 +54,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.2,
-            "wind_gusts_mph": 7.4
+            "temperature_f": 72.2,
+            "wind_gusts_mph": 6.7
           },
           "year_percentile": 65
         },
@@ -67,23 +67,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:7}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.3}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.8,
+        "apparent_temperature_f": 75.4,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 69.1,
-        "temperature_high_f": 74.3,
+        "temperature_f": 70.1,
+        "temperature_high_f": 75.7,
         "temperature_low_f": 68.6,
         "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 0.8
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 1.8
       }
     },
     {
@@ -95,12 +95,12 @@
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 1.0,
+          "precipitation_probability_max": 2.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 1.3
+          "wind_gusts_mph": 2.0
         },
         "level": "fair",
         "reason": "Low tide 1.4 ft at 2:30 PM just clears this site's 1.5 ft guidance, so timing matters."
@@ -114,7 +114,7 @@
           "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
           "Water is running 0.7 ft above prediction; expect less exposed reef.",
-          "During the window: 75°F, gusts 7 mph, 1% rain."
+          "During the window: 72°F, gusts 10 mph, 1% rain."
         ],
         "headline": "Workable, timing matters: 1:49 PM–3:11 PM.",
         "indicators": {
@@ -160,8 +160,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.6,
-            "wind_gusts_mph": 7.2
+            "temperature_f": 72.4,
+            "wind_gusts_mph": 10.5
           },
           "year_percentile": 66
         },
@@ -174,7 +174,7 @@
             "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
             "Water is running 0.7 ft above prediction; expect less exposed reef.",
-            "During the window: {t:75}, gusts {w:7}, 1% rain."
+            "During the window: {t:72}, gusts {w:10}, 1% rain."
           ],
           "headline": "Workable, timing matters: 1:49 PM–3:11 PM."
         },
@@ -185,17 +185,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.9,
+        "apparent_temperature_f": 75.0,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
-        "precipitation_probability_max": 1.0,
-        "temperature_f": 68.7,
-        "temperature_high_f": 74.8,
-        "temperature_low_f": 68.7,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.3,
-        "wind_speed_mph": 1.3
+        "observed_at": "2026-09-24T15:30:00Z",
+        "precipitation_probability_max": 2.0,
+        "temperature_f": 70.1,
+        "temperature_high_f": 76.0,
+        "temperature_low_f": 68.6,
+        "weather_code": 2,
+        "wind_gusts_mph": 2.0,
+        "wind_speed_mph": 1.8
       }
     },
     {
@@ -207,7 +207,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 6 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -235,7 +235,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -250,8 +250,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 6.7
+            "temperature_f": 72.5,
+            "wind_gusts_mph": 6.5
           },
           "year_percentile": 65
         },
@@ -263,23 +263,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:6}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.9}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.4,
+        "apparent_temperature_f": 75.1,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.6,
+        "temperature_f": 70.0,
         "temperature_high_f": 74.1,
         "temperature_low_f": 68.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 1.6
+        "weather_code": 2,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 2.9
       }
     },
     {
@@ -296,7 +296,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 1.8
+          "wind_gusts_mph": 2.9
         },
         "level": "marginal",
         "reason": "Limited: low tide 1.4 ft at 2:25 PM is within 0.75 ft of this site's 1.0 ft guidance, so upper pools only."
@@ -309,7 +309,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 7 mph, 1% rain."
         ],
         "headline": "Limited: upper pools only.",
         "indicators": {
@@ -332,7 +332,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -347,8 +347,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.9,
-            "wind_gusts_mph": 7.2
+            "temperature_f": 71.7,
+            "wind_gusts_mph": 6.9
           },
           "year_percentile": 65
         },
@@ -360,23 +360,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:7}, 1% rain."
           ],
           "headline": "Limited: upper pools only."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 75.6,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.2,
-        "temperature_high_f": 74.0,
+        "temperature_f": 70.4,
+        "temperature_high_f": 74.4,
         "temperature_low_f": 68.1,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.8,
-        "wind_speed_mph": 1.7
+        "weather_code": 2,
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 2.6
       }
     },
     {
@@ -388,7 +388,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 6 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -416,7 +416,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -431,8 +431,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 6.7
+            "temperature_f": 72.5,
+            "wind_gusts_mph": 6.5
           },
           "year_percentile": 65
         },
@@ -444,23 +444,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:6}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:3.6}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.4,
+        "apparent_temperature_f": 75.1,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.6,
+        "temperature_f": 70.0,
         "temperature_high_f": 74.1,
         "temperature_low_f": 68.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 1.6
+        "weather_code": 2,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 2.9
       }
     },
     {
@@ -472,7 +472,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 6 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (1 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -500,7 +500,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -515,8 +515,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 6.7
+            "temperature_f": 72.5,
+            "wind_gusts_mph": 6.5
           },
           "year_percentile": 65
         },
@@ -528,23 +528,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:6}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.4}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.4,
+        "apparent_temperature_f": 75.0,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.5,
+        "temperature_f": 70.0,
         "temperature_high_f": 74.0,
         "temperature_low_f": 68.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 1.6
+        "weather_code": 2,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 2.9
       }
     },
     {
@@ -557,7 +557,7 @@
           "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
           "Water is running 0.7 ft above prediction; expect less exposed reef.",
-          "During the window: 72°F, gusts 7 mph, 1% rain."
+          "During the window: 72°F, gusts 9 mph, 1% rain."
         ],
         "headline": "Estimate from the San Diego gauge (5 mi): lowest water in daylight 1:49 PM–3:11 PM.",
         "indicators": {
@@ -608,8 +608,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 72.5,
-            "wind_gusts_mph": 7.4
+            "temperature_f": 72.4,
+            "wind_gusts_mph": 9.2
           },
           "year_percentile": 66
         },
@@ -622,7 +622,7 @@
             "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
             "Water is running 0.7 ft above prediction; expect less exposed reef.",
-            "During the window: {t:72}, gusts {w:7}, 1% rain."
+            "During the window: {t:72}, gusts {w:9}, 1% rain."
           ],
           "headline": "Estimate from the San Diego gauge ({d:8.1}): lowest water in daylight 1:49 PM–3:11 PM."
         },
@@ -633,17 +633,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.5,
+        "apparent_temperature_f": 76.3,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
-        "precipitation_probability_max": 1.0,
-        "temperature_f": 69.0,
-        "temperature_high_f": 74.0,
+        "observed_at": "2026-09-24T15:30:00Z",
+        "precipitation_probability_max": 2.0,
+        "temperature_f": 70.6,
+        "temperature_high_f": 74.9,
         "temperature_low_f": 68.6,
         "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 0.7
+        "wind_gusts_mph": 2.5,
+        "wind_speed_mph": 1.4
       }
     },
     {
@@ -660,7 +660,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 6.5
+          "wind_gusts_mph": 3.6
         },
         "level": "fair",
         "reason": "Low tide 1.3 ft at 2:28 PM just clears this site's 1.5 ft guidance, so timing matters."
@@ -719,7 +719,7 @@
           "window_weather": {
             "precipitation_probability": 0,
             "temperature_f": 74.5,
-            "wind_gusts_mph": 8.5
+            "wind_gusts_mph": 8.1
           },
           "year_percentile": 65
         },
@@ -742,17 +742,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.5,
+        "apparent_temperature_f": 76.0,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.9,
-        "temperature_high_f": 74.3,
-        "temperature_low_f": 68.4,
+        "temperature_f": 70.3,
+        "temperature_high_f": 73.3,
+        "temperature_low_f": 68.8,
         "weather_code": 3,
-        "wind_gusts_mph": 6.5,
-        "wind_speed_mph": 4.7
+        "wind_gusts_mph": 3.6,
+        "wind_speed_mph": 3.4
       }
     },
     {
@@ -769,7 +769,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 5.6
+          "wind_gusts_mph": 3.4
         },
         "level": "fair",
         "reason": "Low tide 1.3 ft at 2:28 PM just clears this site's 1.5 ft guidance, so timing matters."
@@ -827,8 +827,8 @@
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 8.9
+            "temperature_f": 74.2,
+            "wind_gusts_mph": 8.7
           },
           "year_percentile": 65
         },
@@ -851,17 +851,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.1,
+        "apparent_temperature_f": 75.7,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.2,
-        "temperature_high_f": 73.7,
-        "temperature_low_f": 68.2,
-        "weather_code": 45,
-        "wind_gusts_mph": 5.6,
-        "wind_speed_mph": 4.2
+        "temperature_f": 69.4,
+        "temperature_high_f": 72.9,
+        "temperature_low_f": 67.4,
+        "weather_code": 3,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 3.0
       }
     },
     {
@@ -873,7 +873,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 6 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -901,7 +901,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -916,8 +916,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 6.7
+            "temperature_f": 72.5,
+            "wind_gusts_mph": 6.5
           },
           "year_percentile": 65
         },
@@ -929,23 +929,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:6}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.7}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.4,
+        "apparent_temperature_f": 75.1,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.6,
+        "temperature_f": 70.0,
         "temperature_high_f": 74.1,
         "temperature_low_f": 68.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 1.6
+        "weather_code": 2,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 2.9
       }
     },
     {
@@ -958,7 +958,7 @@
           "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
           "Water is running 0.7 ft above prediction; expect less exposed reef.",
-          "During the window: 73°F, gusts 7 mph, 1% rain."
+          "During the window: 72°F, gusts 9 mph, 1% rain."
         ],
         "headline": "Estimate from the San Diego gauge (5 mi): lowest water in daylight 1:49 PM–3:11 PM.",
         "indicators": {
@@ -1009,8 +1009,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.0,
-            "wind_gusts_mph": 6.9
+            "temperature_f": 71.8,
+            "wind_gusts_mph": 9.4
           },
           "year_percentile": 66
         },
@@ -1023,7 +1023,7 @@
             "The lowest water is before dawn (0.2 ft at 2:32 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.5 ft in daylight, lowest Mon 5:05 PM at 0.1 ft.",
             "Water is running 0.7 ft above prediction; expect less exposed reef.",
-            "During the window: {t:73}, gusts {w:7}, 1% rain."
+            "During the window: {t:72}, gusts {w:9}, 1% rain."
           ],
           "headline": "Estimate from the San Diego gauge ({d:7.8}): lowest water in daylight 1:49 PM–3:11 PM."
         },
@@ -1034,17 +1034,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.6,
+        "apparent_temperature_f": 75.6,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
-        "precipitation_probability_max": 1.0,
-        "temperature_f": 68.8,
-        "temperature_high_f": 74.2,
+        "observed_at": "2026-09-24T15:30:00Z",
+        "precipitation_probability_max": 2.0,
+        "temperature_f": 70.2,
+        "temperature_high_f": 74.8,
         "temperature_low_f": 68.0,
         "weather_code": 3,
-        "wind_gusts_mph": 1.1,
-        "wind_speed_mph": 0.4
+        "wind_gusts_mph": 2.5,
+        "wind_speed_mph": 2.0
       }
     },
     {
@@ -1056,7 +1056,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 73°F, gusts 8 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 7 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (12 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -1084,7 +1084,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -1099,8 +1099,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 72.9,
-            "wind_gusts_mph": 7.8
+            "temperature_f": 71.9,
+            "wind_gusts_mph": 7.4
           },
           "year_percentile": 65
         },
@@ -1112,23 +1112,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:73}, gusts {w:8}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:7}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:19.1}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.3,
+        "apparent_temperature_f": 75.2,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 67.6,
-        "temperature_high_f": 73.8,
+        "temperature_f": 70.1,
+        "temperature_high_f": 74.8,
         "temperature_low_f": 65.9,
-        "weather_code": 3,
-        "wind_gusts_mph": 2.2,
-        "wind_speed_mph": 2.0
+        "weather_code": 2,
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 2.1
       }
     },
     {
@@ -1140,7 +1140,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 7 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -1168,7 +1168,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -1183,8 +1183,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.2,
-            "wind_gusts_mph": 7.4
+            "temperature_f": 72.2,
+            "wind_gusts_mph": 6.7
           },
           "year_percentile": 65
         },
@@ -1196,23 +1196,23 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:7}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.5}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.8,
+        "apparent_temperature_f": 75.4,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 69.1,
-        "temperature_high_f": 74.3,
+        "temperature_f": 70.1,
+        "temperature_high_f": 75.7,
         "temperature_low_f": 68.6,
         "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 0.8
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 1.8
       }
     },
     {
@@ -1224,7 +1224,7 @@
           "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
           "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
           "Water is running 0.6 ft above prediction; expect less exposed reef.",
-          "Around 2:00 PM: 74°F, gusts 7 mph, 1% rain."
+          "Around 2:00 PM: 72°F, gusts 6 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (3 mi): lowest daylight water 1.4 ft at 2:25 PM.",
         "indicators": {
@@ -1252,7 +1252,7 @@
             "daylight": false,
             "feet": 0.172
           },
-          "observed_offset_feet": 0.6,
+          "observed_offset_feet": 0.61,
           "range_feet": 5.32,
           "range_ratio": 1.0,
           "station_name": "La Jolla",
@@ -1267,8 +1267,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 6.7
+            "temperature_f": 72.5,
+            "wind_gusts_mph": 6.5
           },
           "year_percentile": 65
         },
@@ -1280,52 +1280,52 @@
             "The lowest water is before dawn (0.2 ft at 2:28 AM), 1.2 ft lower than the daylight low.",
             "Better days ahead: Fri Sep 25–Tue Sep 29 dip below 1.0 ft in daylight, lowest Mon 5:02 PM at 0.1 ft.",
             "Water is running 0.6 ft above prediction; expect less exposed reef.",
-            "Around 2:00 PM: {t:74}, gusts {w:7}, 1% rain."
+            "Around 2:00 PM: {t:72}, gusts {w:6}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:4.5}): lowest daylight water 1.4 ft at 2:25 PM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.4,
+        "apparent_temperature_f": 75.1,
         "forecast_date_local": "2026-09-24",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-24T13:30:00Z",
+        "observed_at": "2026-09-24T15:30:00Z",
         "precipitation_probability_max": 1.0,
-        "temperature_f": 68.6,
+        "temperature_f": 70.0,
         "temperature_high_f": 74.1,
         "temperature_low_f": 68.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 1.6,
-        "wind_speed_mph": 1.6
+        "weather_code": 2,
+        "wind_gusts_mph": 3.4,
+        "wind_speed_mph": 2.9
       }
     }
   ],
-  "published_at": "2026-09-24T13:41:09Z",
-  "revision": "2026-09-24T13:41:09Z",
+  "published_at": "2026-09-24T15:41:54Z",
+  "revision": "2026-09-24T15:41:54Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-24T13:41:09Z",
+      "retrieved_at": "2026-09-24T15:41:54Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-24T13:41:09Z",
+      "retrieved_at": "2026-09-24T15:41:54Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-24T13:41:09Z",
+      "retrieved_at": "2026-09-24T15:41:54Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-24T13:41:09Z",
+      "retrieved_at": "2026-09-24T15:41:54Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
