@@ -21,11 +21,15 @@ https://raw.githubusercontent.com/nduworker/oh-tidepool-site/main/
 | `data/index.json` | The app's only unconditional request. Its `ETag` makes the common refresh body-free (`304`). |
 | `data/media.json` | Integrity manifest for the reviewed image renditions. |
 | `data/daily-conditions.json` | Optional daily briefing, absent until committed. |
-| `media/<asset-id>-v<revision>.webp` | Immutable reviewed renditions. The iPhone catalog resolves ID `bat-star` revision `1` as `media/bat-star-v1.webp`. |
+| `media/<asset-id>-v<revision>.webp` | Reviewed renditions. The iPhone catalog resolves ID `bat-star` revision `1` as `media/bat-star-v1.webp`. |
 | `schemas/`, `scripts/` | The data contract, its read-only validator, and the local manifest generator. |
 
-Filenames are immutable so the raw origin's CDN and the on-device cache can
-safely retain them; a changed rendition always receives a new revision.
+Same-revision overwrites are allowed: the app and its cache verify each file's
+SHA-256 from `data/media.json`, not the filename, so a replaced file at the same
+path is picked up once the regenerated manifest is committed with it. The raw
+origin's CDN may serve the previous bytes for a few minutes; the app rejects the
+mismatch and retries. Third-party renditions still get a new revision in the app
+catalog.
 
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
