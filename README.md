@@ -2,7 +2,7 @@
 
 This repository intentionally contains only the public Oh Tidepool landing page,
 privacy policy, and the app's published content. The landing page is published
-with GitHub Pages at `https://nduworker.github.io/oh-tidepool-site/`.
+with GitHub Pages at `https://oh-tidepool.nduwork.com/`.
 
 The iPhone app source, development documentation, credentials, and operations
 materials remain in the separate private application repository.
