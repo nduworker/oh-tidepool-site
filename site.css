@@ -39,7 +39,7 @@ h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: .98; lette
 h1 { max-width: 670px; margin: 0; font-size: clamp(3.6rem, 7.5vw, 6.7rem); }
 h1 em { color: var(--coral); font-weight: inherit; }
 .lede { max-width: 540px; margin: 27px 0 14px; font-size: 1.18rem; color: #305967; }
-.availability { font-size: .89rem; font-weight: 800; color: var(--deep); }
+.availability { font-size: .89rem; font-weight: 800; color: var(--deep); }.availability a { color: var(--coral); }
 .tidepool-scene { position: relative; width: min(100%, 430px); aspect-ratio: 1; margin: 0 auto; border-radius: 50% 45% 48% 52%; background: #e8c982; box-shadow: 0 17px 0 #d4b06d, inset 22px 20px 0 rgba(255,255,255,.22), inset -18px -16px 0 rgba(130,89,42,.22); transform: rotate(-6deg); overflow: hidden; }
 .pool { position: absolute; inset: 18% 15% 20% 14%; border: 14px solid #8c734a; border-radius: 48% 52% 45% 55%; background: radial-gradient(circle at 57% 40%, #baf3e5 0 5%, #53c5bf 6% 30%, #147f8a 66%); box-shadow: inset 0 0 0 8px #43806e, 0 0 0 8px #b28a50; }
 .ripple { position: absolute; border: 2px solid rgba(244,255,250,.7); border-radius: 50%; }
