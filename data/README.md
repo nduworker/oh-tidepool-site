@@ -21,8 +21,11 @@ changed component downloads.
 
 ## Adding or replacing an image
 
-1. Add the new rendition to `media/` as `<asset-id>-v<revision>.webp`. Existing
-   filenames are immutable — a changed rendition always gets a new revision.
+1. Add the new rendition to `media/` as `<asset-id>-v<revision>.webp`.
+   Same-revision overwrites are allowed: the app and its cache verify SHA-256,
+   not the filename. Third-party renditions still get a new revision in the app
+   catalog. Only one file per asset ID may exist, so remove the old revision's
+   file when you add a new one.
 2. Confirm the asset ID and revision match the reviewed catalog in
    [`schemas/catalog-policy.json`](../schemas/catalog-policy.json).
 3. Regenerate and commit the JSON alongside the image:
