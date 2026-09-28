@@ -1,27 +1,23 @@
 {
-  "expires_at": "2026-09-29T12:28:48Z",
-  "generated_at": "2026-09-28T06:28:48Z",
+  "expires_at": "2026-09-29T12:39:13Z",
+  "generated_at": "2026-09-28T06:39:13Z",
   "local_news": [
     {
-      "affected_location_ids": [
-        "bird-rock-reef",
-        "cabrillo-tidepools",
-        "childrens-pool-casa-beach",
-        "dike-rock-scripps-beach",
-        "hospital-point",
-        "la-jolla-cove",
-        "ocean-beach-pier-reefs",
-        "shell-beach-seal-rock",
-        "sunset-cliffs-reef",
-        "swamis-reef",
-        "tourmaline-reef",
-        "windansea-reef"
-      ],
-      "expires_at": "2026-09-29T12:28:48Z",
+      "expires_at": "2026-09-29T12:39:13Z",
+      "headline": "Coastal flood advisory for the San Diego coast through Wednesday",
+      "id": "sha256:76155830d81e82ccf8578dddc4c3e66a668a52bde94805d67815976305a36df0",
+      "kind": "coastal",
+      "observed_at": "2026-09-28T06:39:13Z",
+      "source_name": "National Weather Service San Diego",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f94ddff77bbd0b08f7db6d083523c3c9326b38d.001.1",
+      "summary": "The National Weather Service has a coastal flood advisory for San Diego County coastal areas, in effect Monday 5 AM through Wednesday 5 PM. Minor coastal flooding and erosion are expected at morning high tides, with elevated surf of 3 to 5 feet and strong rip currents. The advisory says to stay off rock walls and jetties and to avoid beaches during morning high tides."
+    },
+    {
+      "expires_at": "2026-09-29T12:39:13Z",
       "headline": "County posts current beach advisories and closures",
-      "id": "sha256:7b1508a28c898f247ea7284ef9d79e48a0f716551f97b7be82ce2f8879606b0c",
+      "id": "sha256:0f3d3826767272a607e6dd6eab18b0125d81c9e0aaea721020f302518b226d7b",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T06:15:10Z",
+      "observed_at": "2026-09-27T15:00:00Z",
       "source_name": "County of San Diego DEHQ",
       "source_url": "https://www.sandiegocounty.gov/content/sdc/deh/lwqd/beachandbay.html",
       "summary": "Our own note: San Diego County's Beach and Bay program posts current water-contact advisories and closures for county beaches. Check the linked page for today's list. This is context, not an agency notice."
@@ -115,17 +111,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.6,
+        "apparent_temperature_f": 76.1,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
         "temperature_f": 71.4,
         "temperature_high_f": 80.8,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 3.4,
-        "wind_speed_mph": 3.4
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 3.0
       }
     },
     {
@@ -253,17 +249,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.8,
+        "apparent_temperature_f": 76.1,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 35.0,
-        "temperature_f": 71.3,
+        "temperature_f": 71.2,
         "temperature_high_f": 78.8,
         "temperature_low_f": 69.6,
         "weather_code": 3,
         "wind_gusts_mph": 3.4,
-        "wind_speed_mph": 3.2
+        "wind_speed_mph": 2.9
       }
     },
     {
@@ -353,17 +349,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.4,
+        "apparent_temperature_f": 76.0,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.3,
+        "temperature_f": 71.5,
         "temperature_high_f": 81.3,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 4.3,
-        "wind_speed_mph": 3.2
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 1.6
       }
     },
     {
@@ -381,7 +377,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 5.4
+          "wind_gusts_mph": 4.0
         },
         "level": "good",
         "reason": "Low tide 0.2 ft at 4:17 PM, clearing this site's 1.0 ft guidance."
@@ -491,17 +487,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.4,
+        "apparent_temperature_f": 75.3,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.5,
+        "temperature_f": 71.1,
         "temperature_high_f": 83.4,
         "temperature_low_f": 68.2,
         "weather_code": 3,
-        "wind_gusts_mph": 5.4,
-        "wind_speed_mph": 4.4
+        "wind_gusts_mph": 4.0,
+        "wind_speed_mph": 2.7
       }
     },
     {
@@ -591,17 +587,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.4,
+        "apparent_temperature_f": 76.0,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.3,
+        "temperature_f": 71.5,
         "temperature_high_f": 81.3,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 4.3,
-        "wind_speed_mph": 3.2
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 1.6
       }
     },
     {
@@ -691,17 +687,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.3,
+        "apparent_temperature_f": 75.9,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.2,
+        "temperature_f": 71.4,
         "temperature_high_f": 81.2,
         "temperature_low_f": 69.5,
         "weather_code": 3,
-        "wind_gusts_mph": 4.3,
-        "wind_speed_mph": 3.2
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 1.6
       }
     },
     {
@@ -791,17 +787,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.2,
+        "apparent_temperature_f": 76.7,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
         "temperature_f": 71.3,
         "temperature_high_f": 81.0,
         "temperature_low_f": 70.1,
         "weather_code": 3,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 3.3
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 2.6
       }
     },
     {
@@ -819,7 +815,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 6.7
+          "wind_gusts_mph": 5.1
         },
         "level": "good",
         "reason": "Low tide 0.2 ft at 4:19 PM, clearing this site's 1.5 ft guidance."
@@ -921,17 +917,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 77.9,
+        "apparent_temperature_f": 77.6,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 4.0,
-        "temperature_f": 71.9,
+        "temperature_f": 71.8,
         "temperature_high_f": 80.8,
         "temperature_low_f": 66.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 6.7,
-        "wind_speed_mph": 4.3
+        "weather_code": 2,
+        "wind_gusts_mph": 5.1,
+        "wind_speed_mph": 3.4
       }
     },
     {
@@ -949,7 +945,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 7.4
+          "wind_gusts_mph": 9.2
         },
         "level": "good",
         "reason": "Low tide 0.2 ft at 4:19 PM, clearing this site's 1.5 ft guidance."
@@ -1056,17 +1052,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 78.3,
+        "apparent_temperature_f": 76.5,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 5.0,
-        "temperature_f": 72.0,
+        "temperature_f": 71.9,
         "temperature_high_f": 82.5,
         "temperature_low_f": 67.4,
-        "weather_code": 3,
-        "wind_gusts_mph": 7.4,
-        "wind_speed_mph": 5.1
+        "weather_code": 2,
+        "wind_gusts_mph": 9.2,
+        "wind_speed_mph": 5.7
       }
     },
     {
@@ -1156,17 +1152,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.4,
+        "apparent_temperature_f": 76.0,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.3,
+        "temperature_f": 71.5,
         "temperature_high_f": 81.3,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 4.3,
-        "wind_speed_mph": 3.2
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 1.6
       }
     },
     {
@@ -1256,17 +1252,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.2,
+        "apparent_temperature_f": 76.8,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
         "temperature_f": 71.3,
         "temperature_high_f": 79.1,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 2.7,
-        "wind_speed_mph": 2.4
+        "wind_gusts_mph": 2.0,
+        "wind_speed_mph": 2.1
       }
     },
     {
@@ -1356,17 +1352,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.5,
+        "apparent_temperature_f": 75.6,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 25.0,
         "temperature_f": 71.1,
         "temperature_high_f": 81.9,
         "temperature_low_f": 66.6,
         "weather_code": 3,
-        "wind_gusts_mph": 5.8,
-        "wind_speed_mph": 4.8
+        "wind_gusts_mph": 6.7,
+        "wind_speed_mph": 4.7
       }
     },
     {
@@ -1456,17 +1452,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.6,
+        "apparent_temperature_f": 76.1,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
         "temperature_f": 71.4,
         "temperature_high_f": 80.8,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 3.4,
-        "wind_speed_mph": 3.4
+        "wind_gusts_mph": 2.9,
+        "wind_speed_mph": 3.0
       }
     },
     {
@@ -1556,46 +1552,46 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 75.4,
+        "apparent_temperature_f": 76.0,
         "forecast_date_local": "2026-09-27",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T06:15:00Z",
+        "observed_at": "2026-09-28T06:30:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 71.3,
+        "temperature_f": 71.5,
         "temperature_high_f": 81.3,
         "temperature_low_f": 69.6,
         "weather_code": 3,
-        "wind_gusts_mph": 4.3,
-        "wind_speed_mph": 3.2
+        "wind_gusts_mph": 3.1,
+        "wind_speed_mph": 1.6
       }
     }
   ],
-  "published_at": "2026-09-28T06:28:48Z",
-  "revision": "2026-09-28T06:28:48Z",
+  "published_at": "2026-09-28T06:39:13Z",
+  "revision": "2026-09-28T06:39:13Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T06:28:48Z",
+      "retrieved_at": "2026-09-28T06:39:13Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T06:28:48Z",
+      "retrieved_at": "2026-09-28T06:39:13Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T06:28:48Z",
+      "retrieved_at": "2026-09-28T06:39:13Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T06:28:48Z",
+      "retrieved_at": "2026-09-28T06:39:13Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
