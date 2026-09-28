@@ -187,6 +187,22 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
             require(isinstance(official_status, str) and
                     authority["status_impacts"].get(official_status) == update["impact"],
                     field + ".official_status", "explicit agency status must support impact")
+    # `local_news` is unofficial context and never gates, so it is not held to
+    # the authority rules. It still must cite an https source that a reader can
+    # check, and its window must stay inside the document.
+    seen_news = set()
+    for position, item in enumerate(value.get("local_news", [])):
+        field = f"daily.local_news[{position}]"
+        require(item["id"] not in seen_news, field + ".id", "duplicate news item")
+        seen_news.add(item["id"])
+        require(set(item.get("affected_location_ids", [])).issubset(policy["location_ids"]),
+                field + ".affected_location_ids", "unknown catalog location")
+        observed = instant(item["observed_at"], field + ".observed_at")
+        require(observed <= published, field + ".observed_at", "cannot be after publication")
+        https_url(item["source_url"], field + ".source_url")
+        if item.get("expires_at"):
+            ends = instant(item["expires_at"], field + ".expires_at")
+            require(published < ends <= expires, field + ".expires_at", "invalid expiry")
 
 
 def validate_rank(value: dict, field: str) -> None:
@@ -212,6 +228,14 @@ def validate_rank(value: dict, field: str) -> None:
         not inputs["official_impacts"],
         field + ".inputs.official_impacts",
         "a published rank must not embed an expiring notice cap",
+    )
+    # A structured hazard caution qualifies a positive verdict. It must not be
+    # claimed with no reviewed hazard behind it. Otherwise the list/map card
+    # could show a caution the published rank cannot justify.
+    require(
+        not inputs.get("hazard_caution", False) or inputs["reviewed_hazard_count"] > 0,
+        field + ".inputs.hazard_caution",
+        "a hazard caution requires at least one reviewed hazard",
     )
     # A rank is a verdict about a day with tide data. A day with no extremes
     # is left unranked entirely (the payload and client read that as
