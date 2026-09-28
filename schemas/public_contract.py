@@ -203,6 +203,21 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         if item.get("expires_at"):
             ends = instant(item["expires_at"], field + ".expires_at")
             require(published < ends <= expires, field + ".expires_at", "invalid expiry")
+    # The news paragraph in visit guidance is the same unofficial context, so it
+    # is held to the same rule: tappable sources that resolve to https pages, in
+    # order, and actually cited by the paragraph.
+    for position, entry in enumerate(value.get("locations", [])):
+        paragraph = (entry.get("visit_guidance") or {}).get("whats_going_on")
+        if not paragraph:
+            continue
+        field = f"daily.locations[{position}].visit_guidance.whats_going_on"
+        for index, source in enumerate(paragraph["sources"]):
+            item_field = f"{field}.sources[{index}]"
+            require(source["label"] == f"source{index + 1}", item_field + ".label",
+                    "labels must run source1, source2, ...")
+            require(source["label"] in paragraph["summary"], item_field + ".label",
+                    "the paragraph must cite this source")
+            https_url(source["url"], item_field + ".url")
 
 
 def validate_rank(value: dict, field: str) -> None:

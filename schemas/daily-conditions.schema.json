@@ -118,6 +118,26 @@
             }
           }
         },
+        "whats_going_on": {
+          "description": "A short paragraph of unofficial local news, synthesized by the news agent from sources we read, with tappable source links. Context only: never a restriction or a caution.",
+          "type": "object", "additionalProperties": false,
+          "required": ["summary", "sources"],
+          "properties": {
+            "summary": {"type": "string", "minLength": 10, "maxLength": 400},
+            "sources": {
+              "type": "array", "minItems": 1, "maxItems": 3,
+              "items": {
+                "type": "object", "additionalProperties": false,
+                "required": ["label", "url", "name"],
+                "properties": {
+                  "label": {"type": "string", "pattern": "^source[1-9]$"},
+                  "url": {"$ref": "#/$defs/url"},
+                  "name": {"type": "string", "minLength": 2, "maxLength": 120}
+                }
+              }
+            }
+          }
+        },
         "indicators": {"type": "object"}
       }
     },
