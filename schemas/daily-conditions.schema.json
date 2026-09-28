@@ -123,7 +123,7 @@
           "type": "object", "additionalProperties": false,
           "required": ["summary", "sources"],
           "properties": {
-            "summary": {"type": "string", "minLength": 10, "maxLength": 400},
+            "summary": {"type": "string", "minLength": 10, "maxLength": 600},
             "sources": {
               "type": "array", "minItems": 1, "maxItems": 3,
               "items": {
