@@ -23,6 +23,8 @@ https://raw.githubusercontent.com/nduworker/oh-tidepool-site/main/
 | `data/daily-conditions.json` | Optional daily briefing, absent until committed. |
 | `media/<asset-id>-v<revision>.webp` | Reviewed renditions. The iPhone catalog resolves ID `bat-star` revision `1` as `media/bat-star-v1.webp`. |
 | `schemas/`, `scripts/` | The data contract, its read-only validator, and the local manifest generator. |
+| `licenses/cari/` | GPL-3.0-or-later Corresponding Source for the CARI-derived shoreline geometry shipped in the app. |
+| `licenses.html` | Public licences, attributions, and data-source page linked from every page footer. |
 
 Same-revision overwrites are allowed: the app and its cache verify each file's
 SHA-256 from `data/media.json`, not the filename, so a replaced file at the same

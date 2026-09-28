@@ -60,3 +60,8 @@ h1 em { color: var(--coral); font-weight: inherit; }
 footer { border-top: 1px solid rgba(17,61,75,.14); font-size: .8rem; color: var(--muted); justify-content: flex-start; } footer span { margin-right: auto; }
 .policy { max-width: 760px; margin: 45px auto 100px; padding: 0 32px; }.policy h1 { font-size: clamp(3.2rem, 7vw, 5.5rem); margin-bottom: 28px; }.policy h2 { font-size: 2rem; margin: 48px 0 10px; }.policy p { color: #365b66; }.policy .policy-intro { font-size: 1.22rem; color: var(--ink); }
 @media (max-width: 780px) { .site-header, footer { padding-left: 22px; padding-right: 22px; }.hero { grid-template-columns: 1fr; padding: 55px 22px 70px; }.tidepool-scene { width: min(84vw, 380px); }.features { grid-template-columns: 1fr; padding: 55px 32px; gap: 35px; }.ethos { padding: 82px 22px; }.demos { padding: 70px 22px 10px; }.demo-grid { grid-template-columns: 1fr; gap: 56px; } footer { flex-wrap: wrap; } footer span { width: 100%; }.policy { margin-top: 25px; padding: 0 22px; } }
+.license-table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; margin: 20px 0; font-size: .95rem; }
+.license-table th, .license-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(17,61,75,.14); vertical-align: top; }
+.license-table th { color: var(--deep); font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; }
+.policy ul { padding-left: 22px; color: #365b66; }
+.policy a { color: var(--deep); text-underline-offset: 3px; word-break: break-word; }
