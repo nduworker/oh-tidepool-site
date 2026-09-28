@@ -3,7 +3,7 @@
 This directory is the **Corresponding Source** for the CARI-derived shoreline
 geometry that is bundled in the Oh Tidepool iOS app. It is offered under
 **GPL-3.0-or-later** (SPDX: `GPL-3.0-or-later`), matching the licence of the
-upstream CARI dataset. See [`COPYING`](COPYING) for the full licence text.
+upstream CARI dataset. See [`COPYING.txt`](COPYING.txt) for the full licence text.
 
 ## What is here
 
@@ -11,7 +11,7 @@ upstream CARI dataset. See [`COPYING`](COPYING) for the full licence text.
 | --- | --- |
 | `outlines/<site-id>.geojson` | The 14 derived rocky-shore outlines shipped in the app's bundled catalog |
 | `scripts/import_cari_rocky_shore.py` | The importer that produced them (SPDX: `GPL-3.0-or-later`) |
-| `COPYING` | GNU General Public License v3.0 |
+| `COPYING.txt` | GNU General Public License v3.0 |
 
 ## Upstream source and attribution
 
