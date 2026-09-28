@@ -195,6 +195,8 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
         field = f"daily.local_news[{position}]"
         require(item["id"] not in seen_news, field + ".id", "duplicate news item")
         seen_news.add(item["id"])
+        require(item.get("affected_location_ids"), field + ".affected_location_ids",
+                "an item must name the sites it covers")
         require(set(item.get("affected_location_ids", [])).issubset(policy["location_ids"]),
                 field + ".affected_location_ids", "unknown catalog location")
         observed = instant(item["observed_at"], field + ".observed_at")
@@ -206,17 +208,26 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
     # The news paragraph in visit guidance is the same unofficial context, so it
     # is held to the same rule: tappable sources that resolve to https pages, in
     # order, and actually cited by the paragraph.
+    # The sources an item may be cited for, per site. News is local: a site's
+    # paragraph may only cite an item whose scope includes that site.
+    scoped_sources: dict[str, set[str]] = {}
+    for item in value.get("local_news", []):
+        for site in item.get("affected_location_ids", []):
+            scoped_sources.setdefault(site, set()).add(item["source_url"])
     for position, entry in enumerate(value.get("locations", [])):
         paragraph = (entry.get("visit_guidance") or {}).get("whats_going_on")
         if not paragraph:
             continue
         field = f"daily.locations[{position}].visit_guidance.whats_going_on"
+        site_sources = scoped_sources.get(entry["location_id"], set())
         for index, source in enumerate(paragraph["sources"]):
             item_field = f"{field}.sources[{index}]"
             require(source["label"] == f"source{index + 1}", item_field + ".label",
                     "labels must run source1, source2, ...")
             require(source["label"] in paragraph["summary"], item_field + ".label",
                     "the paragraph must cite this source")
+            require(source["url"] in site_sources, item_field + ".url",
+                    "the paragraph must cite an item scoped to this site")
             https_url(source["url"], item_field + ".url")
 
 

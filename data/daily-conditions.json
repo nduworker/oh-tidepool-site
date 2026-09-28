@@ -1,51 +1,68 @@
 {
-  "expires_at": "2026-09-29T20:13:18Z",
-  "generated_at": "2026-09-28T14:13:18Z",
+  "expires_at": "2026-09-29T23:02:44Z",
+  "generated_at": "2026-09-28T17:02:44Z",
   "local_news": [
     {
-      "headline": "California Domoic Acid Crisis: Causes, Impact, and What’s Next - Heal the Bay",
-      "id": "sha256:f43756229bebdb6cb301b1ad555ce645a30a57cf01c8b2a84adb90e6e84c8283",
-      "kind": "bloom",
-      "observed_at": "2026-09-28T14:13:13Z",
-      "source_name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-      "source_url": "https://healthebay.org/domoic-acid-outbreak-2025/",
-      "summary": "Discover the facts on California's toxic algae blooms and how these events affect the health of marine animals and humans."
-    },
-    {
-      "headline": "Stinky river crisis: San Diego County approves $1 billion to treat Tijuana River sewage",
-      "id": "sha256:aa6e8d307fbd2c8b6e3256e69fcee7ebf41331a591668c719176c62cd94845c3",
+      "affected_location_ids": [
+        "cabrillo-tidepools"
+      ],
+      "headline": "Thousands of gallons of sewage foul section of Point Loma coast; Cabrillo tidepools closed",
+      "id": "sha256:a6bb219f08d1519a279db320f99c31f4f8fc001f622adf66521a31b027ddba8a",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T14:13:13Z",
-      "source_name": "Los Angeles Times",
-      "source_url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage",
-      "summary": "Sewage from Tijuana flows into Imperial Beach, Coronado and other parts of southern San Diego County, sickening swimmers and surfers and forcing beach closures."
+      "observed_at": "2026-09-28T17:02:16Z",
+      "source_name": "NBC 7 San Diego",
+      "source_url": "https://www.nbcsandiego.com/news/local/beach-near-point-loma-treatment-plant-closed-due-to-5k-gallon-sewage-spill-other-water-contact-closures/3441088/",
+      "summary": "San Diego County health officials released an updated water contact closure and advisory list for county beaches ahead of another storm."
     },
     {
+      "affected_location_ids": [
+        "sunset-cliffs-reef"
+      ],
+      "headline": "San Diego Water Quality and Safe Swimming Spots",
+      "id": "sha256:9821511e7897dfb658bfe5461971425e4042bc9452e071df583d52f65d45040d",
+      "kind": "water_quality",
+      "observed_at": "2026-09-28T17:02:16Z",
+      "source_name": "San Diego Beach Review",
+      "source_url": "https://www.sandiegobeachreview.com/post/san-diego-water-quality-and-safe-swimming-spots",
+      "summary": "Planning a beach day in San Diego? Discover which beaches have the best water quality, which ones to avoid due to sewage and bacteria, and how to check live reports before you swim."
+    },
+    {
+      "affected_location_ids": [
+        "la-jolla-cove"
+      ],
+      "headline": "La Jolla Cove - Swim Guide",
+      "id": "sha256:70fc2d4631920fa5a4a90cee49d4a3928298ad52e0412893fc6f96434bfa5803",
+      "kind": "water_quality",
+      "observed_at": "2026-09-28T17:02:16Z",
+      "source_name": "www.theswimguide.org",
+      "source_url": "https://www.theswimguide.org/beach/1986",
+      "summary": "This beach is sampled weekly by the County of San Diego. A popular water recreation area, this cove is nestled just below Scripps Park. Water quality may be impacted by marine mammals, birds, and other sources at this location."
+    },
+    {
+      "affected_location_ids": [
+        "childrens-pool-casa-beach",
+        "la-jolla-cove",
+        "swamis-reef"
+      ],
+      "headline": "Avoid Water Contact At These San Diego Beaches Due To Excessive Bacteria",
+      "id": "sha256:27d0c143e31f9eef883d9d013f1ce5c1ef62052d783a561a2c328271949161c1",
+      "kind": "water_quality",
+      "observed_at": "2026-09-28T17:02:16Z",
+      "source_name": "Encinitas, CA Patch",
+      "source_url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria",
+      "summary": "Bacteria in the waters that could cause illness have led to water contact closure, and water contact advisories at these area beaches."
+    },
+    {
+      "affected_location_ids": [
+        "childrens-pool-casa-beach"
+      ],
       "headline": "Imperial Beach shoreline closed due to sewage contamination",
-      "id": "sha256:9a0b17f783bad6feb948800609febcb34b42d73c623fbeff68b5a9c28f78feca",
+      "id": "sha256:14c0a48115b8ff9346281ff1acdd43cf555f8dbab7bb859a3d66987c129696ec",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T14:13:13Z",
+      "observed_at": "2026-09-28T17:02:16Z",
       "source_name": "NBC 7 San Diego",
       "source_url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369",
       "summary": "The Imperial Beach shoreline was closed to human contact Sunday by county health officials due to sewage contamination."
-    },
-    {
-      "headline": "Report a Stranding in San Diego County",
-      "id": "sha256:417665fe6af71d62e12db3c4c20140e5fe054e5b5938df4b80f358421ff2f4c4",
-      "kind": "wildlife",
-      "observed_at": "2026-09-28T14:13:13Z",
-      "source_name": "NOAA",
-      "source_url": "https://www.fisheries.noaa.gov/west-coast/science-data/report-stranding-san-diego-county",
-      "summary": "How to report an injured, stranded, or dead marine mammal including whales, dolphins, porpoises, seals, and sea lions."
-    },
-    {
-      "headline": "A marine heat wave caused seabird deaths off California. El Nino could worsen the die-off",
-      "id": "sha256:3c4e60bb258f91ed58d22ad9093b8c6df1769a6defacf1dfb6ab378fd0e7dbf7",
-      "kind": "wildlife",
-      "observed_at": "2026-09-28T14:13:13Z",
-      "source_name": "The Fort Morgan Times",
-      "source_url": "https://www.fortmorgantimes.com/2026/07/01/record-ocean-heat-and-el-nino-are-leading-to-mass-california-seabird-die-offs/",
-      "summary": "Record ocean heat and El Nino are leading to mass California seabird die-offs."
     }
   ],
   "locations": [
@@ -57,10 +74,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 74°F, gusts 12 mph, 1% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -88,7 +105,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -111,8 +128,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.1,
-            "wind_gusts_mph": 12.1
+            "temperature_f": 73.4,
+            "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
         },
@@ -124,32 +141,12 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:74}, gusts {w:12}, 1% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.3}): lowest water in daylight 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -158,17 +155,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.4,
+        "apparent_temperature_f": 82.0,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 67.0,
-        "temperature_high_f": 77.2,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.1,
-        "wind_speed_mph": 3.2
+        "temperature_f": 77.2,
+        "temperature_high_f": 78.2,
+        "temperature_low_f": 63.1,
+        "weather_code": 0,
+        "wind_gusts_mph": 3.8,
+        "wind_speed_mph": 3.6
       }
     },
     {
@@ -186,7 +183,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 2.7
+          "wind_gusts_mph": 4.5
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:05 PM, clearing this site's 1.5 ft guidance."
@@ -201,7 +198,7 @@
           "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.1 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 75°F, gusts 13 mph, 1% rain.",
+          "During the window: 74°F, gusts 11 mph, 1% rain.",
           "Site note: Keep watch for incoming waves. Surf is above this site's limit."
         ],
         "headline": "Good day: go 2:56 PM–6:39 PM.",
@@ -225,7 +222,7 @@
             "daylight": true,
             "feet": 0.08
           },
-          "observed_offset_feet": 0.98,
+          "observed_offset_feet": 1.02,
           "range_feet": 6.38,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 1.06,
@@ -248,8 +245,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.6,
-            "wind_gusts_mph": 12.8
+            "temperature_f": 74.4,
+            "wind_gusts_mph": 11.4
           },
           "year_percentile": 31
         },
@@ -286,7 +283,7 @@
             "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.1 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:75}, gusts {w:13}, 1% rain.",
+            "During the window: {t:74}, gusts {w:11}, 1% rain.",
             "Site note: Keep watch for incoming waves. Surf is above this site's limit."
           ],
           "headline": "Good day: go 2:56 PM–6:39 PM."
@@ -295,21 +292,11 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
               "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+              "url": "https://www.nbcsandiego.com/news/local/beach-near-point-loma-treatment-plant-closed-due-to-5k-gallon-sewage-spill-other-water-contact-closures/3441088/"
             }
           ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
+          "summary": "Thousands of gallons of sewage have fouled a section of the Point Loma coast, leading to the closure of Cabrillo tidepools (source1). San Diego County health officials released an updated water contact closure and advisory list for county beaches ahead of another storm (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -318,17 +305,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 71.7,
+        "apparent_temperature_f": 81.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 68.0,
-        "temperature_high_f": 77.7,
-        "temperature_low_f": 65.2,
+        "temperature_f": 76.4,
+        "temperature_high_f": 78.1,
+        "temperature_low_f": 64.6,
         "weather_code": 0,
-        "wind_gusts_mph": 2.7,
-        "wind_speed_mph": 2.3
+        "wind_gusts_mph": 4.5,
+        "wind_speed_mph": 4.3
       }
     },
     {
@@ -339,10 +326,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 12 mph, 0% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -370,7 +357,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -392,8 +379,8 @@
             "wave_period_seconds": 9.75
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.2,
+            "precipitation_probability": 1,
+            "temperature_f": 73.0,
             "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
@@ -406,10 +393,10 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:12}, 0% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.9}): lowest water in daylight 3:16 PM–6:39 PM."
         },
@@ -417,21 +404,16 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
+              "name": "Encinitas, CA Patch",
+              "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             },
             {
               "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
               "name": "NBC 7 San Diego",
               "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
             }
           ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
+          "summary": "County health officials have closed the Imperial Beach shoreline to human contact due to sewage contamination (source2). Additionally, excessive bacteria levels have led to water contact closures and advisories at various San Diego beaches, including areas near Encinitas (source1). These conditions are associated with potential illness from water contact (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -440,17 +422,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.7,
+        "apparent_temperature_f": 82.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 67.3,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 2.7
+        "temperature_f": 76.7,
+        "temperature_high_f": 77.5,
+        "temperature_low_f": 62.9,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.1
       }
     },
     {
@@ -468,7 +450,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 3.4
+          "wind_gusts_mph": 6.7
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:02 PM, clearing this site's 1.0 ft guidance."
@@ -480,10 +462,10 @@
           "Below 1.0 ft in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.3 ft at 10 s during the window, above this site's 2.5 ft limit.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 11 mph, 0% rain.",
+          "During the window: 73°F, gusts 12 mph, 0% rain.",
           "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
         ],
         "headline": "Good day: go 3:16 PM–6:39 PM.",
@@ -507,7 +489,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -530,8 +512,8 @@
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 73.4,
-            "wind_gusts_mph": 11.4
+            "temperature_f": 73.1,
+            "wind_gusts_mph": 11.6
           },
           "year_percentile": 32
         },
@@ -565,33 +547,13 @@
             "Below 1.0 ft in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.3 ft at 10 s during the window, above this site's 2.5 ft limit.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:11}, 0% rain.",
+            "During the window: {t:73}, gusts {w:12}, 0% rain.",
             "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
           ],
           "headline": "Good day: go 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -600,17 +562,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 71.2,
+        "apparent_temperature_f": 82.0,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 31.0,
-        "temperature_f": 67.7,
-        "temperature_high_f": 76.7,
-        "temperature_low_f": 63.7,
-        "weather_code": 1,
-        "wind_gusts_mph": 3.4,
-        "wind_speed_mph": 2.3
+        "temperature_f": 76.8,
+        "temperature_high_f": 77.4,
+        "temperature_low_f": 62.7,
+        "weather_code": 0,
+        "wind_gusts_mph": 6.7,
+        "wind_speed_mph": 3.6
       }
     },
     {
@@ -621,10 +583,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 12 mph, 0% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -652,7 +614,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -674,8 +636,8 @@
             "wave_period_seconds": 9.75
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.2,
+            "precipitation_probability": 1,
+            "temperature_f": 73.0,
             "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
@@ -688,32 +650,12 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:12}, 0% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:3.6}): lowest water in daylight 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -722,17 +664,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.7,
+        "apparent_temperature_f": 82.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 67.3,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 2.7
+        "temperature_f": 76.7,
+        "temperature_high_f": 77.5,
+        "temperature_low_f": 62.9,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.1
       }
     },
     {
@@ -743,10 +685,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 12 mph, 0% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (1 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -774,7 +716,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -796,8 +738,8 @@
             "wave_period_seconds": 9.75
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.1,
+            "precipitation_probability": 1,
+            "temperature_f": 72.9,
             "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
@@ -810,10 +752,10 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:12}, 0% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.4}): lowest water in daylight 3:16 PM–6:39 PM."
         },
@@ -821,21 +763,16 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
+              "name": "www.theswimguide.org",
+              "url": "https://www.theswimguide.org/beach/1986"
             },
             {
               "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+              "name": "Encinitas, CA Patch",
+              "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             }
           ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
+          "summary": "La Jolla Cove, located below Scripps Park, is sampled weekly by the County of San Diego and may have water quality impacted by marine mammals and birds (source1). Meanwhile, excessive bacteria in the waters have led to water contact closures and advisories at area beaches (source2)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -844,17 +781,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.6,
+        "apparent_temperature_f": 82.2,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 67.3,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.0,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 2.7
+        "temperature_f": 76.6,
+        "temperature_high_f": 77.4,
+        "temperature_low_f": 62.9,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.1
       }
     },
     {
@@ -896,7 +833,7 @@
             "daylight": true,
             "feet": 0.08
           },
-          "observed_offset_feet": 0.98,
+          "observed_offset_feet": 1.02,
           "range_feet": 6.38,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 1.06,
@@ -919,8 +856,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 73.8,
-            "wind_gusts_mph": 12.3
+            "temperature_f": 73.6,
+            "wind_gusts_mph": 11.9
           },
           "year_percentile": 31
         },
@@ -939,26 +876,6 @@
           ],
           "headline": "Estimate from the San Diego gauge ({d:8.1}): lowest water in daylight 2:56 PM–6:39 PM."
         },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
-        },
         "window": {
           "end": "2026-09-28T18:39",
           "start": "2026-09-28T14:56",
@@ -966,17 +883,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.8,
+        "apparent_temperature_f": 82.0,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 67.0,
-        "temperature_high_f": 76.9,
-        "temperature_low_f": 64.2,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.4,
-        "wind_speed_mph": 3.4
+        "temperature_f": 77.2,
+        "temperature_high_f": 78.6,
+        "temperature_low_f": 63.2,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.0,
+        "wind_speed_mph": 3.9
       }
     },
     {
@@ -994,7 +911,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 7.2
+          "wind_gusts_mph": 7.8
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:04 PM, clearing this site's 1.5 ft guidance."
@@ -1008,7 +925,7 @@
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
           "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
           "The window runs past sunset (6:41 PM); bring a light for the walk out.",
-          "During the window: 74°F, gusts 12 mph, 0% rain.",
+          "During the window: 73°F, gusts 12 mph, 0% rain.",
           "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
         ],
         "headline": "Good day: go 2:49 PM–6:41 PM.",
@@ -1054,7 +971,7 @@
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 74.4,
+            "temperature_f": 73.3,
             "wind_gusts_mph": 12.3
           },
           "year_percentile": 31
@@ -1086,30 +1003,10 @@
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
             "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
             "The window runs past sunset (6:41 PM); bring a light for the walk out.",
-            "During the window: {t:74}, gusts {w:12}, 0% rain.",
+            "During the window: {t:73}, gusts {w:12}, 0% rain.",
             "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
           ],
           "headline": "Good day: go 2:49 PM–6:41 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:41",
@@ -1118,17 +1015,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.0,
+        "apparent_temperature_f": 78.6,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 3.0,
-        "temperature_f": 67.1,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 65.5,
+        "temperature_f": 74.9,
+        "temperature_high_f": 75.8,
+        "temperature_low_f": 66.0,
         "weather_code": 0,
-        "wind_gusts_mph": 7.2,
-        "wind_speed_mph": 5.8
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -1146,7 +1043,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 7.2
+          "wind_gusts_mph": 9.2
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:04 PM, clearing this site's 1.5 ft guidance."
@@ -1206,7 +1103,7 @@
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 73.4,
+            "temperature_f": 72.7,
             "wind_gusts_mph": 12.8
           },
           "year_percentile": 31
@@ -1248,26 +1145,6 @@
           ],
           "headline": "Good day: go 2:49 PM–6:41 PM."
         },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
-        },
         "window": {
           "end": "2026-09-28T18:41",
           "start": "2026-09-28T14:49",
@@ -1275,17 +1152,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 66.8,
+        "apparent_temperature_f": 79.8,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 4.0,
-        "temperature_f": 66.2,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.1,
+        "temperature_f": 75.4,
+        "temperature_high_f": 76.0,
+        "temperature_low_f": 64.4,
         "weather_code": 0,
-        "wind_gusts_mph": 7.2,
-        "wind_speed_mph": 6.2
+        "wind_gusts_mph": 9.2,
+        "wind_speed_mph": 7.2
       }
     },
     {
@@ -1296,10 +1173,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 12 mph, 0% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -1327,7 +1204,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1349,8 +1226,8 @@
             "wave_period_seconds": 9.75
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.2,
+            "precipitation_probability": 1,
+            "temperature_f": 73.0,
             "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
@@ -1363,32 +1240,12 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.3 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:12}, 0% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.7}): lowest water in daylight 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1397,17 +1254,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.7,
+        "apparent_temperature_f": 82.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 67.3,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 2.7
+        "temperature_f": 76.7,
+        "temperature_high_f": 77.5,
+        "temperature_low_f": 62.9,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.1
       }
     },
     {
@@ -1421,7 +1278,7 @@
           "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.1 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 74°F, gusts 13 mph, 1% rain."
+          "During the window: 73°F, gusts 12 mph, 2% rain."
         ],
         "headline": "Estimate from the San Diego gauge (5 mi): lowest water in daylight 2:56 PM–6:39 PM.",
         "indicators": {
@@ -1449,7 +1306,7 @@
             "daylight": true,
             "feet": 0.08
           },
-          "observed_offset_feet": 0.98,
+          "observed_offset_feet": 1.02,
           "range_feet": 6.38,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 1.06,
@@ -1471,9 +1328,9 @@
             "wave_period_seconds": 9.8
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 12.8
+            "precipitation_probability": 2,
+            "temperature_f": 73.3,
+            "wind_gusts_mph": 11.9
           },
           "year_percentile": 31
         },
@@ -1488,7 +1345,7 @@
             "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.1 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:74}, gusts {w:13}, 1% rain."
+            "During the window: {t:73}, gusts {w:12}, 2% rain."
           ],
           "headline": "Estimate from the San Diego gauge ({d:7.8}): lowest water in daylight 2:56 PM–6:39 PM."
         },
@@ -1496,21 +1353,11 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+              "name": "San Diego Beach Review",
+              "url": "https://www.sandiegobeachreview.com/post/san-diego-water-quality-and-safe-swimming-spots"
             }
           ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
+          "summary": "San Diego Water Quality and Safe Swimming Spots is a resource for planning beach days in the area. It highlights which beaches have the best water quality and identifies spots to avoid due to sewage and bacteria. The guide also explains how to check live reports before swimming (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1519,17 +1366,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 70.7,
+        "apparent_temperature_f": 81.4,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 67.4,
-        "temperature_high_f": 76.4,
-        "temperature_low_f": 65.6,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.1,
-        "wind_speed_mph": 2.9
+        "temperature_f": 76.1,
+        "temperature_high_f": 77.6,
+        "temperature_low_f": 64.4,
+        "weather_code": 0,
+        "wind_gusts_mph": 3.8,
+        "wind_speed_mph": 3.6
       }
     },
     {
@@ -1540,10 +1387,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.0 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 74°F, gusts 11 mph, 0% rain."
+          "During the window: 73°F, gusts 11 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (12 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -1571,7 +1418,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1593,9 +1440,9 @@
             "wave_period_seconds": 9.85
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.6,
-            "wind_gusts_mph": 11.0
+            "precipitation_probability": 1,
+            "temperature_f": 73.1,
+            "wind_gusts_mph": 11.4
           },
           "year_percentile": 32
         },
@@ -1607,10 +1454,10 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.0 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:74}, gusts {w:11}, 0% rain."
+            "During the window: {t:73}, gusts {w:11}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:19.1}): lowest water in daylight 3:16 PM–6:39 PM."
         },
@@ -1618,21 +1465,11 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+              "name": "Encinitas, CA Patch",
+              "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             }
           ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
+          "summary": "Excessive bacteria levels in the water have led to water contact closures and advisories at beaches in the Encinitas area (source1). These conditions are associated with potential illness from water contact (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1641,17 +1478,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 72.2,
+        "apparent_temperature_f": 80.8,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 17.0,
-        "temperature_f": 68.6,
-        "temperature_high_f": 76.9,
-        "temperature_low_f": 63.4,
-        "weather_code": 0,
-        "wind_gusts_mph": 5.6,
-        "wind_speed_mph": 3.9
+        "temperature_f": 76.4,
+        "temperature_high_f": 77.2,
+        "temperature_low_f": 62.7,
+        "weather_code": 3,
+        "wind_gusts_mph": 9.2,
+        "wind_speed_mph": 4.7
       }
     },
     {
@@ -1662,10 +1499,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 74°F, gusts 12 mph, 1% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -1693,7 +1530,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1716,8 +1553,8 @@
           },
           "window_weather": {
             "precipitation_probability": 1,
-            "temperature_f": 74.1,
-            "wind_gusts_mph": 12.1
+            "temperature_f": 73.4,
+            "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
         },
@@ -1729,32 +1566,12 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:74}, gusts {w:12}, 1% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.5}): lowest water in daylight 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1763,17 +1580,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.4,
+        "apparent_temperature_f": 82.0,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 67.0,
-        "temperature_high_f": 77.2,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.1,
-        "wind_speed_mph": 3.2
+        "temperature_f": 77.2,
+        "temperature_high_f": 78.2,
+        "temperature_low_f": 63.1,
+        "weather_code": 0,
+        "wind_gusts_mph": 3.8,
+        "wind_speed_mph": 3.6
       }
     },
     {
@@ -1784,10 +1601,10 @@
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
           "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-          "Water is running 0.9 ft above prediction; expect less exposed reef.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
           "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-          "During the window: 73°F, gusts 12 mph, 0% rain."
+          "During the window: 73°F, gusts 12 mph, 1% rain."
         ],
         "headline": "Estimate from the La Jolla gauge (3 mi): lowest water in daylight 3:16 PM–6:39 PM.",
         "indicators": {
@@ -1815,7 +1632,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.88,
+          "observed_offset_feet": 0.96,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1837,8 +1654,8 @@
             "wave_period_seconds": 9.8
           },
           "window_weather": {
-            "precipitation_probability": 0,
-            "temperature_f": 73.2,
+            "precipitation_probability": 1,
+            "temperature_f": 73.0,
             "wind_gusts_mph": 11.9
           },
           "year_percentile": 32
@@ -1851,32 +1668,12 @@
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
             "Surf 4.6 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
-            "Water is running 0.9 ft above prediction; expect less exposed reef.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
             "The window runs past sunset (6:39 PM); bring a light for the walk out.",
-            "During the window: {t:73}, gusts {w:12}, 0% rain."
+            "During the window: {t:73}, gusts {w:12}, 1% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:4.5}): lowest water in daylight 3:16 PM–6:39 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Heal the Bay - Environmental Nonprofit Protecting Ocean & Watersheds in Greater Los Angeles, California",
-              "url": "https://healthebay.org/domoic-acid-outbreak-2025/"
-            },
-            {
-              "label": "source2",
-              "name": "Los Angeles Times",
-              "url": "https://www.latimes.com/environment/story/2026-09-02/san-diego-county-approves-1-8-billion-to-treat-tijuana-river-sewage"
-            },
-            {
-              "label": "source3",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
-            }
-          ],
-          "summary": "Recent reports indicate that the Imperial Beach shoreline was closed to human contact by county health officials due to sewage contamination (source3). This closure follows a broader crisis where sewage from Tijuana flows into southern San Diego County, sickening swimmers and surfers (source2). Meanwhile, Heal the Bay highlights the ongoing impact of California’s toxic algae blooms on marine animal and human health (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1885,46 +1682,46 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 69.7,
+        "apparent_temperature_f": 82.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T14:00:00Z",
+        "observed_at": "2026-09-28T17:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 67.3,
-        "temperature_high_f": 76.3,
-        "temperature_low_f": 64.1,
-        "weather_code": 2,
-        "wind_gusts_mph": 3.8,
-        "wind_speed_mph": 2.7
+        "temperature_f": 76.7,
+        "temperature_high_f": 77.5,
+        "temperature_low_f": 62.9,
+        "weather_code": 0,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.1
       }
     }
   ],
-  "published_at": "2026-09-28T14:13:18Z",
-  "revision": "2026-09-28T14:13:18Z",
+  "published_at": "2026-09-28T17:02:44Z",
+  "revision": "2026-09-28T17:02:44Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T14:13:18Z",
+      "retrieved_at": "2026-09-28T17:02:44Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T14:13:18Z",
+      "retrieved_at": "2026-09-28T17:02:44Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T14:13:18Z",
+      "retrieved_at": "2026-09-28T17:02:44Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T14:13:18Z",
+      "retrieved_at": "2026-09-28T17:02:44Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
