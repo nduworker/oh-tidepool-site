@@ -1,6 +1,22 @@
 {
-  "expires_at": "2026-09-30T09:47:32Z",
-  "generated_at": "2026-09-29T03:47:32Z",
+  "expires_at": "2026-09-30T09:51:15Z",
+  "generated_at": "2026-09-29T03:51:15Z",
+  "local_news": [
+    {
+      "affected_location_ids": [
+        "childrens-pool-casa-beach"
+      ],
+      "expires_at": "2026-09-30T09:51:15Z",
+      "headline": "Imperial Beach shoreline closed due to sewage contamination",
+      "id": "sha256:1dc1963cc120956eb0a5150bf4331fd38d58a55cdbe208b6b8c710b36466507d",
+      "kind": "coastal",
+      "observed_at": "2026-09-29T03:51:09Z",
+      "source_name": "NBC 7 San Diego",
+      "source_published_at": "2026-09-28T00:33:58Z",
+      "source_url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369",
+      "summary": "The Imperial Beach shoreline was closed to human contact Sunday by county health officials due to sewage contamination."
+    }
+  ],
   "locations": [
     {
       "location_id": "bird-rock-reef",
@@ -325,6 +341,16 @@
             "During the window: {t:73}, gusts {w:8}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.9}): lowest water in daylight 3:16 PM–6:39 PM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "NBC 7 San Diego",
+              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+            }
+          ],
+          "summary": "County health officials closed the Imperial Beach shoreline to human contact on Sunday due to sewage contamination (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1572,32 +1598,32 @@
       }
     }
   ],
-  "published_at": "2026-09-29T03:47:32Z",
-  "revision": "2026-09-29T03:47:32Z",
+  "published_at": "2026-09-29T03:51:15Z",
+  "revision": "2026-09-29T03:51:15Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-29T03:47:32Z",
+      "retrieved_at": "2026-09-29T03:51:15Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-29T03:47:32Z",
+      "retrieved_at": "2026-09-29T03:51:15Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-29T03:47:32Z",
+      "retrieved_at": "2026-09-29T03:51:15Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-29T03:47:32Z",
+      "retrieved_at": "2026-09-29T03:51:15Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
