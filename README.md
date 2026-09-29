@@ -37,6 +37,46 @@ catalog.
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
 
+## Demo clips
+
+The clips in `demo/` are built from simulator recordings of the shipped app, not
+made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
+the idle head and tail of a recording, cuts the loop to the scenario's window,
+scales to twice the figure's rendered width, and writes an H.264 clip with its
+poster frame.
+
+```sh
+python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
+python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
+```
+
+Video rather than GIF: eight seconds of the same screen cost well under a
+megabyte as a clip against two or three as a GIF, and the motion keeps the
+recording's frame rate instead of a palette. `--window-seconds 0` keeps the whole
+capture, which is how the current three clips were built from the earlier GIFs.
+
+Each scenario has its own timing because a scroll and a tap read at different
+speeds. A recording may run longer than the window; the script cuts the loop to
+the window, which is what keeps the page inside its byte budget.
+
+| Scenario | What the recording shows | Window | Budget |
+| --- | --- | --- | --- |
+| `where` | The Explore list scrolled, then the same sites on the map | 8s + 1s hold | 0.7 MB |
+| `when` | A site page: the day's guidance, hazard bullets, current tide and surf, the tide chart | 8s + 1s hold | 0.7 MB |
+| `what` | A discovery site with estimated guidance | 6s + 1s hold | 0.6 MB |
+| `tips` | The tip row in the Explore header: swipe on, swipe back, tap to open | 7s + 1s hold | 0.6 MB |
+
+`tips` has no clip yet; it lands with its first recording. The other three still
+show the 27 September captures, which predate the tip row and the day's guidance,
+until new recordings of the current build replace them.
+
+The recordings are produced in the private application repository, at the
+simulator's own resolution. The script downscales, so record full size. Record
+from a run that carries the states the scenario needs: a caution beside an
+otherwise good day, a hazard bullet that says what the hazard does to a visit,
+and a cited local story labelled Unofficial. Keep the status bar at a plausible
+time, and leave out system alerts and permission prompts.
+
 The [`Validate public data`](.github/workflows/validate-public-data.yml) workflow
 is a read-only integrity check. It does not fetch provider data, generate a
 report, process images, modify files, commit, push, or deploy. A commit touching
