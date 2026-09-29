@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Corresponding Source for the CARI-derived rocky-shore geometry shipped in Oh Tidepool, offered under GPL-3.0-or-later.">
+    <title>CARI rocky-shore source — Oh Tidepool</title>
+    <link rel="stylesheet" href="../../site.css">
+  </head>
+  <body class="policy-page">
+    <header class="site-header">
+      <a class="brand" href="../../" aria-label="Oh Tidepool home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>Oh Tidepool</span>
+      </a>
+      <a class="nav-link" href="../../licenses.html">Licences &amp; data</a>
+    </header>
+
+    <main class="policy">
+      <p class="eyebrow">GPL-3.0-OR-LATER · CORRESPONDING SOURCE</p>
+      <h1>CARI rocky-shore geometry</h1>
+      <p class="policy-intro">This directory is the Corresponding Source for the rocky-shore outlines that ship inside the Oh Tidepool iPhone app. The app's licence text sends readers to this address, so the files below are the material that has to be available: the geometry as bundled, the script that produced it, and the full licence text.</p>
+
+      <h2>What is here</h2>
+      <ul>
+        <li><code>outlines/</code> holds the 14 derived rocky-shore outlines in the app's bundled catalog:
+          <ul>
+            <li><a href="./outlines/bird-rock-reef.geojson">bird-rock-reef.geojson</a></li>
+            <li><a href="./outlines/cabrillo-tidepools.geojson">cabrillo-tidepools.geojson</a></li>
+            <li><a href="./outlines/childrens-pool-casa-beach.geojson">childrens-pool-casa-beach.geojson</a></li>
+            <li><a href="./outlines/dike-rock-scripps-beach.geojson">dike-rock-scripps-beach.geojson</a></li>
+            <li><a href="./outlines/hospital-point.geojson">hospital-point.geojson</a></li>
+            <li><a href="./outlines/la-jolla-cove.geojson">la-jolla-cove.geojson</a></li>
+            <li><a href="./outlines/ocean-beach-pier-reefs.geojson">ocean-beach-pier-reefs.geojson</a></li>
+            <li><a href="./outlines/pelican-point-crystal-cove.geojson">pelican-point-crystal-cove.geojson</a></li>
+            <li><a href="./outlines/rockpile-beach.geojson">rockpile-beach.geojson</a></li>
+            <li><a href="./outlines/shell-beach-seal-rock.geojson">shell-beach-seal-rock.geojson</a></li>
+            <li><a href="./outlines/sunset-cliffs-reef.geojson">sunset-cliffs-reef.geojson</a></li>
+            <li><a href="./outlines/swamis-reef.geojson">swamis-reef.geojson</a></li>
+            <li><a href="./outlines/tourmaline-reef.geojson">tourmaline-reef.geojson</a></li>
+            <li><a href="./outlines/windansea-reef.geojson">windansea-reef.geojson</a></li>
+          </ul>
+        </li>
+        <li><a href="./scripts/import_cari_rocky_shore.py">scripts/import_cari_rocky_shore.py</a> — the importer that produced the outlines. SPDX: <code>GPL-3.0-or-later</code>.</li>
+        <li><a href="./COPYING.txt">COPYING.txt</a> — the full GNU General Public License v3.0 text.</li>
+        <li><a href="./README.md">README.md</a> — provenance, the transformation applied, and the command to regenerate an outline.</li>
+      </ul>
+      <p>Raw copies of these files are served from the repository at <code>raw.githubusercontent.com/nduworker/oh-tidepool-site/main/</code> plus the path shown here, for example <a href="https://raw.githubusercontent.com/nduworker/oh-tidepool-site/main/licenses/cari/outlines/bird-rock-reef.geojson">licenses/cari/outlines/bird-rock-reef.geojson</a>. The script and the outlines are readable there as plain text.</p>
+
+      <h2>Upstream source and attribution</h2>
+      <table class="license-table">
+        <tbody>
+          <tr><th>Dataset</th><td>California Aquatic Resources Inventory (CARI) v3.3, <code>RS</code> (Rocky Shore) polygons</td></tr>
+          <tr><th>Publisher</th><td>San Francisco Estuary Institute (SFEI)</td></tr>
+          <tr><th>Landing page</th><td><a href="https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data">sfei.org CARI GIS data</a></td></tr>
+          <tr><th>Endpoint used</th><td><code>services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds2835_fpu/FeatureServer/0/query</code></td></tr>
+          <tr><th>Dataset date</th><td>2026-02-19</td></tr>
+          <tr><th>Licence</th><td>GPL-3.0-or-later, <a href="https://www.gnu.org/licenses/gpl-3.0.html">gnu.org/licenses/gpl-3.0.html</a></td></tr>
+          <tr><th>Citation</th><td>San Francisco Estuary Institute (SFEI). 2026. California Aquatic Resource Inventory (CARI), version 3.3. Accessed 2026-09-18.</td></tr>
+        </tbody>
+      </table>
+      <p>Copyright and attribution for SFEI, CARI, and any upstream source are preserved in each outline's <code>properties.source</code> block, alongside the dataset name, endpoint, licence, and citation.</p>
+
+      <h2>What the importer does</h2>
+      <p>The importer selects the CARI <code>RS</code> polygons that intersect a 350 m radius around each site's reviewed anchor, then applies a 1 m Douglas-Peucker simplification in a local metre frame. It writes the geometry back in WGS84 as GeoJSON. Polygons are selected, never crop-clipped, so the original ring edges are kept rather than replaced with a fabricated circular boundary. It is an offline curation tool, not something the app calls at request time.</p>
+
+      <h2>Licence and how this ships</h2>
+      <ul>
+        <li>The geometry and the importer that generates it are offered under <strong>GPL-3.0-or-later</strong>, the licence of the upstream dataset, and this page publishes them as the Corresponding Source.</li>
+        <li>The full licence text travels with the material here as <a href="./COPYING.txt">COPYING.txt</a>, and with every build of the app.</li>
+        <li>No further restriction is placed on the GPL-covered material. It is kept as a separate, independently licensed data file and is not merged into the app binary as one combined work.</li>
+        <li>The same files are bundled in the app under <code>OhTidepool/Resources/licenses/cari/</code>, so a recipient of the app already has the source and the licence text.</li>
+        <li>The app's attribution summary is on the <a href="../../licenses.html">Licences &amp; data sources</a> page.</li>
+      </ul>
+
+      <h2>What this geometry is not</h2>
+      <p>Each outline is a static mapped rocky-intertidal boundary. It is <strong>not</strong> a predicted waterline, navigational chart, safe route, or real-time access condition, and it carries no claim about whether a visit is safe or permitted.</p>
+
+      <h2>Questions</h2>
+      <p>For licensing or attribution questions, contact <a href="mailto:ndu@nduwork.com">ndu@nduwork.com</a>.</p>
+    </main>
+
+    <footer>
+      <span>© 2026 Oh Tidepool</span>
+      <a href="../../">Oh Tidepool home</a>
+      <a href="../../privacy.html">Privacy Policy</a>
+      <a href="../../licenses.html">Licences &amp; data</a>
+    </footer>
+  </body>
+</html>
