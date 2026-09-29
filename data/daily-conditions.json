@@ -1,42 +1,30 @@
 {
-  "expires_at": "2026-09-30T05:37:18Z",
-  "generated_at": "2026-09-28T23:37:18Z",
+  "expires_at": "2026-09-30T06:02:53Z",
+  "generated_at": "2026-09-29T00:02:53Z",
   "local_news": [
-    {
-      "affected_location_ids": [
-        "cabrillo-tidepools"
-      ],
-      "headline": "Thousands of gallons of sewage foul section of Point Loma coast; Cabrillo tidepools closed",
-      "id": "sha256:a6bb219f08d1519a279db320f99c31f4f8fc001f622adf66521a31b027ddba8a",
-      "kind": "water_quality",
-      "observed_at": "2026-09-28T17:02:16Z",
-      "source_name": "NBC 7 San Diego",
-      "source_url": "https://www.nbcsandiego.com/news/local/beach-near-point-loma-treatment-plant-closed-due-to-5k-gallon-sewage-spill-other-water-contact-closures/3441088/",
-      "summary": "San Diego County health officials released an updated water contact closure and advisory list for county beaches ahead of another storm."
-    },
-    {
-      "affected_location_ids": [
-        "sunset-cliffs-reef"
-      ],
-      "headline": "San Diego Water Quality and Safe Swimming Spots",
-      "id": "sha256:9821511e7897dfb658bfe5461971425e4042bc9452e071df583d52f65d45040d",
-      "kind": "water_quality",
-      "observed_at": "2026-09-28T17:02:16Z",
-      "source_name": "San Diego Beach Review",
-      "source_url": "https://www.sandiegobeachreview.com/post/san-diego-water-quality-and-safe-swimming-spots",
-      "summary": "Planning a beach day in San Diego? Discover which beaches have the best water quality, which ones to avoid due to sewage and bacteria, and how to check live reports before you swim."
-    },
     {
       "affected_location_ids": [
         "la-jolla-cove"
       ],
       "headline": "La Jolla Cove - Swim Guide",
-      "id": "sha256:70fc2d4631920fa5a4a90cee49d4a3928298ad52e0412893fc6f96434bfa5803",
+      "id": "sha256:bcfb69ea00cd53ccb3b03ec20645d095514c5a955aeafee22e7b1acf5e700696",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T17:02:16Z",
+      "observed_at": "2026-09-29T00:02:45Z",
       "source_name": "www.theswimguide.org",
       "source_url": "https://www.theswimguide.org/beach/1986",
       "summary": "This beach is sampled weekly by the County of San Diego. A popular water recreation area, this cove is nestled just below Scripps Park. Water quality may be impacted by marine mammals, birds, and other sources at this location."
+    },
+    {
+      "affected_location_ids": [
+        "childrens-pool-casa-beach"
+      ],
+      "headline": "La Jolla - Children's Pool - Swim Guide",
+      "id": "sha256:a02d7c0a3a22685b42becdcda862ebef94819e31833226bdd0600df962ad1d12",
+      "kind": "water_quality",
+      "observed_at": "2026-09-29T00:02:45Z",
+      "source_name": "www.theswimguide.org",
+      "source_url": "https://www.theswimguide.org/beach/2034/",
+      "summary": "This beach is sampled year-round by the City of San Diego. Both historical and recent sampling confirms that water quality does not typically meet State health standards at this beach. As a result, a chronic (ongoing) advisory remains in place for this beach."
     },
     {
       "affected_location_ids": [
@@ -45,24 +33,36 @@
         "swamis-reef"
       ],
       "headline": "Avoid Water Contact At These San Diego Beaches Due To Excessive Bacteria",
-      "id": "sha256:27d0c143e31f9eef883d9d013f1ce5c1ef62052d783a561a2c328271949161c1",
+      "id": "sha256:87f4e2cfed6085fe8d9dc18b5cf4018036bf042246a19cc390dfcfbef0b49815",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T17:02:16Z",
+      "observed_at": "2026-09-29T00:02:45Z",
       "source_name": "Encinitas, CA Patch",
       "source_url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria",
       "summary": "Bacteria in the waters that could cause illness have led to water contact closure, and water contact advisories at these area beaches."
     },
     {
       "affected_location_ids": [
-        "childrens-pool-casa-beach"
+        "sunset-cliffs-reef"
       ],
-      "headline": "Imperial Beach shoreline closed due to sewage contamination",
-      "id": "sha256:14c0a48115b8ff9346281ff1acdd43cf555f8dbab7bb859a3d66987c129696ec",
+      "headline": "San Diego Water Quality and Safe Swimming Spots",
+      "id": "sha256:7efbfa9692d2d976eec4282e78ef29346a2bd4d9c0034c17bd7e1fd40234b939",
       "kind": "water_quality",
-      "observed_at": "2026-09-28T17:02:16Z",
-      "source_name": "NBC 7 San Diego",
-      "source_url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369",
-      "summary": "The Imperial Beach shoreline was closed to human contact Sunday by county health officials due to sewage contamination."
+      "observed_at": "2026-09-29T00:02:45Z",
+      "source_name": "San Diego Beach Review",
+      "source_url": "https://www.sandiegobeachreview.com/post/san-diego-water-quality-and-safe-swimming-spots",
+      "summary": "Planning a beach day in San Diego? Discover which beaches have the best water quality, which ones to avoid due to sewage and bacteria, and how to check live reports before you swim."
+    },
+    {
+      "affected_location_ids": [
+        "tourmaline-reef"
+      ],
+      "headline": "Pacific Beach - Tourmaline Surf Park - Swim Guide",
+      "id": "sha256:179d3286d860037f1371110bcdc6d8a5e5b5769df7852288ede325fdecd5b79f",
+      "kind": "water_quality",
+      "observed_at": "2026-09-29T00:02:45Z",
+      "source_name": "www.theswimguide.org",
+      "source_url": "https://www.theswimguide.org/beach/1985/",
+      "summary": "As a social gathering place, and center of a community, the parking lot and beach at the end of Tourmaline Street is something to be cherished -- old friends, old stories, old boards, and a brand-new sunset every night. The people who surf Tourmaline love it. And you'd have to be bleary-eyed with love to stick with waves that mushy. Longboards are the rule."
     }
   ],
   "locations": [
@@ -105,7 +105,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -124,7 +124,7 @@
           },
           "window_surf": {
             "wave_height_feet": 4.593,
-            "wave_period_seconds": 9.8
+            "wave_period_seconds": 9.65
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -158,14 +158,14 @@
         "apparent_temperature_f": 74.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 74.3,
+        "temperature_f": 73.6,
         "temperature_high_f": 78.6,
         "temperature_low_f": 63.9,
         "weather_code": 0,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 7.8
+        "wind_gusts_mph": 8.5,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -183,7 +183,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 9.8
+          "wind_gusts_mph": 9.4
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:05 PM, clearing this site's 1.5 ft guidance."
@@ -288,16 +288,6 @@
           ],
           "headline": "Good day: go 2:56 PM–6:39 PM."
         },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "NBC 7 San Diego",
-              "url": "https://www.nbcsandiego.com/news/local/beach-near-point-loma-treatment-plant-closed-due-to-5k-gallon-sewage-spill-other-water-contact-closures/3441088/"
-            }
-          ],
-          "summary": "Thousands of gallons of sewage have fouled a section of the Point Loma coast, leading to the closure of Cabrillo tidepools (source1). San Diego County health officials released an updated water contact closure and advisory list for county beaches ahead of another storm (source1)."
-        },
         "window": {
           "end": "2026-09-28T18:39",
           "start": "2026-09-28T14:56",
@@ -305,17 +295,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.6,
+        "apparent_temperature_f": 74.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 74.7,
+        "temperature_f": 74.0,
         "temperature_high_f": 78.2,
         "temperature_low_f": 64.7,
         "weather_code": 0,
-        "wind_gusts_mph": 9.8,
-        "wind_speed_mph": 8.4
+        "wind_gusts_mph": 9.4,
+        "wind_speed_mph": 8.0
       }
     },
     {
@@ -357,7 +347,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -375,8 +365,8 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 9.75
+            "wave_height_feet": 4.265,
+            "wave_period_seconds": 9.6
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -404,16 +394,16 @@
           "sources": [
             {
               "label": "source1",
-              "name": "Encinitas, CA Patch",
-              "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
+              "name": "www.theswimguide.org",
+              "url": "https://www.theswimguide.org/beach/2034/"
             },
             {
               "label": "source2",
-              "name": "NBC 7 San Diego",
-              "url": "https://nbcsandiego.com/news/local/imperial-beach-shoreline-closed-due-to-sewage-contamination/4079369"
+              "name": "Encinitas, CA Patch",
+              "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             }
           ],
-          "summary": "County health officials have issued water contact closures and advisories at several San Diego beaches due to excessive bacteria levels that could cause illness (source1). Additionally, the Imperial Beach shoreline was closed to human contact on Sunday because of sewage contamination (source2)."
+          "summary": "Water quality at La Jolla’s Children’s Pool does not typically meet State health standards, resulting in a chronic advisory (source1). Additionally, excessive bacteria levels have led to water contact closures and advisories at various San Diego beaches (source2)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -422,17 +412,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 74.1,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 73.3,
+        "temperature_f": 72.7,
         "temperature_high_f": 77.8,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -450,7 +440,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 8.7
+          "wind_gusts_mph": 7.8
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:02 PM, clearing this site's 1.0 ft guidance."
@@ -489,7 +479,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -507,7 +497,7 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
+            "wave_height_feet": 4.265,
             "wave_period_seconds": 9.75
           },
           "window_weather": {
@@ -562,17 +552,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.5,
+        "apparent_temperature_f": 73.4,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 31.0,
-        "temperature_f": 73.5,
+        "temperature_f": 73.1,
         "temperature_high_f": 77.9,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.7,
-        "wind_speed_mph": 7.5
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.1
       }
     },
     {
@@ -614,7 +604,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -632,8 +622,8 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 9.75
+            "wave_height_feet": 4.265,
+            "wave_period_seconds": 9.6
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -664,17 +654,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 74.1,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 73.3,
+        "temperature_f": 72.7,
         "temperature_high_f": 77.8,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -716,7 +706,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -734,8 +724,8 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 9.75
+            "wave_height_feet": 4.265,
+            "wave_period_seconds": 9.6
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -772,7 +762,7 @@
               "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             }
           ],
-          "summary": "La Jolla Cove, a popular water recreation area nestled below Scripps Park, is sampled weekly by the County of San Diego (source1). Water quality at this location may be impacted by marine mammals, birds, and other sources (source1). Meanwhile, excessive bacteria in the waters have led to water contact closures and advisories at various San Diego beaches (source2)."
+          "summary": "La Jolla Cove, a popular recreation area below Scripps Park, is sampled weekly by the County of San Diego, though water quality may be impacted by marine mammals and birds (source1). Meanwhile, excessive bacteria levels have led to water contact closures and advisories at various San Diego beaches, indicating conditions that could cause illness (source2)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -781,17 +771,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 74.1,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 73.2,
+        "temperature_f": 72.7,
         "temperature_high_f": 77.7,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -852,7 +842,7 @@
           },
           "window_surf": {
             "wave_height_feet": 4.856,
-            "wave_period_seconds": 9.8
+            "wave_period_seconds": 9.65
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -883,17 +873,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.2,
+        "apparent_temperature_f": 74.0,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 74.2,
+        "temperature_f": 73.4,
         "temperature_high_f": 78.1,
         "temperature_low_f": 64.1,
         "weather_code": 0,
-        "wind_gusts_mph": 9.6,
-        "wind_speed_mph": 8.3
+        "wind_gusts_mph": 8.7,
+        "wind_speed_mph": 7.6
       }
     },
     {
@@ -921,7 +911,7 @@
         "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.5 ft in daylight 2:49 PM–6:41 PM (3h52m).",
-          "Surf 4.2 ft at 10 s during the window, above this site's 3.0 ft limit.",
+          "Surf 4.3 ft at 10 s during the window, above this site's 3.0 ft limit.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
           "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
           "The window runs past sunset (6:41 PM); bring a light for the walk out.",
@@ -966,7 +956,7 @@
             "start": "2026-09-28T14:49"
           },
           "window_surf": {
-            "wave_height_feet": 4.199,
+            "wave_height_feet": 4.265,
             "wave_period_seconds": 9.85
           },
           "window_weather": {
@@ -999,7 +989,7 @@
           "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.5 ft in daylight 2:49 PM–6:41 PM (3h52m).",
-            "Surf 4.2 ft at 10 s during the window, above this site's 3.0 ft limit.",
+            "Surf 4.3 ft at 10 s during the window, above this site's 3.0 ft limit.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
             "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
             "The window runs past sunset (6:41 PM); bring a light for the walk out.",
@@ -1015,17 +1005,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 73.8,
+        "apparent_temperature_f": 72.6,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 3.0,
-        "temperature_f": 73.1,
+        "temperature_f": 72.6,
         "temperature_high_f": 76.5,
         "temperature_low_f": 65.1,
         "weather_code": 0,
         "wind_gusts_mph": 13.4,
-        "wind_speed_mph": 10.8
+        "wind_speed_mph": 10.5
       }
     },
     {
@@ -1043,7 +1033,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 13.6
+          "wind_gusts_mph": 14.1
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:04 PM, clearing this site's 1.5 ft guidance."
@@ -1053,7 +1043,7 @@
         "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.5 ft in daylight 2:49 PM–6:41 PM (3h52m).",
-          "Surf 4.3 ft at 10 s during the window, above this site's 2.5 ft limit.",
+          "Surf 4.4 ft at 10 s during the window, above this site's 2.5 ft limit.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
           "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
           "The window runs past sunset (6:41 PM); bring a light for the walk out.",
@@ -1098,8 +1088,8 @@
             "start": "2026-09-28T14:49"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 10.1
+            "wave_height_feet": 4.396,
+            "wave_period_seconds": 9.75
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1136,7 +1126,7 @@
           "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.5 ft in daylight 2:49 PM–6:41 PM (3h52m).",
-            "Surf 4.3 ft at 10 s during the window, above this site's 2.5 ft limit.",
+            "Surf 4.4 ft at 10 s during the window, above this site's 2.5 ft limit.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
             "Water rises about 1.0 ft in the hour after 6:41 PM; plan your exit.",
             "The window runs past sunset (6:41 PM); bring a light for the walk out.",
@@ -1152,17 +1142,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 72.8,
+        "apparent_temperature_f": 72.2,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 4.0,
-        "temperature_f": 72.0,
+        "temperature_f": 71.9,
         "temperature_high_f": 77.1,
         "temperature_low_f": 63.8,
         "weather_code": 0,
-        "wind_gusts_mph": 13.6,
-        "wind_speed_mph": 11.8
+        "wind_gusts_mph": 14.1,
+        "wind_speed_mph": 11.9
       }
     },
     {
@@ -1204,7 +1194,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1222,8 +1212,8 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 9.75
+            "wave_height_feet": 4.265,
+            "wave_period_seconds": 9.6
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1254,17 +1244,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 74.1,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 73.3,
+        "temperature_f": 72.7,
         "temperature_high_f": 77.8,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -1325,7 +1315,7 @@
           },
           "window_surf": {
             "wave_height_feet": 4.856,
-            "wave_period_seconds": 9.8
+            "wave_period_seconds": 9.65
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1357,7 +1347,7 @@
               "url": "https://www.sandiegobeachreview.com/post/san-diego-water-quality-and-safe-swimming-spots"
             }
           ],
-          "summary": "San Diego residents are currently monitoring local water quality to plan beach activities. Reports indicate varying conditions across different spots, with some areas showing concerns related to sewage and bacteria levels. Individuals are checking live reports to understand the current state of the water before deciding where to swim or visit (source1)."
+          "summary": "San Diego residents are currently monitoring local water quality to determine which beaches have the best conditions for swimming. Reports indicate that some areas may contain sewage and bacteria, prompting individuals to check live data before entering the water to plan their beach days accordingly (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1369,14 +1359,14 @@
         "apparent_temperature_f": 73.9,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 73.8,
+        "temperature_f": 73.2,
         "temperature_high_f": 77.3,
         "temperature_low_f": 64.6,
         "weather_code": 0,
-        "wind_gusts_mph": 9.4,
-        "wind_speed_mph": 8.1
+        "wind_gusts_mph": 8.7,
+        "wind_speed_mph": 7.5
       }
     },
     {
@@ -1385,7 +1375,7 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 12 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
-          "Surf 4.0 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Surf 3.9 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
           "Water is running 0.8 ft above prediction; expect less exposed reef.",
           "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
@@ -1418,7 +1408,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1436,8 +1426,8 @@
             "start": "2026-09-28T15:16"
           },
           "window_surf": {
-            "wave_height_feet": 4.003,
-            "wave_period_seconds": 9.85
+            "wave_height_feet": 3.937,
+            "wave_period_seconds": 9.7
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1452,7 +1442,7 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:19.1} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:16 PM–6:39 PM (3h23m).",
-            "Surf 4.0 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Surf 3.9 ft at 10 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "Lowest daylight tide since Sat Jul 18; next lower on Sat Oct 10.",
             "Water is running 0.8 ft above prediction; expect less exposed reef.",
             "Water rises about 1.0 ft in the hour after 6:39 PM; plan your exit.",
@@ -1469,7 +1459,7 @@
               "url": "https://patch.com/california/encinitas/avoid-water-contact-these-san-diego-beaches-due-excessive-bacteria"
             }
           ],
-          "summary": "Bacteria levels in the waters near Encinitas, CA, have led to water contact closures and advisories at local beaches (source1). These conditions are associated with potential illness from water contact (source1)."
+          "summary": "Excessive bacteria levels in the waters near Encinitas have led to water contact closures and advisories at several local beaches (source1). These conditions are associated with potential illness from water contact (source1)."
         },
         "window": {
           "end": "2026-09-28T18:39",
@@ -1478,17 +1468,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.7,
+        "apparent_temperature_f": 74.5,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 17.0,
-        "temperature_f": 73.4,
+        "temperature_f": 72.8,
         "temperature_high_f": 77.6,
         "temperature_low_f": 63.4,
         "weather_code": 0,
-        "wind_gusts_mph": 8.7,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.4,
+        "wind_speed_mph": 6.4
       }
     },
     {
@@ -1530,7 +1520,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1549,7 +1539,7 @@
           },
           "window_surf": {
             "wave_height_feet": 4.593,
-            "wave_period_seconds": 9.8
+            "wave_period_seconds": 9.65
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1573,6 +1563,16 @@
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.5}): lowest water in daylight 3:16 PM–6:39 PM."
         },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.theswimguide.org",
+              "url": "https://www.theswimguide.org/beach/1985/"
+            }
+          ],
+          "summary": "The parking lot and beach at the end of Tourmaline Street serve as a cherished social gathering place and community center (source1). It is a location where old friends, stories, and boards converge, offering a brand-new sunset every night (source1). The area is popular with surfers who prefer longboards, despite the waves being described as mushy (source1)."
+        },
         "window": {
           "end": "2026-09-28T18:39",
           "start": "2026-09-28T15:16",
@@ -1583,14 +1583,14 @@
         "apparent_temperature_f": 74.3,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 32.0,
-        "temperature_f": 74.3,
+        "temperature_f": 73.6,
         "temperature_high_f": 78.6,
         "temperature_low_f": 63.9,
         "weather_code": 0,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 7.8
+        "wind_gusts_mph": 8.5,
+        "wind_speed_mph": 7.0
       }
     },
     {
@@ -1632,7 +1632,7 @@
             "daylight": true,
             "feet": 0.069
           },
-          "observed_offset_feet": 0.82,
+          "observed_offset_feet": 0.81,
           "range_feet": 5.93,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.96,
@@ -1651,7 +1651,7 @@
           },
           "window_surf": {
             "wave_height_feet": 4.593,
-            "wave_period_seconds": 9.8
+            "wave_period_seconds": 9.65
           },
           "window_weather": {
             "precipitation_probability": 0,
@@ -1682,46 +1682,46 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 74.0,
+        "apparent_temperature_f": 74.1,
         "forecast_date_local": "2026-09-28",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-09-28T23:30:00Z",
+        "observed_at": "2026-09-29T00:00:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 73.3,
+        "temperature_f": 72.7,
         "temperature_high_f": 77.8,
         "temperature_low_f": 63.7,
         "weather_code": 0,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 7.3
+        "wind_gusts_mph": 7.8,
+        "wind_speed_mph": 7.0
       }
     }
   ],
-  "published_at": "2026-09-28T23:37:18Z",
-  "revision": "2026-09-28T23:37:18Z",
+  "published_at": "2026-09-29T00:02:53Z",
+  "revision": "2026-09-29T00:02:53Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T23:37:18Z",
+      "retrieved_at": "2026-09-29T00:02:53Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T23:37:18Z",
+      "retrieved_at": "2026-09-29T00:02:53Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-09-28T23:37:18Z",
+      "retrieved_at": "2026-09-29T00:02:53Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-09-28T23:37:18Z",
+      "retrieved_at": "2026-09-29T00:02:53Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
