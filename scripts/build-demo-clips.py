@@ -35,29 +35,48 @@ ROOT = Path(__file__).resolve().parent.parent
 # ceiling the page is allowed to spend on it. A recording may run longer than
 # the window: the script cuts the loop to the window, which is what keeps the
 # page inside its budget.
+#
+# `anchor` says which end of the movement the window keeps. These recordings come
+# from a harness that asserts the screen it needs before it stops, so the payoff
+# is at the end of the run: the map selected, the day's guidance present, the tip
+# sheet open. Anchoring at the end keeps that and the seconds that lead to it.
+#
+# `start_s` pins a window to a moment a script cannot detect, such as the row a
+# swipe starts from; `poster_at` picks the frame shown before the clip plays, as
+# a fraction of the loop. Both were read off the 29 September captures with
+# `tesseract` and need checking against a new recording.
 SCENARIOS: dict[str, dict[str, object]] = {
     "where": {
-        "window_s": 8.0,
+        "anchor": "end",
+        "window_s": 14.0,
         "hold_s": 1.0,
-        "target_mb": 0.7,
+        "poster_at": 0.85,
+        "target_mb": 1.4,
         "what": "The Explore list scrolled, then the same sites on the map",
     },
     "when": {
-        "window_s": 8.0,
+        "anchor": "end",
+        "start_s": 57.5,
+        "window_s": 16.0,
         "hold_s": 1.0,
-        "target_mb": 0.7,
+        "target_mb": 1.2,
         "what": "A site page: the day's guidance, hazard bullets, tide and surf",
     },
     "what": {
-        "window_s": 6.0,
+        "anchor": "end",
+        "window_s": 8.0,
+        "poster_at": 0.5,
         "hold_s": 1.0,
-        "target_mb": 0.6,
+        "target_mb": 0.8,
         "what": "A discovery site: estimated guidance and what to expect",
     },
     "tips": {
-        "window_s": 7.0,
+        "anchor": "end",
+        "start_s": 19.0,
+        "window_s": 14.0,
         "hold_s": 1.0,
-        "target_mb": 0.6,
+        "poster_at": 0.85,
+        "target_mb": 1.0,
         "what": "The tip row in the Explore header: swipe on, swipe back, tap to open",
     },
 }
@@ -125,10 +144,14 @@ def movement_span(source: Path, samples: Path) -> tuple[float, float]:
 
 
 def build(scenario: str, source: Path, check_only: bool,
-          window_override: float | None = None, hold_override: float | None = None) -> dict[str, object]:
+          window_override: float | None = None, hold_override: float | None = None,
+          start_override: float | None = None) -> dict[str, object]:
     settings = SCENARIOS[scenario]
     window = float(settings["window_s"]) if window_override is None else window_override
     hold = float(settings["hold_s"]) if hold_override is None else hold_override
+    anchor = str(settings["anchor"])
+    pinned_start = settings.get("start_s")
+    poster_at = float(settings.get("poster_at", 0.5))
     target_bytes = int(float(settings["target_mb"]) * 1024 * 1024)
     clip = ROOT / "demo" / f"{scenario}.mp4"
     poster = ROOT / "demo" / f"{scenario}-poster.jpg"
@@ -139,7 +162,16 @@ def build(scenario: str, source: Path, check_only: bool,
         start = max(0.0, start - HEAD_GRACE_S)
         end = min(duration, end + TAIL_GRACE_S)
         if window > 0:
-            end = min(end, start + window)
+            if start_override is not None:
+                start = max(0.0, start_override)
+                end = min(duration, start + window)
+            elif pinned_start is not None:
+                start = max(0.0, float(pinned_start))
+                end = min(duration, start + window)
+            elif anchor == "end":
+                start = max(0.0, end - window)
+            else:
+                end = min(end, start + window)
         length = max(0.5, end - start)
         report = {
             "scenario": scenario,
@@ -170,7 +202,7 @@ def build(scenario: str, source: Path, check_only: bool,
         )
         run(
             "ffmpeg", "-y", "-v", "error",
-            "-ss", f"{start + length / 2:.3f}", "-i", str(source),
+            "-ss", f"{start + length * poster_at:.3f}", "-i", str(source),
             "-vf", scale, "-frames:v", "1", "-q:v", "4", str(fresh_poster),
         )
         # A clip over budget is not left in demo/: the previous one stays until a
@@ -196,6 +228,8 @@ def main() -> int:
                         help="override the scenario's window; 0 keeps the whole capture")
     parser.add_argument("--hold-seconds", type=float, default=None,
                         help="override the scenario's final hold")
+    parser.add_argument("--start-seconds", type=float, default=None,
+                        help="start the window at this second of the recording")
     arguments = parser.parse_args()
 
     if not arguments.input.exists():
@@ -203,7 +237,7 @@ def main() -> int:
         return 2
     try:
         report = build(arguments.scenario, arguments.input, arguments.check,
-                       arguments.window_seconds, arguments.hold_seconds)
+                       arguments.window_seconds, arguments.hold_seconds, arguments.start_seconds)
     except BuildError as error:
         print(f"build-demo-clips: {error}", file=sys.stderr)
         return 1
