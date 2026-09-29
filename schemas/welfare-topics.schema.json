@@ -4,33 +4,16 @@
   "type": "object",
   "required": ["schema_version", "generated_at", "reviewed_on", "revision", "rotation", "items"],
   "properties": {
-    "schema_version": {"type": "integer", "const": 1},
+    "schema_version": {"type": "integer", "const": 2},
     "generated_at": {"type": "string", "format": "date-time"},
     "reviewed_on": {"type": "string", "format": "date"},
     "revision": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
     "rotation": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["min_minutes_between_shows", "max_shows_per_session", "max_shows_per_day",
-                   "days_before_repeating_an_item", "category_weights",
-                   "never_repeat_previous_in_session", "never_repeat_within_day"],
+      "required": ["min_minutes_between_shows"],
       "properties": {
-        "min_minutes_between_shows": {"type": "integer", "minimum": 5, "maximum": 1440},
-        "max_shows_per_session": {"type": "integer", "minimum": 1, "maximum": 10},
-        "max_shows_per_day": {"type": "integer", "minimum": 1, "maximum": 20},
-        "days_before_repeating_an_item": {"type": "integer", "minimum": 1, "maximum": 365},
-        "repeat_days": {
-          "type": "object", "minProperties": 1,
-          "propertyNames": {"enum": ["biodiversity", "etiquette", "litter", "water-quality", "volunteer"]},
-          "additionalProperties": {"type": "integer", "minimum": 1, "maximum": 365}
-        },
-        "category_weights": {
-          "type": "object", "minProperties": 5, "maxProperties": 5,
-          "propertyNames": {"enum": ["biodiversity", "etiquette", "litter", "water-quality", "volunteer"]},
-          "additionalProperties": {"type": "integer", "minimum": 1, "maximum": 10}
-        },
-        "never_repeat_previous_in_session": {"const": true},
-        "never_repeat_within_day": {"const": true}
+        "min_minutes_between_shows": {"type": "integer", "const": 30}
       }
     },
     "items": {

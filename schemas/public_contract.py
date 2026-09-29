@@ -417,13 +417,6 @@ def validate_welfare_topics(value: dict, schemas: Path = SCHEMAS) -> None:
             require(not any(word in text for word in WELFARE_MEDICAL),
                     f"{field}.{key}", "must not give our own medical or first-aid instruction")
 
-    rotation = value["rotation"]
-    require(set(rotation["category_weights"]) == WELFARE_CATEGORIES,
-            "welfare-topics.rotation.category_weights", "must state a weight for every category")
-    for name, days in rotation.get("repeat_days", {}).items():
-        require(name in WELFARE_CATEGORIES, f"welfare-topics.rotation.repeat_days.{name}", "unknown category")
-        require(days >= 1, f"welfare-topics.rotation.repeat_days.{name}", "must be at least a day")
-
     require(any(item["safety"] == "caution" for item in value["items"]), "welfare-topics.items",
             "the reviewed set must keep the safe-handling item that covers its pickup prompts")
 
