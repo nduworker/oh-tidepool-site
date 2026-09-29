@@ -56,10 +56,11 @@ SCENARIOS: dict[str, dict[str, object]] = {
     },
     "when": {
         "anchor": "end",
-        "start_s": 57.5,
-        "window_s": 16.0,
+        "start_s": 28.5,
+        "window_s": 15.0,
         "hold_s": 1.0,
-        "target_mb": 1.2,
+        "poster_at": 0.2,
+        "target_mb": 1.4,
         "what": "A site page: the day's guidance, hazard bullets, tide and surf",
     },
     "what": {
@@ -193,15 +194,19 @@ def build(scenario: str, source: Path, check_only: bool,
         scale = f"scale='min({WIDTH},iw)':-2:flags=lanczos"
         fresh_clip = Path(workspace) / "clip.mp4"
         fresh_poster = Path(workspace) / "poster.jpg"
+        # `-ss` goes after `-i` on purpose. Seeking before the input on these
+        # simulator recordings lands on the wrong frame, tens of seconds away,
+        # because QuickTime's edit list does not survive the fast seek. Decoding
+        # up to the moment costs a few seconds per build and is exact.
         run(
             "ffmpeg", "-y", "-v", "error",
-            "-ss", f"{start:.3f}", "-t", f"{length + hold:.3f}", "-i", str(source),
+            "-i", str(source), "-ss", f"{start:.3f}", "-t", f"{length + hold:.3f}",
             "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", str(CRF),
             "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", str(fresh_clip),
         )
         run(
             "ffmpeg", "-y", "-v", "error",
-            "-ss", f"{start + length * poster_at:.3f}", "-i", str(source),
+            "-i", str(source), "-ss", f"{start + length * poster_at:.3f}",
             "-vf", scale, "-frames:v", "1", "-q:v", "4", str(fresh_poster),
         )
         # A clip over budget is not left in demo/: the previous one stays until a
