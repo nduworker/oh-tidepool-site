@@ -110,16 +110,18 @@ def movement_span(source: Path, samples: Path) -> tuple[float, float]:
         raise BuildError("the recording produced no frames")
 
     previous: Image.Image | None = None
-    first = last = 0
+    first: int | None = None
+    last = 0
     for index, path in enumerate(frames):
         thumb = Image.open(path)
         if previous is not None:
             difference = ImageStat.Stat(ImageChops.difference(thumb, previous)).mean[0]
             if difference >= CHANGE_THRESHOLD:
-                first = first or index - 1
+                if first is None:
+                    first = max(index - 1, 0)
                 last = index
         previous = thumb
-    return first / SAMPLE_FPS, last / SAMPLE_FPS
+    return (first or 0) / SAMPLE_FPS, last / SAMPLE_FPS
 
 
 def build(scenario: str, source: Path, check_only: bool,
