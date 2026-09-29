@@ -1,0 +1,1097 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T03:47:11Z",
+  "reviewed_on": "2026-09-29",
+  "revision": "sha256:0766a6138cea98bbb3129e242bd9ed1605ebbe5a33f947d114cd14fde9a9038b",
+  "rotation": {
+    "min_minutes_between_shows": 30,
+    "max_shows_per_session": 3,
+    "max_shows_per_day": 5,
+    "days_before_repeating_an_item": 7,
+    "category_weights": {
+      "biodiversity": 2,
+      "etiquette": 3,
+      "litter": 3,
+      "volunteer": 1,
+      "water-quality": 1
+    },
+    "never_repeat_previous_in_session": true,
+    "never_repeat_within_day": true
+  },
+  "items": [
+    {
+      "id": "star-wasting-disease",
+      "category": "biodiversity",
+      "headline": "A disease emptied West Coast tidepools",
+      "body": "From 2013 to 2017 a wasting disease killed sea stars across the West Coast. More than 97% of sunflower stars died from Washington to Mexico. Scientists are still working out exactly what triggers it, and how to help the survivors.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Fisheries",
+        "url": "https://www.fisheries.noaa.gov/species/sunflower-sea-star",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2025-09-11"
+      },
+      "why": "With fewer sea stars, mussels and urchins can overgraze and crowd out other tidepool life."
+    },
+    {
+      "id": "mussel-beds-habitat",
+      "category": "biodiversity",
+      "headline": "Mussel beds are housing for many animals",
+      "body": "California mussels cement themselves to the rock in dense beds. Those beds shelter barnacles, snails, crabs, worms and small fish, which is why a mussel bed is one of the richest places in a tidepool.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Losing a mussel bed removes shelter for dozens of small species that live among the shells."
+    },
+    {
+      "id": "keystone-species",
+      "category": "biodiversity",
+      "headline": "One animal can hold a whole pool together",
+      "body": "A keystone species matters far more than its numbers suggest. Sea stars eat mussels and urchins; remove the stars and mussels or urchins can take over the rock and crowd out other life. Protecting one species can protect many.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Remove a keystone animal and the community can flip: one species takes the rock and the rest lose out.",
+      "action": "Leave every animal where it is, even the ones that look like rocks."
+    },
+    {
+      "id": "why-biodiversity-matters",
+      "category": "biodiversity",
+      "headline": "Why a diverse tidepool is a healthy one",
+      "body": "A tidepool with many species is more resilient. If one is lost, others can fill its role. California's Marine Protected Areas exist to protect that diversity and abundance, and the habitats these species depend on.",
+      "safety": "ok",
+      "source": {
+        "name": "California Department of Fish and Wildlife",
+        "url": "https://wildlife.ca.gov/Conservation/Marine/MPAs",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "A pool with many species can absorb the loss of one; a pool with few has nothing to fall back on."
+    },
+    {
+      "id": "tidepool-zones",
+      "category": "biodiversity",
+      "headline": "The tidepool is divided into bands",
+      "body": "Walking down from dry land you pass zones: lichens and periwinkle snails at the top, then barnacles, then mussels and the low pools. Each band is set by how long an animal can survive out of water.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Ocean Explorer",
+        "url": "https://archive.oceanexplorer.noaa.gov/explorations/03windows/background/chemosynthetic/chemo.html",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "archived reference page"
+      },
+      "why": "Each zone is a different habitat, so crossing a pool crosses several communities at once."
+    },
+    {
+      "id": "surfgrass-is-a-flowering-plant",
+      "category": "biodiversity",
+      "headline": "Surfgrass is a flower, not a seaweed",
+      "body": "Surfgrass looks like grass and grows on rocks in the low intertidal, but it is a true flowering plant with roots and flowers, unlike kelp and other algae. Its beds shelter young fish, small invertebrates and juvenile spiny lobster.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Channel Islands",
+        "url": "https://www.nps.gov/chis/learn/nature/surfgrass.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2020-07-22"
+      },
+      "why": "Surfgrass beds shelter young fish and invertebrates, so a trampled bed is lost nursery habitat."
+    },
+    {
+      "id": "owl-limpet-keeps-rock-diverse",
+      "category": "biodiversity",
+      "headline": "The owl limpet keeps the rock diverse",
+      "body": "The owl limpet is the Pacific Coast's largest limpet. As it grazes algae it also shoves smaller barnacles and limpets off its patch, stopping any one species from taking over. That keeps the rock's other life in play.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/blogs/species-spotlight-owl-limpet-lottia-gigantea.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "2017-11-13"
+      },
+      "why": "Owl limpets keep the rock open to many species; remove them and a few species dominate.",
+      "action": "Let limpets stay put; they look like stones but they are alive."
+    },
+    {
+      "id": "owl-limpet-getting-smaller",
+      "category": "biodiversity",
+      "headline": "Owl limpets are getting smaller",
+      "body": "Long-running surveys at Cabrillo find owl limpets are still here but smaller on average. These limpets become female as they grow, so fewer large ones means slower breeding. Taking the biggest is the suspected cause.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/blogs/species-spotlight-owl-limpet-lottia-gigantea.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "2017-11-13"
+      },
+      "why": "Fewer large limpets means fewer females, so the population breeds more slowly and keeps shrinking.",
+      "action": "Don't take the biggest limpets; they are the females the population needs."
+    },
+    {
+      "id": "chiton-turban-snail",
+      "category": "biodiversity",
+      "headline": "Eight plates, and a shell that moves house",
+      "body": "Chitons clamp down under a shell of eight overlapping plates and can roll up like a pill bug. Black turban snails cluster nearby, and when one dies its shell often becomes a hermit crab's new home.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Worn shells become hermit crab homes, so removing shells removes shelter for another animal.",
+      "action": "Leave empty shells in place; a hermit crab may be waiting to move in."
+    },
+    {
+      "id": "look-dont-touch",
+      "category": "etiquette",
+      "headline": "Look, don't touch",
+      "body": "Most tidepool animals are coated in a protective slime, and dry hands damage it. Watch where you step, step only on bare rock or sand, and keep hands, sticks and nets away from the animals.",
+      "safety": "ok",
+      "source": {
+        "name": "California Coastal Commission",
+        "url": "https://coastal.ca.gov/publiced/tidepooling.html",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Touching rubs off the slime coat that protects animals from drying out and infection.",
+      "action": "Watch with your eyes and step on bare rock only."
+    },
+    {
+      "id": "dont-pry",
+      "category": "etiquette",
+      "headline": "Never pry an animal off the rock",
+      "body": "Limpets, chitons, mussels and sea stars grip hard for a reason. Prying one loose usually kills it. Watch it where it lives instead.",
+      "safety": "ok",
+      "source": {
+        "name": "California Coastal Commission",
+        "url": "https://coastal.ca.gov/publiced/tidepooling.html",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "A pried-off animal usually dies, and the gap it leaves changes what can settle there.",
+      "action": "Never pull a limpet, chiton or sea star from the rock."
+    },
+    {
+      "id": "do-not-turn-rocks",
+      "category": "etiquette",
+      "headline": "Don't turn rocks over",
+      "body": "Half the life in a tidepool hides underneath. Flipping a rock exposes animals to sun and predators and can crush whatever is beneath it. Leave every rock exactly as you found it.",
+      "safety": "ok",
+      "source": {
+        "name": "California State Parks",
+        "url": "https://www.parks.ca.gov/?page_id=25082",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Under every rock is shelter; turning it exposes animals to sun, birds and crushing.",
+      "action": "Leave every rock exactly as you found it."
+    },
+    {
+      "id": "dont-collect",
+      "category": "etiquette",
+      "headline": "Collecting is illegal in most tidepools",
+      "body": "Shells, rocks, plants and animals are all part of the ecosystem, and in most California tidepools collecting them is illegal. Even picking something up and putting it back can harm it.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Collecting removes animals and shells that other species use for food and shelter.",
+      "action": "Take photos, not shells, rocks, plants or animals."
+    },
+    {
+      "id": "keep-dogs-out",
+      "category": "etiquette",
+      "headline": "Keep dogs off the rocks",
+      "body": "Pets disturb and damage native wildlife and habitat, and dogs are banned on many state beaches and unpaved shorelines. Leave your dog at home when you visit the intertidal.",
+      "safety": "ok",
+      "source": {
+        "name": "Crystal Cove State Park",
+        "url": "https://www.crystalcovestatepark.org/ocean-safety/",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Pets disturb and damage the wildlife and habitat of the intertidal zone.",
+      "action": "Leave your dog at home when you visit the rocks."
+    },
+    {
+      "id": "start-at-low-tide",
+      "category": "etiquette",
+      "headline": "Start as the tide goes out",
+      "body": "The pools only appear at low tide. Begin while the tide is still falling so you have longer before it returns, and check the tide chart first. If there is a high surf advisory, pick another day.",
+      "safety": "ok",
+      "source": {
+        "name": "California State Parks",
+        "url": "https://www.parks.ca.gov/?page_id=25082",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Starting on the falling tide gives you a longer safe window before the water returns.",
+      "action": "Check the tide chart and start as the tide goes out."
+    },
+    {
+      "id": "leave-it-cleaner",
+      "category": "litter",
+      "headline": "Leave it cleaner than you found it",
+      "body": "Picking up litter is one of the most useful things a visitor can do for a tidepool. Carry out what you find, along with everything you brought, so the next low tide is a little better.",
+      "safety": "caution",
+      "source": {
+        "name": "California Coastal Commission",
+        "url": "https://coastal.ca.gov/publiced/tidepooling.html",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "caution": "If you don't know what an item is, don't touch it. If it appears hazardous, contact the appropriate authorities.",
+      "why": "Litter left on the rocks washes into the sea, where animals eat it or get tangled.",
+      "action": "Bring gloves and a bag; recycle what you can when you leave."
+    },
+    {
+      "id": "litter-safety-gloves",
+      "category": "litter",
+      "headline": "Pick up litter carefully, with gloves",
+      "body": "Bring gloves and a bag. If you don't know what an item is, don't touch it. If it looks hazardous, tell the cleanup leader or the authorities rather than handling it yourself. Never pick up needles or broken glass.",
+      "safety": "caution",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/marine-debris-handling-guidelines",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2026-06-22"
+      },
+      "caution": "If you don't know what an item is, don't touch it. If it appears hazardous, contact the appropriate authorities.",
+      "why": "Sharps and unknown items can injure you or carry contamination, so gloves and caution matter.",
+      "action": "Bring gloves; if you don't know what an item is, don't touch it."
+    },
+    {
+      "id": "monofilament-entangles",
+      "category": "litter",
+      "headline": "Lost fishing line entangles wildlife",
+      "body": "Lost line and gear are the most common ocean-based debris. Seals, sea lions, sea turtles and seabirds get tangled in line, bags and nets, which can cut them, infect them, drown them or starve them.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Fisheries",
+        "url": "https://www.fisheries.noaa.gov/insight/entanglement-marine-life-risks-and-response",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Line and nets keep catching animals long after they are lost, cutting, drowning or starving them.",
+      "action": "Carry out fishing line you find; many piers have line-recycling bins."
+    },
+    {
+      "id": "microplastics-eaten",
+      "category": "litter",
+      "headline": "Microplastics get eaten",
+      "body": "Plastic breaks down into fragments smaller than 5 mm, called microplastics. They are now throughout the ocean, and animals from zooplankton to mussels mistake them for food. What we leave behind can become them.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/what-marine-debris/microplastics",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Animals that eat plastic can starve, and contaminants move up the food chain."
+    },
+    {
+      "id": "where-the-bag-goes",
+      "category": "litter",
+      "headline": "Where your bag of litter goes",
+      "body": "Tie the bag and take it to a bin or recycling point on the way out. Some piers, docks and tackle shops have bins that collect fishing line for recycling instead of landfill.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/how-help/water",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2025-05-28"
+      },
+      "why": "Bagged litter that reaches a bin stops being marine debris and can be recycled.",
+      "action": "Tie your bag and put it in a bin on your way out."
+    },
+    {
+      "id": "rain-advisory-72",
+      "category": "water-quality",
+      "headline": "Rain makes the water riskier for 72 hours",
+      "body": "After about 0.2 inches of rain, urban runoff raises bacteria levels, especially near storm drains, rivers and lagoon outlets. County health officials advise avoiding contact with ocean and bay water for 72 hours after the rain stops.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "Runoff carries bacteria into the pools where animals and visitors share the water.",
+      "action": "Avoid water contact for 72 hours after the rain stops."
+    },
+    {
+      "id": "advisories-explained",
+      "category": "water-quality",
+      "headline": "Advisory, warning, closure: what they mean",
+      "body": "An advisory warns that bacteria exceeded health standards. A warning adds south-swell conditions pushing contamination north from the border. A closure means a sewage or chemical spill. All mean stay out of the water.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "Elevated bacteria mean illness risk for anyone in the water, and the signs mark the area.",
+      "action": "Check the posted sign and stay out of posted water."
+    },
+    {
+      "id": "tijuana-river-sewage",
+      "category": "water-quality",
+      "headline": "Sewage can reach San Diego beaches from the south",
+      "body": "The Tijuana River carries untreated sewage and runoff across the border, and south-swell currents can push it north, sometimes closing southern San Diego beaches. The U.S. and Mexico are building treatment and capture projects to stop it.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. Environmental Protection Agency",
+        "url": "https://www.epa.gov/sustainable-water-infrastructure/tijuana-river-watershed-public-updates",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "quarterly updates; latest 2026-06-30"
+      },
+      "why": "When contamination flows north it reaches intertidal habitat and closes beaches for days.",
+      "action": "Check beach status before visiting South County sites."
+    },
+    {
+      "id": "check-before-you-go",
+      "category": "water-quality",
+      "headline": "Check conditions before a water visit",
+      "body": "County health staff test beach water and publish the status. Check sdbeachinfo.com or call (619) 338-2073 before you go, and check again after any rain.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "Water quality changes fast after rain, so yesterday's all-clear can be today's advisory.",
+      "action": "Check sdbeachinfo.com or call (619) 338-2073 first."
+    },
+    {
+      "id": "sea-level-rise-tidepools",
+      "category": "water-quality",
+      "headline": "Sea level rise will squeeze the intertidal",
+      "body": "Rocky intertidal animals live in a narrow band between the tides. As sea level rises the band is pushed against fixed shoreline, so the habitat can shrink and its community change. Low tides may reveal less in future.",
+      "safety": "ok",
+      "source": {
+        "name": "PeerJ (via PubMed record) — 'Future sea-level rise drives rocky intertidal habitat loss and benthic community change'",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32523810/",
+        "accessed_at": "2026-09-29",
+        "license": "cc-by",
+        "source_date": "2020"
+      },
+      "why": "The intertidal band is squeezed against fixed shoreline, so its habitat and species can shrink."
+    },
+    {
+      "id": "wildcoast-mpa-watch",
+      "category": "volunteer",
+      "headline": "Count how people use Marine Protected Areas",
+      "body": "MPA Watch trains volunteers to record how people use the coast inside and outside Marine Protected Areas. San Diego County's program is run by WILDCOAST. Statewide, volunteers have submitted tens of thousands of surveys.",
+      "safety": "ok",
+      "source": {
+        "name": "MPA Watch (citizen-science network)",
+        "url": "https://portal.mpawatch.org/site/volunteer",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (live counter 60,060 surveys as read 2026-09-29)"
+      },
+      "why": "Survey data tell managers whether protection is working, which shapes how MPAs are run.",
+      "action": "Join an MPA Watch training through WILDCOAST."
+    },
+    {
+      "id": "coastkeeper-cleanups",
+      "category": "volunteer",
+      "headline": "Clean up or survey with San Diego Coastkeeper",
+      "body": "San Diego Coastkeeper coordinates beach and inland cleanups, water-quality monitoring and workshops. Its volunteer page shows how to join a cleanup or a monitoring program.",
+      "safety": "ok",
+      "source": {
+        "name": "San Diego Coastkeeper",
+        "url": "https://sdcoastkeeper.org/",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current site)"
+      },
+      "why": "Cleanups remove debris and produce the water-quality data used to protect local waterways.",
+      "action": "Sign up for a Coastkeeper cleanup or monitoring shift."
+    },
+    {
+      "id": "surfrider-sd",
+      "category": "volunteer",
+      "headline": "Join a beach cleanup with Surfrider",
+      "body": "The Surfrider Foundation's San Diego County chapter runs regular beach cleanups and local campaigns. Its volunteer page is the way into the chapter's network.",
+      "safety": "ok",
+      "source": {
+        "name": "Surfrider Foundation — San Diego County chapter",
+        "url": "https://sandiego.surfrider.org/",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current site)"
+      },
+      "why": "Regular cleanups keep debris off the beach before the tide carries it out to sea.",
+      "action": "Join a Surfrider San Diego beach cleanup."
+    },
+    {
+      "id": "coastal-cleanup-day",
+      "category": "volunteer",
+      "headline": "California's biggest volunteer cleanup day",
+      "body": "Coastal Cleanup Day is the state's largest single volunteer event for the coast, with sites across the county. Find a nearby site on the Join a Cleanup page.",
+      "safety": "ok",
+      "source": {
+        "name": "California Coastal Commission (Coastal Cleanup Day)",
+        "url": "https://www.coastalcleanupday.org/",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current site)"
+      },
+      "why": "One big cleanup day clears a season of debris from many sites at once.",
+      "action": "Find a site near you on the Join a Cleanup page."
+    },
+    {
+      "id": "birch-aquarium-tide-pool-interpreter",
+      "category": "volunteer",
+      "headline": "Become a tide pool interpreter",
+      "body": "Birch Aquarium in La Jolla trains volunteers — minimum age 16, one four-hour shift a week for at least six months. Everyone starts as a Tide Pool Interpreter or Greeter.",
+      "safety": "ok",
+      "source": {
+        "name": "Birch Aquarium at Scripps (UC San Diego)",
+        "url": "https://aquarium.ucsd.edu/about/volunteer",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Interpreters reach thousands of visitors, so good guidance multiplies along the coast.",
+      "action": "Apply to volunteer; everyone starts as a Tide Pool Interpreter."
+    },
+    {
+      "id": "urchin-kelp-graze",
+      "category": "biodiversity",
+      "headline": "Purple urchins can strip a kelp bed bare",
+      "body": "Purple sea urchins graze kelp constantly. Where their predators are gone they multiply and mow the kelp down to bare rock, leaving an 'urchin barren' with far fewer species.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Losing a predator turns a diverse kelp bed into bare rock, so the whole community shrinks."
+    },
+    {
+      "id": "bat-star-colours",
+      "category": "biodiversity",
+      "headline": "Bat stars come in every colour",
+      "body": "Bat stars appear in red, orange, brown and more, and unlike other sea stars they have webbing between their five arms. In pools they are usually small and hide under rocks or on sand.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Many colour forms in one species show how much variety a single pool can hold."
+    },
+    {
+      "id": "two-spot-octopus",
+      "category": "biodiversity",
+      "headline": "A pool can look empty and still have an octopus",
+      "body": "Two-spot octopuses live in holes and crevices and change colour and texture to match the rock using pigment cells. That camouflage is why a pool can seem empty while a predator is watching.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Camouflaged octopuses hide in plain sight, so a quiet pool may still be full of life.",
+      "action": "Look into crevices from a distance instead of reaching in."
+    },
+    {
+      "id": "sea-hare-ink",
+      "category": "biodiversity",
+      "headline": "The sea hare hides behind a cloud of ink",
+      "body": "California sea hares are soft-bodied sea slugs that graze red seaweeds, which gives them their colour. Disturbed, they release a thick cloud of ink to distract predators.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Sea hares turn red algae into their own colour and armour, linking the pool to its algae."
+    },
+    {
+      "id": "aggregating-anemone",
+      "category": "biodiversity",
+      "headline": "Anemones are the pool's fishing nets",
+      "body": "The large green anemone catches passing animals with stinging cells called nematocysts. Its colour comes from algae living inside it, so it depends on sunlight as well as on what drifts past.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Anemones catch drifting animals, so they link the pool to food produced in open water."
+    },
+    {
+      "id": "shore-crab",
+      "category": "biodiversity",
+      "headline": "Shore crabs are the pool's recyclers",
+      "body": "Shore crabs hide in crevices in the mid and upper intertidal and eat plant material and detritus. By breaking down dead material they return nutrients to the pool.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Detritus feeders recycle nutrients, keeping the pool productive for everything else."
+    },
+    {
+      "id": "gooseneck-barnacles",
+      "category": "biodiversity",
+      "headline": "Barnacles glue themselves down for life",
+      "body": "Once a gooseneck barnacle settles as a larva it never moves again. It filter-feeds with feathery legs called cirri, catching plankton when the tide covers it.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Filter feeders turn plankton into food for the rest of the pool, including predators."
+    },
+    {
+      "id": "sand-castle-worm-reef",
+      "category": "biodiversity",
+      "headline": "Tiny worms build reefs out of sand",
+      "body": "Sand-castle worms cement grains of sand and shell into honeycomb colonies that can grow as large as six feet across. Those reefs become new hard surfaces for other species to settle on.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Their cemented tubes create habitat where bare sand would otherwise support little."
+    },
+    {
+      "id": "coralline-algae",
+      "category": "biodiversity",
+      "headline": "Pink crusts are among the most common life here",
+      "body": "Coralline algae take calcium from seawater to build stony pink segments, and in Southern California they may be the most abundant intertidal species. Small grazers depend on them.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Coralline crusts cement rock surfaces and give small grazers food and a place to settle."
+    },
+    {
+      "id": "sea-lettuce-pioneer",
+      "category": "biodiversity",
+      "headline": "Sea lettuce feeds the grazers",
+      "body": "Sea lettuce forms dense green turf on rocks in the mid and low intertidal. It grows fast, and grazers such as owl limpets depend on it as a staple food.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2021-06-25"
+      },
+      "why": "Fast-growing algae are the base of the pool's food web, feeding limpets and snails."
+    },
+    {
+      "id": "tidepool-season-winter",
+      "category": "biodiversity",
+      "headline": "Fall and winter are the best tidepool season",
+      "body": "The lowest tides happen in daylight in late fall and winter, which is when the most life is exposed. In summer the lowest tides often fall at night, so there is far less to see.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Daylight low tides expose the lower pools where most species live, so timing sets what you see.",
+      "action": "Plan visits for daylight low tides in fall and winter."
+    },
+    {
+      "id": "negative-low-tide",
+      "category": "biodiversity",
+      "headline": "Aim for a low tide of 0.7 feet or less",
+      "body": "At Cabrillo a tide of 0.7 feet or lower gives the best tidepooling, and the viewing window runs about an hour either side of low tide. Arrive as the water is still falling.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Only the lowest tides uncover the outer pools, which hold the richest community.",
+      "action": "Check the chart and go when the low is 0.7 ft or lower."
+    },
+    {
+      "id": "keep-distance-from-seals",
+      "category": "etiquette",
+      "headline": "Seals need the beach more than we do",
+      "body": "Harbour seals rest and warm up on shore, and disturbing them is prohibited under the Marine Mammal Protection Act. Approaching a haul-out costs them the rest they depend on.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Undisturbed rest is what lets seals survive cold water; crowding them is also illegal.",
+      "action": "Give seals plenty of room and never block their path to the water."
+    },
+    {
+      "id": "dont-handle-moving-animals",
+      "category": "etiquette",
+      "headline": "If it is running away, you are too close",
+      "body": "An animal that is swimming off, hiding, or resisting being held is already stressed. Chasing or picking it up spends energy it needs to survive the next low tide.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Stressed animals burn the energy reserves that get them through hours out of water.",
+      "action": "If it moves away or hides, step back and watch from a distance."
+    },
+    {
+      "id": "dont-poke-anemones",
+      "category": "etiquette",
+      "headline": "Never poke an anemone",
+      "body": "Anemones are soft-bodied, and their stinging cells are how they feed and defend themselves. Poking or squeezing them damages tissue the animal needs to survive.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Damaged feeding and defence cells leave the animal unable to catch food or repel predators.",
+      "action": "Never poke an anemone or squeeze a sea hare."
+    },
+    {
+      "id": "leave-rock-orientation",
+      "category": "etiquette",
+      "headline": "Put rocks back the same way up",
+      "body": "A rock has a top that receives light and an underside that provides shelter. Restoring it in the wrong orientation leaves the animals underneath exposed and kills the algae on top.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Orientation decides what grows on a rock and what can shelter beneath it.",
+      "action": "Leave each rock in the same place and the same way up."
+    },
+    {
+      "id": "no-tools-buckets",
+      "category": "etiquette",
+      "headline": "Leave the bucket and net behind",
+      "body": "Buckets, nets and prying tools concentrate animals, heat them and stress them. Tidepool areas ask visitors not to bring containers, nets, scraping instruments or pry tools at all.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Contained animals overheat fast, and prying tools break the rock surface other species live on.",
+      "action": "Leave containers, nets and tools behind."
+    },
+    {
+      "id": "dont-throw-rocks",
+      "category": "etiquette",
+      "headline": "Don't throw rocks, ever",
+      "body": "Throwing rocks crushes animals and smashes the surfaces other species attach to. In a park it is also prohibited, and the damage is visible for years.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Broken rock surfaces remove the attachment points that mussels, barnacles and algae need.",
+      "action": "Never throw rocks or anything else in the park."
+    },
+    {
+      "id": "wear-grippy-shoes",
+      "category": "etiquette",
+      "headline": "Wear shoes that grip",
+      "body": "Algae-covered rock is extremely slippery, and rangers advise closed-toe shoes with gripping soles. Sandals and flip-flops are strongly discouraged, and falling crushes whatever is underneath you.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "A fall injures the visitor and crushes the animals on the rock where they land.",
+      "action": "Wear closed-toe shoes with good grip and keep your hands free."
+    },
+    {
+      "id": "keep-children-close",
+      "category": "etiquette",
+      "headline": "Keep small children within reach",
+      "body": "Excitement at the pools turns into a slip or tumble very quickly. Rangers ask visitors to keep small children close on the rocks, for their safety and for the animals'.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/learn/nature/tidepools.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Children's speed on wet rock is the fastest route to a fall and to crushed habitat.",
+      "action": "Keep small children within arm's reach on the rocks."
+    },
+    {
+      "id": "never-turn-your-back",
+      "category": "etiquette",
+      "headline": "Never turn your back on the ocean",
+      "body": "Sneaker waves can arrive higher and stronger than the ones before, and the incoming tide can cut off a rock with no warning. Keep watching the water and keep your exit open.",
+      "safety": "ok",
+      "source": {
+        "name": "California State Parks",
+        "url": "https://www.parks.ca.gov/?page_id=25082",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Waves and the rising tide cut off rocks quickly, which endangers you and the habitat.",
+      "action": "Keep facing the ocean and keep your route to dry land open."
+    },
+    {
+      "id": "report-poaching-caltip",
+      "category": "etiquette",
+      "headline": "Report poaching in a protected area",
+      "body": "Collecting and fishing are prohibited in a state marine reserve, and wardens rely on the public to report violations. California's CalTIP line takes reports 24 hours a day.",
+      "safety": "ok",
+      "source": {
+        "name": "California State Parks",
+        "url": "https://www.parks.ca.gov/?page_id=25082",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Protected areas only work if violations are reported, so a call protects the whole community.",
+      "action": "Report poaching to CalTIP on 1-888-334-2258."
+    },
+    {
+      "id": "know-if-youre-in-an-mpa",
+      "category": "etiquette",
+      "headline": "It is your job to know the boundary",
+      "body": "Most MPA boundaries follow landmarks and straight lines, but some are complex and unmarked. The state says it is ultimately up to the user to determine whether they are inside one.",
+      "safety": "ok",
+      "source": {
+        "name": "California Department of Fish and Wildlife",
+        "url": "https://wildlife.ca.gov/Conservation/Marine/MPAs",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Rules change at the boundary, so a few metres can be the difference between legal and a violation.",
+      "action": "Check the MPA map before you take anything anywhere."
+    },
+    {
+      "id": "smr-means-no-take",
+      "category": "etiquette",
+      "headline": "In a reserve, take nothing at all",
+      "body": "California recognises three kinds of marine protected area. A state marine reserve allows no extractive activity at all, with scientific collecting only under permit — no shells, no seaweed, no exceptions.",
+      "safety": "ok",
+      "source": {
+        "name": "California Department of Fish and Wildlife",
+        "url": "https://wildlife.ca.gov/Conservation/Marine/MPAs",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Reserves are the strictest protection, so even a shell or a handful of algae is off limits.",
+      "action": "In a state marine reserve, take nothing at all."
+    },
+    {
+      "id": "trash-starts-inland",
+      "category": "litter",
+      "headline": "Beach litter usually starts inland",
+      "body": "Trash dropped miles from the coast can be blown or washed into storm drains and rivers and end up on the beach. Picking up litter away from the shore prevents marine debris before it forms.",
+      "safety": "caution",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/discover-marine-debris/how-help",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2025-06-05"
+      },
+      "caution": "If you don't know what an item is, don't touch it. If it appears hazardous, contact the appropriate authorities.",
+      "why": "Most marine debris originates on land, so inland pickups prevent beach litter.",
+      "action": "Bring gloves; if you don't know what an item is, don't touch it."
+    },
+    {
+      "id": "cigarette-butts-plastic",
+      "category": "litter",
+      "headline": "Cigarette butts are made of plastic",
+      "body": "Cigarette butts are the most common form of marine litter. Most filters are cellulose acetate, a plastic-like material that does not degrade. Sunlight breaks a single filter into thousands of tiny microplastics.",
+      "safety": "caution",
+      "source": {
+        "name": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/most-common-ocean-litter.html",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "caution": "If you don't know what an item is, don't touch it. If it appears hazardous, contact the appropriate authorities.",
+      "why": "Plastic filters never disappear, and each butt sheds thousands of microplastics into the water.",
+      "action": "Bring gloves; if you don't know what an item is, don't touch it."
+    },
+    {
+      "id": "derelict-gear-ghost-fishing",
+      "category": "litter",
+      "headline": "Lost nets keep working after they are lost",
+      "body": "Derelict fishing gear, such as lost lines, nets, pots and traps, keeps trapping and killing fish, crustaceans, marine mammals, sea turtles and seabirds. That is called ghost fishing, and the gear also drags across and damages seafloor habitats.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/what-marine-debris/derelict-fishing-gear",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "n/a (current page)"
+      },
+      "why": "Ghost gear keeps killing long after it is lost, and it scrapes the seafloor habitats other species need.",
+      "action": "Bring your line and gear home; use recycling bins where they exist."
+    },
+    {
+      "id": "count-what-you-collect",
+      "category": "litter",
+      "headline": "Count what you pick up",
+      "body": "Counting and logging what you collect turns a cleanup into data. Those numbers show where debris comes from and which items to target, so a walk on the beach becomes evidence.",
+      "safety": "caution",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/discover-marine-debris/how-help",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2025-06-05"
+      },
+      "caution": "If you don't know what an item is, don't touch it. If it appears hazardous, contact the appropriate authorities.",
+      "why": "Counted debris becomes the data that drives prevention, not just a tidy beach.",
+      "action": "If an item looks hazardous, tell the authorities instead of touching it."
+    },
+    {
+      "id": "monofilament-bins",
+      "category": "litter",
+      "headline": "Recycle your fishing line",
+      "body": "Many piers, docks, boat launches and tackle shops have bins that collect monofilament for recycling. Line that reaches a bin cannot reach an animal.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA Marine Debris Program",
+        "url": "https://marinedebris.noaa.gov/how-help/water",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "last updated 2025-05-28"
+      },
+      "why": "Recycled line is removed from the water permanently, removing an entanglement risk.",
+      "action": "Use a monofilament recycling bin at the pier."
+    },
+    {
+      "id": "storm-drain-75-feet",
+      "category": "water-quality",
+      "headline": "Stay 75 feet from storm drains",
+      "body": "Bacteria levels rise sharply in runoff at storm drains, rivers and lagoon outlets. County health officials direct beach users to stay at least 75 feet from runoff and from the water near it.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "Runoff is the most contaminated water on the beach, and drains stay posted year-round.",
+      "action": "Stay 75 feet away from storm drains and lagoon outlets."
+    },
+    {
+      "id": "enterococcus-test",
+      "category": "water-quality",
+      "headline": "What the county actually tests for",
+      "body": "San Diego County tests beach water for Enterococcus bacteria. It indicates possible disease-causing organisms, but it is not specific to humans: wildlife, pets, soil and rotting kelp can raise it too.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "The indicator flags possible pathogens without proving their source, so a high reading means stay out."
+    },
+    {
+      "id": "lagoon-outlets-posted",
+      "category": "water-quality",
+      "headline": "White signs mark permanently risky water",
+      "body": "Many storm drains, rivers and lagoon outlets are permanently posted with white warning signs because their bacteria levels can rise at any time, rain or not.",
+      "safety": "ok",
+      "source": {
+        "name": "County of San Diego, Department of Environmental Health and Quality",
+        "url": "https://www.sandiegocounty.gov/content/dam/sdc/deh/lwqd/Beach&Bay/DEHQ_bb_public_summary.pdf",
+        "accessed_at": "2026-09-29",
+        "license": "no-license-stated",
+        "source_date": "n/a (program summary)"
+      },
+      "why": "Permanent signage marks outlets that are risky even on dry days, so the sign is the signal.",
+      "action": "Look for the white outfall signs before entering the water."
+    },
+    {
+      "id": "tijuana-projects-progress",
+      "category": "water-quality",
+      "headline": "Treatment projects are cutting the flow",
+      "body": "Under a 2025 US-Mexico agreement, projects are under construction to capture and treat Tijuana River sewage: new pumping to 80 million gallons a day, river gates, and expansion of the South Bay plant toward 50 million gallons a day.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. Environmental Protection Agency",
+        "url": "https://www.epa.gov/sustainable-water-infrastructure/tijuana-river-watershed-public-updates",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "quarterly updates; latest 2026-06-30 (figures go stale — re-check)"
+      },
+      "why": "Each project reduces the volume of untreated sewage that can reach San Diego beaches."
+    },
+    {
+      "id": "habitat-loss-climate",
+      "category": "water-quality",
+      "headline": "Intertidal life lives at its limit",
+      "body": "Animals in the intertidal zone face ocean conditions at high tide and air at low tide, and body temperatures can swing 10–20°C in one low tide. That makes them an early indicator of a warming climate.",
+      "safety": "ok",
+      "source": {
+        "name": "NOAA National Centers for Coastal Ocean Science (NCCOS)",
+        "url": "https://coastalscience.noaa.gov/project/climate-change-impacts-intertidal-zone-populations/",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "project 2004–2010; page published 2017-07-26"
+      },
+      "why": "Species already at their thermal limit show climate change first, before open-water species do."
+    },
+    {
+      "id": "cabrillo-monitoring-volunteers",
+      "category": "volunteer",
+      "headline": "Join surveys running since 1990",
+      "body": "Rangers, scientists and volunteers have surveyed Cabrillo's intertidal life every winter since 1990, recording biodiversity plus owl limpet size and abundance. The monument posts volunteer openings for the monitoring team.",
+      "safety": "ok",
+      "source": {
+        "name": "U.S. National Park Service — Cabrillo National Monument",
+        "url": "https://www.nps.gov/cabr/blogs/species-spotlight-owl-limpet-lottia-gigantea.htm",
+        "accessed_at": "2026-09-29",
+        "license": "public-domain",
+        "source_date": "2017-11-13"
+      },
+      "why": "Decades of repeated surveys reveal trends no single visit can, and they guide management.",
+      "action": "Ask about Cabrillo's natural-resources monitoring volunteering."
+    },
+    {
+      "id": "reef-check-california",
+      "category": "volunteer",
+      "headline": "Survey a kelp forest as a citizen scientist",
+      "body": "Reef Check California trains volunteer divers and snorkelers to survey kelp forests inside and outside marine protected areas. In a recent year it trained 196 citizen scientists and surveyed 38 kelp forests.",
+      "safety": "ok",
+      "source": {
+        "name": "Reef Check California",
+        "url": "https://reefcheck.org/california/",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current site; figures as read 2026-09-29)"
+      },
+      "why": "Surveys on both sides of an MPA boundary are how scientists test whether protection works.",
+      "action": "Sign up for a Reef Check California training."
+    },
+    {
+      "id": "inaturalist-observations",
+      "category": "volunteer",
+      "headline": "Your photos can become data",
+      "body": "Logging what you see in iNaturalist adds your observation to a global biodiversity dataset used for science and conservation. Birch Aquarium encourages visitors to record tidepool organisms there.",
+      "safety": "ok",
+      "source": {
+        "name": "Birch Aquarium at Scripps (UC San Diego)",
+        "url": "https://aquarium.ucsd.edu/events/tidepooling-adventure",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current page; programme runs through Dec 2026)"
+      },
+      "why": "Every logged observation extends a dataset researchers use to track species and change.",
+      "action": "Record your tidepool photos in iNaturalist."
+    },
+    {
+      "id": "wildcoast-trash-boom",
+      "category": "volunteer",
+      "headline": "Trash booms stop debris at the source",
+      "body": "WILDCOAST runs the San Diego County MPA Watch programme and works in the Tijuana River watershed, where trash booms and cleanups keep tens of thousands of pounds of debris out of the Pacific each year.",
+      "safety": "ok",
+      "source": {
+        "name": "WILDCOAST",
+        "url": "https://wildcoast.net/",
+        "accessed_at": "2026-09-29",
+        "license": "all-rights-reserved",
+        "source_date": "n/a (current site; figure as read 2026-09-29)"
+      },
+      "why": "Catching debris in the watershed keeps it off the beaches and out of the intertidal zone.",
+      "action": "Volunteer or support WILDCOAST's watershed cleanups."
+    }
+  ]
+}

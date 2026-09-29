@@ -73,6 +73,15 @@ def instant(value: str, field: str) -> datetime:
         raise ContractError(f"{field}: invalid date/time") from error
 
 
+def calendar_date(value: str, field: str) -> date:
+    require(isinstance(value, str) and bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", value)),
+            field, "expected a YYYY-MM-DD date")
+    try:
+        return date.fromisoformat(value)
+    except ValueError as error:
+        raise ContractError(f"{field}: invalid calendar date") from error
+
+
 def https_url(value: str, field: str) -> None:
     try:
         parts = urlsplit(value)
@@ -201,10 +210,23 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
                 field + ".affected_location_ids", "unknown catalog location")
         observed = instant(item["observed_at"], field + ".observed_at")
         require(observed <= published, field + ".observed_at", "cannot be after publication")
+        # A story is only news while it is current. The publisher applies the
+        # per-kind window (host/news_agent/news_freshness.py); the contract holds
+        # the ceiling, so a mirrored validator never sees an item that claims to
+        # be older than any reviewed window allows.
+        source_date = instant(item["source_published_at"], field + ".source_published_at")
+        require(source_date <= observed + timedelta(hours=36), field + ".source_published_at",
+                "cannot be after the observation, beyond clock skew")
+        require(observed - source_date <= timedelta(days=MAX_NEWS_AGE_DAYS), field + ".source_published_at",
+                f"older than the {MAX_NEWS_AGE_DAYS}-day ceiling on news age")
         https_url(item["source_url"], field + ".source_url")
         if item.get("expires_at"):
             ends = instant(item["expires_at"], field + ".expires_at")
             require(published < ends <= expires, field + ".expires_at", "invalid expiry")
+        if item.get("event_end"):
+            event_ends = instant(item["event_end"], field + ".event_end")
+            require(item.get("expires_at"), field + ".event_end", "an event end needs the item's expiry")
+            require(ends <= event_ends, field + ".expires_at", "cannot outlive the event it describes")
     # The news paragraph in visit guidance is the same unofficial context, so it
     # is held to the same rule: tappable sources that resolve to https pages, in
     # order, and actually cited by the paragraph.
@@ -316,6 +338,84 @@ def validate_media(value: dict, schemas: Path = SCHEMAS) -> None:
         require(asset["revision"] == policy["assets"][identifier], field + ".revision", "does not match reviewed catalog")
 
 
+# The longest per-kind window in the private publisher's policy, repeated here
+# because this validator is mirrored into the public repository and cannot import
+# from the private package.
+MAX_NEWS_AGE_DAYS = 7
+
+WELFARE_CATEGORIES = {"biodiversity", "etiquette", "litter", "water-quality", "volunteer"}
+WELFARE_LICENSES = {"public-domain", "cc-by", "no-license-stated", "all-rights-reserved"}
+# A photograph may only be published under a licence that allows republishing.
+# "No licence stated" and "all rights reserved" are fine as a reading source and
+# never as an image to ship.
+WELFARE_IMAGE_LICENSES = {"public-domain", "cc-by", "cc-by-sa"}
+# The review pass forbids writing our own first-aid, medical, or PPE advice: the
+# banner links to the agency's wording instead. A caution note that reaches for
+# treatment language fails closed rather than shipping.
+WELFARE_MEDICAL = ("tetanus", "antibiotic", "antiseptic", "bandage", "first aid", "first-aid",
+                   "sanitizer", "sanitiser", "disinfect", "tourniquet", "stitches")
+
+
+def validate_welfare_topics(value: dict, schemas: Path = SCHEMAS) -> None:
+    """Validate the rotating in-app welfare topics.
+
+    The app renders these without a human in the loop, so the contract repeats
+    the checks the review pass made: a sourced, licensed item, a headline and
+    body the banner was laid out for, and safe wording wherever the item could
+    prompt physical action.
+    """
+
+    schema_validate(value, "welfare-topics", schemas)
+    instant(value["generated_at"], "welfare-topics.generated_at")
+    calendar_date(value["reviewed_on"], "welfare-topics.reviewed_on")
+    require(value["revision"] == revision({key: value[key] for key in ("reviewed_on", "rotation", "items")}),
+            "welfare-topics.revision", "does not hash the reviewed content")
+
+    seen: set[str] = set()
+    for item in value["items"]:
+        identifier = item["id"]
+        field = f"welfare-topics.items.{identifier}"
+        require(identifier not in seen, field, "duplicate item id")
+        seen.add(identifier)
+        require(item["category"] in WELFARE_CATEGORIES, field + ".category", "unknown category")
+        require(item["source"]["license"] in WELFARE_LICENSES, field + ".source.license", "unknown licence")
+        https_url(item["source"]["url"], field + ".source.url")
+        calendar_date(item["source"]["accessed_at"], field + ".source.accessed_at")
+        require(len(item["body"].split()) <= 50, field + ".body",
+                "longer than the 50-word cap the review checked")
+        require("http" not in item["body"] and "http" not in item["headline"], field + ".body",
+                "must not carry a link; the source field carries it")
+        for key, cap in (("why", 120), ("action", 90)):
+            text = item.get(key)
+            if text is None:
+                continue
+            require(bool(text.strip()), f"{field}.{key}", "must not be empty when present")
+            require(len(text) <= cap, f"{field}.{key}", f"longer than the {cap}-character cap")
+            require("http" not in text, f"{field}.{key}", "must not carry a link")
+        image = item.get("image")
+        if image is not None:
+            require(image["license"] in WELFARE_IMAGE_LICENSES, field + ".image.license",
+                    "a published photograph needs a licence that allows republishing")
+            https_url(image["source_url"], field + ".image.source_url")
+        if item["safety"] == "caution":
+            require(bool(item.get("caution", "").strip()), field + ".caution",
+                    "a caution item must carry its safe-handling wording")
+        for key in ("caution", "action"):
+            text = item.get(key, "").lower()
+            require(not any(word in text for word in WELFARE_MEDICAL),
+                    f"{field}.{key}", "must not give our own medical or first-aid instruction")
+
+    rotation = value["rotation"]
+    require(set(rotation["category_weights"]) == WELFARE_CATEGORIES,
+            "welfare-topics.rotation.category_weights", "must state a weight for every category")
+    for name, days in rotation.get("repeat_days", {}).items():
+        require(name in WELFARE_CATEGORIES, f"welfare-topics.rotation.repeat_days.{name}", "unknown category")
+        require(days >= 1, f"welfare-topics.rotation.repeat_days.{name}", "must be at least a day")
+
+    require(any(item["safety"] == "caution" for item in value["items"]), "welfare-topics.items",
+            "the reviewed set must keep the safe-handling item that covers its pickup prompts")
+
+
 def validate_index(value: dict, schemas: Path = SCHEMAS) -> None:
     schema_validate(value, "index", schemas)
     instant(value["generated_at"], "index.generated_at")
@@ -336,3 +436,6 @@ def validate_documents(root: Path, schemas: Path = SCHEMAS) -> None:
         require(index["conditions_revision"] == daily["revision"], "index.conditions_revision", "does not match daily.revision")
     else:
         require(index["conditions_revision"] is None, "index.conditions_revision", "must be null when daily file is absent")
+    welfare_path = root / "data/welfare-topics.json"
+    if welfare_path.exists():
+        validate_welfare_topics(read_json(welfare_path), schemas)

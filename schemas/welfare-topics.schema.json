@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Oh Tidepool reviewed welfare topics",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "reviewed_on", "revision", "rotation", "items"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "reviewed_on": {"type": "string", "format": "date"},
+    "revision": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "rotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min_minutes_between_shows", "max_shows_per_session", "max_shows_per_day",
+                   "days_before_repeating_an_item", "category_weights",
+                   "never_repeat_previous_in_session", "never_repeat_within_day"],
+      "properties": {
+        "min_minutes_between_shows": {"type": "integer", "minimum": 5, "maximum": 1440},
+        "max_shows_per_session": {"type": "integer", "minimum": 1, "maximum": 10},
+        "max_shows_per_day": {"type": "integer", "minimum": 1, "maximum": 20},
+        "days_before_repeating_an_item": {"type": "integer", "minimum": 1, "maximum": 365},
+        "repeat_days": {
+          "type": "object", "minProperties": 1,
+          "propertyNames": {"enum": ["biodiversity", "etiquette", "litter", "water-quality", "volunteer"]},
+          "additionalProperties": {"type": "integer", "minimum": 1, "maximum": 365}
+        },
+        "category_weights": {
+          "type": "object", "minProperties": 5, "maxProperties": 5,
+          "propertyNames": {"enum": ["biodiversity", "etiquette", "litter", "water-quality", "volunteer"]},
+          "additionalProperties": {"type": "integer", "minimum": 1, "maximum": 10}
+        },
+        "never_repeat_previous_in_session": {"const": true},
+        "never_repeat_within_day": {"const": true}
+      }
+    },
+    "items": {
+      "type": "array", "minItems": 10, "maxItems": 200,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "headline", "body", "safety", "source"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "category": {"enum": ["biodiversity", "etiquette", "litter", "water-quality", "volunteer"]},
+          "headline": {"type": "string", "minLength": 8, "maxLength": 60},
+          "body": {"type": "string", "minLength": 40, "maxLength": 400},
+          "safety": {"enum": ["ok", "caution"]},
+          "caution": {"type": "string", "minLength": 40, "maxLength": 400},
+          "why": {"type": "string", "minLength": 20, "maxLength": 120},
+          "action": {"type": "string", "minLength": 10, "maxLength": 90},
+          "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["asset_id", "credit", "license", "source_url"],
+            "properties": {
+              "asset_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+              "credit": {"type": "string", "minLength": 2, "maxLength": 120},
+              "license": {"enum": ["public-domain", "cc-by", "cc-by-sa"]},
+              "source_url": {"type": "string", "format": "uri", "pattern": "^https://"}
+            }
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "url", "accessed_at", "license"],
+            "properties": {
+              "name": {"type": "string", "minLength": 2, "maxLength": 120},
+              "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+              "accessed_at": {"type": "string", "format": "date"},
+              "license": {"enum": ["public-domain", "cc-by", "no-license-stated", "all-rights-reserved"]},
+              "source_date": {"type": "string", "maxLength": 120}
+            }
+          }
+        }
+      }
+    }
+  }
+}
