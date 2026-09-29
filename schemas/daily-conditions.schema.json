@@ -14,16 +14,15 @@
     "locations": {"type": "array", "maxItems": 500, "items": {"$ref": "#/$defs/location"}},
     "local_updates": {"type": "array", "maxItems": 100, "items": {"$ref": "#/$defs/update"}},
     "local_news": {
-      "description": "Unofficial local news context. Our own summary of a checked source; it never gates a recommendation. Each item carries the source page's own date, because a story is only news while it is current.",
+      "description": "Unofficial local news context, never a gate. Each item quotes the source headline beside its link and carries the source page's own date, because a story is only news while it is current. It publishes no prose of the source's beyond that headline: our own words live in the site's visit guidance paragraph.",
       "type": "array", "maxItems": 50,
       "items": {
         "type": "object", "additionalProperties": false,
-        "required": ["id", "headline", "summary", "kind", "source_name", "source_url",
-                     "source_published_at", "observed_at"],
+        "required": ["id", "headline", "kind", "source_name", "source_url",
+                     "source_published_at", "observed_at", "match_field", "matched_places", "stretch_ids"],
         "properties": {
           "id": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
           "headline": {"type": "string", "minLength": 3, "maxLength": 180},
-          "summary": {"type": "string", "minLength": 3, "maxLength": 600},
           "kind": {"enum": ["water_quality", "wildlife", "bloom", "coastal", "other"]},
           "source_name": {"type": "string", "minLength": 2, "maxLength": 120},
           "source_url": {"$ref": "#/$defs/url"},
@@ -31,6 +30,9 @@
           "observed_at": {"$ref": "#/$defs/instant"},
           "event_end": {"$ref": "#/$defs/instant"},
           "expires_at": {"$ref": "#/$defs/instant"},
+          "match_field": {"enum": ["site_alias", "place"]},
+          "matched_places": {"type": "array", "maxItems": 8, "uniqueItems": true, "items": {"type": "string"}},
+          "stretch_ids": {"type": "array", "maxItems": 8, "uniqueItems": true, "items": {"type": "string"}},
           "affected_location_ids": {
             "type": "array", "maxItems": 30, "uniqueItems": true,
             "items": {"type": "string"}

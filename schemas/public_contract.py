@@ -208,6 +208,18 @@ def validate_daily(value: dict, schemas: Path = SCHEMAS) -> None:
                 "an item must name the sites it covers")
         require(set(item.get("affected_location_ids", [])).issubset(policy["location_ids"]),
                 field + ".affected_location_ids", "unknown catalog location")
+        # Which reviewed decision scoped this item, so a reader can audit how a
+        # story reached a site: a named site, or a place resolved through its
+        # reviewed stretch.
+        require(item["match_field"] in ("site_alias", "place"), field + ".match_field", "unknown match field")
+        if item["match_field"] == "place":
+            require(item.get("matched_places"), field + ".matched_places",
+                    "a place match must name the places it matched")
+            require(item.get("stretch_ids"), field + ".stretch_ids",
+                    "a place match must name the stretch it resolved through")
+        else:
+            require(not item.get("matched_places"), field + ".matched_places",
+                    "a site-alias match names no place")
         observed = instant(item["observed_at"], field + ".observed_at")
         require(observed <= published, field + ".observed_at", "cannot be after publication")
         # A story is only news while it is current. The publisher applies the
