@@ -158,23 +158,30 @@ def build(scenario: str, source: Path, check_only: bool,
 
         clip.parent.mkdir(parents=True, exist_ok=True)
         scale = f"scale='min({WIDTH},iw)':-2:flags=lanczos"
+        fresh_clip = Path(workspace) / "clip.mp4"
+        fresh_poster = Path(workspace) / "poster.jpg"
         run(
             "ffmpeg", "-y", "-v", "error",
             "-ss", f"{start:.3f}", "-t", f"{length + hold:.3f}", "-i", str(source),
             "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", str(CRF),
-            "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", str(clip),
+            "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", str(fresh_clip),
         )
         run(
             "ffmpeg", "-y", "-v", "error",
             "-ss", f"{start + length / 2:.3f}", "-i", str(source),
-            "-vf", scale, "-frames:v", "1", "-q:v", "4", str(poster),
+            "-vf", scale, "-frames:v", "1", "-q:v", "4", str(fresh_poster),
         )
+        # A clip over budget is not left in demo/: the previous one stays until a
+        # build fits, so a failed run never leaves the page heavier than before.
+        size = fresh_clip.stat().st_size
+        report["bytes"] = size
+        report["poster_bytes"] = fresh_poster.stat().st_size
+        report["target_bytes"] = target_bytes
+        report["over_budget"] = size > target_bytes
+        if not report["over_budget"]:
+            fresh_clip.replace(clip)
+            fresh_poster.replace(poster)
 
-    size = clip.stat().st_size
-    report["bytes"] = size
-    report["poster_bytes"] = poster.stat().st_size
-    report["target_bytes"] = target_bytes
-    report["over_budget"] = size > target_bytes
     return report
 
 
@@ -206,13 +213,16 @@ def main() -> int:
           f"loop {report['loop_s']}s at {report['width']}px wide")
     if "bytes" in report:
         budget = report["target_bytes"] / 1024 / 1024
-        print(f"  wrote {report['output']} at {report['bytes'] / 1024 / 1024:.2f} MB "
+        megabytes = report["bytes"] / 1024 / 1024
+        if report["over_budget"]:
+            print(f"  built {megabytes:.2f} MB and {report['poster_bytes'] / 1024:.0f} KB, "
+                  f"over the {budget:.2f} MB budget; {report['output']} is untouched",
+                  file=sys.stderr)
+            print("  record a shorter run or trim the scenario's window", file=sys.stderr)
+            return 1
+        print(f"  wrote {report['output']} at {megabytes:.2f} MB "
               f"and {report['poster']} at {report['poster_bytes'] / 1024:.0f} KB "
               f"(budget {budget:.2f} MB)")
-        if report["over_budget"]:
-            print("  over budget: record a shorter run or trim the scenario's window",
-                  file=sys.stderr)
-            return 1
     else:
         print(f"  would write {report['output']} and {report['poster']} (check only)")
     return 0
