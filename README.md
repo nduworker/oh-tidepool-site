@@ -21,6 +21,7 @@ https://raw.githubusercontent.com/nduworker/oh-tidepool-site/main/
 | `data/index.json` | The app's only unconditional request. Its `ETag` makes the common refresh body-free (`304`). |
 | `data/media.json` | Integrity manifest for the reviewed image renditions. |
 | `data/daily-conditions.json` | Optional daily briefing, absent until committed. |
+| `data/welfare-topics.json` | Optional reviewed welfare topics the app rotates as an in-app banner. Fetched directly by the app, so it is not listed in `index.json` and moves no revision. |
 | `media/<asset-id>-v<revision>.webp` | Reviewed renditions. The iPhone catalog resolves ID `bat-star` revision `1` as `media/bat-star-v1.webp`. |
 | `schemas/`, `scripts/` | The data contract, its read-only validator, and the local manifest generator. |
 | `licenses/cari/` | GPL-3.0-or-later Corresponding Source for the CARI-derived shoreline geometry shipped in the app. |

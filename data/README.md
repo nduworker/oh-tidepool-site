@@ -14,10 +14,15 @@ No GitHub Pages build is involved in serving these files.
 | `index.json` | The only unconditional request. Carries independent `media_revision` and `conditions_revision` values plus the `ETag` the app conditions on. |
 | `media.json` | Integrity manifest for every reviewed image rendition: path, SHA-256, content type, byte count. |
 | `daily-conditions.json` | Optional daily briefing. Absent until an editor or the update agent commits one. |
+| `welfare-topics.json` | Optional reviewed education/welfare topics the app rotates as an in-app banner. Written by the private repository's publish workflow, validated against `schemas/welfare-topics.schema.json`, and fetched by the app directly with an `ETag`. It is deliberately not in `index.json`, so publishing it moves no revision and invalidates nothing else. |
 
 The app requests `index.json` on launch and foreground entry. A `304 Not Modified`
 ends network work for that refresh; a `200` is compared per component so only a
 changed component downloads.
+
+`welfare-topics.json` is served from the same origin but has no entry in
+`index.json`: the app conditions on its own `ETag`, and an absent file means
+"no topics yet" rather than an error.
 
 ## Adding or replacing an image
 
@@ -53,6 +58,11 @@ schema versions and required fields, validates ISO-8601 instants, SHA-256 syntax
 byte counts, safe relative media paths, unique location IDs, and the cross-file
 revision agreements. It never rewrites the payload to make it pass. Run it before
 committing a daily report.
+
+An extra file in `data/` is not an error: the checker validates the documents it
+knows by name and ignores everything else. `welfare-topics.json` is one of those
+known documents once the mirrored contract carries its checks, and it is skipped
+while the file is absent.
 
 The `schemas/` directory is a byte-identical mirror of the private application
 repository's `host/news_agent/schemas/`. Keep them in sync when either changes.
