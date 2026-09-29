@@ -50,7 +50,7 @@ python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
 python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
 ```
 
-Video rather than GIF. The same screens cost 3.5 MB as four clips and posters
+Video rather than GIF. The same screens cost 2.2 MB as four clips and posters
 where the three retired GIFs cost 12.6 MB, and the motion keeps the recording's
 frame rate instead of a palette. `--window-seconds 0` keeps a whole capture.
 
@@ -61,7 +61,7 @@ loop to the window, which is what keeps the page inside its byte budget.
 | Scenario | What the clip shows | Window | Budget | Size |
 | --- | --- | --- | --- | --- |
 | `where` | The Explore list, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.41 MB |
-| `when` | Dike Rock's published guidance, the caution beside it, the hazard bullets, the tide forecast | 28.5s + 15s, +1s hold | 1.4 MB | 1.01 MB |
+| `when` | Dike Rock's published guidance, the caution beside a good day, the hazard bullets, the tide chart | 68s + 18s, +1s hold | 1.6 MB | 0.76 MB |
 | `what` | La Jolla Cove, a discovery site: estimated guidance | last 8s + 1s hold | 0.8 MB | 0.42 MB |
 | `tips` | The tip row: swiped on, swiped back, then opened with its source | 19s + 14s, +1s hold | 1.0 MB | 0.22 MB |
 
@@ -81,6 +81,9 @@ time:
 - Check the built clip, not the source. Sample its own frames and read them, the
   same way the windows were chosen. A clip can look right in the summary and
   still show the wrong seconds of the recording.
+- Read the caption against the clip. "Tide forecast" can be the row that opens a
+  disclosure rather than the chart inside it; a caption that promises the chart
+  needs a recording that opens it.
 
 The recordings are produced in the private application repository, at the
 simulator's own resolution, by `ios/OhTidepoolUITests/DemoCaptureTests.swift`.

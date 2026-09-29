@@ -56,11 +56,11 @@ SCENARIOS: dict[str, dict[str, object]] = {
     },
     "when": {
         "anchor": "end",
-        "start_s": 28.5,
-        "window_s": 15.0,
+        "start_s": 68.0,
+        "window_s": 18.0,
         "hold_s": 1.0,
-        "poster_at": 0.2,
-        "target_mb": 1.4,
+        "poster_at": 0.05,
+        "target_mb": 1.6,
         "what": "A site page: the day's guidance, hazard bullets, tide and surf",
     },
     "what": {
