@@ -161,17 +161,16 @@ def build(scenario: str, source: Path, check_only: bool,
         start, end = movement_span(source, Path(workspace) / "samples")
         start = max(0.0, start - HEAD_GRACE_S)
         end = min(duration, end + TAIL_GRACE_S)
-        if window > 0:
-            if start_override is not None:
-                start = max(0.0, start_override)
-                end = min(duration, start + window)
-            elif pinned_start is not None:
-                start = max(0.0, float(pinned_start))
-                end = min(duration, start + window)
-            elif anchor == "end":
-                start = max(0.0, end - window)
-            else:
-                end = min(end, start + window)
+        pinned = start_override if start_override is not None else pinned_start
+        if window > 0 and pinned is not None:
+            start = max(0.0, float(pinned))
+            end = min(duration, start + window)
+        elif window > 0 and anchor == "end":
+            start = max(0.0, end - window)
+        elif window > 0:
+            end = min(end, start + window)
+        elif start_override is not None:
+            start = max(0.0, start_override)
         length = max(0.5, end - start)
         report = {
             "scenario": scenario,
