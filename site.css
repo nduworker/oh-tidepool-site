@@ -36,7 +36,7 @@ a { color: inherit; }
 .site-nav { display: flex; align-items: center; gap: 18px; }
 .nav-link, footer a { font-size: .9rem; font-weight: 700; color: var(--deep); text-underline-offset: 4px; }
 .hero { max-width: 1180px; min-height: 570px; padding: 78px 32px 88px; margin: 0 auto; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 40px; }
-.eyebrow { margin: 0 0 16px; color: var(--deep); font-weight: 800; letter-spacing: .12em; font-size: .71rem; }
+.eyebrow { margin: 0 0 16px; color: var(--deep); font-weight: 800; letter-spacing: .12em; font-size: .78rem; }
 h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: .98; letter-spacing: -.045em; }
 h1 { max-width: 670px; margin: 0; font-size: clamp(3.6rem, 7.5vw, 6.7rem); }
 h1 em { color: var(--coral); font-weight: inherit; }
@@ -76,3 +76,4 @@ footer { border-top: 1px solid rgba(17,61,75,.14); font-size: .8rem; color: var(
 .license-table th { color: var(--deep); font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; }
 .policy ul { padding-left: 22px; color: #365b66; }
 .policy a { color: var(--deep); text-underline-offset: 3px; word-break: break-word; }
+reak: break-word; }
