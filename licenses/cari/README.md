@@ -9,6 +9,7 @@ upstream CARI dataset. See [`COPYING.txt`](COPYING.txt) for the full licence tex
 
 | Path | Contents |
 | --- | --- |
+| `index.html` | The public page for this directory, which the app's licence text links to |
 | `outlines/<site-id>.geojson` | The 14 derived rocky-shore outlines shipped in the app's bundled catalog |
 | `scripts/import_cari_rocky_shore.py` | The importer that produced them (SPDX: `GPL-3.0-or-later`) |
 | `COPYING.txt` | GNU General Public License v3.0 |
@@ -22,7 +23,7 @@ upstream CARI dataset. See [`COPYING.txt`](COPYING.txt) for the full licence tex
 - ArcGIS source used: `biosds2835_fpu/FeatureServer/0/query`.
 - Licence: GPL-3.0-or-later, <https://www.gnu.org/licenses/gpl-3.0.html>.
 - Citation: San Francisco Estuary Institute (SFEI). 2026. California Aquatic
-  Resources Inventory (CARI), version 3.3. Accessed 2026-02-19.
+  Resources Inventory (CARI), version 3.3. Accessed 2026-09-18.
 
 ## Transformation applied
 
