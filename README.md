@@ -50,7 +50,7 @@ python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
 python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
 ```
 
-Video rather than GIF. The same screens cost 2.2 MB as four clips and posters
+Video rather than GIF. The same screens cost 2.5 MB as four clips and posters
 where the three retired GIFs cost 12.6 MB, and the motion keeps the recording's
 frame rate instead of a palette. `--window-seconds 0` keeps a whole capture.
 
@@ -60,16 +60,17 @@ loop to the window, which is what keeps the page inside its byte budget.
 
 | Scenario | What the clip shows | Window | Budget | Size |
 | --- | --- | --- | --- | --- |
-| `where` | The Explore list, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.41 MB |
-| `when` | Dike Rock's published guidance, the caution beside a good day, the hazard bullets, the tide chart | 68s + 18s, +1s hold | 1.6 MB | 0.76 MB |
-| `what` | La Jolla Cove, a discovery site: estimated guidance | last 8s + 1s hold | 0.8 MB | 0.42 MB |
-| `tips` | The tip row: swiped on, swiped back, then opened with its source | 19s + 14s, +1s hold | 1.0 MB | 0.22 MB |
+| `where` | The Explore list with both ribbons and the tip row, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.50 MB |
+| `when` | Dike Rock's day: "Limited - go with care" with the cue "Surf too high", the hazard bullets, then the opened tide chart | 66s + 20s, +1s hold | 1.6 MB | 0.54 MB |
+| `what` | La Jolla Cove, a discovery site: the estimate from a nearby gauge, marked "Best estimate" | 47s + 12s, +1s hold | 0.8 MB | 0.74 MB |
+| `tips` | The tip row with its swipe hint, swiped to the next tip, swiped back, then opened with its source | 17s + 16s, +1s hold | 0.7 MB | 0.35 MB |
 
 Two settings are pinned to moments a script cannot detect: `start_s`, for a clip
 that begins at a swipe rather than at the first movement, and `poster_at`, for the
 frame shown before the clip plays. Both were read off the 29 September captures
 by sampling each recording at 1 fps and reading the frames with `tesseract`, and
-both need checking against a new recording.
+both need checking against a new recording. The `when` and `tips` loops are
+longer than the others because each has to carry three screens.
 
 Two things bite when re-cutting these, and both cost a wasted clip the first
 time:
