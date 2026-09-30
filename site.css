@@ -57,7 +57,11 @@ h1 em { color: var(--coral); font-weight: inherit; }
 .features { background: var(--foam); padding: 75px max(32px, calc((100vw - 1116px) / 2)); display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 44px; }
 .features article { max-width: 315px; }.feature-number { color: var(--coral); font-size: .78rem; font-weight: 800; letter-spacing: .1em; }.features h2 { margin: 14px 0 12px; font-size: 2.35rem; }.features p, .ethos p { margin: 0; color: var(--muted); }
 .demos { max-width: 1180px; margin: 0 auto; padding: 100px 32px 20px; text-align: center; }.demos h2 { margin: 0 0 48px; font-size: clamp(2.4rem, 4.5vw, 4.2rem); }
-.demo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; text-align: left; }.demo-grid figure { margin: 0; }.demo-grid img { display: block; width: 100%; max-width: 300px; height: auto; margin: 0 auto 18px; border-radius: 34px; border: 6px solid var(--ink); background: #fff; box-shadow: 0 14px 0 rgba(17,61,75,.12); }.demo-grid figcaption { max-width: 300px; margin: 0 auto; color: var(--muted); font-size: .95rem; }.demo-grid strong { display: block; color: var(--ink); font-size: 1.05rem; margin-bottom: 4px; }
+.demo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 46px 40px; text-align: left; }
+/* Five demos in a two-column grid: the last one spans both columns, which reads as deliberate
+   where an orphaned fifth card would not. */
+.demo-grid figure { margin: 0; }.demo-grid figure:last-child { grid-column: 1 / -1; }
+.demo-grid img, .demo-grid video { display: block; width: 100%; max-width: 300px; height: auto; margin: 0 auto 18px; border-radius: 34px; border: 6px solid var(--ink); background: #fff; box-shadow: 0 14px 0 rgba(17,61,75,.12); }.demo-grid figcaption { max-width: 300px; margin: 0 auto; color: var(--muted); font-size: .95rem; }.demo-grid strong { display: block; color: var(--ink); font-size: 1.05rem; margin-bottom: 4px; }
 .ethos { max-width: 760px; text-align: center; margin: 0 auto; padding: 120px 32px; }.ethos h2 { margin: 0 0 20px; font-size: clamp(2.4rem, 4.5vw, 4.2rem); }.ethos p:last-child { max-width: 560px; margin: auto; }
 .beta { max-width: 760px; margin: 0 auto; padding: 0 32px 120px; text-align: center; }
 .beta h2 { margin: 0 0 18px; font-size: clamp(2.4rem, 4.5vw, 4.2rem); }
