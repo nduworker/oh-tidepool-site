@@ -37,10 +37,16 @@ catalog.
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
 
-## Demo clips
+## Demo media
 
-The clips in `demo/` are built from simulator recordings of the shipped app, not
-made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
+The page currently carries the earlier GIF captures (`demo/where.gif`,
+`when.gif`, `what.gif`) because the cut clips read as discontinuous on a phone:
+each one started mid-gesture at a pinned second and looped back to a different
+part of the screen. They show the 27 September build, so the ribbons, the tip
+swipe hint and the surf caution the copy describes are not in them.
+
+Re-cutting is ready when wanted. The clips in `demo/` were built from simulator
+recordings of the shipped app, not made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
 the idle head and tail of a recording, cuts the loop to the scenario's window,
 scales to twice the figure's rendered width, and writes an H.264 clip with its
 poster frame.
