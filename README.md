@@ -37,67 +37,49 @@ catalog.
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
 
-## Demo media
+## Demo clips
 
-The page currently carries the earlier GIF captures (`demo/where.gif`,
-`when.gif`, `what.gif`) because the cut clips read as discontinuous on a phone:
-each one started mid-gesture at a pinned second and looped back to a different
-part of the screen. They show the 27 September build, so the ribbons, the tip
-swipe hint and the surf caution the copy describes are not in them.
-
-Re-cutting is ready when wanted. The clips in `demo/` were built from simulator
-recordings of the shipped app, not made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
-the idle head and tail of a recording, cuts the loop to the scenario's window,
-scales to twice the figure's rendered width, and writes an H.264 clip with its
-poster frame.
+The five clips in `demo/` are cut from simulator recordings of the shipped app,
+not made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py)
+trims a recording, cuts the loop to a scenario window, scales to twice the
+figure's rendered width and writes an H.264 clip with its poster frame.
 
 ```sh
 python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
-python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
+python3 scripts/build-demo-clips.py --settles --scenario where --input ~/Desktop/where.mov
 ```
 
-Video rather than GIF. The same screens cost 2.5 MB as four clips and posters
-where the three retired GIFs cost 12.6 MB, and the motion keeps the recording's
-frame rate instead of a palette. `--window-seconds 0` keeps a whole capture.
+`--settles` lists the runs where the screen is not moving. Every window below
+starts and ends on one of those runs, because a loop that begins mid-gesture and
+ends mid-transition reads as a glitch rather than a demonstration. That was the
+fault in the first cut of these clips, and it is why the windows are chosen from
+the settle report rather than from a fixed duration.
 
-Each scenario has its own window and hold, because a scroll and a tap do not need
-the same run-up. A recording may run longer than the window; the script cuts the
-loop to the window, which is what keeps the page inside its byte budget.
+Two things about the recordings that cost a wasted cut the first time:
 
-| Scenario | What the clip shows | Window | Budget | Size |
-| --- | --- | --- | --- | --- |
-| `where` | The Explore list with both ribbons and the tip row, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.50 MB |
-| `when` | Dike Rock's day: "Limited - go with care" with the cue "Surf too high", the hazard bullets, then the opened tide chart | 66s + 20s, +1s hold | 1.6 MB | 0.54 MB |
-| `what` | La Jolla Cove, a discovery site: the estimate from a nearby gauge, marked "Best estimate" | 47s + 12s, +1s hold | 0.8 MB | 0.74 MB |
-| `tips` | The tip row with its swipe hint, swiped to the next tip, swiped back, then opened with its source | 17s + 16s, +1s hold | 0.7 MB | 0.35 MB |
-
-Two settings are pinned to moments a script cannot detect: `start_s`, for a clip
-that begins at a swipe rather than at the first movement, and `poster_at`, for the
-frame shown before the clip plays. Both were read off the 29 September captures
-by sampling each recording at 1 fps and reading the frames with `tesseract`, and
-both need checking against a new recording. The `when` and `tips` loops are
-longer than the others because each has to carry three screens.
-
-Two things bite when re-cutting these, and both cost a wasted clip the first
-time:
-
+- They are variable frame rate: the simulator writes a frame when the screen
+  changes, so a window can average 8 fps in a burst-pause pattern. Encoding that
+  as-is drops frames and the motion stutters. The script encodes **30 fps
+  constant**, which keeps every frame and duplicates only the ones already still.
 - `-ss` has to come after `-i`. Seeking before the input on these recordings
   lands tens of seconds away from the moment asked for, because QuickTime's edit
-  list does not survive the fast seek. The script decodes up to the moment
-  instead, which costs a few seconds per build.
-- Check the built clip, not the source. Sample its own frames and read them, the
-  same way the windows were chosen. A clip can look right in the summary and
-  still show the wrong seconds of the recording.
-- Read the caption against the clip. "Tide forecast" can be the row that opens a
-  disclosure rather than the chart inside it; a caption that promises the chart
-  needs a recording that opens it.
+  list does not survive the fast seek.
 
-The recordings are produced in the private application repository, at the
-simulator's own resolution, by `ios/OhTidepoolUITests/DemoCaptureTests.swift`.
-Each run asserts the screen its scenario needs before it stops, so the screen the
-clip needs is up when the run ends and nobody captures the wrong one. The script
-downscales, so record at full size. Keep the status bar at a plausible time, and
-leave out system alerts and permission prompts.
+Windows, all read off the 30 September takes with `--settles` and `tesseract`:
+
+| Scenario | What the clip shows | Window | Size |
+| --- | --- | --- | --- |
+| `where` | The list with both ribbon kinds, then the same sites on the map | 35.25s for 14.75s | 0.43 MB |
+| `when` | Dike Rock: "Limited - go with care" with the cue "Surf too high", the hazard bullets, then the chart | 30s for 16.5s | 0.21 MB |
+| `what` | La Jolla Cove, a discovery site: the estimate from a nearby gauge | 63.25s for 10.35s | 0.71 MB |
+| `tips` | The tip row: swiped to the next tip, swiped back, then opened with its source | 20.25s for 11.95s | 0.21 MB |
+| `alerts` | The Alerts tab: the plan-visit card and what it watches | 22.75s for 14.5s | 0.21 MB |
+
+Every clip is verified by reading its own frames back, never the summary: the
+content check reads one frame per second with `tesseract`, and the ends are
+measured for motion, which is the check that caught two windows ending in a
+scroll. The only motion left in a first or last half second is the tip row's own
+drifting chevrons, which is the app animating rather than a cut.
 
 The [`Validate public data`](.github/workflows/validate-public-data.yml) workflow
 is a read-only integrity check. It does not fetch provider data, generate a
