@@ -37,6 +37,61 @@ catalog.
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
 
+## Demo clips
+
+The clips in `demo/` are built from simulator recordings of the shipped app, not
+made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
+the idle head and tail of a recording, cuts the loop to the scenario's window,
+scales to twice the figure's rendered width, and writes an H.264 clip with its
+poster frame.
+
+```sh
+python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
+python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
+```
+
+Video rather than GIF. The same screens cost 2.2 MB as four clips and posters
+where the three retired GIFs cost 12.6 MB, and the motion keeps the recording's
+frame rate instead of a palette. `--window-seconds 0` keeps a whole capture.
+
+Each scenario has its own window and hold, because a scroll and a tap do not need
+the same run-up. A recording may run longer than the window; the script cuts the
+loop to the window, which is what keeps the page inside its byte budget.
+
+| Scenario | What the clip shows | Window | Budget | Size |
+| --- | --- | --- | --- | --- |
+| `where` | The Explore list, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.41 MB |
+| `when` | Dike Rock's published guidance, the caution beside a good day, the hazard bullets, the tide chart | 68s + 18s, +1s hold | 1.6 MB | 0.76 MB |
+| `what` | La Jolla Cove, a discovery site: estimated guidance | last 8s + 1s hold | 0.8 MB | 0.42 MB |
+| `tips` | The tip row: swiped on, swiped back, then opened with its source | 19s + 14s, +1s hold | 1.0 MB | 0.22 MB |
+
+Two settings are pinned to moments a script cannot detect: `start_s`, for a clip
+that begins at a swipe rather than at the first movement, and `poster_at`, for the
+frame shown before the clip plays. Both were read off the 29 September captures
+by sampling each recording at 1 fps and reading the frames with `tesseract`, and
+both need checking against a new recording.
+
+Two things bite when re-cutting these, and both cost a wasted clip the first
+time:
+
+- `-ss` has to come after `-i`. Seeking before the input on these recordings
+  lands tens of seconds away from the moment asked for, because QuickTime's edit
+  list does not survive the fast seek. The script decodes up to the moment
+  instead, which costs a few seconds per build.
+- Check the built clip, not the source. Sample its own frames and read them, the
+  same way the windows were chosen. A clip can look right in the summary and
+  still show the wrong seconds of the recording.
+- Read the caption against the clip. "Tide forecast" can be the row that opens a
+  disclosure rather than the chart inside it; a caption that promises the chart
+  needs a recording that opens it.
+
+The recordings are produced in the private application repository, at the
+simulator's own resolution, by `ios/OhTidepoolUITests/DemoCaptureTests.swift`.
+Each run asserts the screen its scenario needs before it stops, so the screen the
+clip needs is up when the run ends and nobody captures the wrong one. The script
+downscales, so record at full size. Keep the status bar at a plausible time, and
+leave out system alerts and permission prompts.
+
 The [`Validate public data`](.github/workflows/validate-public-data.yml) workflow
 is a read-only integrity check. It does not fetch provider data, generate a
 report, process images, modify files, commit, push, or deploy. A commit touching
