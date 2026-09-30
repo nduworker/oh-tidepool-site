@@ -76,5 +76,6 @@ footer { border-top: 1px solid rgba(17,61,75,.14); font-size: .8rem; color: var(
 .license-table th, .license-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(17,61,75,.14); vertical-align: top; }
 .license-table th { color: var(--deep); font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; }
 .policy ul { padding-left: 22px; color: #365b66; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 .policy a { color: var(--deep); text-underline-offset: 3px; word-break: break-word; }
 reak: break-word; }

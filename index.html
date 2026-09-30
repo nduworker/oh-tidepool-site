@@ -104,5 +104,13 @@
       <a href="#beta">Join the beta</a>
       <a href="mailto:ndu@nduwork.com">Contact</a>
     </footer>
+
+    <script>
+      // The demo clips play on their own; readers who ask for less motion get
+      // the poster frame instead. Nothing else on the page runs script.
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        for (const clip of document.querySelectorAll('video')) { clip.autoplay = false; clip.pause(); }
+      }
+    </script>
   </body>
 </html>
