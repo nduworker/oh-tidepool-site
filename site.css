@@ -20,6 +20,7 @@ body {
   line-height: 1.55;
 }
 a { color: inherit; }
+:focus-visible { outline: 3px solid var(--deep); outline-offset: 3px; }
 .site-header, footer {
   max-width: 1180px;
   margin: 0 auto;
