@@ -37,67 +37,68 @@ catalog.
 See [`data/README.md`](data/README.md) for the authoring and validation workflow,
 the daily report rules, and the cross-file revision agreements.
 
-## Demo media
+## Public-page design and content
 
-The page currently carries the earlier GIF captures (`demo/where.gif`,
-`when.gif`, `what.gif`) because the cut clips read as discontinuous on a phone:
-each one started mid-gesture at a pinned second and looped back to a different
-part of the screen. They show the 27 September build, so the ribbons, the tip
-swipe hint and the surf caution the copy describes are not in them.
+The site is a free, education-first field guide. See [DESIGN.md](DESIGN.md) for
+its hierarchy, source ownership, responsive behavior and accessibility decisions.
+There are no client-side scripts, analytics, signup forms or external fonts.
 
-Re-cutting is ready when wanted. The clips in `demo/` were built from simulator
-recordings of the shipped app, not made by hand. [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) trims
-the idle head and tail of a recording, cuts the loop to the scenario's window,
-scales to twice the figure's rendered width, and writes an H.264 clip with its
-poster frame.
+The directory, animal profiles and photo attributions were checked against the
+app's bundled catalogs at `882dd2a`. Recheck them when the app's locations or
+reviewed content change; the landing page does not automatically mirror those
+catalogs. The three tips come from `data/welfare-topics.json`, reviewed
+2026-09-29. Images are existing, manifest-tracked renditions in `media/`.
+No media manifest, schema or CARI source changes are needed for their reuse.
+
+The page explains predictions but does not publish a current forecast. The
+focused `demo/dike-rock-tide-chart.webp` screenshot shows the actual curve,
+NOAA basis and orange 1.0 ft guide; it was captured by the app session and is
+explicitly dated, like every recording. The optional daily briefing can expire and has
+neither the full catalog nor the tide-chart series, so it is not repurposed into
+an improvised live forecast here.
+
+## Demo clips
+
+[`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) cuts continuous
+windows from simulator recordings, scales them to 600px and writes H.264 clips
+and posters. The page uses three clips in context, with native play/pause
+controls and written descriptions. No clip autoplays. The discovery and alerts
+clips remain available for future editorial use, but are not loaded by this page.
 
 ```sh
-python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov
-python3 scripts/build-demo-clips.py --scenario where --input ~/Desktop/where.mov --check
+python3 scripts/build-demo-clips.py --scenario tips --input ~/Desktop/tips.mov
+python3 scripts/build-demo-clips.py --settles --scenario tips --input ~/Desktop/tips.mov
 ```
 
-Video rather than GIF. The same screens cost 2.5 MB as four clips and posters
-where the three retired GIFs cost 12.6 MB, and the motion keeps the recording's
-frame rate instead of a palette. `--window-seconds 0` keeps a whole capture.
+`--settles` reports candidate quiet runs. It samples coarse thumbnails and is
+not proof of a settled boundary; verify the *built clip* at full cadence and
+read its frames. The tips take is now cut from 19s for 14s, before the sheet
+closes, with no extension. Its first and last second are quiet. The configured source interval is 14s;
+the resulting file reports 13.33s, so measure the output rather than treating
+the configured interval as its encoded duration.
 
-Each scenario has its own window and hold, because a scroll and a tap do not need
-the same run-up. A recording may run longer than the window; the script cuts the
-loop to the window, which is what keeps the page inside its byte budget.
+Output is normalized to 30 fps. Constant-rate conversion can duplicate or drop
+frames; it cannot reconstruct missing motion or fix an abrupt cut. Earlier
+claims that it keeps every source frame or proves the cause of the owner's
+quality complaint were not supported. Also, the old `when` clip reveals the
+Tide chart heading, not the curve itself; the page's description says so.
 
-| Scenario | What the clip shows | Window | Budget | Size |
-| --- | --- | --- | --- | --- |
-| `where` | The Explore list with both ribbons and the tip row, then the same sites on the map | last 14s + 1s hold | 1.4 MB | 0.50 MB |
-| `when` | Dike Rock's day: "Limited - go with care" with the cue "Surf too high", the hazard bullets, then the opened tide chart | 66s + 20s, +1s hold | 1.6 MB | 0.54 MB |
-| `what` | La Jolla Cove, a discovery site: the estimate from a nearby gauge, marked "Best estimate" | 47s + 12s, +1s hold | 0.8 MB | 0.74 MB |
-| `tips` | The tip row with its swipe hint, swiped to the next tip, swiped back, then opened with its source | 17s + 16s, +1s hold | 0.7 MB | 0.35 MB |
+`-ss` stays after `-i`: fast input seeking on these takes previously produced
+the wrong screen. `hold_s` currently extends the source interval; it does not
+freeze a frame. Keep any extension inside a verified quiet run.
 
-Two settings are pinned to moments a script cannot detect: `start_s`, for a clip
-that begins at a swipe rather than at the first movement, and `poster_at`, for the
-frame shown before the clip plays. Both were read off the 29 September captures
-by sampling each recording at 1 fps and reading the frames with `tesseract`, and
-both need checking against a new recording. The `when` and `tips` loops are
-longer than the others because each has to carry three screens.
+## Page checks
 
-Two things bite when re-cutting these, and both cost a wasted clip the first
-time:
+```sh
+python3 -m unittest discover -s tests -v
+python3 scripts/validate-public-data.py
+git diff --check
+```
 
-- `-ss` has to come after `-i`. Seeking before the input on these recordings
-  lands tens of seconds away from the moment asked for, because QuickTime's edit
-  list does not survive the fast seek. The script decodes up to the moment
-  instead, which costs a few seconds per build.
-- Check the built clip, not the source. Sample its own frames and read them, the
-  same way the windows were chosen. A clip can look right in the summary and
-  still show the wrong seconds of the recording.
-- Read the caption against the clip. "Tide forecast" can be the row that opens a
-  disclosure rather than the chart inside it; a caption that promises the chart
-  needs a recording that opens it.
-
-The recordings are produced in the private application repository, at the
-simulator's own resolution, by `ios/OhTidepoolUITests/DemoCaptureTests.swift`.
-Each run asserts the screen its scenario needs before it stops, so the screen the
-clip needs is up when the run ends and nobody captures the wrong one. The script
-downscales, so record at full size. Keep the status bar at a plausible time, and
-leave out system alerts and permission prompts.
+The page tests check local asset/link integrity, accessible video defaults,
+semantic structure, the full site directory and explicit free/beta wording.
+Browser geometry, native controls, keyboard navigation and accessibility must
+also be checked at phone, tablet and desktop sizes after layout changes.
 
 The [`Validate public data`](.github/workflows/validate-public-data.yml) workflow
 is a read-only integrity check. It does not fetch provider data, generate a

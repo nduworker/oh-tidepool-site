@@ -10,7 +10,7 @@ tail of the recording, cuts the loop to the scenario's window, scales to twice
 the figure's rendered width, and writes an H.264 clip plus its poster frame.
 
 Video rather than GIF: the same eight seconds cost about 0.5 MB here against
-2-3 MB as a GIF, and the motion stays at the recording's own frame rate instead
+2-3 MB as a GIF, with a predictable 30 fps output cadence instead
 of being quantised to a palette. Nothing it writes is committed by CI; it is an
 authoring tool.
 
@@ -41,45 +41,52 @@ ROOT = Path(__file__).resolve().parent.parent
 # is at the end of the run: the map selected, the day's guidance present, the tip
 # sheet open. Anchoring at the end keeps that and the seconds that lead to it.
 #
-# `start_s` pins a window to a moment a script cannot detect, such as the row a
-# swipe starts from; `poster_at` picks the frame shown before the clip plays, as
-# a fraction of the loop. Both were read off the 29 September captures with
-# `tesseract` and need checking against a new recording.
+# `start_s` and `window_s` are the settled-screen boundaries of the 30 September
+# takes: each loop begins and ends on a screen that is not moving, found with
+# `--settles` and checked with `tesseract`. `poster_at` picks the frame shown
+# before the clip plays, as a fraction of the loop. All three need rechecking
+# against a new recording: a loop that starts mid-gesture reads as a glitch, which
+# is why the first cut of these clips was replaced.
 SCENARIOS: dict[str, dict[str, object]] = {
     "where": {
-        "anchor": "end",
-        "window_s": 14.0,
+        "start_s": 35.25,
+        "window_s": 14.75,
         "hold_s": 1.0,
-        "poster_at": 0.85,
-        "target_mb": 1.4,
-        "what": "The Explore list scrolled, then the same sites on the map",
+        "poster_at": 0.15,
+        "target_mb": 0.9,
+        "what": "The list with both ribbons, then the same sites on the map",
     },
     "when": {
-        "anchor": "end",
-        "start_s": 66.0,
-        "window_s": 20.0,
+        "start_s": 30.0,
+        "window_s": 16.5,
         "hold_s": 1.0,
-        "poster_at": 0.25,
-        "target_mb": 1.6,
-        "what": "A site page: the day's guidance, hazard bullets, tide and surf",
+        "poster_at": 0.55,
+        "target_mb": 0.9,
+        "what": "Dike Rock: the surf caution with its numbers, the hazard bullets, then the chart",
     },
     "what": {
-        "anchor": "end",
-        "start_s": 47.0,
-        "window_s": 12.0,
-        "poster_at": 0.6,
+        "start_s": 63.25,
+        "window_s": 10.35,
         "hold_s": 1.0,
-        "target_mb": 0.8,
-        "what": "A discovery site: estimated guidance and what to expect",
+        "poster_at": 0.5,
+        "target_mb": 0.9,
+        "what": "La Jolla Cove, a discovery site: the estimate from a nearby gauge",
     },
     "tips": {
-        "anchor": "end",
-        "start_s": 17.0,
-        "window_s": 16.0,
+        "start_s": 19.0,
+        "window_s": 14.0,
+        "hold_s": 0.0,
+        "poster_at": 0.65,
+        "target_mb": 0.9,
+        "what": "The tip row: swiped to the next tip, swiped back, then opened with its source",
+    },
+    "alerts": {
+        "start_s": 22.75,
+        "window_s": 14.5,
         "hold_s": 1.0,
-        "poster_at": 0.85,
-        "target_mb": 0.7,
-        "what": "The tip row in the Explore header: swipe on, swipe back, tap to open",
+        "poster_at": 0.6,
+        "target_mb": 0.9,
+        "what": "The Alerts tab: the plan-visit card and what it watches",
     },
 }
 
@@ -87,6 +94,7 @@ SCENARIOS: dict[str, dict[str, object]] = {
 # screen without paying for the recording's full device resolution.
 WIDTH = 600
 CRF = 30
+OUTPUT_FPS = 30
 SAMPLE_FPS = 4  # rate at which the recording is sampled to find the movement
 CHANGE_THRESHOLD = 1.2  # mean per-pixel difference that counts as movement
 HEAD_GRACE_S = 0.3  # keep a little run-up before the first change
@@ -116,6 +124,46 @@ def probe(source: Path) -> tuple[float, float, int]:
     numerator, _, denominator = stream["avg_frame_rate"].partition("/")
     fps = float(numerator) / float(denominator or 1)
     return float(data["format"]["duration"]), fps, int(stream["width"])
+
+
+QUIET_THRESHOLD = 0.6  # mean per-pixel difference below which a screen is settled
+
+
+def settle_runs(source: Path, samples: Path, minimum_s: float = 1.5) -> list[tuple[float, float]]:
+    """Runs of seconds where the screen is not moving, so a cut can land on one.
+
+    A loop that starts and ends on a settled screen reads as a demonstration. One
+    that starts mid-scroll and ends mid-transition reads as a glitch, which is
+    what the first cut of these clips did.
+    """
+    samples.mkdir(parents=True, exist_ok=True)
+    run(
+        "ffmpeg", "-y", "-v", "error", "-i", str(source),
+        "-vf", f"fps={SAMPLE_FPS},scale=90:-2:flags=lanczos",
+        "-pix_fmt", "gray", str(samples / "%05d.png"),
+    )
+    frames = sorted(samples.glob("*.png"))
+    previous = None
+    quiet: list[bool] = []
+    for path in frames:
+        thumb = Image.open(path)
+        difference = 0.0 if previous is None else ImageStat.Stat(
+            ImageChops.difference(thumb, previous)).mean[0]
+        quiet.append(difference < QUIET_THRESHOLD)
+        previous = thumb
+
+    runs: list[tuple[float, float]] = []
+    start = None
+    for index, is_quiet in enumerate(quiet):
+        if is_quiet and start is None:
+            start = index
+        elif not is_quiet and start is not None:
+            if (index - start) / SAMPLE_FPS >= minimum_s:
+                runs.append((start / SAMPLE_FPS, index / SAMPLE_FPS))
+            start = None
+    if start is not None and (len(quiet) - start) / SAMPLE_FPS >= minimum_s:
+        runs.append((start / SAMPLE_FPS, len(quiet) / SAMPLE_FPS))
+    return runs
 
 
 def movement_span(source: Path, samples: Path) -> tuple[float, float]:
@@ -151,7 +199,7 @@ def build(scenario: str, source: Path, check_only: bool,
     settings = SCENARIOS[scenario]
     window = float(settings["window_s"]) if window_override is None else window_override
     hold = float(settings["hold_s"]) if hold_override is None else hold_override
-    anchor = str(settings["anchor"])
+    anchor = str(settings.get("anchor", "end"))
     pinned_start = settings.get("start_s")
     poster_at = float(settings.get("poster_at", 0.5))
     target_bytes = int(float(settings["target_mb"]) * 1024 * 1024)
@@ -160,19 +208,21 @@ def build(scenario: str, source: Path, check_only: bool,
 
     with tempfile.TemporaryDirectory(prefix=f"demo-{scenario}-") as workspace:
         duration, source_fps, source_width = probe(source)
-        start, end = movement_span(source, Path(workspace) / "samples")
-        start = max(0.0, start - HEAD_GRACE_S)
-        end = min(duration, end + TAIL_GRACE_S)
         pinned = start_override if start_override is not None else pinned_start
         if window > 0 and pinned is not None:
+            # Pinned windows do not need motion sampling.
             start = max(0.0, float(pinned))
             end = min(duration, start + window)
-        elif window > 0 and anchor == "end":
-            start = max(0.0, end - window)
-        elif window > 0:
-            end = min(end, start + window)
-        elif start_override is not None:
-            start = max(0.0, start_override)
+        else:
+            start, end = movement_span(source, Path(workspace) / "samples")
+            start = max(0.0, start - HEAD_GRACE_S)
+            end = min(duration, end + TAIL_GRACE_S)
+            if window > 0 and anchor == "end":
+                start = max(0.0, end - window)
+            elif window > 0:
+                end = min(end, start + window)
+            elif start_override is not None:
+                start = max(0.0, start_override)
         length = max(0.5, end - start)
         report = {
             "scenario": scenario,
@@ -199,10 +249,14 @@ def build(scenario: str, source: Path, check_only: bool,
         # simulator recordings lands on the wrong frame, tens of seconds away,
         # because QuickTime's edit list does not survive the fast seek. Decoding
         # up to the moment costs a few seconds per build and is exact.
+        # Normalize variable-rate captures to a predictable browser playback
+        # cadence. CFR can duplicate or drop frames to reach 30 fps; it cannot
+        # recover motion absent from a source or repair a cut made mid-gesture.
         run(
             "ffmpeg", "-y", "-v", "error",
             "-i", str(source), "-ss", f"{start:.3f}", "-t", f"{length + hold:.3f}",
-            "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", str(CRF),
+            "-vf", scale, "-fps_mode", "cfr", "-r", str(OUTPUT_FPS),
+            "-c:v", "libx264", "-preset", "slow", "-crf", str(CRF),
             "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", str(fresh_clip),
         )
         run(
@@ -235,8 +289,18 @@ def main() -> int:
                         help="override the scenario's final hold")
     parser.add_argument("--start-seconds", type=float, default=None,
                         help="start the window at this second of the recording")
+    parser.add_argument("--settles", action="store_true",
+                        help="list the runs where the screen is settled, then exit")
     arguments = parser.parse_args()
 
+    if arguments.settles:
+        if not arguments.input.exists():
+            print(f"build-demo-clips: no such recording: {arguments.input}", file=sys.stderr)
+            return 2
+        with tempfile.TemporaryDirectory(prefix="settles-") as workspace:
+            for quiet_start, quiet_end in settle_runs(arguments.input, Path(workspace)):
+                print(f"  settled {quiet_start:6.2f}s to {quiet_end:6.2f}s")
+        return 0
     if not arguments.input.exists():
         print(f"build-demo-clips: no such recording: {arguments.input}", file=sys.stderr)
         return 2
