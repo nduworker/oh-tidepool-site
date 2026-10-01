@@ -39,31 +39,41 @@ the daily report rules, and the cross-file revision agreements.
 
 ## Public-page design and content
 
-The site is a free, education-first field guide. See [DESIGN.md](DESIGN.md) for
-its hierarchy, source ownership, responsive behavior and accessibility decisions.
-There are no client-side scripts, analytics, signup forms or external fonts.
+This is an app-first landing page for free educational outreach. The official
+icon and real Explore/tide-chart UI lead the page. App uses, field-guide UI,
+reviewed tips and optional alerts explain what Oh Tidepool offers. The page
+has no standalone site directory, animal-photo gallery, client scripts,
+analytics, signup forms or external fonts. See [DESIGN.md](DESIGN.md).
 
-The directory, animal profiles and photo attributions were checked against the
-app's bundled catalogs at `882dd2a`. Recheck them when the app's locations or
-reviewed content change; the landing page does not automatically mirror those
-catalogs. The three tips come from `data/welfare-topics.json`, reviewed
-2026-09-29. Images are existing, manifest-tracked renditions in `media/`.
-No media manifest, schema or CARI source changes are needed for their reuse.
+Catalog counts and image credits were checked against the app's bundled catalogs
+at `882dd2a`: 14 sites and 4 reviewed Tidepool guides. The public tips payload
+contains 68 reviewed tips. Recheck these counts when app content changes.
 
-The page explains predictions but does not publish a current forecast. The
-focused `demo/dike-rock-tide-chart.webp` screenshot shows the actual curve,
-NOAA basis and orange 1.0 ft guide; it was captured by the app session and is
-explicitly dated, like every recording. The optional daily briefing can expire and has
-neither the full catalog nor the tide-chart series, so it is not repurposed into
-an improvised live forecast here.
+Website-only icon renditions are in `assets/`; app screenshots are in `demo/`.
+The Explore still comes from `where.mov` at 16s. The chart, Dike Rock species
+list and anemone photo view come from focused app XCUITest captures. Screenshot
+renditions were checked by reading their own text, not a capture summary.
+Screens show recorded 30 September 2026 examples, not today's forecast or a
+sightings promise. The photo view is not described as a separate profile page.
+
+`app-media-credits.html` retains creator/source/licence and derivative notices
+for the reviewed photographs appearing within app UI. The UI/icon itself is
+Oh Tidepool artwork. Public payloads, manifest media and CARI source are unchanged.
+
+The page explains predictions but does not publish current conditions. The
+optional daily briefing can expire and does not contain a full tide-chart series,
+so it is not turned into a live web forecast here.
 
 ## Demo clips
 
 [`scripts/build-demo-clips.py`](scripts/build-demo-clips.py) cuts continuous
 windows from simulator recordings, scales them to 600px and writes H.264 clips
-and posters. The page uses three clips in context, with native play/pause
-controls and written descriptions. No clip autoplays. The discovery and alerts
-clips remain available for future editorial use, but are not loaded by this page.
+and posters. The page uses two clips in context, with native play/pause
+controls and written descriptions. No clip autoplays. This page uses the
+Explore and tips clips. Discovery, day-guidance and Alerts recordings remain
+available locally but are not loaded. The Alerts UI still describes surf filtering,
+which contradicts the current scheduler; do not use that demo to illustrate the
+implemented tide/weather criteria. The app owner is handling its copy separately.
 
 ```sh
 python3 scripts/build-demo-clips.py --scenario tips --input ~/Desktop/tips.mov
@@ -80,8 +90,8 @@ the configured interval as its encoded duration.
 Output is normalized to 30 fps. Constant-rate conversion can duplicate or drop
 frames; it cannot reconstruct missing motion or fix an abrupt cut. Earlier
 claims that it keeps every source frame or proves the cause of the owner's
-quality complaint were not supported. Also, the old `when` clip reveals the
-Tide chart heading, not the curve itself; the page's description says so.
+quality complaint were not supported. The old `when` clip reveals only a
+Tide chart heading; the focused chart screenshot provides the actual curve.
 
 `-ss` stays after `-i`: fast input seeking on these takes previously produced
 the wrong screen. `hold_s` currently extends the source interval; it does not
@@ -96,7 +106,8 @@ git diff --check
 ```
 
 The page tests check local asset/link integrity, accessible video defaults,
-semantic structure, the full site directory and explicit free/beta wording.
+semantic structure, real icon/UI placement, removal of the standalone photo
+showcases, app-use content and explicit free/beta wording.
 Browser geometry, native controls, keyboard navigation and accessibility must
 also be checked at phone, tablet and desktop sizes after layout changes.
 

@@ -1,86 +1,84 @@
-# Oh Tidepool public site
+# Oh Tidepool landing page
 
-## Purpose
-A free, education-first field companion. The public page should teach something
-useful even when a visitor never installs the app. No account or email funnel.
-The beta invitation is available, not the organizing principle of the page.
+## Approved direction
+An app-first page for free educational outreach. The owner rejected the previous
+standalone tidepool directory and photo galleries. Visitors should immediately
+recognize Oh Tidepool, see its actual interface, and understand what they can use
+it for. No sales funnel, account signup or standalone nature showcase.
 
-## Design thesis
-A small world, worth slowing down for. Move from curiosity to a nearby shore,
-from a tide chart to understanding exposure, from noticing an animal to leaving
-its home undisturbed. Use real shore photographs and reviewed field-guide
-content rather than abstract feature icons or a wall of phone demos.
+## Hierarchy
+1. Official app icon and name; clear free iPhone/TestFlight status.
+2. Real Explore and tide-chart UI, alongside the headline:
+   "Know when to go. Learn what to notice."
+3. Five app-supported outcomes: find a place, plan around the tide, identify
+   shoreline life, learn thoughtful visiting habits, and plan optional alerts.
+4. Authentic "What to look for" UI from the app, not an animal-photo gallery.
+5. A reviewed-tip demonstration with native controls, plus optional alerts in prose.
+6. Free outreach purpose, honest planning limits, beta instructions and feedback.
+7. Privacy, licences, app image credits and contact.
 
-## Information architecture
-```
-Brand / Shores / Free iPhone beta
-  Curiosity: real shore photograph + invitation to explore
-  Four chapter links
-  01 Find your shore: four reviewed guides + ten Discovery estimates
-  02 Read the tide: exposure, cautions, estimate basis + recorded chart
-  03 Look closer: six real field-guide inhabitants, no sightings promise
-  04 Leave it wild: three reviewed tips with their sources + recorded tip row
-  Free public TestFlight beta / feedback
-  Full photograph attributions / privacy / licences / contact
-```
-The first three things to convey: this is a real Southern California shore,
-there is a small world worth noticing, and visitors can learn before installing.
+The site list, animal profiles and tips belong to the app. The public page explains
+those features with app UI; it does not replicate their content as a second guide.
 
-## Evidence and ownership
-- Directory names, regions, guide introductions and profile photographs:
-  app `ios/OhTidepool/Resources/bundled-tidepools.json` and
-  `bundled-discoveries.json`, inspected at app commit `882dd2a`.
-- Four site-reviewed Tidepool guides, ten Discovery sites. Discovery windows
-  use a nearby gauge and borrowed tide guide; never style them as equally certain.
-- Six animal photographs, scientific names and descriptions: the same catalogs'
-  `species_profiles`. These are examples of field-guide content, not sightings.
-- Tips: `data/welfare-topics.json`, ids `look-dont-touch`, `do-not-turn-rocks`,
-  `leave-it-cleaner`. Preserve their text and source links.
-- Image paths: `data/media.json`. Visible credit disclosure includes creator,
-  original source, licence link and derivative notice for every displayed asset.
-- Dated app recordings are examples, never current predictions. Do not render
-  the optional daily briefing as current data on this page: it expires and does
-  not include the full site catalog or tide series.
+## Responsive composition
+- Desktop: copy and two recognizable app screens in the opening spread.
+- On mobile, the headline is followed by the Explore screen, then the
+  introduction and beta action. The DOM uses the same order, so keyboard focus
+  follows the visible composition.
+  The chart follows the app-use list at full readable width instead of becoming
+  a tiny second phone. The header keeps a beta link visible in the opening view.
+- The field-guide module combines a short explanation with its real screen.
+  Reviewed tips and optional-alert explanations sit beside the actual tip demo;
+  mobile stacks these without an obsolete Alerts screen.
+- Each still screen links to its full-size rendition. No invented phone notch,
+  floating forecast card, simulated chart or UI recreated in HTML.
 
 ## Visual system
-- Warm sand `#f7f0df`, paper `#fffdf6`, ink `#113d4b`, deep teal `#075d6d`,
-  foam `#e3f5ef`, coral `#ba3d1d`, muted ink `#456571`.
-- Native serif display: Iowan Old Style / Palatino / Georgia. Body: Avenir Next /
-  Avenir / Trebuchet MS. No external font requests or analytics.
-- Spacing vocabulary: 8, 12, 16, 20, 24, 32, 40, 64, 88, 96 px.
-- Editorial hierarchy, thin rules, numbered chapters, unambiguous kind labels.
-  No decorative badges for every feature. Animal photographs remain square.
-- One landscape photograph leads; contextual, user-played recordings support
-  the story. No autoplay, no looping distractions, no animation dependency.
+Retain sand `#f7f0df`, ink `#113d4b`, deep teal `#075d6d`, foam `#e3f5ef`, coral
+`#ba3d1d`, paper `#fffdf6` and muted ink `#456571`. Serif headlines and native
+Avenir/Trebuchet body fonts require no external font request. Use thin rules,
+short explanations, numbered outcomes and actual app imagery.
 
-## Responsive and accessibility
-- Mobile: compact brand/beta header, copy before a landscape shore photograph,
-  a two-by-two chapter index, full-width guide entries, single-column directory,
-  a two-column animal gallery (one below 350px), readable clips at 280px.
-- Desktop: copy/photo opening spread; two guide columns; compact two-column
-  discovery directory; three animal columns; explanation and demo side-by-side.
-- Semantic landmarks, one h1, ordered headings, skip link, descriptive alt text,
-  visible focus ring, link names and text alternatives for silent demos.
-- Native video controls provide play/pause/seek and work without JavaScript.
-  Default is a still poster, including for reduced-motion users.
-- Interactive hit areas at least 44px; body contrast at least WCAG AA.
-- No required JavaScript. A broken/offline video retains its poster and written
-  description. Long names wrap, rather than truncate away the identity of a shore.
-- Photo credit disclosure opens with a native keyboard-accessible details control.
+## Evidence and asset ownership
+- Icon: official `Assets.xcassets/AppIcon.appiconset/Icon-1024.png` in the app;
+  resized website renditions in `assets/`. These are not new app-manifest assets.
+- Explore still: source `where.mov` at 16s. Its own900px rendition was OCR-read.
+- Chart: focused app XCUITest capture `dike-rock-tide-chart.png`.
+- Field guide: fresh focused XCUITest capture `dike-rock-species-guide.png`,
+  showing Dike Rock, "What to look for", animal/scientific names and descriptions.
+- Photo view: `aggregating-anemone-detail.png`, with its in-app attribution.
+  Describe this as a photo view, not a separate profile page with invented text.
+- Still screenshots were recorded 30 September 2026 and are examples, not current
+  conditions or promised sightings. Forecast-bearing screens state this nearby.
+- Two continuous recordings: Explore/map and tips/source sheet.
+- Do not show the existing Alerts recording. Its UI says tide/surf filtering,
+  while the current scheduler uses tide/weather with surf in warnings. Current
+  behavior may be described in prose; app UI copy correction is separate work.
+- Catalog counts checked at app commit `882dd2a`:14 sites, 4 site-reviewed guides;
+  `data/welfare-topics.json`:68 reviewed tips. Recheck counts when content changes.
+- `app-media-credits.html` preserves 39 site/animal image attributions that may
+  appear within app screenshots/recordings. No standalone photo gallery.
+- Existing manifest media, public payloads, schemas and `licenses/cari/` stay
+  unchanged. Site assets in `assets/` and `demo/` are separate from app media.
 
-## State decisions
-| Element | Initial | Interaction | Missing/offline |
-| --- | --- | --- | --- |
-| Directory | All fourteen sites visible | Visitor-information links for reviewed guides | Text remains useful even if photos fail |
-| Recordings | Poster and written description | Native controls; visitor initiates motion | Description remains; no dependency on playback |
-| Photo credits | Compact disclosure | Native details opens the complete attribution list | Fully inline; no fetched credits |
-| Beta | Free, TestFlight, iPhone, testing status explicit | Public Apple join link | No site account or signup fallback |
+## Accessibility and states
+- Semantic headings, named landmarks, keyboard skip link, visible focus rings.
+- At least 44px link/summary targets and WCAG AA text contrast.
+- Native user-played, silent videos with pause/seek controls and written
+  descriptions. No autoplay or loop, including for reduced-motion visitors.
+- A still poster/description is useful if a recording cannot load.
+- Alt text describes app UI. Empty alt on the icon avoids repeating the named
+  brand link; the repeated beta icon is decorative.
+- No client-side scripts, signup, analytics or live-provider dependencies.
+- Real recordings are shown directly, not hidden behind a screenshot carousel.
 
-## Not in scope
-- Live site predictions or a fabricated tide curve: leave these to the app and
-  its provider/expiry handling. The page explains how to interpret them instead.
-- A public web version of the app, geolocation, signup, analytics or marketing
-  tracking: unnecessary for education and outreach.
-- App catalog/schema edits and `licenses/cari/`: retain their existing ownership.
-- Visual-score claims without seeing screenshots. Browser measurements can
-  establish geometry and accessibility; a human must judge image crops and taste.
+## Limits and approval
+This is a free public beta, not an App Store release. The app is a planning aid,
+not an official safety decision. Tidepool site guides and borrowed Discovery
+estimates must remain distinct; surf cautions must not imply permission or safety.
+
+After implementation: browser-check mobile/tablet/desktop, verify built asset
+content and local links, review shared policy styling, run tests/data validation,
+and open a PR. Do not deploy before owner approval. No Codex review, per owner
+instruction. Human review of screenshots/crops remains necessary because image
+vision is unavailable in both collaborating sessions.

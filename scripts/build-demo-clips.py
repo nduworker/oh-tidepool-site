@@ -62,7 +62,7 @@ SCENARIOS: dict[str, dict[str, object]] = {
         "hold_s": 1.0,
         "poster_at": 0.55,
         "target_mb": 0.9,
-        "what": "Dike Rock: the surf caution with its numbers, the hazard bullets, then the chart",
+        "what": "Dike Rock: the surf caution with its numbers, then the tide-forecast section",
     },
     "what": {
         "start_s": 63.25,
