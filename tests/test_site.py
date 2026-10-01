@@ -1,6 +1,5 @@
-"""Dependency-free regression checks for the public field-guide page."""
+"""Dependency-free regression checks for the app-first public page."""
 import unittest
-from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -51,44 +50,59 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(tags.count("main"), 1)
         self.assertIn('class="skip-link"', self.text)
 
-    def test_directory_and_educational_content(self):
-        nodes = self.page.nodes
-        self.assertEqual(sum(a.get("class") == "shore-card" for _, a in nodes), 4)
-        for name in ["Bird Rock reef", "Children's Pool / Casa Beach", "Hospital Point",
-                     "La Jolla Cove rocky intertidal", "Ocean Beach Pier reefs",
-                     "Shell Beach / Seal Rock", "Sunset Cliffs intertidal benches",
-                     "Swami's reef", "Tourmaline / Pacific Beach reef", "Windansea reef"]:
-            self.assertIn(escape(name), self.text)
-        self.assertEqual(sum(a.get("class") == "animal" for _, a in nodes), 6)
-        self.assertEqual(sum(a.get("class") == "tip" for _, a in nodes), 3)
+    def test_app_uses_replace_standalone_nature_content(self):
+        for heading in ["Find a place to explore", "Plan around the tide",
+                        "Learn what you're looking at", "Build thoughtful visiting habits",
+                        "Get a reminder to plan your visit"]:
+            self.assertIn(heading, self.text)
+        for removed_class in ["shore-card", "site-list", "animal-grid", "hero-shore"]:
+            self.assertNotIn('class="' + removed_class + '"', self.text)
+        self.assertIn("14 mapped sites", self.text)
+        self.assertIn("68 reviewed tips", self.text)
         self.assertIn("Best estimate", self.text)
-        self.assertIn("sightings forecast", self.text)
+        self.assertIn("What to look for", self.text)
         self.assertIn("not an official safety decision", self.text)
+
+    def test_real_app_icon_and_screens_are_prominent(self):
+        self.assertIn('class="app-icon" src="./assets/app-icon.webp"', self.text)
+        hero = self.text.split('<section class="app-hero"', 1)[1].split('</section>', 1)[0]
+        self.assertIn("./demo/explore-screen.webp", hero)
+        self.assertIn("./demo/dike-rock-tide-chart.webp", hero)
+        self.assertNotIn("./media/", hero)
+        self.assertIn("fetchpriority=\"high\"", hero)
+        self.assertIn("./demo/field-guide-screen.webp", self.text)
+        self.assertIn("./demo/animal-profile-screen.webp", self.text)
+        self.assertIn("not today's forecast", hero)
 
     def test_motion_is_opt_in_and_has_text_alternatives(self):
         videos = [a for tag, a in self.page.nodes if tag == "video"]
-        self.assertEqual(len(videos), 3)
+        self.assertEqual(len(videos), 2)
         for v in videos:
             self.assertIn("controls", v)
             self.assertNotIn("autoplay", v)
             self.assertNotIn("loop", v)
             self.assertEqual(v["preload"], "none")
             self.assertTrue(v.get("aria-label"))
-        # Each recording and the separate chart screenshot have a text description.
-        self.assertEqual(self.text.count('class="demo-transcript"'), len(videos) + 1)
-        self.assertEqual(self.text.count("Not today's forecast"), len(videos) + 1)
-        self.assertIn("./demo/dike-rock-tide-chart.webp", self.text)
+        self.assertNotIn('src="./demo/alerts.mp4"', self.text)
+        self.assertEqual(self.text.count('class="demo-transcript"'), len(videos))
+        self.assertGreaterEqual(self.text.count("Not today's forecast"), len(videos))
 
-    def test_photos_have_alt_dimensions_and_attribution(self):
+    def test_app_screens_have_alt_dimensions_and_image_credits(self):
         images = [a for tag, a in self.page.nodes if tag == "img"]
         for image in images:
             with self.subTest(src=image["src"]):
-                self.assertTrue(image.get("alt"))
+                if image["src"] == "./assets/app-icon.webp":
+                    self.assertIn("alt", image)  # Named brand link supplies its meaning.
+                else:
+                    self.assertTrue(image.get("alt"))
                 self.assertGreater(int(image["width"]), 0)
                 self.assertGreater(int(image["height"]), 0)
-        self.assertIn('id="photo-credits"', self.text)
-        self.assertIn("CC BY-SA", self.text)
-        self.assertIn("Peter Pearsall", self.text)
+                self.assertFalse(image["src"].startswith("./media/"))
+        self.assertIn("./app-media-credits.html", self.text)
+        credits = (ROOT / "app-media-credits.html").read_text()
+        self.assertIn("CC BY-SA", credits)
+        self.assertIn("Peter Pearsall", credits)
+        self.assertIn("marine.gov", credits)
 
     def test_free_outreach_without_signup_or_script_dependency(self):
         self.assertIn("free app for learning", self.text)
