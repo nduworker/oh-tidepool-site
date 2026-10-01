@@ -53,8 +53,10 @@ Website-only icon renditions are in `assets/`; app screenshots are in `demo/`.
 The Explore still comes from `where.mov` at 16s. The chart, Dike Rock species
 list and anemone photo view come from focused app XCUITest captures. Screenshot
 renditions were checked by reading their own text, not a capture summary.
-Screens show recorded 30 September 2026 examples, not today's forecast or a
-sightings promise. The photo view is not described as a separate profile page.
+The captures were made 30 September 2026; this provenance stays in authoring
+notes. Visitor-facing preview captions omit dates and repeated forecast warnings.
+The original app UI is unchanged. The photo view is not described as a separate
+profile page.
 
 `app-media-credits.html` retains creator/source/licence and derivative notices
 for the reviewed photographs appearing within app UI. The UI/icon itself is

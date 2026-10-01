@@ -51,9 +51,9 @@ p { margin: 0 0 16px; }
 .screen a { display: block; }
 .screen figcaption { font-size: .9rem; font-weight: 700; margin: 0 0 12px; color: var(--ink); }
 .screen > a + figcaption { margin: 16px 0 0; }
-.recording-note { font-size: .78rem; line-height: 1.5; color: var(--muted); font-weight: 400; }
-.hero-app-evidence > .recording-note { grid-column: 1 / -1; text-align: center; margin: 0; }
-.screen figcaption .recording-note { display: block; margin-top: 8px; }
+.preview-note { font-size: .78rem; line-height: 1.5; color: var(--muted); font-weight: 400; }
+.hero-app-evidence > .preview-note { grid-column: 1 / -1; text-align: center; margin: 0; }
+.screen figcaption .preview-note { display: block; margin-top: 8px; }
 .section { max-width: 1280px; padding: 80px 40px; margin: auto; }
 .section-heading { max-width: 700px; margin-bottom: 32px; }
 .section-heading > p:last-child { max-width: 58ch; color: var(--muted); font-size: 1.1rem; }
@@ -69,7 +69,6 @@ summary { cursor: pointer; min-height: 48px; padding: 16px 0; font-weight: 700; 
 .app-demo { width: 100%; max-width: 300px; }
 .app-demo video { width: 100%; background: var(--paper); border: 3px solid var(--ink); border-radius: 22px; }
 .app-demo figcaption { margin-top: 16px; font-size: .9rem; color: var(--muted); }
-.app-demo figcaption span { display: block; margin-top: 8px; font-size: .78rem; }
 .demo-transcript { margin-top: 12px; font-size: .85rem; }
 .demo-transcript p { margin-top: 8px; }
 .app-field-guide { background: var(--foam); }

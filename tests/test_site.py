@@ -72,7 +72,12 @@ class SiteTests(unittest.TestCase):
         self.assertIn("fetchpriority=\"high\"", hero)
         self.assertIn("./demo/field-guide-screen.webp", self.text)
         self.assertIn("./demo/animal-profile-screen.webp", self.text)
-        self.assertIn("not today's forecast", hero)
+
+    def test_preview_captions_do_not_add_dates_or_forecast_warnings(self):
+        self.assertNotIn("September", self.text)
+        self.assertNotIn("today's forecast", self.text)
+        self.assertNotIn("recording date", self.text)
+        self.assertIn("Tap a screen for the full-size image.", self.text)
 
     def test_motion_is_opt_in_and_has_text_alternatives(self):
         videos = [a for tag, a in self.page.nodes if tag == "video"]
@@ -85,7 +90,6 @@ class SiteTests(unittest.TestCase):
             self.assertTrue(v.get("aria-label"))
         self.assertNotIn('src="./demo/alerts.mp4"', self.text)
         self.assertEqual(self.text.count('class="demo-transcript"'), len(videos))
-        self.assertGreaterEqual(self.text.count("Not today's forecast"), len(videos))
 
     def test_app_screens_have_alt_dimensions_and_image_credits(self):
         images = [a for tag, a in self.page.nodes if tag == "img"]
