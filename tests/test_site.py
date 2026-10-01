@@ -1,5 +1,6 @@
 """Dependency-free regression checks for the public field-guide page."""
 import unittest
+from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -57,7 +58,6 @@ class SiteTests(unittest.TestCase):
                      "La Jolla Cove rocky intertidal", "Ocean Beach Pier reefs",
                      "Shell Beach / Seal Rock", "Sunset Cliffs intertidal benches",
                      "Swami's reef", "Tourmaline / Pacific Beach reef", "Windansea reef"]:
-            from html import escape
             self.assertIn(escape(name), self.text)
         self.assertEqual(sum(a.get("class") == "animal" for _, a in nodes), 6)
         self.assertEqual(sum(a.get("class") == "tip" for _, a in nodes), 3)
