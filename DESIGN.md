@@ -22,8 +22,9 @@ those features with app UI; it does not replicate their content as a second guid
 
 ## Responsive composition
 - Desktop: copy and two recognizable app screens in the opening spread.
-- Mobile: headline → prominent Explore UI → introduction and beta action. This
-  order is also the DOM order, so keyboard focus follows the visible composition.
+- On mobile, the headline is followed by the Explore screen, then the
+  introduction and beta action. The DOM uses the same order, so keyboard focus
+  follows the visible composition.
   The chart follows the app-use list at full readable width instead of becoming
   a tiny second phone. The header keeps a beta link visible in the opening view.
 - The field-guide module combines a short explanation with its real screen.
