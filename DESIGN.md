@@ -48,8 +48,10 @@ short explanations, numbered outcomes and actual app imagery.
   showing Dike Rock, "What to look for", animal/scientific names and descriptions.
 - Photo view: `aggregating-anemone-detail.png`, with its in-app attribution.
   Describe this as a photo view, not a separate profile page with invented text.
-- Still screenshots were recorded 30 September 2026 and are examples, not current
-  conditions or promised sightings. Forecast-bearing screens state this nearby.
+- Still screenshots were captured 30 September 2026. Keep capture provenance
+  in these authoring docs, not in visitor-facing labels. App previews need no
+  repeated capture dates or "not today's forecast" warnings. Dates within actual
+  app UI remain untouched; the page still explains estimates and planning limits.
 - Two continuous recordings: Explore/map and tips/source sheet.
 - Do not show the existing Alerts recording. Its UI says tide/surf filtering,
   while the current scheduler uses tide/weather with surf in warnings. Current
