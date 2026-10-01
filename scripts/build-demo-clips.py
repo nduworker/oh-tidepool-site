@@ -10,7 +10,7 @@ tail of the recording, cuts the loop to the scenario's window, scales to twice
 the figure's rendered width, and writes an H.264 clip plus its poster frame.
 
 Video rather than GIF: the same eight seconds cost about 0.5 MB here against
-2-3 MB as a GIF, and the motion stays at the recording's own frame rate instead
+2-3 MB as a GIF, with a predictable 30 fps output cadence instead
 of being quantised to a palette. Nothing it writes is committed by CI; it is an
 authoring tool.
 
@@ -73,9 +73,9 @@ SCENARIOS: dict[str, dict[str, object]] = {
         "what": "La Jolla Cove, a discovery site: the estimate from a nearby gauge",
     },
     "tips": {
-        "start_s": 20.25,
-        "window_s": 11.95,
-        "hold_s": 1.0,
+        "start_s": 19.0,
+        "window_s": 14.0,
+        "hold_s": 0.0,
         "poster_at": 0.65,
         "target_mb": 0.9,
         "what": "The tip row: swiped to the next tip, swiped back, then opened with its source",
@@ -247,11 +247,9 @@ def build(scenario: str, source: Path, check_only: bool,
         # simulator recordings lands on the wrong frame, tens of seconds away,
         # because QuickTime's edit list does not survive the fast seek. Decoding
         # up to the moment costs a few seconds per build and is exact.
-        # The takes are variable frame rate: the simulator writes a frame when the
-        # screen changes, so a window can average 8 fps in a burst-pause pattern.
-        # Encoding that as-is drops frames and the motion reads as a stutter, which
-        # is what "discontinuous" meant. 30 fps constant keeps every frame and
-        # duplicates only the ones already still.
+        # Normalize variable-rate captures to a predictable browser playback
+        # cadence. CFR can duplicate or drop frames to reach 30 fps; it cannot
+        # recover motion absent from a source or repair a cut made mid-gesture.
         run(
             "ffmpeg", "-y", "-v", "error",
             "-i", str(source), "-ss", f"{start:.3f}", "-t", f"{length + hold:.3f}",
