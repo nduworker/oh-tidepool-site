@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:03:58Z",
+  "generated_at": "2026-10-03T18:32:54Z",
   "items": [
     {
       "browse_metadata": {
@@ -13217,7 +13217,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T17:03:58.610713Z",
+        "reviewed_at": "2026-10-03T18:32:54.746605Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -15587,7 +15587,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T17:03:58.602982Z",
+      "updated_at": "2026-10-03T18:32:54.738852Z",
       "visitor_guide": {
         "check_before_leaving": "Arrive early for a good low tide. The lower approach is roughly 1/4\u20131/2 mile on a dirt path with about 100 feet of elevation change; there is no cell service at the tidepools.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -15661,7 +15661,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-03T17:03:58.616151Z",
+        "reviewed_at": "2026-10-03T18:32:54.751627Z",
         "sources": [
           {
             "accessed_at": null,
@@ -34673,7 +34673,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T17:03:58.613918Z",
+        "reviewed_at": "2026-10-03T18:32:54.749785Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -35978,7 +35978,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T17:03:58.603652Z",
+      "updated_at": "2026-10-03T18:32:54.739217Z",
       "visitor_guide": {
         "check_before_leaving": "This is a condition-dependent coast with rising-tide cutoff risk. Carry a conservative turnaround time and do not depend on a through-route along the beach.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -36033,7 +36033,7 @@
             "time_limit_note": "Read the sign at the actual curb space; no blanket street limit is published for this guide."
           }
         ],
-        "reviewed_at": "2026-10-03T17:03:58.616184Z",
+        "reviewed_at": "2026-10-03T18:32:54.751666Z",
         "sources": [
           {
             "accessed_at": null,
@@ -36052,6 +36052,1329 @@
             "publisher": "City of San Diego",
             "title": "Kellogg Park",
             "url": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/kelloggpark"
+          }
+        ]
+      },
+      "weather_coordinate": null
+    },
+    {
+      "browse_metadata": {
+        "access": "moderate",
+        "biodiversity": "diverse",
+        "caution": "high",
+        "introduction": "A Los Angeles County State Park shore with reefs, tide pools, and sea caves around Sequit Point.",
+        "popularity": "destination"
+      },
+      "contour_set": null,
+      "coordinate": {
+        "latitude": 34.0439,
+        "longitude": -118.9346
+      },
+      "description": "Reefs, tide pools, and coastal caves around Sequit Point in Leo Carrillo State Park, at the western end of Malibu. Lower tides expose the rocky shore on both sides of the point.",
+      "exposure_likelihood": {
+        "algorithm": "static-outline-relative-tide-v1",
+        "bands": [
+          {
+            "relative_likelihood": "higher",
+            "tide_feet_mllw": -1.0
+          },
+          {
+            "relative_likelihood": "higher",
+            "tide_feet_mllw": -0.5
+          },
+          {
+            "relative_likelihood": "moderate",
+            "tide_feet_mllw": 0.0
+          },
+          {
+            "relative_likelihood": "moderate",
+            "tide_feet_mllw": 0.5
+          },
+          {
+            "relative_likelihood": "lower",
+            "tide_feet_mllw": 1.0
+          },
+          {
+            "relative_likelihood": "lower",
+            "tide_feet_mllw": 1.5
+          },
+          {
+            "relative_likelihood": "lower",
+            "tide_feet_mllw": 2.0
+          }
+        ],
+        "disclaimer": "Broad, relative tide cue only: it ranks lower predicted MLLW heights as more likely to reveal some of the same CARI-mapped rocky shore. It does not estimate coverage, move the mapped edge, show a waterline, establish access, or identify a safe route. Waves, surge, sand, kelp, closures, and local terrain can make conditions very different.",
+        "geometry_status": "exploratory",
+        "input_vertical_datum": "MLLW",
+        "source_dataset_date": "2026-02-19T00:00:00",
+        "source_dataset_name": "California Aquatic Resources Inventory (CARI) v3.3",
+        "source_outline_provenance": "official-gis",
+        "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data"
+      },
+      "hazards": [
+        "Wet algae-covered rocks are slippery",
+        "Waves can wash over the point and into the sea caves",
+        "Rising tide can cut off the rocks around Sequit Point",
+        "Marine life and rocks are protected"
+      ],
+      "id": "leo-carrillo",
+      "map_span_meters": null,
+      "marine_coordinate": null,
+      "name": "Leo Carrillo State Park Tidepools",
+      "nearest_buoy_id": "46221",
+      "noaa_station_id": "9410840",
+      "parking": {
+        "price_note": "California State Parks lists $3 per hour or $12 per vehicle per day.",
+        "summary": "State Park day-use lot at South Beach, off Pacific Coast Highway."
+      },
+      "photo_url": null,
+      "profile_photo": {
+        "alt_text": "Rocky Sequit Point with a lifeguard tower above cobbles and low-tide reef at Leo Carrillo State Park.",
+        "caption": "Sequit Point, Leo Carrillo State Park",
+        "credit": "bahniuk \u00b7 cropped for Oh Tidepool",
+        "derivative_notice": null,
+        "id": "leo-carrillo-profile",
+        "license_name": "CC BY 3.0 \u00b7 cropped/resized",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "revision": 1,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leo_Carrillo_-_panoramio.jpg"
+      },
+      "profile_photos": [
+        {
+          "alt_text": "Rocky Sequit Point with a lifeguard tower above cobbles and low-tide reef at Leo Carrillo State Park.",
+          "caption": "Sequit Point, Leo Carrillo State Park",
+          "credit": "bahniuk \u00b7 cropped for Oh Tidepool",
+          "derivative_notice": null,
+          "id": "leo-carrillo-profile",
+          "license_name": "CC BY 3.0 \u00b7 cropped/resized",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "revision": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:Leo_Carrillo_-_panoramio.jpg"
+        },
+        {
+          "alt_text": "A clear low-tide pool among dark rocks, with algae and the open ocean behind.",
+          "caption": "Tide pool at Leo Carrillo",
+          "credit": "bahniuk \u00b7 cropped for Oh Tidepool",
+          "derivative_notice": null,
+          "id": "leo-carrillo-photo-01",
+          "license_name": "CC BY 3.0 \u00b7 cropped/resized",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "revision": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:Close_to_the_Water_-_panoramio.jpg"
+        },
+        {
+          "alt_text": "A ledge of eroded rock reef running down to the water on Leo Carrillo beach.",
+          "caption": "Rock reef at Leo Carrillo beach",
+          "credit": "bahniuk \u00b7 cropped for Oh Tidepool",
+          "derivative_notice": null,
+          "id": "leo-carrillo-photo-02",
+          "license_name": "CC BY 3.0 \u00b7 cropped/resized",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "revision": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:Leo_Carrillo_-_panoramio_(9).jpg"
+        },
+        {
+          "alt_text": "Visitors exploring an exposed rocky shore at low tide below the Santa Monica Mountains.",
+          "caption": "Low-tide rocky shore at Leo Carrillo State Park",
+          "credit": "bahniuk \u00b7 cropped for Oh Tidepool",
+          "derivative_notice": null,
+          "id": "leo-carrillo-photo-03",
+          "license_name": "CC BY 3.0 \u00b7 cropped/resized",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "revision": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:What_a_day_-_Beach_at_Leo_Carrillo_State_Park,_California_-_panoramio.jpg"
+        },
+        {
+          "alt_text": "A small shore crab tucked into a crack in an intertidal rock.",
+          "caption": "Shore crab in a rock crevice at Leo Carrillo",
+          "credit": "AmeteurAngeleno \u00b7 cropped for Oh Tidepool",
+          "derivative_notice": null,
+          "id": "leo-carrillo-photo-04",
+          "license_name": "CC0 1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "revision": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:Crab_at_Leo_Carillo_Beach.jpg"
+        }
+      ],
+      "region": "Sequit Point, Malibu",
+      "research": {
+        "access_review_status": "reviewed",
+        "evidence": [
+          {
+            "accessed_at": null,
+            "publisher": "California State Parks",
+            "title": "Leo Carrillo State Park",
+            "url": "https://www.parks.ca.gov/?page_id=616"
+          }
+        ],
+        "geometry_provenance": "manual-reference",
+        "publication_tier": "verified",
+        "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
+        "reviewed_at": "2026-10-03T18:32:54.739171Z",
+        "reviewer": "Oh Tidepool source review"
+      },
+      "revision": 1,
+      "shoreline_outline": {
+        "dataset_date": "2026-02-19T00:00:00",
+        "dataset_name": "California Aquatic Resources Inventory (CARI) v3.3",
+        "disclaimer": "Static modeled rocky-intertidal habitat context, not a tide-specific waterline, surveyed boundary, navigational chart, safe route, or real-time access condition.",
+        "geometry_status": "exploratory",
+        "outline_kind": "rocky-intertidal",
+        "polygons": [
+          [
+            {
+              "latitude": 34.043655846401,
+              "longitude": -118.93455329298
+            },
+            {
+              "latitude": 34.0436383310014,
+              "longitude": -118.934520400268
+            },
+            {
+              "latitude": 34.0435932625688,
+              "longitude": -118.934519376188
+            },
+            {
+              "latitude": 34.0435487054841,
+              "longitude": -118.934485869028
+            },
+            {
+              "latitude": 34.0434854389987,
+              "longitude": -118.934495263609
+            },
+            {
+              "latitude": 34.0434410523149,
+              "longitude": -118.934450927258
+            },
+            {
+              "latitude": 34.0434138401422,
+              "longitude": -118.934461141103
+            },
+            {
+              "latitude": 34.043404144901,
+              "longitude": -118.934504248559
+            },
+            {
+              "latitude": 34.0434031221554,
+              "longitude": -118.934569216517
+            },
+            {
+              "latitude": 34.0434296525013,
+              "longitude": -118.934602314943
+            },
+            {
+              "latitude": 34.0434837351686,
+              "longitude": -118.93460354294
+            },
+            {
+              "latitude": 34.0435102640005,
+              "longitude": -118.934636641367
+            },
+            {
+              "latitude": 34.043627613043,
+              "longitude": -118.934628475681
+            },
+            {
+              "latitude": 34.0436459807303,
+              "longitude": -118.93460722783
+            }
+          ],
+          [
+            {
+              "latitude": 34.0441078378848,
+              "longitude": -118.934194151021
+            },
+            {
+              "latitude": 34.0439083599862,
+              "longitude": -118.933977866345
+            },
+            {
+              "latitude": 34.0439067157127,
+              "longitude": -118.934082388922
+            },
+            {
+              "latitude": 34.0438701494149,
+              "longitude": -118.934114053637
+            },
+            {
+              "latitude": 34.0438696387892,
+              "longitude": -118.934146539413
+            },
+            {
+              "latitude": 34.0438874950543,
+              "longitude": -118.934157774642
+            },
+            {
+              "latitude": 34.0438684455925,
+              "longitude": -118.934222334765
+            },
+            {
+              "latitude": 34.0438320497348,
+              "longitude": -118.934243172086
+            },
+            {
+              "latitude": 34.0437510968833,
+              "longitude": -118.934230501349
+            },
+            {
+              "latitude": 34.0437235446405,
+              "longitude": -118.934262369982
+            },
+            {
+              "latitude": 34.0437055171396,
+              "longitude": -118.93426196035
+            },
+            {
+              "latitude": 34.0436880010059,
+              "longitude": -118.934229068536
+            },
+            {
+              "latitude": 34.0436609601139,
+              "longitude": -118.93422845319
+            },
+            {
+              "latitude": 34.0436152091202,
+              "longitude": -118.93427074228
+            },
+            {
+              "latitude": 34.0435965005117,
+              "longitude": -118.93431364492
+            },
+            {
+              "latitude": 34.0436036396171,
+              "longitude": -118.934432958258
+            },
+            {
+              "latitude": 34.0436298282417,
+              "longitude": -118.934487711473
+            },
+            {
+              "latitude": 34.0436566986865,
+              "longitude": -118.934499154213
+            },
+            {
+              "latitude": 34.0436825471249,
+              "longitude": -118.934575564013
+            },
+            {
+              "latitude": 34.0436538024044,
+              "longitude": -118.934683229794
+            },
+            {
+              "latitude": 34.043689174852,
+              "longitude": -118.934727360431
+            },
+            {
+              "latitude": 34.0436886627365,
+              "longitude": -118.934759843512
+            },
+            {
+              "latitude": 34.0436612816749,
+              "longitude": -118.934780886547
+            },
+            {
+              "latitude": 34.043660258188,
+              "longitude": -118.934845852709
+            },
+            {
+              "latitude": 34.0436242038997,
+              "longitude": -118.934845033445
+            },
+            {
+              "latitude": 34.0435963107012,
+              "longitude": -118.934898558663
+            },
+            {
+              "latitude": 34.0436136556523,
+              "longitude": -118.934942283261
+            },
+            {
+              "latitude": 34.0436039596896,
+              "longitude": -118.93498538892
+            },
+            {
+              "latitude": 34.0436402060299,
+              "longitude": -118.935018706536
+            },
+            {
+              "latitude": 34.0436755583855,
+              "longitude": -118.935019510528
+            },
+            {
+              "latitude": 34.0436840611407,
+              "longitude": -118.935052144525
+            },
+            {
+              "latitude": 34.04393353992,
+              "longitude": -118.935242352007
+            },
+            {
+              "latitude": 34.0439160297883,
+              "longitude": -118.935209117935
+            },
+            {
+              "latitude": 34.0439170532721,
+              "longitude": -118.93514414818
+            },
+            {
+              "latitude": 34.0439543006314,
+              "longitude": -118.935069170295
+            },
+            {
+              "latitude": 34.0439521807182,
+              "longitude": -118.934917477183
+            },
+            {
+              "latitude": 34.0439308401562,
+              "longitude": -118.934841167994
+            },
+            {
+              "latitude": 34.0439043955676,
+              "longitude": -118.93480265632
+            },
+            {
+              "latitude": 34.0438462326284,
+              "longitude": -118.93477425698
+            },
+            {
+              "latitude": 34.0438425778576,
+              "longitude": -118.93472001311
+            },
+            {
+              "latitude": 34.0438565240453,
+              "longitude": -118.934693249603
+            },
+            {
+              "latitude": 34.0438835656193,
+              "longitude": -118.934693864051
+            },
+            {
+              "latitude": 34.0439527025086,
+              "longitude": -118.934597946436
+            },
+            {
+              "latitude": 34.0439532138781,
+              "longitude": -118.934565465152
+            },
+            {
+              "latitude": 34.0439713261825,
+              "longitude": -118.934560460638
+            },
+            {
+              "latitude": 34.0440159686454,
+              "longitude": -118.934588552753
+            },
+            {
+              "latitude": 34.0440343369931,
+              "longitude": -118.934567307597
+            },
+            {
+              "latitude": 34.0440260910741,
+              "longitude": -118.934518374567
+            },
+            {
+              "latitude": 34.0440536432186,
+              "longitude": -118.934486505934
+            },
+            {
+              "latitude": 34.0440543242995,
+              "longitude": -118.934443193662
+            },
+            {
+              "latitude": 34.0440725229269,
+              "longitude": -118.934432775002
+            },
+            {
+              "latitude": 34.0440925950802,
+              "longitude": -118.934303249616
+            },
+            {
+              "latitude": 34.0440751638824,
+              "longitude": -118.934264940062
+            },
+            {
+              "latitude": 34.0441299279626,
+              "longitude": -118.934222855788
+            }
+          ],
+          [
+            {
+              "latitude": 34.0437305839919,
+              "longitude": -118.935819662409
+            },
+            {
+              "latitude": 34.0436544239401,
+              "longitude": -118.935788978654
+            },
+            {
+              "latitude": 34.0436182125906,
+              "longitude": -118.935798100147
+            },
+            {
+              "latitude": 34.0436086870857,
+              "longitude": -118.93583037931
+            },
+            {
+              "latitude": 34.0436171891032,
+              "longitude": -118.935863068105
+            },
+            {
+              "latitude": 34.0436529032246,
+              "longitude": -118.935885543954
+            },
+            {
+              "latitude": 34.043651538079,
+              "longitude": -118.935972167598
+            },
+            {
+              "latitude": 34.0436229623165,
+              "longitude": -118.936069005088
+            },
+            {
+              "latitude": 34.0435865663535,
+              "longitude": -118.936089840612
+            },
+            {
+              "latitude": 34.0435857133229,
+              "longitude": -118.936143981176
+            },
+            {
+              "latitude": 34.0435578193675,
+              "longitude": -118.936197505496
+            },
+            {
+              "latitude": 34.0435751643264,
+              "longitude": -118.936241226501
+            },
+            {
+              "latitude": 34.0435652182561,
+              "longitude": -118.936300199102
+            },
+            {
+              "latitude": 34.0437892196746,
+              "longitude": -118.936390447449
+            },
+            {
+              "latitude": 34.0438079848114,
+              "longitude": -118.936344008142
+            },
+            {
+              "latitude": 34.0437914921843,
+              "longitude": -118.936246145675
+            },
+            {
+              "latitude": 34.0438020418983,
+              "longitude": -118.936148898554
+            },
+            {
+              "latitude": 34.043766328584,
+              "longitude": -118.936126422706
+            },
+            {
+              "latitude": 34.0437583379522,
+              "longitude": -118.936061249932
+            },
+            {
+              "latitude": 34.0437949042982,
+              "longitude": -118.936029586115
+            },
+            {
+              "latitude": 34.0437678641847,
+              "longitude": -118.936028970769
+            },
+            {
+              "latitude": 34.0437685452678,
+              "longitude": -118.935985659396
+            },
+            {
+              "latitude": 34.043733258454,
+              "longitude": -118.935936112816
+            },
+            {
+              "latitude": 34.0437520533773,
+              "longitude": -118.935887796929
+            }
+          ],
+          [
+            {
+              "latitude": 34.043787164516,
+              "longitude": -118.937665020293
+            },
+            {
+              "latitude": 34.0437703324597,
+              "longitude": -118.937588815309
+            },
+            {
+              "latitude": 34.0437217812669,
+              "longitude": -118.937522719068
+            },
+            {
+              "latitude": 34.0436858118611,
+              "longitude": -118.937516485658
+            },
+            {
+              "latitude": 34.0436147260341,
+              "longitude": -118.937449876478
+            },
+            {
+              "latitude": 34.0435515451988,
+              "longitude": -118.937453855116
+            },
+            {
+              "latitude": 34.0435203381064,
+              "longitude": -118.937431481676
+            },
+            {
+              "latitude": 34.0434804600036,
+              "longitude": -118.937387246834
+            },
+            {
+              "latitude": 34.0434857345079,
+              "longitude": -118.937338623723
+            },
+            {
+              "latitude": 34.0434410083979,
+              "longitude": -118.937315943059
+            },
+            {
+              "latitude": 34.0434191563346,
+              "longitude": -118.937272118748
+            },
+            {
+              "latitude": 34.0433289336114,
+              "longitude": -118.937275482938
+            },
+            {
+              "latitude": 34.0433029168404,
+              "longitude": -118.937209899634
+            },
+            {
+              "latitude": 34.0433303843632,
+              "longitude": -118.937183445148
+            },
+            {
+              "latitude": 34.0432900796542,
+              "longitude": -118.937166280139
+            },
+            {
+              "latitude": 34.0433267310589,
+              "longitude": -118.937129203074
+            },
+            {
+              "latitude": 34.0433447586404,
+              "longitude": -118.937129612706
+            },
+            {
+              "latitude": 34.0433445025816,
+              "longitude": -118.937145854246
+            },
+            {
+              "latitude": 34.0433895718908,
+              "longitude": -118.937146879224
+            },
+            {
+              "latitude": 34.0434081956883,
+              "longitude": -118.937109391629
+            },
+            {
+              "latitude": 34.0433951880604,
+              "longitude": -118.937076601324
+            },
+            {
+              "latitude": 34.0434587091829,
+              "longitude": -118.937050966101
+            },
+            {
+              "latitude": 34.0434907693294,
+              "longitude": -118.937019199876
+            },
+            {
+              "latitude": 34.0434914526478,
+              "longitude": -118.936975888503
+            },
+            {
+              "latitude": 34.043473595555,
+              "longitude": -118.936964650579
+            },
+            {
+              "latitude": 34.0434650942675,
+              "longitude": -118.936931960886
+            },
+            {
+              "latitude": 34.0434290391518,
+              "longitude": -118.936931141622
+            },
+            {
+              "latitude": 34.0433667112109,
+              "longitude": -118.936880980595
+            },
+            {
+              "latitude": 34.0433764072008,
+              "longitude": -118.936837874038
+            },
+            {
+              "latitude": 34.0434218174081,
+              "longitude": -118.936817243329
+            },
+            {
+              "latitude": 34.0434542177393,
+              "longitude": -118.936763820519
+            },
+            {
+              "latitude": 34.0434898470727,
+              "longitude": -118.936791710513
+            },
+            {
+              "latitude": 34.043530835005,
+              "longitude": -118.93676556325
+            },
+            {
+              "latitude": 34.0435394218868,
+              "longitude": -118.936792837899
+            },
+            {
+              "latitude": 34.0436111903501,
+              "longitude": -118.936816133909
+            },
+            {
+              "latitude": 34.0436108486913,
+              "longitude": -118.936837789596
+            },
+            {
+              "latitude": 34.0436469037296,
+              "longitude": -118.936838609758
+            },
+            {
+              "latitude": 34.0436567708888,
+              "longitude": -118.936784674908
+            },
+            {
+              "latitude": 34.0436213976834,
+              "longitude": -118.936740543373
+            },
+            {
+              "latitude": 34.043594442371,
+              "longitude": -118.936734513881
+            },
+            {
+              "latitude": 34.0435725903473,
+              "longitude": -118.93669068957
+            },
+            {
+              "latitude": 34.0436313504464,
+              "longitude": -118.936681194377
+            },
+            {
+              "latitude": 34.0437030332311,
+              "longitude": -118.936709903636
+            },
+            {
+              "latitude": 34.0437038862606,
+              "longitude": -118.93665576397
+            },
+            {
+              "latitude": 34.0437498084077,
+              "longitude": -118.936602649282
+            },
+            {
+              "latitude": 34.0437423298894,
+              "longitude": -118.936504991631
+            },
+            {
+              "latitude": 34.0435076758766,
+              "longitude": -118.936518554395
+            },
+            {
+              "latitude": 34.043488240009,
+              "longitude": -118.936607533422
+            },
+            {
+              "latitude": 34.0434606869364,
+              "longitude": -118.936639402055
+            },
+            {
+              "latitude": 34.0432528610331,
+              "longitude": -118.936667170777
+            },
+            {
+              "latitude": 34.0432344917718,
+              "longitude": -118.936688417731
+            },
+            {
+              "latitude": 34.0431894238689,
+              "longitude": -118.936687392753
+            },
+            {
+              "latitude": 34.0431627237341,
+              "longitude": -118.936665120822
+            },
+            {
+              "latitude": 34.0430635728924,
+              "longitude": -118.936662866949
+            },
+            {
+              "latitude": 34.0429720709801,
+              "longitude": -118.93674743974
+            },
+            {
+              "latitude": 34.0429618635685,
+              "longitude": -118.936823031174
+            },
+            {
+              "latitude": 34.0429434942442,
+              "longitude": -118.936844276331
+            },
+            {
+              "latitude": 34.0429506311716,
+              "longitude": -118.936963587872
+            },
+            {
+              "latitude": 34.0429771601703,
+              "longitude": -118.936996686298
+            },
+            {
+              "latitude": 34.0429951878261,
+              "longitude": -118.936997096828
+            },
+            {
+              "latitude": 34.0430213751498,
+              "longitude": -118.937051850942
+            },
+            {
+              "latitude": 34.0430484169901,
+              "longitude": -118.937052466288
+            },
+            {
+              "latitude": 34.0430749452139,
+              "longitude": -118.937085563816
+            },
+            {
+              "latitude": 34.0431654235223,
+              "longitude": -118.937065958983
+            },
+            {
+              "latitude": 34.0431740960424,
+              "longitude": -118.937087820384
+            },
+            {
+              "latitude": 34.043192122912,
+              "longitude": -118.937088229117
+            },
+            {
+              "latitude": 34.0431815738664,
+              "longitude": -118.937185476238
+            },
+            {
+              "latitude": 34.0432342900509,
+              "longitude": -118.937273328778
+            },
+            {
+              "latitude": 34.043214385175,
+              "longitude": -118.937392025872
+            },
+            {
+              "latitude": 34.0431963575658,
+              "longitude": -118.93739161624
+            },
+            {
+              "latitude": 34.0431960173941,
+              "longitude": -118.937413271927
+            },
+            {
+              "latitude": 34.043241425465,
+              "longitude": -118.937392642116
+            },
+            {
+              "latitude": 34.0432499282637,
+              "longitude": -118.937425330013
+            },
+            {
+              "latitude": 34.0433310513071,
+              "longitude": -118.937427176051
+            },
+            {
+              "latitude": 34.0433397238102,
+              "longitude": -118.937449035655
+            },
+            {
+              "latitude": 34.0432939726431,
+              "longitude": -118.937491322948
+            },
+            {
+              "latitude": 34.0432844463574,
+              "longitude": -118.937523601213
+            },
+            {
+              "latitude": 34.0433012792545,
+              "longitude": -118.937599806197
+            },
+            {
+              "latitude": 34.0432830812059,
+              "longitude": -118.937610224858
+            },
+            {
+              "latitude": 34.0432562098983,
+              "longitude": -118.937598781219
+            },
+            {
+              "latitude": 34.0432376709242,
+              "longitude": -118.937630855566
+            },
+            {
+              "latitude": 34.043192773481,
+              "longitude": -118.937619002296
+            },
+            {
+              "latitude": 34.0431558652148,
+              "longitude": -118.937672320902
+            },
+            {
+              "latitude": 34.0430920870615,
+              "longitude": -118.937714197665
+            },
+            {
+              "latitude": 34.0431000755231,
+              "longitude": -118.937779369541
+            },
+            {
+              "latitude": 34.043243953304,
+              "longitude": -118.937804306773
+            },
+            {
+              "latitude": 34.0433152091553,
+              "longitude": -118.937860087661
+            },
+            {
+              "latitude": 34.0433692911512,
+              "longitude": -118.937861317454
+            },
+            {
+              "latitude": 34.0433689554464,
+              "longitude": -118.937882625493
+            }
+          ]
+        ],
+        "provenance": "official-gis",
+        "resolution_meters": null,
+        "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data",
+        "waterlines": []
+      },
+      "short_name": "Leo Carrillo",
+      "source_url": "https://www.parks.ca.gov/?page_id=616",
+      "species": [
+        "Sea anemones",
+        "Sea stars",
+        "Sea urchins",
+        "Mussels",
+        "Shore crabs",
+        "California spiny lobsters",
+        "Sea lettuce, coralline, and scour-brush algae",
+        "Small rocky-shore fish",
+        "Harbor seals and California sea lions",
+        "Brandt's cormorants and black oystercatchers",
+        "Western gulls and whimbrels",
+        "Pacific gray whales in winter"
+      ],
+      "species_profiles": [
+        {
+          "common_name": "Aggregating anemone",
+          "id": "aggregating-anemone",
+          "photo": {
+            "alt_text": "A cluster of aggregating anemones in a rocky tidepool.",
+            "caption": "Aggregating anemones",
+            "credit": "U.S. federal government / marine.gov \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "aggregating-anemone",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Anthopleura_elegantissima.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Anthopleura elegantissima",
+          "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/aggregating-anemone",
+          "summary": "Aggregating anemones attach to rocky pools and crevices, often forming dense green-tinted patches. Watch without touching or lifting them from water."
+        },
+        {
+          "common_name": "California mussel",
+          "id": "california-mussel",
+          "photo": {
+            "alt_text": "A dense bed of California mussels attached to intertidal rock.",
+            "caption": "California mussel bed",
+            "credit": "NPS Photo / Cabrillo National Monument",
+            "derivative_notice": null,
+            "id": "california-mussel",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mytilus_californianus_(725201c6-cd4a-4ee2-b32e-871cc0b55528).png"
+          },
+          "photo_url": null,
+          "scientific_name": "Mytilus californianus",
+          "source_url": "https://repository.library.noaa.gov/view/noaa/13953/noaa_13953_DS1.pdf",
+          "summary": "California mussels form dense beds on wave-exposed rock and shelter smaller shoreline life. Leave every mussel attached to the reef."
+        },
+        {
+          "common_name": "Limpet",
+          "id": "owl-limpet",
+          "photo": {
+            "alt_text": "A giant owl limpet attached to a rocky shoreline.",
+            "caption": "Giant owl limpet",
+            "credit": "NPS Photo / Channel Islands National Park",
+            "derivative_notice": null,
+            "id": "owl-limpet",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:The_Giant_Owl_Limpet_is_a_hard-shelled,_algae-scraping_marine_snail_and_the_largest_true_limpet_in_North_America._It_returns_(ed910ea8-155d-4519-3eeb-eb40d8359fa2).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Lottia gigantea",
+          "source_url": "https://www.nps.gov/places/tidepool-wayside-display.htm",
+          "summary": "A limpet is a low-profile marine snail that clamps tightly to rock. It may look like part of the shore\u2014never pry it from its home scar."
+        },
+        {
+          "common_name": "Black turban snail",
+          "id": "black-turban-snail",
+          "photo": {
+            "alt_text": "Several black turban snails on wet intertidal rock.",
+            "caption": "Black turban snails on intertidal rock",
+            "credit": "Steve Lonhart / SIMoN / MBNMS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "black-turban-snail",
+            "license_name": "Public domain",
+            "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Tegula_funebralis.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Tegula funebralis",
+          "source_url": "https://www.nps.gov/cabr/learn/intertidal-field-guide.htm",
+          "summary": "A deep purple-black spiral snail that may cluster in crevices or on rock sides in the high and middle intertidal. It may graze microscopic algae and seaweed; empty shells are often reused by hermit crabs."
+        },
+        {
+          "common_name": "Bat star",
+          "id": "bat-star",
+          "photo": {
+            "alt_text": "A bat star in a shallow tidepool.",
+            "caption": "Bat star",
+            "credit": "NPS Photo / Cabrillo National Monument",
+            "derivative_notice": null,
+            "id": "bat-star",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bat_Star_(Patiria_miniata)_(9ba2c265-aa2e-4e99-b96a-4f3aaa42153a).jpeg"
+          },
+          "photo_url": null,
+          "scientific_name": "Patiria miniata",
+          "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bat-star",
+          "summary": "Bat stars have webbing between short, triangular arms and can be many colors. Leave sea stars in place and keep feet off shallow pools."
+        },
+        {
+          "common_name": "Purple sea urchin",
+          "id": "purple-urchin",
+          "photo": {
+            "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
+            "caption": "Purple sea urchins",
+            "credit": "Claire Fackler / NOAA",
+            "derivative_notice": null,
+            "id": "purple-urchin",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bat_star_(Asterina_miniata)_and_purple_urchins_(Strongylocentrotus_purpuratus).jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Strongylocentrotus purpuratus",
+          "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/purple-sea-urchin",
+          "summary": "Purple sea urchins graze algae with movable spines and tube feet. Keep hands and feet away from the spines and their rocky crevices."
+        },
+        {
+          "common_name": "Shore crab",
+          "id": "lined-shore-crab",
+          "photo": {
+            "alt_text": "A lined shore crab on rocky coast habitat.",
+            "caption": "Lined shore crab",
+            "credit": "Peter Pearsall / U.S. Fish and Wildlife Service \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "lined-shore-crab",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Pachygrapsus_crassipes_(23470066989).jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Pachygrapsus crassipes",
+          "source_url": "https://www.montereybayaquarium.org/globalassets/mba/pdf/education/activities/critter-cards/aquarium-crittercards-rocky-shore.pdf",
+          "summary": "Lined shore crabs slip into narrow rock cracks and scrape small plants from surfaces. Give them space and do not turn rocks over to find one."
+        },
+        {
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce growing among small rocks at Cabrillo National Monument.",
+            "caption": "Sea lettuce (Ulva californica) at Cabrillo National Monument",
+            "credit": "J. McKenna / NPS Photo",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Ulvacalifornica.JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "A dense pinkish-brown cluster of coralline red algae on rocky intertidal habitat at Cabrillo National Monument.",
+            "caption": "Coralline red alga (Corallina pinnatifolia) at Cabrillo National Monument",
+            "credit": "J. McKenna / NPS Photo",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallinapinnatifolia.JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
+          "common_name": "Scour-brush algae (red turfweed)",
+          "id": "scour-brush-algae",
+          "photo": {
+            "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
+            "caption": "Scour-brush red algae",
+            "credit": "NPS Photo",
+            "derivative_notice": null,
+            "id": "scour-brush-algae",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Scour-brush_is_the_common_name_used_for_the_tuft-like_red_algae_common_in_the_high_intertidal._The_tufted,_highly_branched_form_(ed8ab87f-155d-4519-3e8e-e2747ebf0573).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Endocladia muricata",
+          "source_url": "https://irma.nps.gov/DataStore/DownloadFile/581739",
+          "summary": "Scour-brush algae may form dense, tufted red turf in the high rocky intertidal. Its many branches trap moisture at low tide and shelter tiny shore life, so leave the living mat intact."
+        },
+        {
+          "common_name": "Harbor seal",
+          "id": "harbor-seal",
+          "photo": {
+            "alt_text": "A harbor seal resting on a rocky shoreline.",
+            "caption": "Harbor seal",
+            "credit": "AWeith \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": "Adapted (cropped and resized) from the original. This derivative is offered under CC BY-SA 4.0.",
+            "id": "harbor-seal",
+            "license_name": "CC BY-SA 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Harbor_seal_(Phoca_vitulina)_at_Magdalen_fjord,_Svalbard_(1).jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Phoca vitulina",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/marine-mammals.htm",
+          "summary": "Harbor seals may haul out on low rocks, reefs, and sandbars near the shore, especially at lower tides. They are protected marine mammals\u2014stay well back, keep dogs away, and let resting seals lie undisturbed."
+        },
+        {
+          "common_name": "California sea lion",
+          "id": "california-sea-lion",
+          "photo": {
+            "alt_text": "A California sea lion in the water off La Jolla.",
+            "caption": "California sea lion, La Jolla",
+            "credit": "Rhododendrites \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": "Adapted (cropped and resized) from the original. This derivative is offered under CC BY-SA 4.0.",
+            "id": "california-sea-lion",
+            "license_name": "CC BY-SA 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:California_sea_lion_in_La_Jolla_(70568).jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Zalophus californianus",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/marine-mammals.htm",
+          "summary": "California sea lions are often seen swimming or rafting near shore and may haul out on floats, buoys, and low rocks. They are federally protected\u2014keep a wide distance and never approach or feed them."
+        },
+        {
+          "common_name": "Pacific gray whale",
+          "id": "pacific-gray-whale",
+          "photo": {
+            "alt_text": "A gray whale and calf surfacing offshore.",
+            "caption": "Pacific gray whale with calf",
+            "credit": "Carlos Valenzuela \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": "Adapted (cropped and resized) from the original. This derivative is offered under CC BY-SA 4.0.",
+            "id": "pacific-gray-whale",
+            "license_name": "CC BY-SA 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eschrichtius_robustus_with_calf_ALM_1702_p1.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Eschrichtius robustus",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/marine-mammals.htm",
+          "summary": "Gray whales pass through Southern California waters during their winter migration, roughly mid-December through March, and may be spotted offshore, sometimes with a calf. They are protected marine mammals; watch from the shore and never chase or approach them."
+        },
+        {
+          "common_name": "Brandt's cormorant",
+          "id": "brandt-cormorant",
+          "photo": {
+            "alt_text": "A Brandt's cormorant perched on coastal rocks.",
+            "caption": "Brandt's cormorant",
+            "credit": "Vickie J Anderson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": "Adapted (cropped and resized) from the original. This derivative is offered under CC BY-SA 4.0.",
+            "id": "brandt-cormorant",
+            "license_name": "CC BY-SA 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Brandt%27s_Cormorant_1919a.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Phalacrocorax penicillatus",
+          "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
+          "summary": "Brandt's cormorants roost on cliffs and offshore rocks and dive for fish in near-shore waters. You may see them perched with wings spread to dry. Watch from a distance so they stay on the roost."
+        },
+        {
+          "common_name": "Black oystercatcher",
+          "id": "black-oystercatcher",
+          "photo": {
+            "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
+            "caption": "Black oystercatcher",
+            "credit": "TRinaud \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "black-oystercatcher",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Black_oystercatcher_(Haematopus_bachmani)_2018.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Haematopus bachmani",
+          "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
+          "summary": "A black shorebird with a long orange bill that may forage in the rocky intertidal for mussels, limpets, and other shelled prey. Point Loma is a regular site for them in San Diego; give foraging birds space and stay on stable rock."
+        },
+        {
+          "common_name": "Western gull",
+          "id": "western-gull",
+          "photo": {
+            "alt_text": "A western gull standing on a coastal rock.",
+            "caption": "Western gull",
+            "credit": "Diliff \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": "Adapted (cropped and resized) from the original. This derivative is offered under CC BY-SA 3.0.",
+            "id": "western-gull",
+            "license_name": "CC BY-SA 3.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Larus_occidentalis_(Western_Gull),_Point_Lobos,_CA,_US_-_May_2013.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Larus occidentalis",
+          "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
+          "summary": "Western gulls are the common large gull of the rocky shore and may gather near visitors and tidepools. They are wild animals\u2014keep food covered and do not feed them."
+        },
+        {
+          "common_name": "Whimbrel",
+          "id": "whimbrel",
+          "photo": {
+            "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
+            "caption": "Hudsonian whimbrel, Morro Bay, California",
+            "credit": "Alan Schmierer \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "whimbrel",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Hudsonian_Whimbrel,_Morro_Bay,_California_(4455150327).jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Numenius phaeopus",
+          "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
+          "summary": "Whimbrels are long-billed shorebirds that may probe the open shoreline and rocky edge for crabs and other prey. They are seasonal visitors; watch without getting between them and the water."
+        },
+        {
+          "common_name": "Garibaldi",
+          "id": "garibaldi",
+          "photo": {
+            "alt_text": "An orange garibaldi fish on a rocky reef.",
+            "caption": "Garibaldi",
+            "credit": "NOAA \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "garibaldi",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Hypsypops_rubicundus_by_NOAA.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Hypsypops rubicundus",
+          "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/garibaldi",
+          "summary": "The bright orange garibaldi, California's state marine fish, defends territories in kelp forests and rocky reefs and may be seen in deeper pools at the edge of the low tide. It is protected from collection; leave it in the water."
+        }
+      ],
+      "status": "published",
+      "surf_threshold_feet": 3.0,
+      "tide_threshold_feet": 1.0,
+      "time_zone": "America/Los_Angeles",
+      "updated_at": "2026-10-03T18:32:54.739172Z",
+      "visitor_guide": {
+        "check_before_leaving": "The park points visitors to the Los Angeles County Public Health beach water-quality advisories. Check the tide: the rocks around Sequit Point and the caves flood as the tide rises.",
+        "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
+        "getting_there": "Enter Leo Carrillo State Park at 35000 West Pacific Coast Highway, Malibu, and walk from the South Beach day-use area to the beach on either side of Sequit Point. Stay on the sand and open rock at low tide; do not climb the bluffs.",
+        "parking_options": [
+          {
+            "availability_note": null,
+            "coordinate": null,
+            "id": "leo-carrillo-south-beach",
+            "kind": "public-lot",
+            "name": "South Beach day-use lot",
+            "price_note": "California State Parks lists hourly parking at $3 and vehicle day use at $12.",
+            "source": {
+              "accessed_at": null,
+              "publisher": "California State Parks",
+              "title": "Leo Carrillo accessibility",
+              "url": "https://www.parks.ca.gov/AccessibleFeatures/Details/616"
+            },
+            "summary": "State Park lot past the entrance station, beside Sequit Point; the park lists accessible parking and a portable restroom, with a generally accessible route to the beach.",
+            "time_limit_note": "Day-use parking is listed as 8:00 a.m. to 10:00 p.m."
+          },
+          {
+            "availability_note": null,
+            "coordinate": null,
+            "id": "leo-carrillo-north-beach",
+            "kind": "overflow",
+            "name": "North Beach day-use lot",
+            "price_note": "California State Parks lists hourly parking at $3 and vehicle day use at $12.",
+            "source": {
+              "accessed_at": null,
+              "publisher": "California State Parks",
+              "title": "Leo Carrillo accessibility",
+              "url": "https://www.parks.ca.gov/AccessibleFeatures/Details/616"
+            },
+            "summary": "The park's second day-use area, with accessible parking and restrooms a short distance from the beach; walk the beach toward Sequit Point only when the tide allows.",
+            "time_limit_note": "Day-use parking is listed as 8:00 a.m. to 10:00 p.m."
+          }
+        ],
+        "reviewed_at": "2026-10-03T18:32:54.751640Z",
+        "sources": [
+          {
+            "accessed_at": null,
+            "publisher": "California State Parks",
+            "title": "Leo Carrillo State Park",
+            "url": "https://www.parks.ca.gov/?page_id=616"
+          },
+          {
+            "accessed_at": null,
+            "publisher": "California State Parks",
+            "title": "Leo Carrillo accessibility",
+            "url": "https://www.parks.ca.gov/AccessibleFeatures/Details/616"
           }
         ]
       },
@@ -36242,7 +37565,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T17:03:58.603546Z",
+        "reviewed_at": "2026-10-03T18:32:54.739019Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -37563,7 +38886,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T17:03:58.603547Z",
+      "updated_at": "2026-10-03T18:32:54.739020Z",
       "visitor_guide": {
         "check_before_leaving": "Much of this coastline is below steep bluffs. Park warnings cover changing surf, rip currents, and unstable cliff faces.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -37602,7 +38925,7 @@
             "time_limit_note": "Day use is listed as 6 a.m. to sunset."
           }
         ],
-        "reviewed_at": "2026-10-03T17:03:58.616164Z",
+        "reviewed_at": "2026-10-03T18:32:54.751648Z",
         "sources": [
           {
             "accessed_at": null,
@@ -37795,7 +39118,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T17:03:58.603604Z",
+        "reviewed_at": "2026-10-03T18:32:54.739089Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -39377,7 +40700,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T17:03:58.603604Z",
+      "updated_at": "2026-10-03T18:32:54.739090Z",
       "visitor_guide": {
         "check_before_leaving": "High tide can leave little or no dry sand. The City warns about rocky bottom, urchins, currents, and difficult water entry; check stair conditions and posted restrictions.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -39416,7 +40739,7 @@
             "time_limit_note": "Rates and maximum stays differ by zone and season; confirm the posted meter or lot sign."
           }
         ],
-        "reviewed_at": "2026-10-03T17:03:58.616174Z",
+        "reviewed_at": "2026-10-03T18:32:54.751656Z",
         "sources": [
           {
             "accessed_at": null,
