@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:10:31Z",
+  "generated_at": "2026-10-03T16:22:30Z",
   "items": [
     {
       "browse_metadata": {
@@ -13103,6 +13103,8 @@
         "Little or no cell service at the pools"
       ],
       "id": "cabrillo-tidepools",
+      "map_span_meters": null,
+      "marine_coordinate": null,
       "name": "Cabrillo National Monument Tidepools",
       "nearest_buoy_id": "46232",
       "noaa_station_id": "9410170",
@@ -13215,7 +13217,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T16:10:31.180897Z",
+        "reviewed_at": "2026-10-03T16:22:30.416923Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -15162,6 +15164,7 @@
         "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data",
         "waterlines": []
       },
+      "short_name": "Cabrillo",
       "source_url": "https://www.nps.gov/thingstodo/visit-the-cabrillo-tidepools.htm",
       "species": [
         "California mussels",
@@ -15583,7 +15586,7 @@
       "status": "published",
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
-      "updated_at": "2026-10-03T16:10:31.172469Z",
+      "updated_at": "2026-10-03T16:22:30.409187Z",
       "visitor_guide": {
         "check_before_leaving": "Arrive early for a good low tide. The lower approach is roughly 1/4\u20131/2 mile on a dirt path with about 100 feet of elevation change; there is no cell service at the tidepools.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -15657,7 +15660,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-03T16:10:31.185822Z",
+        "reviewed_at": "2026-10-03T16:22:30.421522Z",
         "sources": [
           {
             "accessed_at": null,
@@ -15678,7 +15681,8 @@
             "url": "https://home.nps.gov/cabr/planyourvisit/fees.htm"
           }
         ]
-      }
+      },
+      "weather_coordinate": null
     },
     {
       "browse_metadata": {
@@ -34554,6 +34558,8 @@
         "Marine protected area: do not take plants or animals"
       ],
       "id": "dike-rock-scripps-beach",
+      "map_span_meters": 850.0,
+      "marine_coordinate": null,
       "name": "Dike Rock Tidepools",
       "nearest_buoy_id": "46232",
       "noaa_station_id": "9410230",
@@ -34666,7 +34672,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T16:10:31.184122Z",
+        "reviewed_at": "2026-10-03T16:22:30.419959Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -35549,6 +35555,7 @@
         "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data",
         "waterlines": []
       },
+      "short_name": "Dike Rock",
       "source_url": "https://wildlife.ca.gov/Conservation/Marine/MPAs/San-Diego-Scripps-Coastal-Matlahuayl",
       "species": [
         "Sea anemones",
@@ -35969,7 +35976,7 @@
       "status": "published",
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.0,
-      "updated_at": "2026-10-03T16:10:31.172759Z",
+      "updated_at": "2026-10-03T16:22:30.409473Z",
       "visitor_guide": {
         "check_before_leaving": "This is a condition-dependent coast with rising-tide cutoff risk. Carry a conservative turnaround time and do not depend on a through-route along the beach.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -36024,7 +36031,7 @@
             "time_limit_note": "Read the sign at the actual curb space; no blanket street limit is published for this guide."
           }
         ],
-        "reviewed_at": "2026-10-03T16:10:31.185856Z",
+        "reviewed_at": "2026-10-03T16:22:30.421552Z",
         "sources": [
           {
             "accessed_at": null,
@@ -36045,7 +36052,8 @@
             "url": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/kelloggpark"
           }
         ]
-      }
+      },
+      "weather_coordinate": null
     },
     {
       "browse_metadata": {
@@ -36107,6 +36115,8 @@
         "Marine protected area: observe only and do not collect"
       ],
       "id": "pelican-point-crystal-cove",
+      "map_span_meters": null,
+      "marine_coordinate": null,
       "name": "Pelican Point Tidepools",
       "nearest_buoy_id": null,
       "noaa_station_id": "9410580",
@@ -36230,7 +36240,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T16:10:31.172639Z",
+        "reviewed_at": "2026-10-03T16:22:30.409361Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -37169,6 +37179,7 @@
         "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data",
         "waterlines": []
       },
+      "short_name": "Pelican Point",
       "source_url": "https://www.parks.ca.gov/?page_id=27901",
       "species": [
         "California sea hares",
@@ -37549,7 +37560,7 @@
       "status": "published",
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
-      "updated_at": "2026-10-03T16:10:31.172640Z",
+      "updated_at": "2026-10-03T16:22:30.409362Z",
       "visitor_guide": {
         "check_before_leaving": "Much of this coastline is below steep bluffs. Park warnings cover changing surf, rip currents, and unstable cliff faces.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -37588,7 +37599,7 @@
             "time_limit_note": "Day use is listed as 6 a.m. to sunset."
           }
         ],
-        "reviewed_at": "2026-10-03T16:10:31.185838Z",
+        "reviewed_at": "2026-10-03T16:22:30.421534Z",
         "sources": [
           {
             "accessed_at": null,
@@ -37603,7 +37614,8 @@
             "url": "https://www.parks.ca.gov/pages/644/files/CrystalCoveSP_Infosheet_85x14_021825_FINAL.pdf"
           }
         ]
-      }
+      },
+      "weather_coordinate": null
     },
     {
       "browse_metadata": {
@@ -37666,6 +37678,8 @@
         "Marine life and rocks are protected"
       ],
       "id": "rockpile-beach",
+      "map_span_meters": null,
+      "marine_coordinate": null,
       "name": "Rockpile Beach Tidepools",
       "nearest_buoy_id": null,
       "noaa_station_id": "9410580",
@@ -37778,7 +37792,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-03T16:10:31.172698Z",
+        "reviewed_at": "2026-10-03T16:22:30.409422Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -38997,6 +39011,7 @@
         "source_url": "https://www.sfei.org/data/california-aquatic-resource-inventory-cari-gis-data",
         "waterlines": []
       },
+      "short_name": "Rockpile",
       "source_url": "https://www.lagunabeachcity.net/Home/Components/FacilityDirectory/FacilityDirectory/61/961",
       "species": [
         "Sea anemones",
@@ -39358,7 +39373,7 @@
       "status": "published",
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.5,
-      "updated_at": "2026-10-03T16:10:31.172698Z",
+      "updated_at": "2026-10-03T16:22:30.409423Z",
       "visitor_guide": {
         "check_before_leaving": "High tide can leave little or no dry sand. The City warns about rocky bottom, urchins, currents, and difficult water entry; check stair conditions and posted restrictions.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -39397,7 +39412,7 @@
             "time_limit_note": "Rates and maximum stays differ by zone and season; confirm the posted meter or lot sign."
           }
         ],
-        "reviewed_at": "2026-10-03T16:10:31.185847Z",
+        "reviewed_at": "2026-10-03T16:22:30.421542Z",
         "sources": [
           {
             "accessed_at": null,
@@ -39412,7 +39427,8 @@
             "url": "https://www.lagunabeachcity.net/government/beach-access-pool-hours-swimming-classes/beach-information"
           }
         ]
-      }
+      },
+      "weather_coordinate": null
     }
   ]
 }
