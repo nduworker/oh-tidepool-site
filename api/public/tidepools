@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:39:21Z",
+  "generated_at": "2026-10-04T15:55:32Z",
   "items": [
     {
       "browse_metadata": {
@@ -13217,7 +13217,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T04:39:21.397197Z",
+        "reviewed_at": "2026-10-04T15:55:32.126031Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -15564,6 +15564,66 @@
           "summary": "A small brown chiton edged with short bristles that may sit in a scraped depression on high, wave-splashed rock. It may look like part of the rock; never pry chitons up."
         },
         {
+          "abundance": "common",
+          "common_name": "Dead man's fingers (green algae)",
+          "id": "dead-mans-fingers",
+          "photo": {
+            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
+            "caption": "Dead man's fingers (green algae)",
+            "credit": "NPS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "dead-mans-fingers",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Codium fragile",
+          "source_url": "https://www.inaturalist.org/taxa/67555",
+          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
+            "caption": "Sea lettuce",
+            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://www.inaturalist.org/observations/221214286"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "Jointed pink-and-white coralline seaweed.",
+            "caption": "Coralline algae",
+            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
@@ -15642,26 +15702,6 @@
           "scientific_name": "Mytilus californianus",
           "source_url": "https://repository.library.noaa.gov/view/noaa/13953/noaa_13953_DS1.pdf",
           "summary": "California mussels may form dense beds on wave-exposed rock and shelter smaller shoreline life. Leave every mussel attached to the reef."
-        },
-        {
-          "abundance": "occasional",
-          "common_name": "Dead man's fingers (green algae)",
-          "id": "dead-mans-fingers",
-          "photo": {
-            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
-            "caption": "Dead man's fingers (green algae)",
-            "credit": "NPS \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "dead-mans-fingers",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Codium fragile",
-          "source_url": "https://www.inaturalist.org/taxa/67555",
-          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "occasional",
@@ -15885,26 +15925,6 @@
         },
         {
           "abundance": "occasional",
-          "common_name": "Sea lettuce (green algae)",
-          "id": "sea-lettuce",
-          "photo": {
-            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
-            "caption": "Sea lettuce",
-            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "sea-lettuce",
-            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
-            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-            "revision": 1,
-            "source_url": "https://www.inaturalist.org/observations/221214286"
-          },
-          "photo_url": null,
-          "scientific_name": "Ulva spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
-        },
-        {
-          "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
           "photo": {
@@ -15982,26 +16002,6 @@
           "scientific_name": "Gymnothorax mordax",
           "source_url": "https://www.inaturalist.org/taxa/317127",
           "summary": "A long, mottled brown eel that may hide in crevices with only its head showing, opening and closing its mouth to breathe. Morays can bite; never reach into holes or crevices."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Coralline algae (pink red algae)",
-          "id": "coralline-algae",
-          "photo": {
-            "alt_text": "Jointed pink-and-white coralline seaweed.",
-            "caption": "Coralline algae",
-            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "coralline-algae",
-            "license_name": "CC0 1.0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "revision": 2,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
-          },
-          "photo_url": null,
-          "scientific_name": "Corallina spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
         },
         {
           "abundance": "rare",
@@ -16088,7 +16088,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T04:39:21.394935Z",
+      "updated_at": "2026-10-04T15:55:32.073387Z",
       "visitor_guide": {
         "check_before_leaving": "Arrive early for a good low tide. The lower approach is roughly 1/4\u20131/2 mile on a dirt path with about 100 feet of elevation change; there is no cell service at the tidepools.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -16162,7 +16162,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-04T04:39:21.401048Z",
+        "reviewed_at": "2026-10-04T15:55:32.248076Z",
         "sources": [
           {
             "accessed_at": null,
@@ -35174,7 +35174,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T04:39:21.399706Z",
+        "reviewed_at": "2026-10-04T15:55:32.176480Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -36437,6 +36437,26 @@
         },
         {
           "abundance": "common",
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "Jointed pink-and-white coralline seaweed.",
+            "caption": "Coralline algae",
+            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
+          "abundance": "occasional",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
           "photo": {
@@ -36456,7 +36476,7 @@
           "summary": "A pinkish, cone-shaped barnacle with a small opening at the top that may cover open rock in the middle and high shore. Walk on bare rock or sand, not on barnacle beds."
         },
         {
-          "abundance": "common",
+          "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
           "photo": {
@@ -36476,7 +36496,7 @@
           "summary": "Juvenile opaleye may use Southern California intertidal habitat before larger fish move into deeper water. Watch any small fish from above rather than chasing it through a pool."
         },
         {
-          "abundance": "common",
+          "abundance": "occasional",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
           "photo": {
@@ -36736,6 +36756,46 @@
           "summary": "A snail that cements its tube-like shell to rock in tangled clumps instead of moving around. Its masses may look like white coral on low, wave-washed rock."
         },
         {
+          "abundance": "occasional",
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
+            "caption": "Sea lettuce",
+            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://www.inaturalist.org/observations/221214286"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
+          "abundance": "occasional",
+          "common_name": "Dead man's fingers (green algae)",
+          "id": "dead-mans-fingers",
+          "photo": {
+            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
+            "caption": "Dead man's fingers (green algae)",
+            "credit": "NPS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "dead-mans-fingers",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Codium fragile",
+          "source_url": "https://www.inaturalist.org/taxa/67555",
+          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
+        },
+        {
           "abundance": "rare",
           "common_name": "California moray",
           "id": "california-moray",
@@ -36794,26 +36854,6 @@
           "scientific_name": "Haematopus bachmani",
           "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
           "summary": "A black shorebird with a long orange bill that may forage in the rocky intertidal for mussels, limpets, and other shelled prey. Point Loma is a regular site for them in San Diego; give foraging birds space and stay on stable rock."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Coralline algae (pink red algae)",
-          "id": "coralline-algae",
-          "photo": {
-            "alt_text": "Jointed pink-and-white coralline seaweed.",
-            "caption": "Coralline algae",
-            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "coralline-algae",
-            "license_name": "CC0 1.0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "revision": 2,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
-          },
-          "photo_url": null,
-          "scientific_name": "Corallina spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
         },
         {
           "abundance": "rare",
@@ -36897,26 +36937,6 @@
         },
         {
           "abundance": "rare",
-          "common_name": "Sea lettuce (green algae)",
-          "id": "sea-lettuce",
-          "photo": {
-            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
-            "caption": "Sea lettuce",
-            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "sea-lettuce",
-            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
-            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-            "revision": 1,
-            "source_url": "https://www.inaturalist.org/observations/221214286"
-          },
-          "photo_url": null,
-          "scientific_name": "Ulva spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
-        },
-        {
-          "abundance": "rare",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
           "photo": {
@@ -36934,26 +36954,6 @@
           "scientific_name": "Strongylocentrotus purpuratus",
           "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/purple-sea-urchin",
           "summary": "Purple sea urchins may graze algae with movable spines and tube feet. Keep hands and feet away from the spines and their rocky crevices."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Dead man's fingers (green algae)",
-          "id": "dead-mans-fingers",
-          "photo": {
-            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
-            "caption": "Dead man's fingers (green algae)",
-            "credit": "NPS \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "dead-mans-fingers",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Codium fragile",
-          "source_url": "https://www.inaturalist.org/taxa/67555",
-          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "rare",
@@ -37000,7 +37000,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T04:39:21.395239Z",
+      "updated_at": "2026-10-04T15:55:32.074625Z",
       "visitor_guide": {
         "check_before_leaving": "This is a condition-dependent coast with rising-tide cutoff risk. Carry a conservative turnaround time and do not depend on a through-route along the beach.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -37055,7 +37055,7 @@
             "time_limit_note": "Read the sign at the actual curb space; no blanket street limit is published for this guide."
           }
         ],
-        "reviewed_at": "2026-10-04T04:39:21.401084Z",
+        "reviewed_at": "2026-10-04T15:55:32.248225Z",
         "sources": [
           {
             "accessed_at": null,
@@ -37232,7 +37232,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T04:39:21.395197Z",
+        "reviewed_at": "2026-10-04T15:55:32.074473Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -38279,6 +38279,46 @@
           "summary": "A deep purple-black spiral snail that may cluster in crevices or on rock sides in the high and middle intertidal. It may graze microscopic algae and seaweed; empty shells are often reused by hermit crabs."
         },
         {
+          "abundance": "common",
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "Jointed pink-and-white coralline seaweed.",
+            "caption": "Coralline algae",
+            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
+            "caption": "Sea lettuce",
+            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://www.inaturalist.org/observations/221214286"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
@@ -38619,24 +38659,44 @@
           "summary": "A dark, smooth-shelled crab with long legs that may cling to kelp and low rocks. It may raise its claws when approached; give it space."
         },
         {
-          "abundance": "rare",
-          "common_name": "Coralline algae (pink red algae)",
-          "id": "coralline-algae",
+          "abundance": "occasional",
+          "common_name": "Scour-brush algae (red turfweed)",
+          "id": "scour-brush-algae",
           "photo": {
-            "alt_text": "Jointed pink-and-white coralline seaweed.",
-            "caption": "Coralline algae",
-            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
+            "caption": "Scour-brush red algae",
+            "credit": "NPS Photo",
             "derivative_notice": null,
-            "id": "coralline-algae",
-            "license_name": "CC0 1.0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "revision": 2,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+            "id": "scour-brush-algae",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Scour-brush_is_the_common_name_used_for_the_tuft-like_red_algae_common_in_the_high_intertidal._The_tufted,_highly_branched_form_(ed8ab87f-155d-4519-3e8e-e2747ebf0573).JPG"
           },
           "photo_url": null,
-          "scientific_name": "Corallina spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+          "scientific_name": "Endocladia muricata",
+          "source_url": "https://irma.nps.gov/DataStore/DownloadFile/581739",
+          "summary": "Scour-brush algae may form dense, tufted red turf in the high rocky intertidal. Its many branches trap moisture at low tide and shelter tiny shore life, so leave the living mat intact."
+        },
+        {
+          "abundance": "occasional",
+          "common_name": "Dead man's fingers (green algae)",
+          "id": "dead-mans-fingers",
+          "photo": {
+            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
+            "caption": "Dead man's fingers (green algae)",
+            "credit": "NPS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "dead-mans-fingers",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Codium fragile",
+          "source_url": "https://www.inaturalist.org/taxa/67555",
+          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "rare",
@@ -38657,26 +38717,6 @@
           "scientific_name": "Triopha maculata",
           "source_url": "https://www.inaturalist.org/taxa/47110",
           "summary": "An orange to brown sea slug dotted with pale or blue spots and tipped with orange branches. It may feed on bryozoans in low pools and can be easy to miss among red algae."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Sea lettuce (green algae)",
-          "id": "sea-lettuce",
-          "photo": {
-            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
-            "caption": "Sea lettuce",
-            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "sea-lettuce",
-            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
-            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-            "revision": 1,
-            "source_url": "https://www.inaturalist.org/observations/221214286"
-          },
-          "photo_url": null,
-          "scientific_name": "Ulva spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
         },
         {
           "abundance": "rare",
@@ -38740,26 +38780,6 @@
         },
         {
           "abundance": "rare",
-          "common_name": "Scour-brush algae (red turfweed)",
-          "id": "scour-brush-algae",
-          "photo": {
-            "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
-            "caption": "Scour-brush red algae",
-            "credit": "NPS Photo",
-            "derivative_notice": null,
-            "id": "scour-brush-algae",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Scour-brush_is_the_common_name_used_for_the_tuft-like_red_algae_common_in_the_high_intertidal._The_tufted,_highly_branched_form_(ed8ab87f-155d-4519-3e8e-e2747ebf0573).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Endocladia muricata",
-          "source_url": "https://irma.nps.gov/DataStore/DownloadFile/581739",
-          "summary": "Scour-brush algae may form dense, tufted red turf in the high rocky intertidal. Its many branches trap moisture at low tide and shelter tiny shore life, so leave the living mat intact."
-        },
-        {
-          "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
           "photo": {
@@ -38777,26 +38797,6 @@
           "scientific_name": "Hypsypops rubicundus",
           "source_url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/garibaldi",
           "summary": "The bright orange garibaldi, California's state marine fish, defends territories in kelp forests and rocky reefs and may be seen in deeper pools at the edge of the low tide. It is protected from collection; leave it in the water."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Dead man's fingers (green algae)",
-          "id": "dead-mans-fingers",
-          "photo": {
-            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
-            "caption": "Dead man's fingers (green algae)",
-            "credit": "NPS \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "dead-mans-fingers",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Codium fragile",
-          "source_url": "https://www.inaturalist.org/taxa/67555",
-          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "rare",
@@ -38883,7 +38883,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T04:39:21.395198Z",
+      "updated_at": "2026-10-04T15:55:32.074474Z",
       "visitor_guide": {
         "check_before_leaving": "The park points visitors to the Los Angeles County Public Health beach water-quality advisories. Check the tide: the rocks around Sequit Point and the caves flood as the tide rises.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -38922,7 +38922,7 @@
             "time_limit_note": "Day-use parking is listed as 8:00 a.m. to 10:00 p.m."
           }
         ],
-        "reviewed_at": "2026-10-04T04:39:21.401060Z",
+        "reviewed_at": "2026-10-04T15:55:32.248124Z",
         "sources": [
           {
             "accessed_at": null,
@@ -39125,7 +39125,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T04:39:21.395089Z",
+        "reviewed_at": "2026-10-04T15:55:32.074088Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -40402,6 +40402,46 @@
         },
         {
           "abundance": "common",
+          "common_name": "Dead man's fingers (green algae)",
+          "id": "dead-mans-fingers",
+          "photo": {
+            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
+            "caption": "Dead man's fingers (green algae)",
+            "credit": "NPS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "dead-mans-fingers",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Codium fragile",
+          "source_url": "https://www.inaturalist.org/taxa/67555",
+          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "Jointed pink-and-white coralline seaweed.",
+            "caption": "Coralline algae",
+            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
+          "abundance": "occasional",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
           "photo": {
@@ -40459,26 +40499,6 @@
           "scientific_name": "Haematopus bachmani",
           "source_url": "https://nps.gov/cabr/learn/nature/birdwatching.htm",
           "summary": "A black shorebird with a long orange bill that may forage in the rocky intertidal for mussels, limpets, and other shelled prey. Point Loma is a regular site for them in San Diego; give foraging birds space and stay on stable rock."
-        },
-        {
-          "abundance": "occasional",
-          "common_name": "Dead man's fingers (green algae)",
-          "id": "dead-mans-fingers",
-          "photo": {
-            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
-            "caption": "Dead man's fingers (green algae)",
-            "credit": "NPS \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "dead-mans-fingers",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Codium fragile",
-          "source_url": "https://www.inaturalist.org/taxa/67555",
-          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "occasional",
@@ -40742,6 +40762,26 @@
         },
         {
           "abundance": "occasional",
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
+            "caption": "Sea lettuce",
+            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://www.inaturalist.org/observations/221214286"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
+          "abundance": "rare",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
           "photo": {
@@ -40882,46 +40922,6 @@
         },
         {
           "abundance": "rare",
-          "common_name": "Coralline algae (pink red algae)",
-          "id": "coralline-algae",
-          "photo": {
-            "alt_text": "Jointed pink-and-white coralline seaweed.",
-            "caption": "Coralline algae",
-            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "coralline-algae",
-            "license_name": "CC0 1.0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "revision": 2,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
-          },
-          "photo_url": null,
-          "scientific_name": "Corallina spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Sea lettuce (green algae)",
-          "id": "sea-lettuce",
-          "photo": {
-            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
-            "caption": "Sea lettuce",
-            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "sea-lettuce",
-            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
-            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-            "revision": 1,
-            "source_url": "https://www.inaturalist.org/observations/221214286"
-          },
-          "photo_url": null,
-          "scientific_name": "Ulva spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
-        },
-        {
-          "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
           "photo": {
@@ -41005,7 +41005,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T04:39:21.395090Z",
+      "updated_at": "2026-10-04T15:55:32.074093Z",
       "visitor_guide": {
         "check_before_leaving": "Much of this coastline is below steep bluffs. Park warnings cover changing surf, rip currents, and unstable cliff faces.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -41044,7 +41044,7 @@
             "time_limit_note": "Day use is listed as 6 a.m. to sunset."
           }
         ],
-        "reviewed_at": "2026-10-04T04:39:21.401067Z",
+        "reviewed_at": "2026-10-04T15:55:32.248152Z",
         "sources": [
           {
             "accessed_at": null,
@@ -41237,7 +41237,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T04:39:21.395152Z",
+        "reviewed_at": "2026-10-04T15:55:32.074316Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -42714,6 +42714,66 @@
         },
         {
           "abundance": "common",
+          "common_name": "Dead man's fingers (green algae)",
+          "id": "dead-mans-fingers",
+          "photo": {
+            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
+            "caption": "Dead man's fingers (green algae)",
+            "credit": "NPS \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "dead-mans-fingers",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Codium fragile",
+          "source_url": "https://www.inaturalist.org/taxa/67555",
+          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Coralline algae (pink red algae)",
+          "id": "coralline-algae",
+          "photo": {
+            "alt_text": "Jointed pink-and-white coralline seaweed.",
+            "caption": "Coralline algae",
+            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "coralline-algae",
+            "license_name": "CC0 1.0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "revision": 2,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
+          },
+          "photo_url": null,
+          "scientific_name": "Corallina spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
+        },
+        {
+          "abundance": "common",
+          "common_name": "Sea lettuce (green algae)",
+          "id": "sea-lettuce",
+          "photo": {
+            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
+            "caption": "Sea lettuce",
+            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
+            "derivative_notice": null,
+            "id": "sea-lettuce",
+            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+            "revision": 1,
+            "source_url": "https://www.inaturalist.org/observations/221214286"
+          },
+          "photo_url": null,
+          "scientific_name": "Ulva spp.",
+          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
+          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
+        },
+        {
+          "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
           "photo": {
@@ -42733,7 +42793,7 @@
           "summary": "Whimbrels are long-billed shorebirds that may probe the open shoreline and rocky edge for crabs and other prey. They are seasonal visitors; watch without getting between them and the water."
         },
         {
-          "abundance": "common",
+          "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
           "photo": {
@@ -42753,7 +42813,7 @@
           "summary": "Juvenile opaleye may use Southern California intertidal habitat before larger fish move into deeper water. Watch any small fish from above rather than chasing it through a pool."
         },
         {
-          "abundance": "common",
+          "abundance": "occasional",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
           "photo": {
@@ -42891,26 +42951,6 @@
           "scientific_name": "Ceratodoris rosacea",
           "source_url": "https://www.inaturalist.org/taxa/1520980",
           "summary": "A tiny, vivid pink sea slug covered in long pink projections. It may appear in large numbers in some years, feeding on pink bryozoans on low rocks."
-        },
-        {
-          "abundance": "occasional",
-          "common_name": "Dead man's fingers (green algae)",
-          "id": "dead-mans-fingers",
-          "photo": {
-            "alt_text": "Spongy green branches of dead man's fingers seaweed.",
-            "caption": "Dead man's fingers (green algae)",
-            "credit": "NPS \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "dead-mans-fingers",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:This_distinct_green_alga_is_frequently_found_in_pools_mid_to_low_intertidal._Its_common_name,_Dead_Man%E2%80%99s_Fingers,_comes_from_its_(ed89a315-155d-4519-3e27-57b5c4dd336c).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Codium fragile",
-          "source_url": "https://www.inaturalist.org/taxa/67555",
-          "summary": "A spongy green seaweed with round, finger-like branches that may grow in low pools. Leave seaweed attached; it is food and shelter for many animals."
         },
         {
           "abundance": "occasional",
@@ -43173,6 +43213,26 @@
           "summary": "A smooth, glossy, bullet-shaped snail that may plow just under wet sand next to rocky areas. Many shells on the beach are still occupied; leave them."
         },
         {
+          "abundance": "occasional",
+          "common_name": "Scour-brush algae (red turfweed)",
+          "id": "scour-brush-algae",
+          "photo": {
+            "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
+            "caption": "Scour-brush red algae",
+            "credit": "NPS Photo",
+            "derivative_notice": null,
+            "id": "scour-brush-algae",
+            "license_name": "Public domain \u2014 U.S. federal government work",
+            "license_url": "https://www.usa.gov/government-copyright",
+            "revision": 1,
+            "source_url": "https://commons.wikimedia.org/wiki/File:Scour-brush_is_the_common_name_used_for_the_tuft-like_red_algae_common_in_the_high_intertidal._The_tufted,_highly_branched_form_(ed8ab87f-155d-4519-3e8e-e2747ebf0573).JPG"
+          },
+          "photo_url": null,
+          "scientific_name": "Endocladia muricata",
+          "source_url": "https://irma.nps.gov/DataStore/DownloadFile/581739",
+          "summary": "Scour-brush algae may form dense, tufted red turf in the high rocky intertidal. Its many branches trap moisture at low tide and shelter tiny shore life, so leave the living mat intact."
+        },
+        {
           "abundance": "rare",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
@@ -43294,46 +43354,6 @@
         },
         {
           "abundance": "rare",
-          "common_name": "Sea lettuce (green algae)",
-          "id": "sea-lettuce",
-          "photo": {
-            "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
-            "caption": "Sea lettuce",
-            "credit": "Rebecca Johnson \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "sea-lettuce",
-            "license_name": "CC BY 4.0 \u00b7 cropped/resized",
-            "license_url": "https://creativecommons.org/licenses/by/4.0/",
-            "revision": 1,
-            "source_url": "https://www.inaturalist.org/observations/221214286"
-          },
-          "photo_url": null,
-          "scientific_name": "Ulva spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Sea lettuce may form bright-green, flexible blades on rock in mid- and low-intertidal pools. It provides food and shelter for small shore life, so leave it attached as living habitat."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Coralline algae (pink red algae)",
-          "id": "coralline-algae",
-          "photo": {
-            "alt_text": "Jointed pink-and-white coralline seaweed.",
-            "caption": "Coralline algae",
-            "credit": "Al Kordesch \u00b7 cropped for Oh Tidepool",
-            "derivative_notice": null,
-            "id": "coralline-algae",
-            "license_name": "CC0 1.0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "revision": 2,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Corallina_vancouveriensis_255082657.jpg"
-          },
-          "photo_url": null,
-          "scientific_name": "Corallina spp.",
-          "source_url": "https://www.nps.gov/cabr/learn/nature/seaweeds.htm",
-          "summary": "Coralline algae may look like a small pink, stony branching plant or crust on rock. It is living intertidal habitat, not decoration\u2014avoid scraping it or stepping on it."
-        },
-        {
-          "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
           "photo": {
@@ -43371,26 +43391,6 @@
           "scientific_name": "Dendraster excentricus",
           "source_url": "https://www.inaturalist.org/taxa/117696",
           "summary": "A flat, round relative of sea urchins that lives in dense beds just offshore. Live, purple sand dollars may wash up on sandy beaches near reefs; return live ones gently to the water."
-        },
-        {
-          "abundance": "rare",
-          "common_name": "Scour-brush algae (red turfweed)",
-          "id": "scour-brush-algae",
-          "photo": {
-            "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
-            "caption": "Scour-brush red algae",
-            "credit": "NPS Photo",
-            "derivative_notice": null,
-            "id": "scour-brush-algae",
-            "license_name": "Public domain \u2014 U.S. federal government work",
-            "license_url": "https://www.usa.gov/government-copyright",
-            "revision": 1,
-            "source_url": "https://commons.wikimedia.org/wiki/File:Scour-brush_is_the_common_name_used_for_the_tuft-like_red_algae_common_in_the_high_intertidal._The_tufted,_highly_branched_form_(ed8ab87f-155d-4519-3e8e-e2747ebf0573).JPG"
-          },
-          "photo_url": null,
-          "scientific_name": "Endocladia muricata",
-          "source_url": "https://irma.nps.gov/DataStore/DownloadFile/581739",
-          "summary": "Scour-brush algae may form dense, tufted red turf in the high rocky intertidal. Its many branches trap moisture at low tide and shelter tiny shore life, so leave the living mat intact."
         },
         {
           "abundance": "rare",
@@ -43437,7 +43437,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T04:39:21.395152Z",
+      "updated_at": "2026-10-04T15:55:32.074318Z",
       "visitor_guide": {
         "check_before_leaving": "High tide can leave little or no dry sand. The City warns about rocky bottom, urchins, currents, and difficult water entry; check stair conditions and posted restrictions.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -43476,7 +43476,7 @@
             "time_limit_note": "Rates and maximum stays differ by zone and season; confirm the posted meter or lot sign."
           }
         ],
-        "reviewed_at": "2026-10-04T04:39:21.401074Z",
+        "reviewed_at": "2026-10-04T15:55:32.248178Z",
         "sources": [
           {
             "accessed_at": null,
