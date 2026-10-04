@@ -10,7 +10,7 @@ upstream CARI dataset. See [`COPYING.txt`](COPYING.txt) for the full licence tex
 | Path | Contents |
 | --- | --- |
 | `index.html` | The public page for this directory, which the app's licence text links to |
-| `outlines/<site-id>.geojson` | The 15 derived rocky-shore outlines shipped in the app's bundled catalog |
+| `outlines/<site-id>.geojson` | The 18 derived rocky-shore outlines shipped in the app's bundled catalog |
 | `scripts/import_cari_rocky_shore.py` | The importer that produced them (SPDX: `GPL-3.0-or-later`) |
 | `COPYING.txt` | GNU General Public License v3.0 |
 
