@@ -106,7 +106,7 @@ class SiteTests(unittest.TestCase):
         credits = (ROOT / "app-media-credits.html").read_text()
         self.assertIn("CC BY-SA", credits)
         self.assertIn("Peter Pearsall", credits)
-        self.assertIn("marine.gov", credits)
+        self.assertIn("Ed Bierman", credits)
 
     def test_free_outreach_without_signup_or_script_dependency(self):
         self.assertIn("free app for learning", self.text)
