@@ -37,14 +37,12 @@ rather than replaced with a fabricated circular boundary.
 
 ```sh
 python3 -m venv .venv-contours
-.venv-contours/bin/pip install -r host/requirements-contours.txt
+.venv-contours/bin/pip install shapely
 .venv-contours/bin/python licenses/cari/scripts/import_cari_rocky_shore.py \
   --site-id bird-rock-reef --latitude 32.811482 --longitude -117.270771 \
   --radius-meters 350 --simplify-meters 1 \
   --output licenses/cari/outlines/bird-rock-reef.geojson
 ```
 
-The catalogue loader and the review workflow are documented in
-[`docs/shoreline-geometry.md`](../../docs/shoreline-geometry.md). This geometry
-is a static mapped rocky-intertidal boundary, **never** a predicted waterline,
+This geometry is a static mapped rocky-intertidal boundary, **never** a predicted waterline,
 navigational chart, safe route, or real-time access condition.
