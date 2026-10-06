@@ -1,7 +1,7 @@
 # Oh Tidepool public site
 
 The public website for [Oh Tidepool](https://oh-tidepool.nduwork.com/), a free
-iPhone app for exploring Southern California tidepools, and the content the app
+iPhone app for exploring tidepools, and the content the app
 downloads.
 
 | Path | What it is |
