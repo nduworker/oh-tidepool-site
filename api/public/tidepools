@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:39:55Z",
+  "generated_at": "2026-10-08T18:04:54Z",
   "items": [
     {
       "browse_metadata": {
@@ -13105,8 +13105,10 @@
       "id": "cabrillo-tidepools",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "D0253",
       "name": "Cabrillo National Monument Tidepools",
       "nearest_buoy_id": "46232",
+      "nearshore_surf_threshold_feet": 2.7,
       "noaa_station_id": "9410170",
       "parking": {
         "price_note": "Park entrance fee may apply; tidepool parking can fill and the road may temporarily close.",
@@ -13217,7 +13219,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.028893Z",
+        "reviewed_at": "2026-10-08T18:04:53.733265Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -15187,6 +15189,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -15207,6 +15210,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -15227,6 +15231,7 @@
           "abundance": "common",
           "common_name": "Hopkins' rose nudibranch",
           "id": "hopkins-rose",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1520980",
           "photo": {
             "alt_text": "Two pink Hopkins' rose nudibranchs among algae.",
             "caption": "Hopkins' rose nudibranch",
@@ -15247,6 +15252,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -15267,6 +15273,7 @@
           "abundance": "common",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -15287,6 +15294,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -15307,6 +15315,7 @@
           "abundance": "common",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -15327,6 +15336,7 @@
           "abundance": "common",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -15347,6 +15357,7 @@
           "abundance": "common",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -15367,6 +15378,7 @@
           "abundance": "common",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -15387,6 +15399,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -15407,6 +15420,7 @@
           "abundance": "common",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -15427,6 +15441,7 @@
           "abundance": "common",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -15447,6 +15462,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -15467,6 +15483,7 @@
           "abundance": "common",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -15487,6 +15504,7 @@
           "abundance": "common",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -15507,6 +15525,7 @@
           "abundance": "common",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -15527,6 +15546,7 @@
           "abundance": "common",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -15547,6 +15567,7 @@
           "abundance": "common",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -15567,6 +15588,7 @@
           "abundance": "common",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -15587,6 +15609,7 @@
           "abundance": "common",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -15607,6 +15630,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -15627,6 +15651,7 @@
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -15647,6 +15672,7 @@
           "abundance": "occasional",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -15667,6 +15693,7 @@
           "abundance": "occasional",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -15687,6 +15714,7 @@
           "abundance": "occasional",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -15707,6 +15735,7 @@
           "abundance": "occasional",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -15727,6 +15756,7 @@
           "abundance": "occasional",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -15747,6 +15777,7 @@
           "abundance": "occasional",
           "common_name": "Chiton",
           "id": "conspicuous-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56692",
           "photo": {
             "alt_text": "A conspicuous chiton with eight overlapping shell plates on intertidal rock.",
             "caption": "Conspicuous chiton",
@@ -15767,6 +15798,7 @@
           "abundance": "occasional",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -15787,6 +15819,7 @@
           "abundance": "occasional",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -15807,6 +15840,7 @@
           "abundance": "occasional",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -15827,6 +15861,7 @@
           "abundance": "occasional",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -15847,6 +15882,7 @@
           "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -15867,6 +15903,7 @@
           "abundance": "occasional",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -15887,6 +15924,7 @@
           "abundance": "occasional",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -15907,6 +15945,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -15927,6 +15966,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -15947,6 +15987,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -15967,6 +16008,7 @@
           "abundance": "occasional",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -15987,6 +16029,7 @@
           "abundance": "rare",
           "common_name": "California moray",
           "id": "california-moray",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/317127",
           "photo": {
             "alt_text": "A California moray eel resting between rocks in a tide pool.",
             "caption": "California moray",
@@ -16007,6 +16050,7 @@
           "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -16027,6 +16071,7 @@
           "abundance": "rare",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -16047,6 +16092,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -16067,6 +16113,7 @@
           "abundance": "rare",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -16088,7 +16135,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.012116Z",
+      "updated_at": "2026-10-08T18:04:53.701790Z",
       "visitor_guide": {
         "check_before_leaving": "Arrive early for a good low tide. The lower approach is roughly 1/4\u20131/2 mile on a dirt path with about 100 feet of elevation change; there is no cell service at the tidepools.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -16162,7 +16209,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055418Z",
+        "reviewed_at": "2026-10-08T18:04:53.768491Z",
         "sources": [
           {
             "accessed_at": null,
@@ -16249,8 +16296,10 @@
       "id": "carpinteria-reef",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "B0041",
       "name": "Carpinteria Tar Pits Reef",
       "nearest_buoy_id": "46053",
+      "nearshore_surf_threshold_feet": 1.8,
       "noaa_station_id": "9411340",
       "parking": {
         "price_note": "California State Parks lists vehicle day use at $10.",
@@ -16328,7 +16377,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.015373Z",
+        "reviewed_at": "2026-10-08T18:04:53.707594Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -16870,6 +16919,7 @@
           "abundance": "common",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -16890,6 +16940,7 @@
           "abundance": "common",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -16910,6 +16961,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -16930,6 +16982,7 @@
           "abundance": "common",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -16950,6 +17003,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -16970,6 +17024,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -16990,6 +17045,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -17010,6 +17066,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -17030,6 +17087,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -17050,6 +17108,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -17070,6 +17129,7 @@
           "abundance": "common",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -17090,6 +17150,7 @@
           "abundance": "common",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -17110,6 +17171,7 @@
           "abundance": "occasional",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -17130,6 +17192,7 @@
           "abundance": "occasional",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -17150,6 +17213,7 @@
           "abundance": "occasional",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -17170,6 +17234,7 @@
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -17190,6 +17255,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -17210,6 +17276,7 @@
           "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -17230,6 +17297,7 @@
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -17250,6 +17318,7 @@
           "abundance": "occasional",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -17270,6 +17339,7 @@
           "abundance": "occasional",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -17290,6 +17360,7 @@
           "abundance": "occasional",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -17310,6 +17381,7 @@
           "abundance": "occasional",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -17330,6 +17402,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -17350,6 +17423,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -17370,6 +17444,7 @@
           "abundance": "rare",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -17390,6 +17465,7 @@
           "abundance": "rare",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -17410,6 +17486,7 @@
           "abundance": "rare",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -17430,6 +17507,7 @@
           "abundance": "rare",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -17450,6 +17528,7 @@
           "abundance": "rare",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -17470,6 +17549,7 @@
           "abundance": "rare",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -17490,6 +17570,7 @@
           "abundance": "rare",
           "common_name": "Pacific sand dollar",
           "id": "sand-dollar",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117696",
           "photo": {
             "alt_text": "A purple-tinged Pacific sand dollar on wet sand.",
             "caption": "Pacific sand dollar",
@@ -17510,6 +17591,7 @@
           "abundance": "rare",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -17530,6 +17612,7 @@
           "abundance": "rare",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -17550,6 +17633,7 @@
           "abundance": "rare",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -17570,6 +17654,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -17591,7 +17676,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.015376Z",
+      "updated_at": "2026-10-08T18:04:53.707600Z",
       "visitor_guide": {
         "check_before_leaving": "The beach within 750 feet of the Casitas Pier is closed December 1 through May 31 for harbor seal pupping; disturbing seals is against federal law.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -17630,7 +17715,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055497Z",
+        "reviewed_at": "2026-10-08T18:04:53.768608Z",
         "sources": [
           {
             "accessed_at": null,
@@ -17718,8 +17803,10 @@
       "id": "coal-oil-point",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "B0415",
       "name": "Coal Oil Point Tidepools",
       "nearest_buoy_id": "46053",
+      "nearshore_surf_threshold_feet": 1.8,
       "noaa_station_id": "9411340",
       "parking": {
         "price_note": "Buy a UCSB day-use or hourly permit at the lot's dispenser.",
@@ -17797,7 +17884,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.015612Z",
+        "reviewed_at": "2026-10-08T18:04:53.707894Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -18658,6 +18745,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -18678,6 +18766,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -18698,6 +18787,7 @@
           "abundance": "common",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -18718,6 +18808,7 @@
           "abundance": "common",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -18738,6 +18829,7 @@
           "abundance": "common",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -18758,6 +18850,7 @@
           "abundance": "common",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -18778,6 +18871,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -18798,6 +18892,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -18818,6 +18913,7 @@
           "abundance": "common",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -18838,6 +18934,7 @@
           "abundance": "common",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -18858,6 +18955,7 @@
           "abundance": "common",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -18878,6 +18976,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -18898,6 +18997,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -18918,6 +19018,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -18938,6 +19039,7 @@
           "abundance": "common",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -18958,6 +19060,7 @@
           "abundance": "occasional",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -18978,6 +19081,7 @@
           "abundance": "occasional",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -18998,6 +19102,7 @@
           "abundance": "occasional",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -19018,6 +19123,7 @@
           "abundance": "occasional",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -19038,6 +19144,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -19058,6 +19165,7 @@
           "abundance": "occasional",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -19078,6 +19186,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -19098,6 +19207,7 @@
           "abundance": "occasional",
           "common_name": "Leopard shark",
           "id": "leopard-shark",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52297",
           "photo": {
             "alt_text": "A leopard shark resting in shallow water over sand.",
             "caption": "Leopard shark",
@@ -19118,6 +19228,7 @@
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -19138,6 +19249,7 @@
           "abundance": "occasional",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -19158,6 +19270,7 @@
           "abundance": "occasional",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -19178,6 +19291,7 @@
           "abundance": "occasional",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -19198,6 +19312,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -19218,6 +19333,7 @@
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -19238,6 +19354,7 @@
           "abundance": "occasional",
           "common_name": "Pacific sand dollar",
           "id": "sand-dollar",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117696",
           "photo": {
             "alt_text": "A purple-tinged Pacific sand dollar on wet sand.",
             "caption": "Pacific sand dollar",
@@ -19258,6 +19375,7 @@
           "abundance": "occasional",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -19278,6 +19396,7 @@
           "abundance": "occasional",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -19298,6 +19417,7 @@
           "abundance": "occasional",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -19318,6 +19438,7 @@
           "abundance": "occasional",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -19338,6 +19459,7 @@
           "abundance": "rare",
           "common_name": "Chiton",
           "id": "conspicuous-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56692",
           "photo": {
             "alt_text": "A conspicuous chiton with eight overlapping shell plates on intertidal rock.",
             "caption": "Conspicuous chiton",
@@ -19358,6 +19480,7 @@
           "abundance": "rare",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -19378,6 +19501,7 @@
           "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -19398,6 +19522,7 @@
           "abundance": "rare",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -19418,6 +19543,7 @@
           "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -19438,6 +19564,7 @@
           "abundance": "rare",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -19458,6 +19585,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -19479,7 +19607,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.015614Z",
+      "updated_at": "2026-10-08T18:04:53.707897Z",
       "visitor_guide": {
         "check_before_leaving": "Dogs are not allowed on the reserve, including Sands Beach. Stay outside the roped snowy plover area, and collect nothing: the reef is in a no-take marine protected area.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -19518,7 +19646,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055518Z",
+        "reviewed_at": "2026-10-08T18:04:53.768658Z",
         "sources": [
           {
             "accessed_at": null,
@@ -38418,8 +38546,10 @@
       "id": "dike-rock-scripps-beach",
       "map_span_meters": 850.0,
       "marine_coordinate": null,
+      "mop_point_id": "D0519",
       "name": "Dike Rock Tidepools",
       "nearest_buoy_id": "46232",
+      "nearshore_surf_threshold_feet": 1.1,
       "noaa_station_id": "9410230",
       "parking": {
         "price_note": "Check current restrictions and keep a conservative turnaround time.",
@@ -38530,7 +38660,7 @@
         "geometry_provenance": "lidar-derived",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.040712Z",
+        "reviewed_at": "2026-10-08T18:04:53.748436Z",
         "reviewer": "Oh Tidepool desktop GIS review"
       },
       "revision": 1,
@@ -39435,6 +39565,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -39455,6 +39586,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -39475,6 +39607,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -39495,6 +39628,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -39515,6 +39649,7 @@
           "abundance": "common",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -39535,6 +39670,7 @@
           "abundance": "common",
           "common_name": "Leopard shark",
           "id": "leopard-shark",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52297",
           "photo": {
             "alt_text": "A leopard shark resting in shallow water over sand.",
             "caption": "Leopard shark",
@@ -39555,6 +39691,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -39575,6 +39712,7 @@
           "abundance": "common",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -39595,6 +39733,7 @@
           "abundance": "common",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -39615,6 +39754,7 @@
           "abundance": "common",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -39635,6 +39775,7 @@
           "abundance": "common",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -39655,6 +39796,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -39675,6 +39817,7 @@
           "abundance": "common",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -39695,6 +39838,7 @@
           "abundance": "common",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -39715,6 +39859,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -39735,6 +39880,7 @@
           "abundance": "common",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -39755,6 +39901,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -39775,6 +39922,7 @@
           "abundance": "common",
           "common_name": "Pacific sand dollar",
           "id": "sand-dollar",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117696",
           "photo": {
             "alt_text": "A purple-tinged Pacific sand dollar on wet sand.",
             "caption": "Pacific sand dollar",
@@ -39795,6 +39943,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -39815,6 +39964,7 @@
           "abundance": "occasional",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -39835,6 +39985,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -39855,6 +40006,7 @@
           "abundance": "occasional",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -39875,6 +40027,7 @@
           "abundance": "occasional",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -39895,6 +40048,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -39915,6 +40069,7 @@
           "abundance": "occasional",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -39935,6 +40090,7 @@
           "abundance": "occasional",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -39955,6 +40111,7 @@
           "abundance": "occasional",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -39975,6 +40132,7 @@
           "abundance": "occasional",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -39995,6 +40153,7 @@
           "abundance": "occasional",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -40015,6 +40174,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -40035,6 +40195,7 @@
           "abundance": "occasional",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -40055,6 +40216,7 @@
           "abundance": "occasional",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -40075,6 +40237,7 @@
           "abundance": "occasional",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -40095,6 +40258,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -40115,6 +40279,7 @@
           "abundance": "occasional",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -40135,6 +40300,7 @@
           "abundance": "occasional",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -40155,6 +40321,7 @@
           "abundance": "rare",
           "common_name": "California moray",
           "id": "california-moray",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/317127",
           "photo": {
             "alt_text": "A California moray eel resting between rocks in a tide pool.",
             "caption": "California moray",
@@ -40175,6 +40342,7 @@
           "abundance": "rare",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -40195,6 +40363,7 @@
           "abundance": "rare",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -40215,6 +40384,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -40235,6 +40405,7 @@
           "abundance": "rare",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -40255,6 +40426,7 @@
           "abundance": "rare",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -40275,6 +40447,7 @@
           "abundance": "rare",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -40295,6 +40468,7 @@
           "abundance": "rare",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -40315,6 +40489,7 @@
           "abundance": "rare",
           "common_name": "Hopkins' rose nudibranch",
           "id": "hopkins-rose",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1520980",
           "photo": {
             "alt_text": "Two pink Hopkins' rose nudibranchs among algae.",
             "caption": "Hopkins' rose nudibranch",
@@ -40335,6 +40510,7 @@
           "abundance": "rare",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -40356,7 +40532,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.016563Z",
+      "updated_at": "2026-10-08T18:04:53.708094Z",
       "visitor_guide": {
         "check_before_leaving": "This is a condition-dependent coast with rising-tide cutoff risk. Carry a conservative turnaround time and do not depend on a through-route along the beach.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -40411,7 +40587,7 @@
             "time_limit_note": "Read the sign at the actual curb space; no blanket street limit is published for this guide."
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055583Z",
+        "reviewed_at": "2026-10-08T18:04:53.768771Z",
         "sources": [
           {
             "accessed_at": null,
@@ -40498,8 +40674,10 @@
       "id": "leo-carrillo",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "L1176",
       "name": "Leo Carrillo State Park Tidepools",
       "nearest_buoy_id": "46221",
+      "nearshore_surf_threshold_feet": 2.4,
       "noaa_station_id": "9410840",
       "parking": {
         "price_note": "California State Parks lists $3 per hour or $12 per vehicle per day.",
@@ -40588,7 +40766,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.014849Z",
+        "reviewed_at": "2026-10-08T18:04:53.706544Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -41358,6 +41536,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -41378,6 +41557,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -41398,6 +41578,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -41418,6 +41599,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -41438,6 +41620,7 @@
           "abundance": "common",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -41458,6 +41641,7 @@
           "abundance": "common",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -41478,6 +41662,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -41498,6 +41683,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -41518,6 +41704,7 @@
           "abundance": "common",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -41538,6 +41725,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -41558,6 +41746,7 @@
           "abundance": "common",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -41578,6 +41767,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -41598,6 +41788,7 @@
           "abundance": "common",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -41618,6 +41809,7 @@
           "abundance": "common",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -41638,6 +41830,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -41658,6 +41851,7 @@
           "abundance": "common",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -41678,6 +41872,7 @@
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -41698,6 +41893,7 @@
           "abundance": "occasional",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -41718,6 +41914,7 @@
           "abundance": "occasional",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -41738,6 +41935,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -41758,6 +41956,7 @@
           "abundance": "occasional",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -41778,6 +41977,7 @@
           "abundance": "occasional",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -41798,6 +41998,7 @@
           "abundance": "occasional",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -41818,6 +42019,7 @@
           "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -41838,6 +42040,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -41858,6 +42061,7 @@
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -41878,6 +42082,7 @@
           "abundance": "occasional",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -41898,6 +42103,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -41918,6 +42124,7 @@
           "abundance": "occasional",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -41938,6 +42145,7 @@
           "abundance": "occasional",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -41958,6 +42166,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -41978,6 +42187,7 @@
           "abundance": "occasional",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -41998,6 +42208,7 @@
           "abundance": "occasional",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -42018,6 +42229,7 @@
           "abundance": "occasional",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -42038,6 +42250,7 @@
           "abundance": "occasional",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -42058,6 +42271,7 @@
           "abundance": "rare",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -42078,6 +42292,7 @@
           "abundance": "rare",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -42098,6 +42313,7 @@
           "abundance": "rare",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -42118,6 +42334,7 @@
           "abundance": "rare",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -42138,6 +42355,7 @@
           "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -42158,6 +42376,7 @@
           "abundance": "rare",
           "common_name": "Leopard shark",
           "id": "leopard-shark",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52297",
           "photo": {
             "alt_text": "A leopard shark resting in shallow water over sand.",
             "caption": "Leopard shark",
@@ -42178,6 +42397,7 @@
           "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -42198,6 +42418,7 @@
           "abundance": "rare",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -42218,6 +42439,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -42239,7 +42461,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.014852Z",
+      "updated_at": "2026-10-08T18:04:53.706547Z",
       "visitor_guide": {
         "check_before_leaving": "The park points visitors to the Los Angeles County Public Health beach water-quality advisories. Check the tide: the rocks around Sequit Point and the caves flood as the tide rises.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -42278,7 +42500,7 @@
             "time_limit_note": "Day-use parking is listed as 8:00 a.m. to 10:00 p.m."
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055457Z",
+        "reviewed_at": "2026-10-08T18:04:53.768545Z",
         "sources": [
           {
             "accessed_at": null,
@@ -42358,8 +42580,10 @@
       "id": "pelican-point-crystal-cove",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "OC357",
       "name": "Pelican Point Tidepools",
       "nearest_buoy_id": null,
+      "nearshore_surf_threshold_feet": 2.6,
       "noaa_station_id": "9410580",
       "parking": {
         "price_note": "State Park day-use fees apply; published rates can change by season, weekend, and holiday.",
@@ -42481,7 +42705,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.014171Z",
+        "reviewed_at": "2026-10-08T18:04:53.705922Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -43440,6 +43664,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -43460,6 +43685,7 @@
           "abundance": "common",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -43480,6 +43706,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -43500,6 +43727,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -43520,6 +43748,7 @@
           "abundance": "common",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -43540,6 +43769,7 @@
           "abundance": "common",
           "common_name": "Hopkins' rose nudibranch",
           "id": "hopkins-rose",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1520980",
           "photo": {
             "alt_text": "Two pink Hopkins' rose nudibranchs among algae.",
             "caption": "Hopkins' rose nudibranch",
@@ -43560,6 +43790,7 @@
           "abundance": "common",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -43580,6 +43811,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -43600,6 +43832,7 @@
           "abundance": "common",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -43620,6 +43853,7 @@
           "abundance": "common",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -43640,6 +43874,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -43660,6 +43895,7 @@
           "abundance": "common",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -43680,6 +43916,7 @@
           "abundance": "common",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -43700,6 +43937,7 @@
           "abundance": "common",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -43720,6 +43958,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -43740,6 +43979,7 @@
           "abundance": "common",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -43760,6 +44000,7 @@
           "abundance": "common",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -43780,6 +44021,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -43800,6 +44042,7 @@
           "abundance": "occasional",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -43820,6 +44063,7 @@
           "abundance": "occasional",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -43840,6 +44084,7 @@
           "abundance": "occasional",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -43860,6 +44105,7 @@
           "abundance": "occasional",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -43880,6 +44126,7 @@
           "abundance": "occasional",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -43900,6 +44147,7 @@
           "abundance": "occasional",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -43920,6 +44168,7 @@
           "abundance": "occasional",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -43940,6 +44189,7 @@
           "abundance": "occasional",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -43960,6 +44210,7 @@
           "abundance": "occasional",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -43980,6 +44231,7 @@
           "abundance": "occasional",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -44000,6 +44252,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -44020,6 +44273,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -44040,6 +44294,7 @@
           "abundance": "occasional",
           "common_name": "Chiton",
           "id": "conspicuous-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56692",
           "photo": {
             "alt_text": "A conspicuous chiton with eight overlapping shell plates on intertidal rock.",
             "caption": "Conspicuous chiton",
@@ -44060,6 +44315,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -44080,6 +44336,7 @@
           "abundance": "occasional",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -44100,6 +44357,7 @@
           "abundance": "occasional",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -44120,6 +44378,7 @@
           "abundance": "occasional",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -44140,6 +44399,7 @@
           "abundance": "rare",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -44160,6 +44420,7 @@
           "abundance": "rare",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -44180,6 +44441,7 @@
           "abundance": "rare",
           "common_name": "California moray",
           "id": "california-moray",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/317127",
           "photo": {
             "alt_text": "A California moray eel resting between rocks in a tide pool.",
             "caption": "California moray",
@@ -44200,6 +44462,7 @@
           "abundance": "rare",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -44220,6 +44483,7 @@
           "abundance": "rare",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -44240,6 +44504,7 @@
           "abundance": "rare",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -44260,6 +44525,7 @@
           "abundance": "rare",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -44280,6 +44546,7 @@
           "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -44300,6 +44567,7 @@
           "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -44320,6 +44588,7 @@
           "abundance": "rare",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -44340,6 +44609,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -44361,7 +44631,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.014177Z",
+      "updated_at": "2026-10-08T18:04:53.705930Z",
       "visitor_guide": {
         "check_before_leaving": "Much of this coastline is below steep bluffs. Park warnings cover changing surf, rip currents, and unstable cliff faces.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -44400,7 +44670,7 @@
             "time_limit_note": "Day use is listed as 6 a.m. to sunset."
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055539Z",
+        "reviewed_at": "2026-10-08T18:04:53.768691Z",
         "sources": [
           {
             "accessed_at": null,
@@ -44481,8 +44751,10 @@
       "id": "rockpile-beach",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "OC273",
       "name": "Rockpile Beach Tidepools",
       "nearest_buoy_id": null,
+      "nearshore_surf_threshold_feet": 1.8,
       "noaa_station_id": "9410580",
       "parking": {
         "price_note": "Check posted city rates and time limits before leaving your vehicle.",
@@ -44593,7 +44865,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.014530Z",
+        "reviewed_at": "2026-10-08T18:04:53.706268Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -45832,6 +46104,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -45852,6 +46125,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -45872,6 +46146,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -45892,6 +46167,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -45912,6 +46188,7 @@
           "abundance": "common",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -45932,6 +46209,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -45952,6 +46230,7 @@
           "abundance": "common",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -45972,6 +46251,7 @@
           "abundance": "common",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -45992,6 +46272,7 @@
           "abundance": "common",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -46012,6 +46293,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -46032,6 +46314,7 @@
           "abundance": "common",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -46052,6 +46335,7 @@
           "abundance": "common",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -46072,6 +46356,7 @@
           "abundance": "common",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -46092,6 +46377,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -46112,6 +46398,7 @@
           "abundance": "common",
           "common_name": "Sea lettuce (green algae)",
           "id": "sea-lettuce",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54644",
           "photo": {
             "alt_text": "Bright-green sea lettuce blades growing over mussels on intertidal rock.",
             "caption": "Sea lettuce",
@@ -46132,6 +46419,7 @@
           "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -46152,6 +46440,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -46172,6 +46461,7 @@
           "abundance": "occasional",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -46192,6 +46482,7 @@
           "abundance": "occasional",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -46212,6 +46503,7 @@
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -46232,6 +46524,7 @@
           "abundance": "occasional",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -46252,6 +46545,7 @@
           "abundance": "occasional",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -46272,6 +46566,7 @@
           "abundance": "occasional",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -46292,6 +46587,7 @@
           "abundance": "occasional",
           "common_name": "Hopkins' rose nudibranch",
           "id": "hopkins-rose",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1520980",
           "photo": {
             "alt_text": "Two pink Hopkins' rose nudibranchs among algae.",
             "caption": "Hopkins' rose nudibranch",
@@ -46312,6 +46608,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -46332,6 +46629,7 @@
           "abundance": "occasional",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -46352,6 +46650,7 @@
           "abundance": "occasional",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -46372,6 +46671,7 @@
           "abundance": "occasional",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -46392,6 +46692,7 @@
           "abundance": "occasional",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -46412,6 +46713,7 @@
           "abundance": "occasional",
           "common_name": "California moray",
           "id": "california-moray",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/317127",
           "photo": {
             "alt_text": "A California moray eel resting between rocks in a tide pool.",
             "caption": "California moray",
@@ -46432,6 +46734,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -46452,6 +46755,7 @@
           "abundance": "occasional",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -46472,6 +46776,7 @@
           "abundance": "occasional",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -46492,6 +46797,7 @@
           "abundance": "occasional",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -46512,6 +46818,7 @@
           "abundance": "occasional",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -46532,6 +46839,7 @@
           "abundance": "occasional",
           "common_name": "Leopard shark",
           "id": "leopard-shark",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52297",
           "photo": {
             "alt_text": "A leopard shark resting in shallow water over sand.",
             "caption": "Leopard shark",
@@ -46552,6 +46860,7 @@
           "abundance": "occasional",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -46572,6 +46881,7 @@
           "abundance": "occasional",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -46592,6 +46902,7 @@
           "abundance": "rare",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -46612,6 +46923,7 @@
           "abundance": "rare",
           "common_name": "Southern kelp crab",
           "id": "southern-kelp-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/367432",
           "photo": {
             "alt_text": "A dark southern kelp crab on sand.",
             "caption": "Southern kelp crab",
@@ -46632,6 +46944,7 @@
           "abundance": "rare",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -46652,6 +46965,7 @@
           "abundance": "rare",
           "common_name": "Chiton",
           "id": "conspicuous-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56692",
           "photo": {
             "alt_text": "A conspicuous chiton with eight overlapping shell plates on intertidal rock.",
             "caption": "Conspicuous chiton",
@@ -46672,6 +46986,7 @@
           "abundance": "rare",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -46692,6 +47007,7 @@
           "abundance": "rare",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -46712,6 +47028,7 @@
           "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -46732,6 +47049,7 @@
           "abundance": "rare",
           "common_name": "Pacific sand dollar",
           "id": "sand-dollar",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117696",
           "photo": {
             "alt_text": "A purple-tinged Pacific sand dollar on wet sand.",
             "caption": "Pacific sand dollar",
@@ -46752,6 +47070,7 @@
           "abundance": "rare",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -46772,6 +47091,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -46793,7 +47113,7 @@
       "surf_threshold_feet": 2.5,
       "tide_threshold_feet": 1.5,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.014534Z",
+      "updated_at": "2026-10-08T18:04:53.706272Z",
       "visitor_guide": {
         "check_before_leaving": "High tide can leave little or no dry sand. The City warns about rocky bottom, urchins, currents, and difficult water entry; check stair conditions and posted restrictions.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -46832,7 +47152,7 @@
             "time_limit_note": "Rates and maximum stays differ by zone and season; confirm the posted meter or lot sign."
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055557Z",
+        "reviewed_at": "2026-10-08T18:04:53.768721Z",
         "sources": [
           {
             "accessed_at": null,
@@ -46913,8 +47233,10 @@
       "id": "white-point",
       "map_span_meters": null,
       "marine_coordinate": null,
+      "mop_point_id": "L0250",
       "name": "White Point Tidepools",
       "nearest_buoy_id": "46222",
+      "nearshore_surf_threshold_feet": 2.2,
       "noaa_station_id": "9410660",
       "parking": {
         "price_note": "Parking is limited during Sanitation Districts construction expected to run through 2027.",
@@ -46981,7 +47303,7 @@
         "geometry_provenance": "manual-reference",
         "publication_tier": "verified",
         "restriction_status": "Check current closures, posted signs, and marine-protected-area rules before visiting.",
-        "reviewed_at": "2026-10-04T22:39:55.015114Z",
+        "reviewed_at": "2026-10-08T18:04:53.706840Z",
         "reviewer": "Oh Tidepool source review"
       },
       "revision": 1,
@@ -50723,6 +51045,7 @@
           "abundance": "common",
           "common_name": "Sunburst anemone",
           "id": "sunburst-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
           "photo": {
             "alt_text": "An open sunburst anemone with green tentacles in a tide pool.",
             "caption": "Sunburst anemone",
@@ -50743,6 +51066,7 @@
           "abundance": "common",
           "common_name": "Purple sea urchin",
           "id": "purple-urchin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
           "photo": {
             "alt_text": "Purple sea urchins on a rocky seafloor beside a sea star.",
             "caption": "Purple sea urchins",
@@ -50763,6 +51087,7 @@
           "abundance": "common",
           "common_name": "Shore crab",
           "id": "lined-shore-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47188",
           "photo": {
             "alt_text": "A lined shore crab on rocky coast habitat.",
             "caption": "Lined shore crab",
@@ -50783,6 +51108,7 @@
           "abundance": "common",
           "common_name": "Blueband hermit crab",
           "id": "blueband-hermit-crab",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49095",
           "photo": {
             "alt_text": "A blueband hermit crab in a black turban snail shell.",
             "caption": "Blueband hermit crab",
@@ -50803,6 +51129,7 @@
           "abundance": "common",
           "common_name": "Ochre sea star",
           "id": "ochre-sea-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49699",
           "photo": {
             "alt_text": "An orange ochre sea star on rock among purple urchins.",
             "caption": "Ochre sea star",
@@ -50823,6 +51150,7 @@
           "abundance": "common",
           "common_name": "California spiny chiton",
           "id": "spiny-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/63048",
           "photo": {
             "alt_text": "A California spiny chiton in a rock depression.",
             "caption": "California spiny chiton",
@@ -50843,6 +51171,7 @@
           "abundance": "common",
           "common_name": "Banded brittle star",
           "id": "banded-brittle-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56682",
           "photo": {
             "alt_text": "A banded brittle star with striped arms.",
             "caption": "Banded brittle star",
@@ -50863,6 +51192,7 @@
           "abundance": "common",
           "common_name": "Woolly sculpin",
           "id": "woolly-sculpin",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117533",
           "photo": {
             "alt_text": "A woolly sculpin perched on submerged rock.",
             "caption": "Woolly sculpin",
@@ -50883,6 +51213,7 @@
           "abundance": "common",
           "common_name": "California mussel",
           "id": "california-mussel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/62806",
           "photo": {
             "alt_text": "A dense bed of California mussels attached to intertidal rock.",
             "caption": "California mussel bed",
@@ -50903,6 +51234,7 @@
           "abundance": "common",
           "common_name": "Aggregating anemone",
           "id": "aggregating-anemone",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/52564",
           "photo": {
             "alt_text": "An aggregating anemone with green and blue-tipped tentacles on rock.",
             "caption": "Aggregating anemone",
@@ -50923,6 +51255,7 @@
           "abundance": "common",
           "common_name": "Western gull",
           "id": "western-gull",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4345",
           "photo": {
             "alt_text": "A western gull standing on a coastal rock.",
             "caption": "Western gull",
@@ -50943,6 +51276,7 @@
           "abundance": "common",
           "common_name": "Gooseneck barnacle",
           "id": "gooseneck-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48786",
           "photo": {
             "alt_text": "A dense cluster of gooseneck barnacles on rock.",
             "caption": "Gooseneck barnacle",
@@ -50963,6 +51297,7 @@
           "abundance": "common",
           "common_name": "Hopkins' rose nudibranch",
           "id": "hopkins-rose",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1520980",
           "photo": {
             "alt_text": "Two pink Hopkins' rose nudibranchs among algae.",
             "caption": "Hopkins' rose nudibranch",
@@ -50983,6 +51318,7 @@
           "abundance": "common",
           "common_name": "Black turban snail",
           "id": "black-turban-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/460365",
           "photo": {
             "alt_text": "Several black turban snails on wet intertidal rock.",
             "caption": "Black turban snails on intertidal rock",
@@ -51003,6 +51339,7 @@
           "abundance": "common",
           "common_name": "Chiton",
           "id": "conspicuous-chiton",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/56692",
           "photo": {
             "alt_text": "A conspicuous chiton with eight overlapping shell plates on intertidal rock.",
             "caption": "Conspicuous chiton",
@@ -51023,6 +51360,7 @@
           "abundance": "common",
           "common_name": "Pink volcano barnacle",
           "id": "volcano-barnacle",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121682",
           "photo": {
             "alt_text": "Pink volcano barnacles among smaller barnacles on rock.",
             "caption": "Pink volcano barnacle",
@@ -51043,6 +51381,7 @@
           "abundance": "common",
           "common_name": "Coralline algae (pink red algae)",
           "id": "coralline-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117828",
           "photo": {
             "alt_text": "Jointed pink-and-white coralline seaweed.",
             "caption": "Coralline algae",
@@ -51063,6 +51402,7 @@
           "abundance": "common",
           "common_name": "Dead man's fingers (green algae)",
           "id": "dead-mans-fingers",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/67555",
           "photo": {
             "alt_text": "Spongy green branches of dead man's fingers seaweed.",
             "caption": "Dead man's fingers (green algae)",
@@ -51083,6 +51423,7 @@
           "abundance": "occasional",
           "common_name": "Bat star",
           "id": "bat-star",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48830",
           "photo": {
             "alt_text": "A bat star in a shallow tidepool.",
             "caption": "Bat star",
@@ -51103,6 +51444,7 @@
           "abundance": "occasional",
           "common_name": "Giant keyhole limpet",
           "id": "giant-keyhole-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
           "photo": {
             "alt_text": "A giant keyhole limpet with its pale shell opening among rocks.",
             "caption": "Giant keyhole limpet",
@@ -51123,6 +51465,7 @@
           "abundance": "occasional",
           "common_name": "Juvenile opaleye",
           "id": "juvenile-opaleye",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
           "photo": {
             "alt_text": "An opaleye swimming above aquarium rocks at Birch Aquarium in San Diego.",
             "caption": "Opaleye (Girella nigricans) at Birch Aquarium, San Diego \u2014 species identification context; life stage not recorded",
@@ -51143,6 +51486,7 @@
           "abundance": "occasional",
           "common_name": "Wavy turban snail",
           "id": "wavy-turban",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
           "photo": {
             "alt_text": "A wavy turban snail shell with ridged whorls.",
             "caption": "Wavy turban snail",
@@ -51163,6 +51507,7 @@
           "abundance": "occasional",
           "common_name": "California sea hare",
           "id": "california-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48655",
           "photo": {
             "alt_text": "A California sea hare in shallow coastal water.",
             "caption": "California sea hare",
@@ -51183,6 +51528,7 @@
           "abundance": "occasional",
           "common_name": "Scaled worm snail",
           "id": "scaled-worm-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/491935",
           "photo": {
             "alt_text": "A tangled cluster of scaled worm snail tubes on rock.",
             "caption": "Scaled worm snail",
@@ -51203,6 +51549,7 @@
           "abundance": "occasional",
           "common_name": "Black oystercatcher",
           "id": "black-oystercatcher",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/4838",
           "photo": {
             "alt_text": "A black oystercatcher standing on a rocky intertidal shore.",
             "caption": "Black oystercatcher",
@@ -51223,6 +51570,7 @@
           "abundance": "occasional",
           "common_name": "California aglaja",
           "id": "navanax",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49848",
           "photo": {
             "alt_text": "A California aglaja with yellow and blue markings.",
             "caption": "California aglaja",
@@ -51243,6 +51591,7 @@
           "abundance": "occasional",
           "common_name": "Whimbrel",
           "id": "whimbrel",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1188213",
           "photo": {
             "alt_text": "A Hudsonian whimbrel with its long down-curved bill on a California shore.",
             "caption": "Hudsonian whimbrel, Morro Bay, California",
@@ -51263,6 +51612,7 @@
           "abundance": "occasional",
           "common_name": "Spanish shawl nudibranch",
           "id": "spanish-shawl",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/194495",
           "photo": {
             "alt_text": "A purple Spanish shawl nudibranch with bright orange cerata.",
             "caption": "Spanish shawl nudibranch",
@@ -51283,6 +51633,7 @@
           "abundance": "occasional",
           "common_name": "Kellet's whelk",
           "id": "kellets-whelk",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
           "photo": {
             "alt_text": "A Kellet's whelk with its shell and foot on wet sand.",
             "caption": "Kellet's whelk",
@@ -51303,6 +51654,7 @@
           "abundance": "occasional",
           "common_name": "Limpet",
           "id": "owl-limpet",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
           "photo": {
             "alt_text": "A giant owl limpet attached to a rocky shoreline.",
             "caption": "Giant owl limpet",
@@ -51323,6 +51675,7 @@
           "abundance": "occasional",
           "common_name": "Scour-brush algae (red turfweed)",
           "id": "scour-brush-algae",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/117781",
           "photo": {
             "alt_text": "Tufts of reddish-brown scour-brush algae on rocky intertidal habitat.",
             "caption": "Scour-brush red algae",
@@ -51343,6 +51696,7 @@
           "abundance": "rare",
           "common_name": "California two-spot octopus",
           "id": "two-spot-octopus",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/54509",
           "photo": {
             "alt_text": "A California two-spot octopus resting on algae-covered rock.",
             "caption": "California two-spot octopus",
@@ -51363,6 +51717,7 @@
           "abundance": "rare",
           "common_name": "Brandt's cormorant",
           "id": "brandt-cormorant",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1289607",
           "photo": {
             "alt_text": "A Brandt's cormorant perched on coastal rocks.",
             "caption": "Brandt's cormorant",
@@ -51383,6 +51738,7 @@
           "abundance": "rare",
           "common_name": "Opalescent nudibranch",
           "id": "opalescent-nudibranch",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/494603",
           "photo": {
             "alt_text": "An opalescent nudibranch with orange and blue plumes on rock.",
             "caption": "Opalescent nudibranch",
@@ -51403,6 +51759,7 @@
           "abundance": "rare",
           "common_name": "Periwinkle snails",
           "id": "periwinkle-snails",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/48919",
           "photo": {
             "alt_text": "A cluster of small periwinkle snails gathered in a high-zone rock crevice at Cabrillo National Monument.",
             "caption": "Periwinkle snail cluster, Cabrillo National Monument",
@@ -51423,6 +51780,7 @@
           "abundance": "rare",
           "common_name": "Spotted dorid",
           "id": "spotted-dorid",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/47110",
           "photo": {
             "alt_text": "An orange spotted dorid on gravel in a tide pool.",
             "caption": "Spotted dorid",
@@ -51443,6 +51801,7 @@
           "abundance": "rare",
           "common_name": "Black sea hare",
           "id": "black-sea-hare",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/49857",
           "photo": {
             "alt_text": "A black sea hare in a shallow tide pool.",
             "caption": "Black sea hare",
@@ -51463,6 +51822,7 @@
           "abundance": "rare",
           "common_name": "California spiny lobster",
           "id": "spiny-lobster",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
           "photo": {
             "alt_text": "California spiny lobsters sheltering under a rock ledge.",
             "caption": "California spiny lobster",
@@ -51483,6 +51843,7 @@
           "abundance": "rare",
           "common_name": "Garibaldi",
           "id": "garibaldi",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
           "photo": {
             "alt_text": "A bright orange garibaldi swimming over algae-covered rock.",
             "caption": "Garibaldi",
@@ -51503,6 +51864,7 @@
           "abundance": "rare",
           "common_name": "Purple olive snail",
           "id": "purple-olive-snail",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/1242736",
           "photo": {
             "alt_text": "A small glossy purple olive snail on a sandstone ledge.",
             "caption": "Purple olive snail",
@@ -51523,6 +51885,7 @@
           "abundance": "rare",
           "common_name": "California sea lion",
           "id": "california-sea-lion",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41740",
           "photo": {
             "alt_text": "A California sea lion in the water off La Jolla.",
             "caption": "California sea lion, La Jolla",
@@ -51543,6 +51906,7 @@
           "abundance": "rare",
           "common_name": "Harbor seal",
           "id": "harbor-seal",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41708",
           "photo": {
             "alt_text": "A harbor seal resting on a rocky shoreline.",
             "caption": "Harbor seal",
@@ -51563,6 +51927,7 @@
           "abundance": "rare",
           "common_name": "Pacific gray whale",
           "id": "pacific-gray-whale",
+          "inaturalist_url": "https://www.inaturalist.org/taxa/41478",
           "photo": {
             "alt_text": "A gray whale and calf surfacing offshore.",
             "caption": "Pacific gray whale with calf",
@@ -51584,7 +51949,7 @@
       "surf_threshold_feet": 3.0,
       "tide_threshold_feet": 1.0,
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-04T22:39:55.015116Z",
+      "updated_at": "2026-10-08T18:04:53.706843Z",
       "visitor_guide": {
         "check_before_leaving": "Check the Los Angeles County beach page for construction parking limits and the Public Health beach water-quality advisories.",
         "disclaimer": "Parking rules, availability, closures, and shore conditions can change. This guide identifies cited public arrival context only; it does not reserve a space, confirm shore access, or promise a safe walking route. Read posted signs and turn back when conditions or barriers do not match the plan.",
@@ -51623,7 +51988,7 @@
             "time_limit_note": null
           }
         ],
-        "reviewed_at": "2026-10-04T22:39:55.055479Z",
+        "reviewed_at": "2026-10-08T18:04:53.768580Z",
         "sources": [
           {
             "accessed_at": null,
