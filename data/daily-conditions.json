@@ -1,69 +1,23 @@
 {
-  "expires_at": "2026-10-13T19:02:12Z",
-  "generated_at": "2026-10-12T13:02:12Z",
-  "local_news": [
-    {
-      "affected_location_ids": [
-        "childrens-pool-casa-beach",
-        "hospital-point",
-        "la-jolla-cove",
-        "shell-beach-seal-rock",
-        "windansea-reef"
-      ],
-      "expires_at": "2026-10-13T18:51:10Z",
-      "headline": "Scripps Coastal Reserve Access Plan Delayed Again in La Jolla",
-      "id": "sha256:602108d5f5ad8b8957476a4226303f42fa44a008236e9bef3f817f6763f846f6",
-      "kind": "water_quality",
-      "match_field": "place",
-      "matched_places": [
-        "La Jolla"
-      ],
-      "observed_at": "2026-10-12T13:02:03Z",
-      "source_name": "Hoodline",
-      "source_published_at": "2026-10-11T18:51:10Z",
-      "source_url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled",
-      "stretch_ids": [
-        "la-jolla"
-      ]
-    },
-    {
-      "affected_location_ids": [
-        "pelican-point-crystal-cove"
-      ],
-      "expires_at": "2026-10-13T01:21:58Z",
-      "headline": "Rachel moves in as 'unprecedented' conditions bring SoCal coastal flooding",
-      "id": "sha256:227551377dd261a1367dd5bcff7026d1bf43fd4f7e5148b23d62e7086a3cc8aa",
-      "kind": "water_quality",
-      "match_field": "place",
-      "matched_places": [
-        "Newport Beach"
-      ],
-      "observed_at": "2026-10-12T13:02:03Z",
-      "source_name": "Los Angeles Times",
-      "source_published_at": "2026-10-11T01:21:58Z",
-      "source_url": "https://latimes.com/california/story/2026-10-10/tropical-storm-rachel-kelvin-wave-high-tides-combined-to-batter-socal-coast",
-      "stretch_ids": [
-        "crystal-cove"
-      ]
-    }
-  ],
+  "expires_at": "2026-10-14T12:54:52Z",
+  "generated_at": "2026-10-13T06:54:52Z",
   "local_updates": [
     {
       "affected_location_ids": [
         "la-jolla-cove"
       ],
       "category": "water_quality",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-14T12:54:52Z",
       "headline": "Water-quality warning",
       "id": "sha256:0b96b4055da20c12f2b5b02447d637ab1b5dbb7623fdf961e1c129ace1f7e947",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T13:02:12Z",
+      "observed_at": "2026-10-13T06:54:52Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-10-12T13:02:12Z",
+      "published_at": "2026-10-13T06:54:52Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -77,22 +31,22 @@
         "white-point"
       ],
       "category": "weather",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-13T21:00:00Z",
       "headline": "Coastal Flood Advisory",
       "id": "sha256:0c60306274135ef030bb757365258ca55ad7ff1b45fbd7467d3471a3008f2549",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T04:02:00Z",
+      "observed_at": "2026-10-13T03:40:00Z",
       "official_guidance": "Take the necessary actions to protect flood-prone property. Do NOT drive around barricades or through water of unknown depth. Remain out of the water due to hazardous swimming conditions, or stay near occupied lifeguard towers. Rock jetties can be deadly in such conditions, stay off the rocks.",
       "official_status": "advisory",
-      "onset_at": "2026-10-12T04:02:00Z",
-      "published_at": "2026-10-12T04:02:00Z",
+      "onset_at": "2026-10-13T03:40:00Z",
+      "published_at": "2026-10-13T03:40:00Z",
       "source": {
         "publisher": "National Weather Service",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://forecast.weather.gov/showsigwx.php?warnzone=CAZ362"
       },
       "status": "active",
-      "summary": "Coastal Flood Advisory issued October 11 at 9:02PM PDT until October 13 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "summary": "Coastal Flood Advisory issued October 12 at 8:40PM PDT until October 13 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
       "verification": "official"
     },
     {
@@ -100,17 +54,17 @@
         "childrens-pool-casa-beach"
       ],
       "category": "water_quality",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-14T12:54:52Z",
       "headline": "Water-quality warning",
       "id": "sha256:2da43dc8529719b028c503b7ec46259cfd892e8b089ed23a5b10131e006c65ed",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T13:02:12Z",
+      "observed_at": "2026-10-13T06:54:52Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-10-12T13:02:12Z",
+      "published_at": "2026-10-13T06:54:52Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -124,22 +78,22 @@
         "coal-oil-point"
       ],
       "category": "weather",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-13T21:00:00Z",
       "headline": "Beach Hazards Statement",
       "id": "sha256:2faadf091976d0fb53dfa9c73e2d40584c0239ff642297fb3cf9ef0753b86b19",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T04:02:00Z",
-      "official_guidance": "Take the necessary actions to protect flood-prone property. Do NOT drive around barricades or through water of unknown depth. Remain out of the water due to hazardous swimming conditions, or stay near occupied lifeguard towers. Rock jetties can be deadly in such conditions, stay off the rocks.",
+      "observed_at": "2026-10-13T03:40:00Z",
+      "official_guidance": "Remain out of the water due to hazardous swimming conditions, or stay near occupied lifeguard towers. Rock jetties can be deadly in such conditions, stay off the rocks.",
       "official_status": "statement",
-      "onset_at": "2026-10-12T04:02:00Z",
-      "published_at": "2026-10-12T04:02:00Z",
+      "onset_at": "2026-10-13T03:40:00Z",
+      "published_at": "2026-10-13T03:40:00Z",
       "source": {
         "publisher": "National Weather Service",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://forecast.weather.gov/showsigwx.php?warnzone=CAZ350"
       },
       "status": "active",
-      "summary": "Beach Hazards Statement issued October 11 at 9:02PM PDT until October 13 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "summary": "Beach Hazards Statement issued October 12 at 8:40PM PDT until October 13 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
       "verification": "official"
     },
     {
@@ -147,17 +101,17 @@
         "ocean-beach-pier-reefs"
       ],
       "category": "water_quality",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-14T12:54:52Z",
       "headline": "Water-quality warning",
       "id": "sha256:4485d8b8dd0bfdf95348884c806c274e2b634d7b20c3907a7ed5b88fe2d0ab82",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T13:02:12Z",
+      "observed_at": "2026-10-13T06:54:52Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-10-12T13:02:12Z",
+      "published_at": "2026-10-13T06:54:52Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -183,47 +137,22 @@
         "windansea-reef"
       ],
       "category": "weather",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-13T21:00:00Z",
       "headline": "Coastal Flood Advisory",
       "id": "sha256:642d80f62222010883c3e91f7436cb18446e3da75440006af25307a265235fa6",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T08:16:00Z",
+      "observed_at": "2026-10-13T04:48:00Z",
       "official_guidance": "If travel is required, allow extra time as some roads may be closed. Do not drive around barricades or through water of unknown depth. Take the necessary actions to protect flood-prone property.",
       "official_status": "advisory",
-      "onset_at": "2026-10-12T08:16:00Z",
-      "published_at": "2026-10-12T08:16:00Z",
+      "onset_at": "2026-10-13T04:48:00Z",
+      "published_at": "2026-10-13T04:48:00Z",
       "source": {
         "publisher": "National Weather Service",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://forecast.weather.gov/showsigwx.php?warnzone=CAZ043"
       },
       "status": "active",
-      "summary": "Coastal Flood Advisory issued October 12 at 1:16AM PDT until October 13 at 2:00PM PDT by NWS San Diego CA",
-      "verification": "official"
-    },
-    {
-      "affected_area": "Santa Barbara County Southwestern Coast; Santa Barbara County Southeastern Coast",
-      "affected_location_ids": [
-        "carpinteria-reef",
-        "coal-oil-point"
-      ],
-      "category": "weather",
-      "expires_at": "2026-10-13T05:00:00Z",
-      "headline": "Coastal Flood Advisory",
-      "id": "sha256:7224e20f206f03f0896d8e13792b1778e9a1bb1e515e242de6c7d2148c9c72e2",
-      "impact": "official_caution",
-      "observed_at": "2026-10-12T04:02:00Z",
-      "official_guidance": "Take the necessary actions to protect flood-prone property. Do NOT drive around barricades or through water of unknown depth. Remain out of the water due to hazardous swimming conditions, or stay near occupied lifeguard towers. Rock jetties can be deadly in such conditions, stay off the rocks.",
-      "official_status": "advisory",
-      "onset_at": "2026-10-12T04:02:00Z",
-      "published_at": "2026-10-12T04:02:00Z",
-      "source": {
-        "publisher": "National Weather Service",
-        "retrieved_at": "2026-10-12T13:02:12Z",
-        "url": "https://forecast.weather.gov/showsigwx.php?warnzone=CAZ350"
-      },
-      "status": "active",
-      "summary": "Coastal Flood Advisory issued October 11 at 9:02PM PDT until October 12 at 10:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "summary": "Coastal Flood Advisory issued October 12 at 9:48PM PDT until October 13 at 2:00PM PDT by NWS San Diego CA",
       "verification": "official"
     },
     {
@@ -231,17 +160,17 @@
         "childrens-pool-casa-beach"
       ],
       "category": "water_quality",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-14T12:54:52Z",
       "headline": "Water-quality warning",
       "id": "sha256:854dca295a9679fe75c49f0f1771c1fa5b70e985c55e65f4286fc966d81801c7",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T13:02:12Z",
+      "observed_at": "2026-10-13T06:54:52Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-10-12T13:02:12Z",
+      "published_at": "2026-10-13T06:54:52Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -255,22 +184,22 @@
         "white-point"
       ],
       "category": "weather",
-      "expires_at": "2026-10-13T19:02:12Z",
+      "expires_at": "2026-10-14T00:00:00Z",
       "headline": "Beach Hazards Statement",
       "id": "sha256:dfeebf8d8ea79222e93af2345a772cdf2fa2af699c69f4fb0921691189aeea44",
       "impact": "official_caution",
-      "observed_at": "2026-10-12T04:02:00Z",
+      "observed_at": "2026-10-13T03:40:00Z",
       "official_guidance": "Take the necessary actions to protect flood-prone property. Do NOT drive around barricades or through water of unknown depth. Remain out of the water due to hazardous swimming conditions, or stay near occupied lifeguard towers. Rock jetties can be deadly in such conditions, stay off the rocks.",
       "official_status": "statement",
-      "onset_at": "2026-10-12T04:02:00Z",
-      "published_at": "2026-10-12T04:02:00Z",
+      "onset_at": "2026-10-13T03:40:00Z",
+      "published_at": "2026-10-13T03:40:00Z",
       "source": {
         "publisher": "National Weather Service",
-        "retrieved_at": "2026-10-12T13:02:12Z",
+        "retrieved_at": "2026-10-13T06:54:52Z",
         "url": "https://forecast.weather.gov/showsigwx.php?warnzone=CAZ362"
       },
       "status": "active",
-      "summary": "Beach Hazards Statement issued October 11 at 9:02PM PDT until October 13 at 5:00PM PDT by NWS Los Angeles/Oxnard CA",
+      "summary": "Beach Hazards Statement issued October 12 at 8:40PM PDT until October 13 at 5:00PM PDT by NWS Los Angeles/Oxnard CA",
       "verification": "official"
     }
   ],
@@ -281,14 +210,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 4 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 10 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.3 feet, which exceeds the local limit for Dike Rock. With water levels also 1.2 feet above prediction, the reef will be less exposed than expected. Given these conditions, it is best to pick another day rather than risk the window today."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and the surf is running high, which limits access to the lower reefs. The best chance to see life is during the late afternoon low tide around 3:12 PM, though the water is higher than predicted. Bring a light for the walk out after sunset, and stay alert to the conditions."
         },
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -316,7 +245,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -334,13 +263,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 11.3
+            "wave_height_feet": 4.462,
+            "wave_period_seconds": 11.35
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 68.2,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.1,
+            "wind_gusts_mph": 10.5
           },
           "year_percentile": 30
         },
@@ -350,10 +279,10 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:6.3} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:10}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.3}): lowest water in daylight 3:12 PM–6:20 PM."
         },
@@ -364,17 +293,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.8,
+        "apparent_temperature_f": 54.8,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 24.0,
-        "temperature_f": 63.5,
-        "temperature_high_f": 70.5,
-        "temperature_low_f": 60.6,
+        "temperature_f": 59.1,
+        "temperature_high_f": 72.6,
+        "temperature_low_f": 60.2,
         "weather_code": 3,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 5.2
+        "wind_gusts_mph": 6.5,
+        "wind_speed_mph": 6.3
       }
     },
     {
@@ -392,7 +321,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 9.8
+          "wind_gusts_mph": 6.0
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:07 PM, clearing this site's 1.5 ft guidance."
@@ -403,15 +332,15 @@
         "bullets": [
           "Below 1.5 ft in daylight 2:54 PM–6:20 PM (3h26m).",
           "Surf 4.1 ft at 11 s during the window, above this site's 3.0 ft limit.",
-          "Water is running 1.4 ft above prediction; expect less exposed reef.",
+          "Water is running 1.2 ft above prediction; expect less exposed reef.",
           "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 15 mph, 0% rain.",
+          "During the window: 68°F, gusts 8 mph, 0% rain.",
           "Site note: Keep watch for incoming waves. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, so keep a sharp eye on incoming waves while exploring. The water is also higher than predicted, meaning less reef will be exposed. Go during the late afternoon window, but bring a light for the walk out since it gets dark. Plan your exit before the tide rises quickly."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, so keep a close eye on incoming waves while exploring. The water is also higher than predicted, meaning less reef exposure. Go during the late afternoon window, but bring a light for the walk out since it gets dark. Plan your exit before the tide rises quickly."
         },
         "headline": "Good day: go 2:54 PM–6:20 PM.",
         "indicators": {
@@ -434,7 +363,7 @@
             "daylight": true,
             "feet": 0.058
           },
-          "observed_offset_feet": 1.37,
+          "observed_offset_feet": 1.25,
           "range_feet": 6.31,
           "range_ratio": 1.1,
           "rise_feet_per_hour": 0.85,
@@ -452,13 +381,13 @@
             "start": "2026-10-12T14:54"
           },
           "window_surf": {
-            "wave_height_feet": 4.068,
-            "wave_period_seconds": 11.0
+            "wave_height_feet": 4.134,
+            "wave_period_seconds": 11.1
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 68.0,
-            "wind_gusts_mph": 15.0
+            "temperature_f": 68.2,
+            "wind_gusts_mph": 8.1
           },
           "year_percentile": 31
         },
@@ -491,10 +420,10 @@
           "bullets": [
             "Below 1.5 ft in daylight 2:54 PM–6:20 PM (3h26m).",
             "Surf 4.1 ft at 11 s during the window, above this site's 3.0 ft limit.",
-            "Water is running 1.4 ft above prediction; expect less exposed reef.",
+            "Water is running 1.2 ft above prediction; expect less exposed reef.",
             "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:15}, 0% rain.",
+            "During the window: {t:68}, gusts {w:8}, 0% rain.",
             "Site note: Keep watch for incoming waves. Surf is above this site's limit."
           ],
           "headline": "Good day: go 2:54 PM–6:20 PM."
@@ -506,17 +435,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.3,
+        "apparent_temperature_f": 55.2,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 17.0,
-        "temperature_f": 63.6,
-        "temperature_high_f": 69.5,
-        "temperature_low_f": 59.6,
-        "weather_code": 3,
-        "wind_gusts_mph": 9.8,
-        "wind_speed_mph": 6.4
+        "temperature_f": 59.9,
+        "temperature_high_f": 71.4,
+        "temperature_low_f": 61.5,
+        "weather_code": 0,
+        "wind_gusts_mph": 6.0,
+        "wind_speed_mph": 5.2
       }
     },
     {
@@ -529,12 +458,12 @@
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 10.0,
+          "precipitation_probability_max": 9.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 4.0
+          "wind_gusts_mph": 5.1
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:41 PM, clearing this site's 1.0 ft guidance."
@@ -544,15 +473,15 @@
         "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Barbara gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft in daylight 3:49 PM–6:28 PM (2h39m).",
-          "Surf 3.8 ft at 10 s during the window, above this site's 3.0 ft limit.",
-          "Water is running 1.3 ft above prediction; expect less exposed reef.",
+          "Surf 3.9 ft at 10 s during the window, above this site's 3.0 ft limit.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:28 PM); bring a light for the walk out.",
-          "During the window: 66°F, gusts 17 mph, 0% rain.",
+          "During the window: 66°F, gusts 11 mph, 0% rain.",
           "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 1 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Beach Hazards Statement: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and the water is above prediction, so the reef won’t be as exposed as usual. However, the low tide at 5:41 PM offers a decent window before sunset. Go during that time, but bring a light for the walk out and watch your step on the slippery, algae-covered rocks."
+          "text": "National Weather Service Beach Hazards Statement: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, exceeding the site’s limit, and the water is higher than predicted, which means less reef exposure. A Beach Hazards Statement is active today. Go during the 3:49 PM window, but bring a light since it runs past sunset. Watch for slippery algae and tar stains, as the rising tide covers the reef quickly."
         },
         "headline": "Good day: go 3:49 PM–6:28 PM.",
         "indicators": {
@@ -575,7 +504,7 @@
             "daylight": true,
             "feet": 0.106
           },
-          "observed_offset_feet": 1.27,
+          "observed_offset_feet": 0.97,
           "range_feet": 5.78,
           "range_ratio": 1.07,
           "rise_feet_per_hour": 0.58,
@@ -593,13 +522,13 @@
             "start": "2026-10-12T15:49"
           },
           "window_surf": {
-            "wave_height_feet": 3.806,
-            "wave_period_seconds": 9.75
+            "wave_height_feet": 3.937,
+            "wave_period_seconds": 9.5
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 66.1,
-            "wind_gusts_mph": 16.8
+            "temperature_f": 66.4,
+            "wind_gusts_mph": 10.7
           },
           "year_percentile": 34
         },
@@ -630,10 +559,10 @@
           "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Barbara gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft in daylight 3:49 PM–6:28 PM (2h39m).",
-            "Surf 3.8 ft at 10 s during the window, above this site's 3.0 ft limit.",
-            "Water is running 1.3 ft above prediction; expect less exposed reef.",
+            "Surf 3.9 ft at 10 s during the window, above this site's 3.0 ft limit.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:28 PM); bring a light for the walk out.",
-            "During the window: {t:66}, gusts {w:17}, 0% rain.",
+            "During the window: {t:66}, gusts {w:11}, 0% rain.",
             "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 1 more."
           ],
           "headline": "Good day: go 3:49 PM–6:28 PM."
@@ -645,17 +574,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 58.9,
+        "apparent_temperature_f": 53.0,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
-        "precipitation_probability_max": 10.0,
-        "temperature_f": 59.9,
-        "temperature_high_f": 68.3,
-        "temperature_low_f": 58.0,
-        "weather_code": 3,
-        "wind_gusts_mph": 4.0,
-        "wind_speed_mph": 2.2
+        "observed_at": "2026-10-13T06:45:00Z",
+        "precipitation_probability_max": 9.0,
+        "temperature_f": 57.9,
+        "temperature_high_f": 69.0,
+        "temperature_low_f": 58.2,
+        "weather_code": 0,
+        "wind_gusts_mph": 5.1,
+        "wind_speed_mph": 5.4
       }
     },
     {
@@ -664,14 +593,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 2 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 67°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 11 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active today, so conditions are elevated. With water running high and surf above the limit, the reef stays mostly submerged. The window ends past sunset, requiring a light for the walk out. Given the advisory and limited exposure, it is best to pick another day rather than risk the conditions."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The 4.2-foot surf exceeds the local limit, and water is running higher than predicted, so the reef stays mostly submerged. With a coastal flood advisory active, conditions are rough for today. Skip the visit and pick another day when the waves are calmer and the tide drops lower."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -699,7 +628,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -717,13 +646,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.134,
+            "wave_height_feet": 4.199,
             "wave_period_seconds": 11.2
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.4,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.4,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 30
         },
@@ -733,22 +662,12 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:2.9} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:67}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:11}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.9}): lowest water in daylight 3:12 PM–6:20 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "summary": "The access plan for the Scripps Coastal Reserve in La Jolla has been delayed again, leaving the site closed with no end date in sight. This ongoing situation marks six years of closure as the fight over access continues without a resolution (source1)."
         },
         "window": {
           "end": "2026-10-12T18:20",
@@ -757,17 +676,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 55.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 25.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.2,
-        "temperature_low_f": 59.6,
+        "temperature_f": 60.1,
+        "temperature_high_f": 72.4,
+        "temperature_low_f": 60.7,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 6.1
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.7
       }
     },
     {
@@ -785,7 +704,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 8.9
+          "wind_gusts_mph": 5.6
         },
         "level": "good",
         "reason": "Low tide 0.1 ft at 5:41 PM, clearing this site's 1.0 ft guidance."
@@ -795,15 +714,15 @@
         "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Barbara gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft in daylight 3:49 PM–6:30 PM (2h41m).",
-          "Surf 4.3 ft at 10 s during the window, above this site's 3.0 ft limit.",
-          "Water is running 1.3 ft above prediction; expect less exposed reef.",
+          "Surf 4.5 ft at 10 s during the window, above this site's 3.0 ft limit.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:30 PM); bring a light for the walk out.",
-          "During the window: 66°F, gusts 19 mph, 0% rain.",
+          "During the window: 67°F, gusts 13 mph, 0% rain.",
           "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 2 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Beach Hazards Statement: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and the water is above prediction, so the reef won’t be as exposed as usual. Go between 3:49 PM and 6:30 PM, but bring a light since the window runs past sunset. Watch for slippery algae and tar, and keep an eye on the rising tide that covers the reef quickly."
+          "text": "National Weather Service Beach Hazards Statement: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, exceeding the site limit, and water levels are higher than predicted, which means less reef exposure. A Beach Hazards Statement is in effect today. Go during the late afternoon window, but bring a light since the tide clears after sunset. Watch your step on slippery algae-covered rocks."
         },
         "headline": "Good day: go 3:49 PM–6:30 PM.",
         "indicators": {
@@ -826,7 +745,7 @@
             "daylight": true,
             "feet": 0.106
           },
-          "observed_offset_feet": 1.27,
+          "observed_offset_feet": 0.97,
           "range_feet": 5.78,
           "range_ratio": 1.07,
           "rise_feet_per_hour": 0.59,
@@ -844,13 +763,13 @@
             "start": "2026-10-12T15:49"
           },
           "window_surf": {
-            "wave_height_feet": 4.265,
-            "wave_period_seconds": 10.4
+            "wave_height_feet": 4.462,
+            "wave_period_seconds": 10.2
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 66.1,
-            "wind_gusts_mph": 18.6
+            "temperature_f": 67.2,
+            "wind_gusts_mph": 12.8
           },
           "year_percentile": 34
         },
@@ -886,10 +805,10 @@
           "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Barbara gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft in daylight 3:49 PM–6:30 PM (2h41m).",
-            "Surf 4.3 ft at 10 s during the window, above this site's 3.0 ft limit.",
-            "Water is running 1.3 ft above prediction; expect less exposed reef.",
+            "Surf 4.5 ft at 10 s during the window, above this site's 3.0 ft limit.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:30 PM); bring a light for the walk out.",
-            "During the window: {t:66}, gusts {w:19}, 0% rain.",
+            "During the window: {t:67}, gusts {w:13}, 0% rain.",
             "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 2 more."
           ],
           "headline": "Good day: go 3:49 PM–6:30 PM."
@@ -901,17 +820,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 58.2,
+        "apparent_temperature_f": 54.3,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 11.0,
-        "temperature_f": 60.5,
-        "temperature_high_f": 67.9,
-        "temperature_low_f": 58.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 5.2
+        "temperature_f": 59.0,
+        "temperature_high_f": 68.9,
+        "temperature_low_f": 57.6,
+        "weather_code": 0,
+        "wind_gusts_mph": 5.6,
+        "wind_speed_mph": 5.0
       }
     },
     {
@@ -929,7 +848,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 10.1
+          "wind_gusts_mph": 9.2
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:06 PM, clearing this site's 1.0 ft guidance."
@@ -939,15 +858,15 @@
         "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA La Jolla gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.1 ft at 11 s during the window, above this site's 2.5 ft limit.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.2 ft at 11 s during the window, above this site's 2.5 ft limit.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 14 mph, 1% rain.",
+          "During the window: 70°F, gusts 12 mph, 0% rain.",
           "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, which can cut off beach passages, so tread carefully. The water is also higher than predicted, meaning less reef exposure. Go during the 3:12 PM to 6:20 PM window, but bring a light since you’ll be leaving after sunset."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, which can cut off beach passages, so tread carefully. The water is also running above prediction, meaning less reef exposure. Go during the 3:12 PM to 6:20 PM window, but bring a light since it gets dark. A Coastal Flood Advisory is in effect, so stay alert to changing conditions."
         },
         "headline": "Good day: go 3:12 PM–6:20 PM.",
         "indicators": {
@@ -970,7 +889,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -988,13 +907,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.134,
+            "wave_height_feet": 4.199,
             "wave_period_seconds": 11.2
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.6,
-            "wind_gusts_mph": 14.1
+            "precipitation_probability": 0,
+            "temperature_f": 69.6,
+            "wind_gusts_mph": 12.5
           },
           "year_percentile": 30
         },
@@ -1026,10 +945,10 @@
           "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA La Jolla gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.1 ft at 11 s during the window, above this site's 2.5 ft limit.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.2 ft at 11 s during the window, above this site's 2.5 ft limit.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:14}, 1% rain.",
+            "During the window: {t:70}, gusts {w:12}, 0% rain.",
             "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
           ],
           "headline": "Good day: go 3:12 PM–6:20 PM."
@@ -1041,17 +960,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.3,
+        "apparent_temperature_f": 55.7,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 28.0,
-        "temperature_f": 63.1,
-        "temperature_high_f": 69.3,
-        "temperature_low_f": 59.8,
+        "temperature_f": 60.3,
+        "temperature_high_f": 71.7,
+        "temperature_low_f": 61.3,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 5.5
+        "wind_gusts_mph": 9.2,
+        "wind_speed_mph": 6.1
       }
     },
     {
@@ -1060,14 +979,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 2 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:21 PM (3h09m).",
-          "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:21 PM); bring a light for the walk out.",
-          "During the window: 67°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 11 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high, so conditions are tricky. The low tide window hits around 3:12 PM, but water is higher than predicted, limiting exposure. Given the advisory and limited reef access, it is best to pick another day for a proper visit."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.2 feet, which exceeds the local limit for Dike Rock. With water levels 1.1 feet above prediction, the reef will be less exposed. It is best to pick another day rather than risk the conditions during the 3:12 PM low tide window."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:12 PM–6:21 PM.",
         "indicators": {
@@ -1095,7 +1014,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -1113,13 +1032,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.134,
+            "wave_height_feet": 4.199,
             "wave_period_seconds": 11.2
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.4,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.4,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 30
         },
@@ -1129,22 +1048,12 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:3.6} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:21 PM (3h09m).",
-            "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:21 PM); bring a light for the walk out.",
-            "During the window: {t:67}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:11}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:3.6}): lowest water in daylight 3:12 PM–6:21 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "summary": "The access plan for the Scripps Coastal Reserve in La Jolla has been delayed again, leaving the site closed for six years with no end date in sight (source1)."
         },
         "window": {
           "end": "2026-10-12T18:21",
@@ -1153,17 +1062,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 55.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 25.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.2,
-        "temperature_low_f": 59.6,
+        "temperature_f": 60.1,
+        "temperature_high_f": 72.4,
+        "temperature_low_f": 60.7,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 6.1
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.7
       }
     },
     {
@@ -1172,20 +1081,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 1 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 67°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 11 mph, 0% rain."
         ],
         "commentary": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is too high for comfortable access at Dike Rock Tidepools, and a Coastal Flood Advisory is currently in effect. With water running above prediction, the reef won’t be fully exposed. It’s best to pick another day rather than risk the conditions, especially since the window extends past sunset. (source1)"
+          "sources": [],
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and water is above prediction, limiting reef exposure. With a Coastal Flood Advisory active, conditions are tricky. If visiting, head to Dike Rock Tidepools around 3:12 PM for the low tide, but bring a light since the window extends past sunset."
         },
         "headline": "Estimate from the La Jolla gauge (1 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -1213,7 +1116,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -1231,13 +1134,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.134,
+            "wave_height_feet": 4.199,
             "wave_period_seconds": 11.2
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.4,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.3,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 30
         },
@@ -1247,22 +1150,12 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:2.4} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:67}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:11}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.4}): lowest water in daylight 3:12 PM–6:20 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "summary": "The access plan for the Scripps Coastal Reserve in La Jolla has been delayed again, leaving the site closed for six years with no end date in sight (source1)."
         },
         "window": {
           "end": "2026-10-12T18:20",
@@ -1271,17 +1164,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 55.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 25.0,
-        "temperature_f": 63.1,
-        "temperature_high_f": 69.2,
-        "temperature_low_f": 59.5,
+        "temperature_f": 60.1,
+        "temperature_high_f": 72.3,
+        "temperature_low_f": 60.6,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 6.1
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.7
       }
     },
     {
@@ -1294,12 +1187,12 @@
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 16.0,
+          "precipitation_probability_max": 13.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 10.1
+          "wind_gusts_mph": 10.3
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:17 PM, clearing this site's 1.0 ft guidance."
@@ -1309,15 +1202,15 @@
         "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Monica gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft in daylight 3:23 PM–6:26 PM (3h03m).",
-          "Surf 3.7 ft at 12 s during the window, above this site's 3.0 ft limit.",
-          "Water is running 1.3 ft above prediction; expect less exposed reef.",
+          "Surf 3.8 ft at 11 s during the window, above this site's 3.0 ft limit.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:26 PM); bring a light for the walk out.",
-          "During the window: 66°F, gusts 15 mph, 0% rain.",
+          "During the window: 66°F, gusts 11 mph, 0% rain.",
           "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the point and into the sea caves; Rising tide can cut off the rocks around Sequit Point; and 1 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and the water is above prediction, so the reef won’t be as exposed as usual. Go between 3:23 PM and 6:26 PM, but bring a light since the window runs past sunset. Watch your step on slippery algae and stay alert for waves washing over the point."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and the water is above prediction, which means less exposed reef than usual. However, the low tide at 5:17 PM drops to 0.0 ft, opening a good window from 3:23 PM to 6:26 PM. Go during this time, but bring a light since it runs past sunset. Watch for slippery rocks and rising water near the caves."
         },
         "headline": "Good day: go 3:23 PM–6:26 PM.",
         "indicators": {
@@ -1340,7 +1233,7 @@
             "daylight": true,
             "feet": 0.025
           },
-          "observed_offset_feet": 1.3,
+          "observed_offset_feet": 0.97,
           "range_feet": 5.94,
           "range_ratio": 1.09,
           "rise_feet_per_hour": 0.75,
@@ -1358,13 +1251,13 @@
             "start": "2026-10-12T15:23"
           },
           "window_surf": {
-            "wave_height_feet": 3.74,
-            "wave_period_seconds": 11.5
+            "wave_height_feet": 3.806,
+            "wave_period_seconds": 11.45
           },
           "window_weather": {
             "precipitation_probability": 0,
-            "temperature_f": 66.0,
-            "wind_gusts_mph": 15.0
+            "temperature_f": 66.3,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 31
         },
@@ -1395,10 +1288,10 @@
           "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Santa Monica gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft in daylight 3:23 PM–6:26 PM (3h03m).",
-            "Surf 3.7 ft at 12 s during the window, above this site's 3.0 ft limit.",
-            "Water is running 1.3 ft above prediction; expect less exposed reef.",
+            "Surf 3.8 ft at 11 s during the window, above this site's 3.0 ft limit.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:26 PM); bring a light for the walk out.",
-            "During the window: {t:66}, gusts {w:15}, 0% rain.",
+            "During the window: {t:66}, gusts {w:11}, 0% rain.",
             "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the point and into the sea caves; Rising tide can cut off the rocks around Sequit Point; and 1 more."
           ],
           "headline": "Good day: go 3:23 PM–6:26 PM."
@@ -1410,17 +1303,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 58.3,
+        "apparent_temperature_f": 53.8,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
-        "precipitation_probability_max": 16.0,
-        "temperature_f": 59.3,
-        "temperature_high_f": 66.8,
+        "observed_at": "2026-10-13T06:45:00Z",
+        "precipitation_probability_max": 13.0,
+        "temperature_f": 59.0,
+        "temperature_high_f": 69.0,
         "temperature_low_f": 59.0,
-        "weather_code": 1,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 2.9
+        "weather_code": 0,
+        "wind_gusts_mph": 10.3,
+        "wind_speed_mph": 8.7
       }
     },
     {
@@ -1429,15 +1322,15 @@
         "basis": "Best estimate: tide times from the NOAA San Diego gauge, 5 mi away, judged against the 1.5 ft tide guide reviewed for Cabrillo National Monument Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.5 ft (the guide at Cabrillo National Monument Tidepools) in daylight 2:54 PM–6:20 PM (3h26m).",
-          "Surf 4.5 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
-          "Water is running 1.4 ft above prediction; expect less exposed reef.",
+          "Surf 4.6 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
+          "Water is running 1.2 ft above prediction; expect less exposed reef.",
           "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 10 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory and water-quality warning are active today, so visiting is not recommended. Even though the tide drops below 1.5 feet around 2:54 PM, the surf is too high and the water is running higher than predicted. It is best to skip the tidepools today and wait for better conditions."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, exceeding the local limit, and water is higher than predicted, so the reef stays covered. With a coastal flood advisory active, conditions are rough. Skip the tidepools today and pick another day when the water is lower and calmer."
         },
         "headline": "Estimate from the San Diego gauge (5 mi): lowest water in daylight 2:54 PM–6:20 PM.",
         "indicators": {
@@ -1465,7 +1358,7 @@
             "daylight": true,
             "feet": 0.058
           },
-          "observed_offset_feet": 1.37,
+          "observed_offset_feet": 1.25,
           "range_feet": 6.31,
           "range_ratio": 1.1,
           "rise_feet_per_hour": 0.85,
@@ -1483,13 +1376,13 @@
             "start": "2026-10-12T14:54"
           },
           "window_surf": {
-            "wave_height_feet": 4.528,
-            "wave_period_seconds": 11.4
+            "wave_height_feet": 4.593,
+            "wave_period_seconds": 11.45
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 68.4,
-            "wind_gusts_mph": 13.9
+            "precipitation_probability": 0,
+            "temperature_f": 68.9,
+            "wind_gusts_mph": 9.6
           },
           "year_percentile": 31
         },
@@ -1499,11 +1392,11 @@
           "basis": "Best estimate: tide times from the NOAA San Diego gauge, {d:8.1} away, judged against the 1.5 ft tide guide reviewed for Cabrillo National Monument Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.5 ft (the guide at Cabrillo National Monument Tidepools) in daylight 2:54 PM–6:20 PM (3h26m).",
-            "Surf 4.5 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
-            "Water is running 1.4 ft above prediction; expect less exposed reef.",
+            "Surf 4.6 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
+            "Water is running 1.2 ft above prediction; expect less exposed reef.",
             "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:10}, 0% rain."
           ],
           "headline": "Estimate from the San Diego gauge ({d:8.1}): lowest water in daylight 2:54 PM–6:20 PM."
         },
@@ -1514,17 +1407,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.5,
+        "apparent_temperature_f": 54.2,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 21.0,
-        "temperature_f": 63.7,
-        "temperature_high_f": 70.5,
-        "temperature_low_f": 60.5,
+        "temperature_f": 58.6,
+        "temperature_high_f": 72.4,
+        "temperature_low_f": 59.7,
         "weather_code": 3,
-        "wind_gusts_mph": 8.9,
-        "wind_speed_mph": 4.3
+        "wind_gusts_mph": 6.5,
+        "wind_speed_mph": 6.0
       }
     },
     {
@@ -1537,12 +1430,12 @@
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 28.0,
+          "precipitation_probability_max": 25.0,
           "reviewed_hazard_count": 3,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 10.5
+          "wind_gusts_mph": 6.9
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:11 PM, clearing this site's 1.5 ft guidance."
@@ -1552,14 +1445,14 @@
         "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.5 ft in daylight 2:48 PM–6:22 PM (3h34m).",
-          "Surf 3.8 ft at 12 s during the window, above this site's 3.0 ft limit.",
+          "Surf 3.7 ft at 12 s during the window, above this site's 3.0 ft limit.",
           "The window runs past sunset (6:22 PM); bring a light for the walk out.",
-          "During the window: 62°F, gusts 9 mph, 10% rain.",
+          "During the window: 66°F, gusts 14 mph, 5% rain.",
           "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, so conditions are tricky. The tide drops to 0.0 ft at 5:11 PM, opening a window from 2:48 PM. However, surf is high and wave surge is expected around exposed rocks. Go during that afternoon slot, but bring a light for the walk out after sunset."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, which creates tricky conditions around the exposed rocks. However, the tide drops to 0.0 ft at 5:11 PM, opening a window from 2:48 PM to 6:22 PM. Go during this time, but bring a light for the walk out since it gets dark. Stay alert to the wave surge."
         },
         "headline": "Good day: go 2:48 PM–6:22 PM.",
         "indicators": {
@@ -1599,13 +1492,13 @@
             "start": "2026-10-12T14:48"
           },
           "window_surf": {
-            "wave_height_feet": 3.806,
-            "wave_period_seconds": 11.65
+            "wave_height_feet": 3.74,
+            "wave_period_seconds": 12.1
           },
           "window_weather": {
-            "precipitation_probability": 10,
-            "temperature_f": 61.9,
-            "wind_gusts_mph": 9.4
+            "precipitation_probability": 5,
+            "temperature_f": 66.5,
+            "wind_gusts_mph": 13.6
           },
           "year_percentile": 31
         },
@@ -1632,22 +1525,12 @@
           "basis": "Based on this site's reviewed 1.5 ft tide guide and predictions from the NOAA Newport Beach gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.5 ft in daylight 2:48 PM–6:22 PM (3h34m).",
-            "Surf 3.8 ft at 12 s during the window, above this site's 3.0 ft limit.",
+            "Surf 3.7 ft at 12 s during the window, above this site's 3.0 ft limit.",
             "The window runs past sunset (6:22 PM); bring a light for the walk out.",
-            "During the window: {t:62}, gusts {w:9}, 10% rain.",
+            "During the window: {t:66}, gusts {w:14}, 5% rain.",
             "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
           ],
           "headline": "Good day: go 2:48 PM–6:22 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Los Angeles Times",
-              "url": "https://latimes.com/california/story/2026-10-10/tropical-storm-rachel-kelvin-wave-high-tides-combined-to-batter-socal-coast"
-            }
-          ],
-          "summary": "Coastal flooding damaged homes and flooded roads from Newport Beach to Long Beach this week. This event resulted from a highly unusual combination of conditions, which underscores the challenges California faces amid predictions of a \"super\" El Nino winter (source1)."
         },
         "window": {
           "end": "2026-10-12T18:22",
@@ -1656,17 +1539,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.9,
+        "apparent_temperature_f": 58.6,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
-        "precipitation_probability_max": 28.0,
-        "temperature_f": 61.8,
-        "temperature_high_f": 68.6,
-        "temperature_low_f": 59.1,
-        "weather_code": 3,
-        "wind_gusts_mph": 10.5,
-        "wind_speed_mph": 1.8
+        "observed_at": "2026-10-13T06:45:00Z",
+        "precipitation_probability_max": 25.0,
+        "temperature_f": 61.0,
+        "temperature_high_f": 68.1,
+        "temperature_low_f": 60.1,
+        "weather_code": 0,
+        "wind_gusts_mph": 6.9,
+        "wind_speed_mph": 5.3
       }
     },
     {
@@ -1684,7 +1567,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 12.5
+          "wind_gusts_mph": 8.7
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:11 PM, clearing this site's 1.5 ft guidance."
@@ -1696,12 +1579,12 @@
           "Below 1.5 ft in daylight 2:48 PM–6:22 PM (3h34m).",
           "Surf 3.9 ft at 12 s during the window, above this site's 2.5 ft limit.",
           "The window runs past sunset (6:22 PM); bring a light for the walk out.",
-          "During the window: 62°F, gusts 12 mph, 11% rain.",
+          "During the window: 65°F, gusts 13 mph, 8% rain.",
           "Site note: Avoid surge and submerged rocks. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high today, exceeding the site’s limit, so caution is essential. The low tide hits 0.0 ft at 5:11 PM, creating a window from 2:48 PM to 6:22 PM. Since this extends past sunset, bring a light for the walk out. A Coastal Flood Advisory is in effect, so stay alert to changing conditions while exploring."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The low tide at 5:11 PM drops to 0.0 ft, opening a window from 2:48 PM to 6:22 PM. However, surf is above the site limit, so avoid submerged rocks. Since the window runs past sunset, bring a light for the walk out. Go during this specific time, but stay alert to the water."
         },
         "headline": "Good day: go 2:48 PM–6:22 PM.",
         "indicators": {
@@ -1741,13 +1624,13 @@
             "start": "2026-10-12T14:48"
           },
           "window_surf": {
-            "wave_height_feet": 3.937,
-            "wave_period_seconds": 11.7
+            "wave_height_feet": 3.871,
+            "wave_period_seconds": 12.15
           },
           "window_weather": {
-            "precipitation_probability": 11,
-            "temperature_f": 62.0,
-            "wind_gusts_mph": 12.1
+            "precipitation_probability": 8,
+            "temperature_f": 65.2,
+            "wind_gusts_mph": 13.4
           },
           "year_percentile": 31
         },
@@ -1781,7 +1664,7 @@
             "Below 1.5 ft in daylight 2:48 PM–6:22 PM (3h34m).",
             "Surf 3.9 ft at 12 s during the window, above this site's 2.5 ft limit.",
             "The window runs past sunset (6:22 PM); bring a light for the walk out.",
-            "During the window: {t:62}, gusts {w:12}, 11% rain.",
+            "During the window: {t:65}, gusts {w:13}, 8% rain.",
             "Site note: Avoid surge and submerged rocks. Surf is above this site's limit."
           ],
           "headline": "Good day: go 2:48 PM–6:22 PM."
@@ -1793,17 +1676,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.2,
+        "apparent_temperature_f": 58.6,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 26.0,
-        "temperature_f": 62.1,
-        "temperature_high_f": 67.9,
-        "temperature_low_f": 59.2,
-        "weather_code": 3,
-        "wind_gusts_mph": 12.5,
-        "wind_speed_mph": 8.1
+        "temperature_f": 60.9,
+        "temperature_high_f": 68.6,
+        "temperature_low_f": 60.3,
+        "weather_code": 1,
+        "wind_gusts_mph": 8.7,
+        "wind_speed_mph": 6.9
       }
     },
     {
@@ -1812,14 +1695,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 2 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 67°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 11 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and the surf is running high, which limits access at Dike Rock Tidepools. With water levels above prediction, the reef exposure will be minimal. It is best to pick another day for a proper tidepool visit, as the current conditions do not support the usual exploration opportunities."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high, which limits access to the lower reef. The best window is late afternoon, but it extends past sunset, so bring a light. Since water is higher than predicted, expect less exposed rock. Go during the late window if you can handle the conditions, but prioritize caution."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -1847,7 +1730,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -1865,13 +1748,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.134,
+            "wave_height_feet": 4.199,
             "wave_period_seconds": 11.2
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.4,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.4,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 30
         },
@@ -1881,22 +1764,12 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:2.7} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.1 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.2 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:67}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:11}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.7}): lowest water in daylight 3:12 PM–6:20 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "summary": "The access plan for the Scripps Coastal Reserve in La Jolla has been delayed again, leaving the site closed with no end date in sight. This ongoing dispute marks six years of closure as the fight over access continues without a resolution (source1)."
         },
         "window": {
           "end": "2026-10-12T18:20",
@@ -1905,17 +1778,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 55.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 25.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.2,
-        "temperature_low_f": 59.6,
+        "temperature_f": 60.1,
+        "temperature_high_f": 72.4,
+        "temperature_low_f": 60.7,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 6.1
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.7
       }
     },
     {
@@ -1924,15 +1797,15 @@
         "basis": "Best estimate: tide times from the NOAA San Diego gauge, 5 mi away, judged against the 1.5 ft tide guide reviewed for Cabrillo National Monument Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.5 ft (the guide at Cabrillo National Monument Tidepools) in daylight 2:54 PM–6:20 PM (3h26m).",
-          "Surf 4.5 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
-          "Water is running 1.4 ft above prediction; expect less exposed reef.",
+          "Surf 4.6 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
+          "Water is running 1.2 ft above prediction; expect less exposed reef.",
           "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 13 mph, 2% rain."
+          "During the window: 68°F, gusts 9 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and the surf is running high, which limits access to the lower pools. The best chance to see the reef is around 4:00 PM, when the tide dips below 1.5 feet. Since the window ends at sunset, bring a light for the walk out and plan your exit before the water rises."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.6 feet, which exceeds the local limit for tidepool access. Because the water is also running above prediction, the reef may not expose enough for a good visit. It is best to pick another day rather than risk the conditions during the 2:54 PM low tide window."
         },
         "headline": "Estimate from the San Diego gauge (5 mi): lowest water in daylight 2:54 PM–6:20 PM.",
         "indicators": {
@@ -1960,7 +1833,7 @@
             "daylight": true,
             "feet": 0.058
           },
-          "observed_offset_feet": 1.37,
+          "observed_offset_feet": 1.25,
           "range_feet": 6.31,
           "range_ratio": 1.1,
           "rise_feet_per_hour": 0.85,
@@ -1978,13 +1851,13 @@
             "start": "2026-10-12T14:54"
           },
           "window_surf": {
-            "wave_height_feet": 4.528,
-            "wave_period_seconds": 11.4
+            "wave_height_feet": 4.593,
+            "wave_period_seconds": 11.45
           },
           "window_weather": {
-            "precipitation_probability": 2,
-            "temperature_f": 68.2,
-            "wind_gusts_mph": 13.4
+            "precipitation_probability": 0,
+            "temperature_f": 68.5,
+            "wind_gusts_mph": 8.7
           },
           "year_percentile": 31
         },
@@ -1994,11 +1867,11 @@
           "basis": "Best estimate: tide times from the NOAA San Diego gauge, {d:7.8} away, judged against the 1.5 ft tide guide reviewed for Cabrillo National Monument Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.5 ft (the guide at Cabrillo National Monument Tidepools) in daylight 2:54 PM–6:20 PM (3h26m).",
-            "Surf 4.5 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
-            "Water is running 1.4 ft above prediction; expect less exposed reef.",
+            "Surf 4.6 ft at 11 s during the window, above the 3.0 ft limit used at Cabrillo National Monument Tidepools.",
+            "Water is running 1.2 ft above prediction; expect less exposed reef.",
             "Water rises about 0.8 ft in the hour after 6:20 PM; plan your exit.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:13}, 2% rain."
+            "During the window: {t:68}, gusts {w:9}, 0% rain."
           ],
           "headline": "Estimate from the San Diego gauge ({d:7.8}): lowest water in daylight 2:54 PM–6:20 PM."
         },
@@ -2009,17 +1882,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 54.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 18.0,
-        "temperature_f": 63.5,
-        "temperature_high_f": 69.9,
-        "temperature_low_f": 60.3,
+        "temperature_f": 59.3,
+        "temperature_high_f": 72.1,
+        "temperature_low_f": 60.7,
         "weather_code": 3,
-        "wind_gusts_mph": 10.3,
-        "wind_speed_mph": 6.3
+        "wind_gusts_mph": 6.9,
+        "wind_speed_mph": 5.6
       }
     },
     {
@@ -2028,14 +1901,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 12 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 3.9 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.0 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 66°F, gusts 14 mph, 6% rain."
+          "During the window: 68°F, gusts 11 mph, 3% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high, which limits the exposed reef. The low tide window starts at 3:12 PM, but the water is higher than predicted. Since the window extends past sunset, bring a light for the walk out. Go during this late afternoon slot to see what little is available before dark."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at four feet, which exceeds the local limit for Dike Rock. With water already above prediction, the reef won’t be as exposed. It’s best to pick another day rather than risk the conditions during the 3:12 PM low tide window."
         },
         "headline": "Estimate from the La Jolla gauge (12 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -2063,7 +1936,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -2081,13 +1954,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 3.871,
+            "wave_height_feet": 4.003,
             "wave_period_seconds": 11.15
           },
           "window_weather": {
-            "precipitation_probability": 6,
-            "temperature_f": 65.7,
-            "wind_gusts_mph": 14.5
+            "precipitation_probability": 3,
+            "temperature_f": 68.4,
+            "wind_gusts_mph": 11.4
           },
           "year_percentile": 30
         },
@@ -2097,10 +1970,10 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:19.1} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 3.9 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.0 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:66}, gusts {w:14}, 6% rain."
+            "During the window: {t:68}, gusts {w:11}, 3% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:19.1}): lowest water in daylight 3:12 PM–6:20 PM."
         },
@@ -2111,17 +1984,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.0,
+        "apparent_temperature_f": 58.2,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 30.0,
-        "temperature_f": 63.4,
-        "temperature_high_f": 68.9,
-        "temperature_low_f": 58.5,
+        "temperature_f": 60.7,
+        "temperature_high_f": 72.8,
+        "temperature_low_f": 61.0,
         "weather_code": 3,
-        "wind_gusts_mph": 10.3,
-        "wind_speed_mph": 5.6
+        "wind_gusts_mph": 11.6,
+        "wind_speed_mph": 6.7
       }
     },
     {
@@ -2130,14 +2003,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 4 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-          "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-          "During the window: 68°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 10 mph, 0% rain."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.3 feet, which exceeds the local limit for Dike Rock. With water levels also 1.2 feet above prediction, the reef won’t be as exposed. Given these conditions, it is best to pick another day rather than risk the high surf and reduced visibility during the 3:12 PM low tide."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.5 feet, which exceeds the local limit. With water 1.1 feet above prediction, the reef stays submerged longer. The best chance to see life is during the 3:12 PM low tide, but bring a light since the window extends past sunset."
         },
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest water in daylight 3:12 PM–6:20 PM.",
         "indicators": {
@@ -2165,7 +2038,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -2183,13 +2056,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 11.3
+            "wave_height_feet": 4.462,
+            "wave_period_seconds": 11.35
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 68.2,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.1,
+            "wind_gusts_mph": 10.5
           },
           "year_percentile": 30
         },
@@ -2199,10 +2072,10 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:6.5} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:20 PM (3h08m).",
-            "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:20 PM); bring a light for the walk out.",
-            "During the window: {t:68}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:10}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.5}): lowest water in daylight 3:12 PM–6:20 PM."
         },
@@ -2213,17 +2086,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.8,
+        "apparent_temperature_f": 54.8,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 24.0,
-        "temperature_f": 63.5,
-        "temperature_high_f": 70.5,
-        "temperature_low_f": 60.6,
+        "temperature_f": 59.1,
+        "temperature_high_f": 72.6,
+        "temperature_low_f": 60.2,
         "weather_code": 3,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 5.2
+        "wind_gusts_mph": 6.5,
+        "wind_speed_mph": 6.3
       }
     },
     {
@@ -2236,12 +2109,12 @@
           "lows_published": 2,
           "mlw_feet": null,
           "official_impacts": [],
-          "precipitation_probability_max": 25.0,
+          "precipitation_probability_max": 22.0,
           "reviewed_hazard_count": 4,
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 11.2
+          "wind_gusts_mph": 4.9
         },
         "level": "good",
         "reason": "Low tide 0.0 ft at 5:12 PM, clearing this site's 1.0 ft guidance."
@@ -2251,15 +2124,15 @@
         "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Los Angeles gauge. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft in daylight 3:20 PM–6:24 PM (3h04m).",
-          "Surf 3.5 ft at 10 s during the window, above this site's 3.0 ft limit.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 3.4 ft at 11 s during the window, above this site's 3.0 ft limit.",
+          "Water is running 1.0 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:24 PM); bring a light for the walk out.",
-          "During the window: 62°F, gusts 11 mph, 11% rain.",
+          "During the window: 66°F, gusts 13 mph, 0% rain.",
           "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the outer benches; Rising tide can cut off the rocks below the point; and 1 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high and the water is above prediction, so the reef won’t be as exposed as usual. Go during the late afternoon window, but bring a light since the tide clears after sunset. Watch for slippery rocks and rising water, as the Coastal Flood Advisory is in effect today."
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The surf is running high, exceeding the site limit, and water is above prediction, so expect less exposed reef. A Coastal Flood Advisory is also in effect. Despite this, the low tide at 5:12 PM clears the guidance, making it a viable window. Go during the late afternoon slot, but bring a light since the visit extends past sunset."
         },
         "headline": "Good day: go 3:20 PM–6:24 PM.",
         "indicators": {
@@ -2282,7 +2155,7 @@
             "daylight": true,
             "feet": 0.018
           },
-          "observed_offset_feet": 1.22,
+          "observed_offset_feet": 1.0,
           "range_feet": 6.05,
           "range_ratio": 1.1,
           "rise_feet_per_hour": 0.79,
@@ -2300,13 +2173,13 @@
             "start": "2026-10-12T15:20"
           },
           "window_surf": {
-            "wave_height_feet": 3.478,
-            "wave_period_seconds": 10.4
+            "wave_height_feet": 3.412,
+            "wave_period_seconds": 10.85
           },
           "window_weather": {
-            "precipitation_probability": 11,
-            "temperature_f": 62.5,
-            "wind_gusts_mph": 11.4
+            "precipitation_probability": 0,
+            "temperature_f": 66.1,
+            "wind_gusts_mph": 13.4
           },
           "year_percentile": 30
         },
@@ -2337,10 +2210,10 @@
           "basis": "Based on this site's reviewed 1.0 ft tide guide and predictions from the NOAA Los Angeles gauge. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft in daylight 3:20 PM–6:24 PM (3h04m).",
-            "Surf 3.5 ft at 10 s during the window, above this site's 3.0 ft limit.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 3.4 ft at 11 s during the window, above this site's 3.0 ft limit.",
+            "Water is running 1.0 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:24 PM); bring a light for the walk out.",
-            "During the window: {t:62}, gusts {w:11}, 11% rain.",
+            "During the window: {t:66}, gusts {w:13}, 0% rain.",
             "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the outer benches; Rising tide can cut off the rocks below the point; and 1 more."
           ],
           "headline": "Good day: go 3:20 PM–6:24 PM."
@@ -2352,17 +2225,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 61.3,
+        "apparent_temperature_f": 56.6,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
-        "precipitation_probability_max": 25.0,
-        "temperature_f": 63.4,
-        "temperature_high_f": 67.9,
-        "temperature_low_f": 58.9,
-        "weather_code": 3,
-        "wind_gusts_mph": 11.2,
-        "wind_speed_mph": 8.1
+        "observed_at": "2026-10-13T06:45:00Z",
+        "precipitation_probability_max": 22.0,
+        "temperature_f": 60.1,
+        "temperature_high_f": 68.8,
+        "temperature_low_f": 60.6,
+        "weather_code": 1,
+        "wind_gusts_mph": 4.9,
+        "wind_speed_mph": 3.6
       }
     },
     {
@@ -2371,20 +2244,14 @@
         "basis": "Best estimate: tide times from the NOAA La Jolla gauge, 3 mi away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
         "bullets": [
           "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:21 PM (3h09m).",
-          "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-          "Water is running 1.2 ft above prediction; expect less exposed reef.",
+          "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+          "Water is running 1.1 ft above prediction; expect less exposed reef.",
           "The window runs past sunset (6:21 PM); bring a light for the walk out.",
-          "During the window: 67°F, gusts 14 mph, 1% rain."
+          "During the window: 69°F, gusts 11 mph, 0% rain."
         ],
         "commentary": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high, making the reef less exposed than predicted. With the low tide window ending after sunset, visibility becomes a challenge. Given the delayed access to nearby reserves (source1), it is best to pick another day rather than risk navigating the conditions today."
+          "sources": [],
+          "text": "National Weather Service Coastal Flood Advisory: watch the surf, stay off wet rock near the water, and keep kids close. The Coastal Flood Advisory is active, and surf is running high at 4.5 feet, which exceeds the local limit for Dike Rock. With water levels 1.1 feet above prediction, the reef won’t be as exposed. Given these conditions, it’s best to pick another day rather than risk the window ending after sunset."
         },
         "headline": "Estimate from the La Jolla gauge (3 mi): lowest water in daylight 3:12 PM–6:21 PM.",
         "indicators": {
@@ -2412,7 +2279,7 @@
             "daylight": true,
             "feet": 0.005
           },
-          "observed_offset_feet": 1.18,
+          "observed_offset_feet": 1.12,
           "range_feet": 5.89,
           "range_ratio": 1.11,
           "rise_feet_per_hour": 0.78,
@@ -2430,13 +2297,13 @@
             "start": "2026-10-12T15:12"
           },
           "window_surf": {
-            "wave_height_feet": 4.331,
-            "wave_period_seconds": 11.3
+            "wave_height_feet": 4.462,
+            "wave_period_seconds": 11.35
           },
           "window_weather": {
-            "precipitation_probability": 1,
-            "temperature_f": 67.4,
-            "wind_gusts_mph": 13.6
+            "precipitation_probability": 0,
+            "temperature_f": 69.4,
+            "wind_gusts_mph": 11.0
           },
           "year_percentile": 30
         },
@@ -2446,22 +2313,12 @@
           "basis": "Best estimate: tide times from the NOAA La Jolla gauge, {d:4.5} away, judged against the 1.0 ft tide guide reviewed for Dike Rock Tidepools. Surf and weather are forecast for this spot.",
           "bullets": [
             "Below 1.0 ft (the guide at Dike Rock Tidepools) in daylight 3:12 PM–6:21 PM (3h09m).",
-            "Surf 4.3 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
-            "Water is running 1.2 ft above prediction; expect less exposed reef.",
+            "Surf 4.5 ft at 11 s during the window, above the 2.5 ft limit used at Dike Rock Tidepools.",
+            "Water is running 1.1 ft above prediction; expect less exposed reef.",
             "The window runs past sunset (6:21 PM); bring a light for the walk out.",
-            "During the window: {t:67}, gusts {w:14}, 1% rain."
+            "During the window: {t:69}, gusts {w:11}, 0% rain."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:4.5}): lowest water in daylight 3:12 PM–6:21 PM."
-        },
-        "whats_going_on": {
-          "sources": [
-            {
-              "label": "source1",
-              "name": "Hoodline",
-              "url": "https://hoodline.com/2026/10/scripps-coastal-reserve-hearing-pulled-again-as-access-rules-remain-unsettled"
-            }
-          ],
-          "summary": "The access plan for the Scripps Coastal Reserve in La Jolla has been delayed again, leaving the site closed with no end date in sight. This ongoing dispute over access has resulted in six years of closure, with the situation continuing to drag on without a resolution (source1)."
         },
         "window": {
           "end": "2026-10-12T18:21",
@@ -2470,46 +2327,46 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 62.9,
+        "apparent_temperature_f": 55.9,
         "forecast_date_local": "2026-10-12",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-10-12T13:00:00Z",
+        "observed_at": "2026-10-13T06:45:00Z",
         "precipitation_probability_max": 25.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.2,
-        "temperature_low_f": 59.6,
+        "temperature_f": 60.1,
+        "temperature_high_f": 72.4,
+        "temperature_low_f": 60.7,
         "weather_code": 3,
-        "wind_gusts_mph": 10.1,
-        "wind_speed_mph": 6.1
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.7
       }
     }
   ],
-  "published_at": "2026-10-12T13:02:12Z",
-  "revision": "2026-10-12T13:02:12Z",
+  "published_at": "2026-10-13T06:54:52Z",
+  "revision": "2026-10-13T06:54:52Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-10-12T13:02:12Z",
+      "retrieved_at": "2026-10-13T06:54:52Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-10-12T13:02:12Z",
+      "retrieved_at": "2026-10-13T06:54:52Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-10-12T13:02:12Z",
+      "retrieved_at": "2026-10-13T06:54:52Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-10-12T13:02:12Z",
+      "retrieved_at": "2026-10-13T06:54:52Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
