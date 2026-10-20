@@ -92,9 +92,9 @@ summary { cursor: pointer; min-height: 48px; padding: 16px 0; font-weight: 700; 
 .get .lede { margin: 0 auto 28px; }
 .hero-art { grid-area: art; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; }
 .store-shots { max-width: 1280px; margin: 0 auto; padding: 0 40px 64px; }
-.store-shots ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.store-shots ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 .store-shots img { display: block; width: 100%; height: auto; border-radius: 14px; }
-@media (max-width: 780px) { .store-shots { padding: 0 16px 40px; } .store-shots ul { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
+@media (max-width: 780px) { .store-shots { padding: 0 16px 40px; } .store-shots ul { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 62%; overflow-x: auto; scroll-snap-type: x mandatory; gap: 12px; } .store-shots li { scroll-snap-align: start; } }
 .qr-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; margin: 36px 0 8px; }
 .qr { margin: 0; display: grid; justify-items: center; gap: 10px; }
 .qr img { width: 180px; height: 180px; background: #fff; padding: 8px; border-radius: 8px; }
