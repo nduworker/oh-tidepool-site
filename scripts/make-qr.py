@@ -3,7 +3,6 @@ import segno
 
 CODES = {
     "assets/qr-app-store.svg": "https://apps.apple.com/app/id6813742028",
-    "assets/qr-site.svg": "https://oh-tidepool.nduwork.com/",
 }
 
 for path, url in CODES.items():
