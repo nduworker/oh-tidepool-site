@@ -104,6 +104,8 @@ summary { cursor: pointer; min-height: 48px; padding: 16px 0; font-weight: 700; 
 .qr img { width: 180px; height: 180px; background: #fff; padding: 8px; border-radius: 8px; }
 .qr figcaption { display: grid; gap: 2px; font-size: .9rem; }
 .qr figcaption a { display: inline-block; min-height: 44px; padding: 10px 0; overflow-wrap: anywhere; }
+.hero-qr { margin: 20px 0 0; }
+.hero-qr .qr img { width: 140px; height: 140px; }
 @media print { .qr img { width: 240px; height: 240px; } }
 .beta .lede { margin: 0 auto 28px; }
 .beta-instructions { max-width: 52ch; font-size: .95rem; color: var(--muted); margin: 24px auto 0; }
