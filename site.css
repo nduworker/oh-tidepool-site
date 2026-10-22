@@ -91,6 +91,9 @@ summary { cursor: pointer; min-height: 48px; padding: 16px 0; font-weight: 700; 
 .beta, .get { max-width: 840px; text-align: center; }
 .get .lede { margin: 0 auto 28px; }
 .get h2 { margin-bottom: 28px; }
+.intro-video { max-width: 960px; margin: 0 auto; padding: 0 40px 48px; }
+.intro-video video { display: block; width: 100%; height: auto; border-radius: 14px; background: #000; }
+@media (max-width: 780px) { .intro-video { padding: 0 16px 32px; } }
 .store-shots { background: linear-gradient(180deg, #fffdf4, #f0e2c8); padding: 40px 40px 64px; }
 .store-shots ul { list-style: none; max-width: 1200px; margin: 0 auto; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 .store-shots img { display: block; width: 100%; height: auto; border-radius: 14px; }
@@ -104,6 +107,8 @@ summary { cursor: pointer; min-height: 48px; padding: 16px 0; font-weight: 700; 
 .qr img { width: 180px; height: 180px; background: #fff; padding: 8px; border-radius: 8px; }
 .qr figcaption { display: grid; gap: 2px; font-size: .9rem; }
 .qr figcaption a { display: inline-block; min-height: 44px; padding: 10px 0; overflow-wrap: anywhere; }
+.hero-qr { margin: 20px 0 0; }
+.hero-qr .qr img { width: 140px; height: 140px; }
 @media print { .qr img { width: 240px; height: 240px; } }
 .beta .lede { margin: 0 auto 28px; }
 .beta-instructions { max-width: 52ch; font-size: .95rem; color: var(--muted); margin: 24px auto 0; }
