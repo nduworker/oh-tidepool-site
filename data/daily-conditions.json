@@ -1,23 +1,49 @@
 {
-  "expires_at": "2026-11-02T22:01:06Z",
-  "generated_at": "2026-11-01T16:01:06Z",
+  "expires_at": "2026-11-02T23:10:46Z",
+  "generated_at": "2026-11-01T17:10:46Z",
+  "local_news": [
+    {
+      "affected_location_ids": [
+        "childrens-pool-casa-beach",
+        "hospital-point",
+        "la-jolla-cove",
+        "shell-beach-seal-rock",
+        "windansea-reef"
+      ],
+      "expires_at": "2026-11-02T23:10:46Z",
+      "headline": "Is the Ocean Clean in La Jolla Today? | SideGuy",
+      "id": "sha256:e4a3e2aeabed24819957a89b25ea5807a7232011682595ae7106936be351d0ce",
+      "kind": "water_quality",
+      "match_field": "place",
+      "matched_places": [
+        "La Jolla"
+      ],
+      "observed_at": "2026-11-01T17:06:46Z",
+      "source_name": "www.sideguysolutions.com",
+      "source_published_at": "2026-11-01T00:00:00Z",
+      "source_url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html",
+      "stretch_ids": [
+        "la-jolla"
+      ]
+    }
+  ],
   "local_updates": [
     {
       "affected_location_ids": [
         "la-jolla-cove"
       ],
       "category": "water_quality",
-      "expires_at": "2026-11-02T22:01:06Z",
+      "expires_at": "2026-11-02T23:10:46Z",
       "headline": "Water-quality warning",
       "id": "sha256:0b96b4055da20c12f2b5b02447d637ab1b5dbb7623fdf961e1c129ace1f7e947",
       "impact": "official_caution",
-      "observed_at": "2026-11-01T16:01:06Z",
+      "observed_at": "2026-11-01T17:10:46Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-11-01T16:01:06Z",
+      "published_at": "2026-11-01T17:10:46Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-11-01T16:01:06Z",
+        "retrieved_at": "2026-11-01T17:10:46Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -29,17 +55,17 @@
         "childrens-pool-casa-beach"
       ],
       "category": "water_quality",
-      "expires_at": "2026-11-02T22:01:06Z",
+      "expires_at": "2026-11-02T23:10:46Z",
       "headline": "Water-quality warning",
       "id": "sha256:2da43dc8529719b028c503b7ec46259cfd892e8b089ed23a5b10131e006c65ed",
       "impact": "official_caution",
-      "observed_at": "2026-11-01T16:01:06Z",
+      "observed_at": "2026-11-01T17:10:46Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-11-01T16:01:06Z",
+      "published_at": "2026-11-01T17:10:46Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-11-01T16:01:06Z",
+        "retrieved_at": "2026-11-01T17:10:46Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -51,17 +77,17 @@
         "ocean-beach-pier-reefs"
       ],
       "category": "water_quality",
-      "expires_at": "2026-11-02T22:01:06Z",
+      "expires_at": "2026-11-02T23:10:46Z",
       "headline": "Water-quality warning",
       "id": "sha256:4485d8b8dd0bfdf95348884c806c274e2b634d7b20c3907a7ed5b88fe2d0ab82",
       "impact": "official_caution",
-      "observed_at": "2026-11-01T16:01:06Z",
+      "observed_at": "2026-11-01T17:10:46Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-11-01T16:01:06Z",
+      "published_at": "2026-11-01T17:10:46Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-11-01T16:01:06Z",
+        "retrieved_at": "2026-11-01T17:10:46Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -73,17 +99,17 @@
         "childrens-pool-casa-beach"
       ],
       "category": "water_quality",
-      "expires_at": "2026-11-02T22:01:06Z",
+      "expires_at": "2026-11-02T23:10:46Z",
       "headline": "Water-quality warning",
       "id": "sha256:854dca295a9679fe75c49f0f1771c1fa5b70e985c55e65f4286fc966d81801c7",
       "impact": "official_caution",
-      "observed_at": "2026-11-01T16:01:06Z",
+      "observed_at": "2026-11-01T17:10:46Z",
       "official_guidance": "Bacteria levels exceed state health standards. Avoid contact with the water in the posted area.",
       "official_status": "warning",
-      "published_at": "2026-11-01T16:01:06Z",
+      "published_at": "2026-11-01T17:10:46Z",
       "source": {
         "publisher": "County of San Diego",
-        "retrieved_at": "2026-11-01T16:01:06Z",
+        "retrieved_at": "2026-11-01T17:10:46Z",
         "url": "https://cosdapps.sandiegocounty.gov/sdbeachinfo/"
       },
       "status": "active",
@@ -100,8 +126,8 @@
           "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 64°F, gusts 9 mph, 44% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 64°F, gusts 9 mph, 39% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
@@ -133,7 +159,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -147,7 +173,7 @@
             "wave_period_seconds": 14.0
           },
           "window_weather": {
-            "precipitation_probability": 44,
+            "precipitation_probability": 39,
             "temperature_f": 63.8,
             "uv_index": 0.15,
             "wind_gusts_mph": 9.2
@@ -162,24 +188,24 @@
             "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:64}, gusts {w:9}, 44% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:64}, gusts {w:9}, 39% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.3}): lowest daylight water 3.1 ft at 7:55 AM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 65.9,
+        "apparent_temperature_f": 68.8,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.8,
-        "temperature_high_f": 69.8,
-        "temperature_low_f": 60.8,
-        "weather_code": 61,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 3.3
+        "temperature_f": 65.6,
+        "temperature_high_f": 70.8,
+        "temperature_low_f": 60.4,
+        "weather_code": 3,
+        "wind_gusts_mph": 11.9,
+        "wind_speed_mph": 2.8
       }
     },
     {
@@ -197,7 +223,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 7.6
+          "wind_gusts_mph": 8.3
         },
         "level": "poor",
         "reason": "97% chance of precipitation. 97% chance of precipitation."
@@ -210,12 +236,12 @@
           "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
           "Water is running 1.7 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 66°F, gusts 8 mph, 40% rain, UV 0.",
+          "Around 8:00 AM: 66°F, gusts 8 mph, 34% rain, UV 0.",
           "Site note: Keep watch for incoming waves. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "Poor day for tidepooling. Surf 3.5 ft at 14 s around 8:00 AM, above this site's 3.0 ft limit."
+          "text": "Skip the tidepool today; heavy rain and high surf make for poor conditions. The lowest water occurs after dark, so daylight exploration is limited. Pick another day when tides dip lower during daylight hours for a better experience. </think> Skip the tidepool today; heavy rain and high surf make for poor conditions. The lowest water occurs after dark, so daylight exploration is limited. Pick another day when tides dip lower during daylight hours for a better experience."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -238,7 +264,7 @@
             "daylight": false,
             "feet": 0.166
           },
-          "observed_offset_feet": 1.73,
+          "observed_offset_feet": 1.7,
           "range_feet": 5.1,
           "range_ratio": 0.89,
           "station_name": "San Diego",
@@ -252,7 +278,7 @@
             "wave_period_seconds": 13.95
           },
           "window_weather": {
-            "precipitation_probability": 40,
+            "precipitation_probability": 34,
             "temperature_f": 65.9,
             "uv_index": 0.15,
             "wind_gusts_mph": 7.6
@@ -290,24 +316,24 @@
             "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
             "Water is running 1.7 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:66}, gusts {w:8}, 40% rain, UV 0.",
+            "Around 8:00 AM: {t:66}, gusts {w:8}, 34% rain, UV 0.",
             "Site note: Keep watch for incoming waves. Surf is above this site's limit."
           ],
           "headline": "Poor day for tidepooling."
         }
       },
       "weather": {
-        "apparent_temperature_f": 67.7,
+        "apparent_temperature_f": 68.8,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 65.9,
-        "temperature_high_f": 70.2,
+        "temperature_f": 66.4,
+        "temperature_high_f": 70.1,
         "temperature_low_f": 61.1,
-        "weather_code": 1,
-        "wind_gusts_mph": 7.6,
-        "wind_speed_mph": 4.7
+        "weather_code": 3,
+        "wind_gusts_mph": 8.3,
+        "wind_speed_mph": 5.3
       }
     },
     {
@@ -325,7 +351,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 16.6
+          "wind_gusts_mph": 12.8
         },
         "level": "poor",
         "reason": "The best low tide in daylight is 3.3 ft at 8:22 AM, well above this site's 1.0 ft guidance."
@@ -337,7 +363,7 @@
           "Surf 3.1 ft at 7 s around 8:00 AM, above this site's 3.0 ft limit.",
           "The lowest water is after dark (-0.1 ft at 9:57 PM), 3.3 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 3:14 PM at -0.3 ft.",
-          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Water is running 1.6 ft above prediction; expect less exposed reef.",
           "Around 8:00 AM: 64°F, gusts 17 mph, 0% rain, UV 1.",
           "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 1 more."
         ],
@@ -366,7 +392,7 @@
             "daylight": false,
             "feet": -0.064
           },
-          "observed_offset_feet": 1.66,
+          "observed_offset_feet": 1.63,
           "range_feet": 5.16,
           "range_ratio": 0.96,
           "station_name": "Santa Barbara",
@@ -416,7 +442,7 @@
             "Surf 3.1 ft at 7 s around 8:00 AM, above this site's 3.0 ft limit.",
             "The lowest water is after dark (-0.1 ft at 9:57 PM), 3.3 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 3:14 PM at -0.3 ft.",
-            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Water is running 1.6 ft above prediction; expect less exposed reef.",
             "Around 8:00 AM: {t:64}, gusts {w:17}, 0% rain, UV 1.",
             "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 1 more."
           ],
@@ -424,17 +450,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 61.9,
+        "apparent_temperature_f": 64.0,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 57.0,
-        "temperature_f": 64.1,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 57.3,
+        "temperature_f": 66.7,
+        "temperature_high_f": 70.6,
+        "temperature_low_f": 58.1,
         "weather_code": 0,
-        "wind_gusts_mph": 16.6,
-        "wind_speed_mph": 7.4
+        "wind_gusts_mph": 12.8,
+        "wind_speed_mph": 8.6
       }
     },
     {
@@ -445,12 +471,18 @@
           "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 38% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 35% rain, UV 0."
         ],
         "commentary": {
-          "sources": [],
-          "text": "County of San Diego: Water-quality warning. Avoid touching the water and wash hands before eating. Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM. Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools."
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "text": "County of San Diego: Water-quality warning. Avoid touching the water and wash hands before eating. Skip the tidepools today due to an active water-quality warning and high surf. With water running above predictions, expect limited reef exposure. Check local spot-by-spot updates (source1) for specific conditions, but plan a return for the upcoming low tides when conditions improve. </think> Skip the tidepools today due to an active water-quality warning and high surf. With water running above predictions, expect limited reef exposure. Check local spot-by-spot updates (source1) for specific conditions, but plan a return for the upcoming low tides when conditions improve."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM.",
         "indicators": {
@@ -478,7 +510,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -492,7 +524,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 38,
+            "precipitation_probability": 35,
             "temperature_f": 63.2,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.6
@@ -507,24 +539,34 @@
             "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 38% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 35% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.9}): lowest daylight water 3.1 ft at 7:55 AM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "summary": "The County of San Diego’s beach water map provides spot-by-spot updates for La Jolla, noting that two SideGuy postings are available today. The map also references a 72-hour rule following rain events, offering context for current ocean conditions in the area without determining specific safety levels for visitors. (source1)"
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.7,
+        "apparent_temperature_f": 66.1,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 61.2,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 5.8
+        "temperature_f": 65.1,
+        "temperature_high_f": 70.2,
+        "temperature_low_f": 60.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 15.9,
+        "wind_speed_mph": 6.4
       }
     },
     {
@@ -542,7 +584,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 22.8
+          "wind_gusts_mph": 20.8
         },
         "level": "poor",
         "reason": "The best low tide in daylight is 3.3 ft at 8:22 AM, well above this site's 1.0 ft guidance."
@@ -554,13 +596,13 @@
           "Surf 3.1 ft at 9 s around 8:00 AM, above this site's 3.0 ft limit.",
           "The lowest water is after dark (-0.1 ft at 9:57 PM), 3.3 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 3:14 PM at -0.3 ft.",
-          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Water is running 1.6 ft above prediction; expect less exposed reef.",
           "Around 8:00 AM: 61°F, gusts 23 mph, 1% rain, UV 1.",
           "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 2 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "Poor day for tidepooling. Surf 3.1 ft at 9 s around 8:00 AM, above this site's 3.0 ft limit."
+          "text": "Skip the pool today; the best daylight low sits at 3.3 feet, far above the 1.0 foot guideline needed for good exposure. With water running higher than predicted and surf near the limit, the reef stays hidden. Pick another day when tides drop lower in daylight for a better experience."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -583,7 +625,7 @@
             "daylight": false,
             "feet": -0.064
           },
-          "observed_offset_feet": 1.66,
+          "observed_offset_feet": 1.63,
           "range_feet": 5.16,
           "range_ratio": 0.96,
           "station_name": "Santa Barbara",
@@ -638,7 +680,7 @@
             "Surf 3.1 ft at 9 s around 8:00 AM, above this site's 3.0 ft limit.",
             "The lowest water is after dark (-0.1 ft at 9:57 PM), 3.3 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 3:14 PM at -0.3 ft.",
-            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Water is running 1.6 ft above prediction; expect less exposed reef.",
             "Around 8:00 AM: {t:61}, gusts {w:23}, 1% rain, UV 1.",
             "Site notes: Wet algae-covered rocks are slippery; Natural tar on the rocks and sand stains shoes and clothes; Rising tide covers the reef quickly; and 2 more."
           ],
@@ -646,17 +688,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 58.4,
+        "apparent_temperature_f": 61.3,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 42.0,
-        "temperature_f": 61.3,
-        "temperature_high_f": 66.8,
-        "temperature_low_f": 57.6,
+        "temperature_f": 64.1,
+        "temperature_high_f": 67.2,
+        "temperature_low_f": 57.5,
         "weather_code": 0,
-        "wind_gusts_mph": 22.8,
-        "wind_speed_mph": 7.9
+        "wind_gusts_mph": 20.8,
+        "wind_speed_mph": 8.4
       }
     },
     {
@@ -674,7 +716,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 11.4
+          "wind_gusts_mph": 14.8
         },
         "level": "poor",
         "reason": "98% chance of precipitation. 98% chance of precipitation."
@@ -686,8 +728,8 @@
           "Surf 3.6 ft at 14 s around 8:00 AM, above this site's 2.5 ft limit.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 65°F, gusts 11 mph, 34% rain, UV 0.",
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 65°F, gusts 11 mph, 32% rain, UV 0.",
           "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
         ],
         "commentary": {
@@ -715,7 +757,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -729,7 +771,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 34,
+            "precipitation_probability": 32,
             "temperature_f": 64.6,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.4
@@ -766,25 +808,25 @@
             "Surf 3.6 ft at 14 s around 8:00 AM, above this site's 2.5 ft limit.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:65}, gusts {w:11}, 34% rain, UV 0.",
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:65}, gusts {w:11}, 32% rain, UV 0.",
             "Site note: Beach passage can be cut off by rising tide or surf. Surf is above this site's limit."
           ],
           "headline": "Poor day for tidepooling."
         }
       },
       "weather": {
-        "apparent_temperature_f": 65.7,
+        "apparent_temperature_f": 64.6,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 98.0,
-        "temperature_f": 64.6,
-        "temperature_high_f": 69.6,
-        "temperature_low_f": 60.5,
-        "weather_code": 51,
-        "wind_gusts_mph": 11.4,
-        "wind_speed_mph": 6.2
+        "temperature_f": 64.0,
+        "temperature_high_f": 69.7,
+        "temperature_low_f": 58.9,
+        "weather_code": 3,
+        "wind_gusts_mph": 14.8,
+        "wind_speed_mph": 6.3
       }
     },
     {
@@ -795,12 +837,18 @@
           "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 38% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 35% rain, UV 0."
         ],
         "commentary": {
-          "sources": [],
-          "text": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM. Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools."
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "text": "The 3.6 ft surf exceeds the 2.5 ft limit at Dike Rock, making today’s visit risky. Since water is running high, expect less exposed reef. Pick another day for better conditions. Check local water quality updates (source1) before heading out. </think> The 3.6 ft surf exceeds the 2.5 ft limit at Dike Rock, making today’s visit risky. Since water is running high, expect less exposed reef. Pick another day for better conditions. Check local water quality updates (source1) before heading out."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM.",
         "indicators": {
@@ -828,7 +876,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -842,7 +890,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 38,
+            "precipitation_probability": 35,
             "temperature_f": 63.2,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.6
@@ -857,24 +905,34 @@
             "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 38% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 35% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:3.6}): lowest daylight water 3.1 ft at 7:55 AM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "summary": "The County of San Diego’s beach water map provides spot-by-spot updates for La Jolla, noting that two postings are active today. These updates reflect the 72-hour rule following rain, which influences ocean cleanliness assessments in the area. This information is available through SideGuy Solutions to inform readers about current conditions without offering safety advice. (source1)"
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.7,
+        "apparent_temperature_f": 66.1,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 61.2,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 5.8
+        "temperature_f": 65.1,
+        "temperature_high_f": 70.2,
+        "temperature_low_f": 60.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 15.9,
+        "wind_speed_mph": 6.4
       }
     },
     {
@@ -885,8 +943,8 @@
           "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 38% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 35% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
@@ -918,7 +976,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -932,7 +990,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 38,
+            "precipitation_probability": 35,
             "temperature_f": 63.1,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.6
@@ -947,24 +1005,34 @@
             "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 38% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 35% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.4}): lowest daylight water 3.1 ft at 7:55 AM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "summary": "The County of San Diego’s beach water map tracks conditions in La Jolla, noting that the 72-hour rule applies after rain. SideGuy Solutions provides two daily postings for the area, offering spot-by-spot updates on ocean cleanliness for readers checking local tidepooling conditions. (source1)"
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.6,
+        "apparent_temperature_f": 66.0,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.1,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 61.1,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 5.8
+        "temperature_f": 65.0,
+        "temperature_high_f": 70.1,
+        "temperature_low_f": 60.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 15.9,
+        "wind_speed_mph": 6.4
       }
     },
     {
@@ -982,7 +1050,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 11.4
+          "wind_gusts_mph": 15.2
         },
         "level": "poor",
         "reason": "The best low tide in daylight is 3.2 ft at 8:00 AM, well above this site's 1.0 ft guidance."
@@ -995,12 +1063,12 @@
           "The lowest water is after dark (0.0 ft at 9:43 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:52 PM at -0.4 ft.",
           "Water is running 1.7 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 65°F, gusts 11 mph, 9% rain, UV 1.",
+          "Around 8:00 AM: 65°F, gusts 11 mph, 10% rain, UV 1.",
           "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the point and into the sea caves; Rising tide can cut off the rocks around Sequit Point; and 1 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "Poor day for tidepooling. Surf 4.0 ft at 11 s around 8:00 AM, above this site's 3.0 ft limit."
+          "text": "Skip the tidepool today; the 8:00 AM low of 3.2 ft leaves too little reef exposed. With surf above limits and water running high, conditions are poor. Pick another day when tides dip lower in daylight for a better experience. </think> Skip the tidepool today; the 8:00 AM low of 3.2 ft leaves too little reef exposed. With surf above limits and water running high, conditions are poor. Pick another day when tides dip lower in daylight for a better experience."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -1023,7 +1091,7 @@
             "daylight": false,
             "feet": 0.007
           },
-          "observed_offset_feet": 1.71,
+          "observed_offset_feet": 1.66,
           "range_feet": 5.03,
           "range_ratio": 0.93,
           "station_name": "Santa Monica",
@@ -1037,7 +1105,7 @@
             "wave_period_seconds": 10.9
           },
           "window_weather": {
-            "precipitation_probability": 9,
+            "precipitation_probability": 10,
             "temperature_f": 65.2,
             "uv_index": 0.8,
             "wind_gusts_mph": 11.4
@@ -1074,24 +1142,24 @@
             "The lowest water is after dark (0.0 ft at 9:43 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:52 PM at -0.4 ft.",
             "Water is running 1.7 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:65}, gusts {w:11}, 9% rain, UV 1.",
+            "Around 8:00 AM: {t:65}, gusts {w:11}, 10% rain, UV 1.",
             "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the point and into the sea caves; Rising tide can cut off the rocks around Sequit Point; and 1 more."
           ],
           "headline": "Poor day for tidepooling."
         }
       },
       "weather": {
-        "apparent_temperature_f": 66.3,
+        "apparent_temperature_f": 64.4,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 59.0,
-        "temperature_f": 65.2,
-        "temperature_high_f": 68.2,
-        "temperature_low_f": 57.9,
-        "weather_code": 1,
-        "wind_gusts_mph": 11.4,
-        "wind_speed_mph": 5.6
+        "temperature_f": 66.7,
+        "temperature_high_f": 68.6,
+        "temperature_low_f": 58.1,
+        "weather_code": 0,
+        "wind_gusts_mph": 15.2,
+        "wind_speed_mph": 11.5
       }
     },
     {
@@ -1103,11 +1171,11 @@
           "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
           "Water is running 1.7 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 65°F, gusts 10 mph, 44% rain, UV 0."
+          "Around 8:00 AM: 65°F, gusts 10 mph, 38% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
-          "text": "County of San Diego: Water-quality warning. Avoid touching the water and wash hands before eating. The active water-quality warning means skipping tidepools today, regardless of the 3.4 ft low tide at 8:00 AM. Since surf is high and water levels are elevated, the reef remains largely submerged. Visitors should respect the official notice and return when conditions improve, as current risks outweigh any potential sightings."
+          "text": "County of San Diego: Water-quality warning. Avoid touching the water and wash hands before eating. Skip the tidepools today; the water is running high with a 3.4 ft low, and a county water-quality warning is in effect. Since the official notice restricts access, pick another day to visit when conditions improve. </think> Skip the tidepools today; the water is running high with a 3.4 ft low, and a county water-quality warning is in effect. Since the official notice restricts access, pick another day to visit when conditions improve."
         },
         "headline": "Estimate from the San Diego gauge (5 mi): lowest daylight water 3.4 ft at 7:59 AM.",
         "indicators": {
@@ -1135,7 +1203,7 @@
             "daylight": false,
             "feet": 0.166
           },
-          "observed_offset_feet": 1.73,
+          "observed_offset_feet": 1.7,
           "range_feet": 5.1,
           "range_ratio": 0.89,
           "station_name": "San Diego",
@@ -1149,7 +1217,7 @@
             "wave_period_seconds": 13.9
           },
           "window_weather": {
-            "precipitation_probability": 44,
+            "precipitation_probability": 38,
             "temperature_f": 65.0,
             "uv_index": 0.15,
             "wind_gusts_mph": 10.5
@@ -1165,22 +1233,22 @@
             "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
             "Water is running 1.7 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:65}, gusts {w:10}, 44% rain, UV 0."
+            "Around 8:00 AM: {t:65}, gusts {w:10}, 38% rain, UV 0."
           ],
           "headline": "Estimate from the San Diego gauge ({d:8.1}): lowest daylight water 3.4 ft at 7:59 AM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 67.0,
+        "apparent_temperature_f": 69.2,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 65.0,
-        "temperature_high_f": 69.8,
-        "temperature_low_f": 60.9,
+        "temperature_f": 65.9,
+        "temperature_high_f": 71.1,
+        "temperature_low_f": 60.3,
         "weather_code": 3,
-        "wind_gusts_mph": 10.5,
+        "wind_gusts_mph": 9.2,
         "wind_speed_mph": 3.9
       }
     },
@@ -1199,7 +1267,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 11.6
+          "wind_gusts_mph": 6.3
         },
         "level": "poor",
         "reason": "90% chance of precipitation. 90% chance of precipitation."
@@ -1211,12 +1279,12 @@
           "Surf 3.3 ft at 14 s around 8:00 AM, above this site's 3.0 ft limit.",
           "The lowest water is after dark (0.0 ft at 9:40 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 14% rain, UV 1.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 16% rain, UV 1.",
           "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "Poor day for tidepooling. Surf 3.3 ft at 14 s around 8:00 AM, above this site's 3.0 ft limit."
+          "text": "Skip the tidepool today; heavy rain and surf above the site limit make for poor conditions. The lowest water occurs after dark, so daylight exploration is not recommended. Pick another day when tides dip lower during daylight hours for a better experience. </think> Skip the tidepool today; heavy rain and surf above the site limit make for poor conditions. The lowest water occurs after dark, so daylight exploration is not recommended. Pick another day when tides dip lower during daylight hours for a better experience."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -1252,7 +1320,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 14,
+            "precipitation_probability": 16,
             "temperature_f": 63.4,
             "uv_index": 0.75,
             "wind_gusts_mph": 11.6
@@ -1284,24 +1352,24 @@
             "Surf 3.3 ft at 14 s around 8:00 AM, above this site's 3.0 ft limit.",
             "The lowest water is after dark (0.0 ft at 9:40 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 14% rain, UV 1.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 16% rain, UV 1.",
             "Site note: Wave surge around exposed rocks. Surf is above this site's limit."
           ],
           "headline": "Poor day for tidepooling."
         }
       },
       "weather": {
-        "apparent_temperature_f": 66.6,
+        "apparent_temperature_f": 63.5,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 90.0,
-        "temperature_f": 63.4,
-        "temperature_high_f": 68.2,
-        "temperature_low_f": 56.6,
+        "temperature_f": 61.8,
+        "temperature_high_f": 68.4,
+        "temperature_low_f": 57.1,
         "weather_code": 3,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 1.0
+        "wind_gusts_mph": 6.3,
+        "wind_speed_mph": 0.5
       }
     },
     {
@@ -1319,7 +1387,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.5,
-          "wind_gusts_mph": 12.3
+          "wind_gusts_mph": 7.4
         },
         "level": "poor",
         "reason": "96% chance of precipitation. 96% chance of precipitation."
@@ -1331,13 +1399,13 @@
           "Surf 3.5 ft at 14 s around 8:00 AM, above this site's 2.5 ft limit.",
           "The lowest water is after dark (0.0 ft at 9:40 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 12% rain, UV 1.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 16% rain, UV 1.",
           "Site note: Access is only suitable at lower tides. No usable low window today.",
           "Site note: Avoid surge and submerged rocks. Surf is above this site's limit."
         ],
         "commentary": {
           "sources": [],
-          "text": "Skip the tidepool today; heavy surf and rain make access impossible. The lowest water occurs after dark, offering no usable daylight window. Pick another day when tides dip lower during daylight hours for a better experience. </think> Skip the tidepool today; heavy surf and rain make access impossible. The lowest water occurs after dark, offering no usable daylight window. Pick another day when tides dip lower during daylight hours for a better experience."
+          "text": "Poor day for tidepooling. Surf 3.5 ft at 14 s around 8:00 AM, above this site's 2.5 ft limit."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -1373,7 +1441,7 @@
             "wave_period_seconds": 14.15
           },
           "window_weather": {
-            "precipitation_probability": 12,
+            "precipitation_probability": 16,
             "temperature_f": 62.8,
             "uv_index": 0.75,
             "wind_gusts_mph": 12.3
@@ -1411,7 +1479,7 @@
             "Surf 3.5 ft at 14 s around 8:00 AM, above this site's 2.5 ft limit.",
             "The lowest water is after dark (0.0 ft at 9:40 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 12% rain, UV 1.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 16% rain, UV 1.",
             "Site note: Access is only suitable at lower tides. No usable low window today.",
             "Site note: Avoid surge and submerged rocks. Surf is above this site's limit."
           ],
@@ -1419,17 +1487,17 @@
         }
       },
       "weather": {
-        "apparent_temperature_f": 65.2,
+        "apparent_temperature_f": 62.5,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 96.0,
-        "temperature_f": 62.8,
-        "temperature_high_f": 67.8,
-        "temperature_low_f": 56.8,
-        "weather_code": 65,
-        "wind_gusts_mph": 12.3,
-        "wind_speed_mph": 4.2
+        "temperature_f": 62.5,
+        "temperature_high_f": 68.2,
+        "temperature_low_f": 57.6,
+        "weather_code": 53,
+        "wind_gusts_mph": 7.4,
+        "wind_speed_mph": 4.7
       }
     },
     {
@@ -1440,12 +1508,12 @@
           "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 38% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 35% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
-          "text": "Skip the morning trip today; the 3.1 ft low leaves the reef mostly submerged, and running water adds to the challenge. Instead, plan for the upcoming weekend when tides drop significantly lower in daylight, offering much better exposure for exploring the pools. </think> Skip the morning trip today; the 3.1 ft low leaves the reef mostly submerged, and running water adds to the challenge. Instead, plan for the upcoming weekend when tides drop significantly lower in daylight, offering much better exposure for exploring the pools."
+          "text": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM. Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools."
         },
         "headline": "Estimate from the La Jolla gauge (2 mi): lowest daylight water 3.1 ft at 7:55 AM.",
         "indicators": {
@@ -1473,7 +1541,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -1487,7 +1555,7 @@
             "wave_period_seconds": 14.05
           },
           "window_weather": {
-            "precipitation_probability": 38,
+            "precipitation_probability": 35,
             "temperature_f": 63.2,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.6
@@ -1502,24 +1570,34 @@
             "Surf 3.6 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 38% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 35% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:2.7}): lowest daylight water 3.1 ft at 7:55 AM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "summary": "The County of San Diego's beach water map tracks conditions in La Jolla, noting that a 72-hour rule applies after rain. SideGuy Solutions provides two daily postings for the area, offering spot-by-spot updates on ocean cleanliness for readers checking local tidepooling conditions. (source1)"
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.7,
+        "apparent_temperature_f": 66.1,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 61.2,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 5.8
+        "temperature_f": 65.1,
+        "temperature_high_f": 70.2,
+        "temperature_low_f": 60.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 15.9,
+        "wind_speed_mph": 6.4
       }
     },
     {
@@ -1531,11 +1609,11 @@
           "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
           "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
           "Water is running 1.7 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 66°F, gusts 11 mph, 41% rain, UV 0."
+          "Around 8:00 AM: 66°F, gusts 11 mph, 37% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
-          "text": "Estimate from the San Diego gauge (5 mi): lowest daylight water 3.4 ft at 7:59 AM. Surf 3.9 ft at 14 s around 8:00 AM, above the 3.0 ft limit used at Cabrillo National Monument Tidepools."
+          "text": "Skip the tidepools today; the 3.9 ft surf exceeds the official limit at Cabrillo National Monument, and water is running high. Instead, plan a visit for later this week when daylight lows dip significantly lower, offering much better exposure of the reef. </think> Skip the tidepools today; the 3.9 ft surf exceeds the official limit at Cabrillo National Monument, and water is running high. Instead, plan a visit for later this week when daylight lows dip significantly lower, offering much better exposure of the reef."
         },
         "headline": "Estimate from the San Diego gauge (5 mi): lowest daylight water 3.4 ft at 7:59 AM.",
         "indicators": {
@@ -1563,7 +1641,7 @@
             "daylight": false,
             "feet": 0.166
           },
-          "observed_offset_feet": 1.73,
+          "observed_offset_feet": 1.7,
           "range_feet": 5.1,
           "range_ratio": 0.89,
           "station_name": "San Diego",
@@ -1577,7 +1655,7 @@
             "wave_period_seconds": 13.9
           },
           "window_weather": {
-            "precipitation_probability": 41,
+            "precipitation_probability": 37,
             "temperature_f": 65.6,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.2
@@ -1593,23 +1671,23 @@
             "The lowest water is after dark (0.2 ft at 9:38 PM), 3.2 ft lower than the daylight low.",
             "Better days ahead: Wed Nov 4–Sun Nov 8 dip below 1.5 ft in daylight, lowest Sun 2:43 PM at -0.4 ft.",
             "Water is running 1.7 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:66}, gusts {w:11}, 41% rain, UV 0."
+            "Around 8:00 AM: {t:66}, gusts {w:11}, 37% rain, UV 0."
           ],
           "headline": "Estimate from the San Diego gauge ({d:7.8}): lowest daylight water 3.4 ft at 7:59 AM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 67.3,
+        "apparent_temperature_f": 68.1,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 96.0,
-        "temperature_f": 65.6,
-        "temperature_high_f": 70.1,
+        "temperature_f": 65.9,
+        "temperature_high_f": 69.7,
         "temperature_low_f": 61.4,
-        "weather_code": 2,
-        "wind_gusts_mph": 11.2,
-        "wind_speed_mph": 6.0
+        "weather_code": 63,
+        "wind_gusts_mph": 7.2,
+        "wind_speed_mph": 5.6
       }
     },
     {
@@ -1620,8 +1698,8 @@
           "Surf 3.4 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 64°F, gusts 11 mph, 42% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 64°F, gusts 11 mph, 43% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
@@ -1653,7 +1731,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -1667,7 +1745,7 @@
             "wave_period_seconds": 14.25
           },
           "window_weather": {
-            "precipitation_probability": 42,
+            "precipitation_probability": 43,
             "temperature_f": 63.6,
             "uv_index": 0.1,
             "wind_gusts_mph": 11.0
@@ -1682,24 +1760,24 @@
             "Surf 3.4 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:64}, gusts {w:11}, 42% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:64}, gusts {w:11}, 43% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:19.1}): lowest daylight water 3.1 ft at 7:55 AM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 65.2,
+        "apparent_temperature_f": 64.2,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 92.0,
-        "temperature_f": 63.6,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 59.8,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.0,
-        "wind_speed_mph": 5.6
+        "temperature_f": 64.8,
+        "temperature_high_f": 69.8,
+        "temperature_low_f": 57.9,
+        "weather_code": 3,
+        "wind_gusts_mph": 14.3,
+        "wind_speed_mph": 8.6
       }
     },
     {
@@ -1710,12 +1788,12 @@
           "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 64°F, gusts 9 mph, 44% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 64°F, gusts 9 mph, 39% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
-          "text": "Estimate from the La Jolla gauge (4 mi): lowest daylight water 3.1 ft at 7:55 AM. Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools."
+          "text": "Skip the morning trip because the 3.1 ft low leaves little exposed reef, and the 3.8 ft surf exceeds the Dike Rock limit. Since the best exposure happens after dark, pick another day when daylight tides dip lower for a better visit. </think> Skip the morning trip because the 3.1 ft low leaves little exposed reef, and the 3.8 ft surf exceeds the Dike Rock limit. Since the best exposure happens after dark, pick another day when daylight tides dip lower for a better visit."
         },
         "headline": "Estimate from the La Jolla gauge (4 mi): lowest daylight water 3.1 ft at 7:55 AM.",
         "indicators": {
@@ -1743,7 +1821,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -1757,7 +1835,7 @@
             "wave_period_seconds": 14.0
           },
           "window_weather": {
-            "precipitation_probability": 44,
+            "precipitation_probability": 39,
             "temperature_f": 63.8,
             "uv_index": 0.15,
             "wind_gusts_mph": 9.2
@@ -1772,24 +1850,24 @@
             "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:64}, gusts {w:9}, 44% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:64}, gusts {w:9}, 39% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:6.5}): lowest daylight water 3.1 ft at 7:55 AM."
         }
       },
       "weather": {
-        "apparent_temperature_f": 65.9,
+        "apparent_temperature_f": 68.8,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.8,
-        "temperature_high_f": 69.8,
-        "temperature_low_f": 60.8,
-        "weather_code": 61,
-        "wind_gusts_mph": 9.2,
-        "wind_speed_mph": 3.3
+        "temperature_f": 65.6,
+        "temperature_high_f": 70.8,
+        "temperature_low_f": 60.4,
+        "weather_code": 3,
+        "wind_gusts_mph": 11.9,
+        "wind_speed_mph": 2.8
       }
     },
     {
@@ -1807,7 +1885,7 @@
           "super_low_tide": false,
           "tide_data_available": true,
           "tide_threshold_feet": 1.0,
-          "wind_gusts_mph": 6.7
+          "wind_gusts_mph": 12.5
         },
         "level": "poor",
         "reason": "The best low tide in daylight is 3.3 ft at 8:07 AM, well above this site's 1.0 ft guidance."
@@ -1820,12 +1898,12 @@
           "The lowest water is after dark (0.0 ft at 9:39 PM), 3.3 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
           "Water is running 1.6 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 62°F, gusts 7 mph, 17% rain, UV 1.",
+          "Around 8:00 AM: 62°F, gusts 7 mph, 21% rain, UV 1.",
           "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the outer benches; Rising tide can cut off the rocks below the point; and 1 more."
         ],
         "commentary": {
           "sources": [],
-          "text": "Poor day for tidepooling. Surf 3.0 ft at 11 s around 8:00 AM, above this site's 3.0 ft limit."
+          "text": "Skip the tidepool today; the 8:07 AM low of 3.3 ft leaves too little exposed reef. With water running high and surf near the limit, conditions are poor. Pick another day when tides dip lower in daylight for a better experience. </think> Skip the tidepool today; the 8:07 AM low of 3.3 ft leaves too little exposed reef. With water running high and surf near the limit, conditions are poor. Pick another day when tides dip lower in daylight for a better experience."
         },
         "headline": "Poor day for tidepooling.",
         "indicators": {
@@ -1848,7 +1926,7 @@
             "daylight": false,
             "feet": 0.027
           },
-          "observed_offset_feet": 1.65,
+          "observed_offset_feet": 1.64,
           "range_feet": 5.07,
           "range_ratio": 0.92,
           "station_name": "Los Angeles",
@@ -1862,7 +1940,7 @@
             "wave_period_seconds": 11.3
           },
           "window_weather": {
-            "precipitation_probability": 17,
+            "precipitation_probability": 21,
             "temperature_f": 62.3,
             "uv_index": 0.9,
             "wind_gusts_mph": 6.7
@@ -1899,24 +1977,24 @@
             "The lowest water is after dark (0.0 ft at 9:39 PM), 3.3 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:47 PM at -0.4 ft.",
             "Water is running 1.6 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:62}, gusts {w:7}, 17% rain, UV 1.",
+            "Around 8:00 AM: {t:62}, gusts {w:7}, 21% rain, UV 1.",
             "Site notes: Wet algae-covered rocks are slippery; Waves can wash over the outer benches; Rising tide can cut off the rocks below the point; and 1 more."
           ],
           "headline": "Poor day for tidepooling."
         }
       },
       "weather": {
-        "apparent_temperature_f": 63.5,
+        "apparent_temperature_f": 68.6,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 78.0,
-        "temperature_f": 62.3,
-        "temperature_high_f": 68.1,
-        "temperature_low_f": 56.0,
-        "weather_code": 3,
-        "wind_gusts_mph": 6.7,
-        "wind_speed_mph": 5.6
+        "temperature_f": 65.8,
+        "temperature_high_f": 69.2,
+        "temperature_low_f": 57.2,
+        "weather_code": 2,
+        "wind_gusts_mph": 12.5,
+        "wind_speed_mph": 3.1
       }
     },
     {
@@ -1927,12 +2005,12 @@
           "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
           "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
           "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-          "Water is running 1.8 ft above prediction; expect less exposed reef.",
-          "Around 8:00 AM: 63°F, gusts 12 mph, 38% rain, UV 0."
+          "Water is running 1.7 ft above prediction; expect less exposed reef.",
+          "Around 8:00 AM: 63°F, gusts 12 mph, 35% rain, UV 0."
         ],
         "commentary": {
           "sources": [],
-          "text": "Skip the trip today; the 3.1 ft daylight low leaves the reef mostly submerged, and running water adds to the challenge. Since the official surf limit is exceeded, pick another day when tides dip lower for a better view. </think> Skip the trip today; the 3.1 ft daylight low leaves the reef mostly submerged, and running water adds to the challenge. Since the official surf limit is exceeded, pick another day when tides dip lower for a better view."
+          "text": "Estimate from the La Jolla gauge (3 mi): lowest daylight water 3.1 ft at 7:55 AM. Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools."
         },
         "headline": "Estimate from the La Jolla gauge (3 mi): lowest daylight water 3.1 ft at 7:55 AM.",
         "indicators": {
@@ -1960,7 +2038,7 @@
             "daylight": false,
             "feet": 0.006
           },
-          "observed_offset_feet": 1.76,
+          "observed_offset_feet": 1.71,
           "range_feet": 4.92,
           "range_ratio": 0.92,
           "station_name": "La Jolla",
@@ -1974,7 +2052,7 @@
             "wave_period_seconds": 14.0
           },
           "window_weather": {
-            "precipitation_probability": 38,
+            "precipitation_probability": 35,
             "temperature_f": 63.2,
             "uv_index": 0.15,
             "wind_gusts_mph": 11.6
@@ -1989,53 +2067,63 @@
             "Surf 3.8 ft at 14 s around 8:00 AM, above the 2.5 ft limit used at Dike Rock Tidepools.",
             "The lowest water is after dark (0.0 ft at 9:33 PM), 3.1 ft lower than the daylight low.",
             "Better days ahead: Thu Nov 5–Sun Nov 8 dip below 1.0 ft in daylight, lowest Sun 2:42 PM at -0.4 ft.",
-            "Water is running 1.8 ft above prediction; expect less exposed reef.",
-            "Around 8:00 AM: {t:63}, gusts {w:12}, 38% rain, UV 0."
+            "Water is running 1.7 ft above prediction; expect less exposed reef.",
+            "Around 8:00 AM: {t:63}, gusts {w:12}, 35% rain, UV 0."
           ],
           "headline": "Estimate from the La Jolla gauge ({d:4.5}): lowest daylight water 3.1 ft at 7:55 AM."
+        },
+        "whats_going_on": {
+          "sources": [
+            {
+              "label": "source1",
+              "name": "www.sideguysolutions.com",
+              "url": "https://www.sideguysolutions.com/ocean-water-quality-today-la-jolla.html"
+            }
+          ],
+          "summary": "The County of San Diego’s beach water map tracks conditions in La Jolla, noting that water quality can be affected by rainfall, with a 72-hour rule applying after rain events. SideGuy Solutions provides spot-by-spot postings for the area, offering updates on local conditions without determining safety or offering advice. (source1)"
         }
       },
       "weather": {
-        "apparent_temperature_f": 64.7,
+        "apparent_temperature_f": 66.1,
         "forecast_date_local": "2026-11-01",
         "forecast_time_zone": "America/Los_Angeles",
-        "observed_at": "2026-11-01T16:00:00Z",
+        "observed_at": "2026-11-01T17:00:00Z",
         "precipitation_probability_max": 97.0,
-        "temperature_f": 63.2,
-        "temperature_high_f": 69.4,
-        "temperature_low_f": 61.2,
-        "weather_code": 63,
-        "wind_gusts_mph": 11.6,
-        "wind_speed_mph": 5.8
+        "temperature_f": 65.1,
+        "temperature_high_f": 70.2,
+        "temperature_low_f": 60.3,
+        "weather_code": 3,
+        "wind_gusts_mph": 15.9,
+        "wind_speed_mph": 6.4
       }
     }
   ],
-  "published_at": "2026-11-01T16:01:06Z",
-  "revision": "2026-11-01T16:01:06Z",
+  "published_at": "2026-11-01T17:10:46Z",
+  "revision": "2026-11-01T17:10:46Z",
   "schema_version": 4,
   "sources": [
     {
       "attribution": "Weather forecast data: Open-Meteo; see provider documentation for model attribution.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-11-01T16:01:06Z",
+      "retrieved_at": "2026-11-01T17:10:46Z",
       "url": "https://open-meteo.com/en/docs"
     },
     {
       "attribution": "Tide predictions: NOAA Center for Operational Oceanographic Products and Services (CO-OPS).",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-11-01T16:01:06Z",
+      "retrieved_at": "2026-11-01T17:10:46Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     },
     {
       "attribution": "Hourly weather and marine (wave) forecasts for visit guidance: Open-Meteo.",
       "provider": "Open-Meteo",
-      "retrieved_at": "2026-11-01T16:01:06Z",
+      "retrieved_at": "2026-11-01T17:10:46Z",
       "url": "https://open-meteo.com/en/docs/marine-weather-api"
     },
     {
       "attribution": "Tide datums (great diurnal range): NOAA CO-OPS metadata API; the spring-tide indicator compares the day's range against it.",
       "provider": "NOAA CO-OPS",
-      "retrieved_at": "2026-11-01T16:01:06Z",
+      "retrieved_at": "2026-11-01T17:10:46Z",
       "url": "https://tidesandcurrents.noaa.gov/"
     }
   ]
