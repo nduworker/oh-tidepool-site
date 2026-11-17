@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Oh Tidepool is a free iPhone app for exploring rocky shores. Find sites, read tide charts, learn about animals, and discover reviewed tips for thoughtful visits.">
+  <meta name="description" content="Oh Tidepool is the free SoCal tidepool guide for iPhone: a go, use-care or wait call for every shore from its own tide and surf limits, 91 local species with kids' cartoons, and directions to every parking lot.">
   <meta name="theme-color" content="#f7f0df">
-  <title>Oh Tidepool — Know when to go. Learn what to notice.</title>
+  <title>Oh Tidepool — The SoCal Tidepool Guide</title>
   <link rel="icon" type="image/png" href="./assets/favicon.png">
   <link rel="stylesheet" href="./site.css">
 </head>
@@ -13,29 +13,101 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="./" aria-label="Oh Tidepool home"><img class="app-icon" src="./assets/app-icon.webp" width="48" height="48" alt="">Oh Tidepool</a>
-    <nav class="site-nav" aria-label="Main"><a class="nav-link" href="#about">What it does</a><a class="nav-link" href="#screens">See the app</a><a class="button button-small" href="#get">Get the app</a></nav>
+    <nav class="site-nav" aria-label="Main"><a class="nav-link" href="#guidance">Visit guidance</a><a class="nav-link" href="#locals">Species</a><a class="nav-link" href="#screens">See the app</a><a class="button button-small" href="#get">Get the app</a></nav>
   </header>
   <main id="main" tabindex="-1">
     <section class="app-hero" aria-labelledby="hero-title">
       <div class="app-hero-heading">
-        <p class="eyebrow">FREE IPHONE APP · ON THE APP STORE</p>
-        <h1 id="hero-title">Know when to go.<br>Learn what to <em>notice.</em></h1>
-      </div>
-      <div class="app-hero-description">
-        <p class="lede">Oh Tidepool helps you find the right time and place to explore the rocky shore. Pick a site, check the low tides ahead, and see the conditions that matter before you head out.</p>
+        <p class="hero-brand">Oh Tidepool for iPhone</p>
+        <h1 id="hero-title">The SoCal Tidepool Guide</h1>
+        <p class="lede">Every shore gets its own call: go, use care, or wait, from that site's own tide and surf limits. Then meet the 91 animals and plants you might find there, each with a short cartoon for kids.</p>
         <a class="button" href="https://apps.apple.com/app/id6813742028">Download on the App Store <span aria-hidden="true">↗</span></a>
         <p class="availability">Free on iPhone.</p>
         <div class="qr-row hero-qr"><figure class="qr"><img src="./assets/qr-app-store.svg" width="296" height="296" alt="QR code that opens Oh Tidepool on the App Store"><figcaption><strong>Get the app</strong><a href="https://apps.apple.com/app/id6813742028">apps.apple.com/app/id6813742028</a></figcaption></figure></div>
       </div>
+
+      <figure class="verdict-demo" aria-label="Example of a Visit guidance card">
+        <div class="verdict-card is-good">
+          <p class="verdict-site">Cabrillo National Monument Tidepools <span class="verdict-when">Right now</span></p>
+          <p class="verdict-title"><span class="verdict-symbol" aria-hidden="true">✓</span>Good time to visit</p>
+          <p class="verdict-why">The tide is below this site's 1.5 ft limit and surf is under its 3 ft limit.</p>
+          <dl class="verdict-facts">
+            <div><dt>Tide now</dt><dd>0.4 ft</dd></div>
+            <div><dt>Sea</dt><dd>61°F</dd></div>
+            <div><dt>Next low</dt><dd>3:42 PM</dd></div>
+          </dl>
+        </div>
+        <figcaption>Example card. In the app, every site's card uses live NOAA tide and surf forecasts.</figcaption>
+      </figure>
     </section>
 
     <section class="intro-video" aria-label="Oh Tidepool intro video">
       <video controls playsinline preload="none" poster="./assets/video/intro-poster.jpg" width="1280" height="720"><source src="./assets/video/intro.mp4" type="video/mp4"><a href="./assets/video/intro.mp4">Watch the Oh Tidepool intro video</a></video>
     </section>
 
+    <section class="section guidance" id="guidance" aria-labelledby="guidance-title">
+      <div class="section-heading">
+        <h2 id="guidance-title">One clear call for each shore</h2>
+        <p>A pool that is open at 1.5 ft at one reef can be under water at another. Oh Tidepool checks each site against its own researched tide and surf limits, so the colour you see is about that shore, not the whole coast.</p>
+      </div>
+      <ul class="verdict-scale">
+        <li class="is-good"><span class="verdict-symbol" aria-hidden="true">✓</span><h3>Good time to visit</h3><p>Low enough tide and calm enough surf for this site.</p></li>
+        <li class="is-caveat"><span class="verdict-symbol" aria-hidden="true">!</span><h3>Low tide, but use care</h3><p>The pools are open, but surf is over the site's limit. Watch the waves.</p></li>
+        <li class="is-bad"><span class="verdict-symbol" aria-hidden="true">✕</span><h3>Not recommended right now</h3><p>The tide or the shore conditions say wait for a better window.</p></li>
+        <li class="is-neutral"><span class="verdict-symbol" aria-hidden="true">≈</span><h3>Pools under water</h3><p>The tide is too high to see the pools yet. The card says when the next low comes.</p></li>
+      </ul>
+      <p class="guidance-note"><strong>Official word comes first.</strong> Closures, advisories and posted restrictions override the colour, and the card shows the notice with its source.</p>
+    </section>
+
+    <section class="locals" id="locals" aria-labelledby="locals-title">
+      <div class="locals-inner">
+        <div class="section-heading">
+          <h2 id="locals-title">Meet 91 Southern California locals</h2>
+          <p>The Life tab covers sea stars, octopuses, nudibranchs, fish, sharks and rays, birds, seals and whales you might see from the shore. Each has an illustration, a short sourced fact sheet, and a cartoon for kids.</p>
+        </div>
+        <ul class="locals-list">
+          <li><a href="https://www.youtube.com/watch?v=Fp8pTn2qIF4"><img loading="lazy" src="./assets/species/two-spot-octopus.webp" width="480" height="480" alt="Illustration of a California two-spot octopus"><span class="local-name">California two-spot octopus</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=_sz0eRSKXyc"><img loading="lazy" src="./assets/species/garibaldi.webp" width="480" height="480" alt="Illustration of a garibaldi"><span class="local-name">Garibaldi</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=dSGZzFNbEmg"><img loading="lazy" src="./assets/species/ochre-sea-star.webp" width="480" height="480" alt="Illustration of an ochre sea star"><span class="local-name">Ochre sea star</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=yIKhUWNYwZA"><img loading="lazy" src="./assets/species/opalescent-nudibranch.webp" width="480" height="480" alt="Illustration of an opalescent nudibranch"><span class="local-name">Opalescent nudibranch</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=Tgz_9G9ZL5s"><img loading="lazy" src="./assets/species/sunburst-anemone.webp" width="480" height="480" alt="Illustration of a sunburst anemone"><span class="local-name">Sunburst anemone</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=AQaQCoGndiA"><img loading="lazy" src="./assets/species/leopard-shark.webp" width="480" height="480" alt="Illustration of a leopard shark"><span class="local-name">Leopard shark</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=O1cxjgVrdNQ"><img loading="lazy" src="./assets/species/california-sea-lion.webp" width="480" height="480" alt="Illustration of a California sea lion"><span class="local-name">California sea lion</span><span class="local-watch">Watch the cartoon</span></a></li>
+          <li><a href="https://www.youtube.com/watch?v=x503Nbu8jLQ"><img loading="lazy" src="./assets/species/western-gull.webp" width="480" height="480" alt="Illustration of a western gull"><span class="local-name">Western gull</span><span class="local-watch">Watch the cartoon</span></a></li>
+        </ul>
+        <p class="section-note">Species illustrations are AI-generated images, not photographs; cartoons play on YouTube. <a href="./app-media-credits.html">Image credits</a></p>
+      </div>
+    </section>
+
+    <section class="section arrive" aria-labelledby="arrive-title">
+      <div class="section-heading">
+        <h2 id="arrive-title">Park close, then find the rocks</h2>
+        <p>Each site lists its parking lots with notes from park and city sources, and every lot has its own Directions link. On the map, the rocky shore itself is outlined, so you can see where the reef is before you walk down.</p>
+      </div>
+      <div class="arrive-layout">
+        <div class="parking-demo">
+          <p class="parking-site">Cabrillo National Monument Tidepools · parking</p>
+          <ul>
+            <li><div><h3>Tidepools Lot 1</h3><p>Closest signed lot to the tidepool entrance.</p></div><a class="directions" href="https://maps.apple.com/?q=Tidepools%20Lot%201%2C%20Point%20Loma%2C%20San%20Diego" aria-label="Directions to Tidepools Lot 1">Directions</a></li>
+            <li><div><h3>Tidepools Lot 2</h3><p>Second-closest signed tidepool lot.</p></div><a class="directions" href="https://maps.apple.com/?ll=32.673733,-117.244967&amp;q=Tidepools%20Lot%202" aria-label="Directions to Tidepools Lot 2">Directions</a></li>
+            <li><div><h3>Visitor Center parking</h3><p>Use only if the lower lots are full, then follow the signed Oceanside Trail.</p></div><a class="directions" href="https://maps.apple.com/?ll=32.674317,-117.241611&amp;q=Cabrillo%20Visitor%20Center%20parking" aria-label="Directions to Visitor Center parking">Directions</a></li>
+          </ul>
+          <p class="parking-source">Source: National Park Service, Parking at Cabrillo.</p>
+        </div>
+        <figure class="outline-demo"><img loading="lazy" src="./assets/store/01-map.webp" width="600" height="1305" alt="The app's map with tidepool sites along the coast and a zoomed inset of a site."><figcaption>Rocky-shore outlines from the California Aquatic Resources Inventory, shown on the app's map.</figcaption></figure>
+      </div>
+    </section>
+
     <section class="store-shots" id="screens" aria-label="Oh Tidepool App Store screenshots"><ul><li><a href="./assets/store/01-map.webp"><img decoding="async" src="./assets/store/01-map.webp" width="600" height="1305" alt="Find your tidepool: map of tidepool sites along the coast with colored condition markers and a zoomed inset."></a></li><li><a href="./assets/store/02-tide-sky.webp"><img decoding="async" src="./assets/store/02-tide-sky.webp" width="600" height="1305" alt="Plan the best hour: Dike Rock weather and a Tide and sky chart showing the tide curve with daylight, cloud, and rain."></a></li><li><a href="./assets/store/03-species.webp"><img decoding="async" src="./assets/store/03-species.webp" width="600" height="1305" alt="Meet the locals: What to look for at Dike Rock, with an ochre sea star card and other shoreline animals."></a></li><li><a href="./assets/store/04-alerts.webp"><img decoding="async" src="./assets/store/04-alerts.webp" width="600" height="1305" alt="Catch the low tide: Alerts screen for plan-visit alerts that check forecast tide and surf for chosen locations."></a></li><li><a href="./assets/store/05-tips.webp"><img decoding="async" src="./assets/store/05-tips.webp" width="600" height="1305" alt="Leave it better: Explore list with a Get involved card about a volunteer cleanup day above nearby site cards."></a></li></ul></section>
 
     <section class="section about" id="about" aria-labelledby="about-title">
+      <ul class="use-list about-features">
+        <li><div><h3>Explore tidepool sites</h3><p>18 researched Southern California sites, from Goleta to Point Loma, each with access notes, hazards, and parking.</p></div></li>
+        <li><div><h3>Know the conditions</h3><p>Tide now, sea temperature and the next low, from NOAA and other public sources, with a plain verdict on top.</p></div></li>
+        <li><div><h3>Get low-tide alerts</h3><p>Pick your sites and get a heads-up when a good low-tide window is coming.</p></div></li>
+        <li><div><h3>Learn what lives there</h3><p>Each site lists its locals most common first, and the Life tab holds all 91 with illustrations and cartoons.</p></div></li>
+        <li><div><h3>Stay safe</h3><p>The ocean can be dangerous. Watch the waves, never turn your back on the sea, and follow posted rules and closures. Oh Tidepool is a planning aid, not a safety guarantee: always check local conditions and official guidance before you go.</p></div></li>
+      </ul>
       <div class="about-ask">
         <h2 id="about-title">In return, we ask you to</h2>
         <ol>
@@ -46,17 +118,10 @@
           <li>Enjoy your time at the tidepool!</li>
         </ol>
       </div>
-      <ul class="use-list about-features">
-        <li><div><h3>Explore tidepool sites</h3><p>Browse a growing collection of reviewed tidepool sites, each with visit information, access notes, and the best low-tide windows coming up.</p></div></li>
-        <li><div><h3>Know the conditions</h3><p>See tides, weather, and ocean conditions from public data sources in one place, so you can tell at a glance whether a visit looks good.</p></div></li>
-        <li><div><h3>Get low-tide alerts</h3><p>Turn on alerts for the sites you care about and get a heads-up when a good tidepool window is coming up.</p></div></li>
-        <li><div><h3>Learn what lives there</h3><p>Discover the sea stars, anemones, urchins, mussels, and seaweeds you're most likely to see at each site, listed most common first.</p></div></li>
-        <li><div><h3>Stay safe</h3><p>The ocean can be dangerous. Watch the waves, never turn your back on the sea, and follow posted rules and closures. Oh Tidepool is a planning aid, not a safety guarantee: always check local conditions and official guidance before you go.</p></div></li>
-      </ul>
       <p class="about-note">New sites and regions are added over time.</p>
     </section>
 
-    <section class="section get" id="get" aria-labelledby="get-title"><img class="beta-icon" src="./assets/app-icon.webp" width="80" height="80" loading="lazy" alt=""><p class="eyebrow">OH TIDEPOOL · FREE ON THE APP STORE</p><h2 id="get-title">Take the app<br>on your next shore day.</h2><a class="button" href="https://apps.apple.com/app/id6813742028">Download on the App Store <span aria-hidden="true">↗</span></a><p class="beta-note"><a href="mailto:support@nduwork.com">Tell us what helped you, or what needs work.</a></p></section>
+    <section class="section get" id="get" aria-labelledby="get-title"><img class="beta-icon" src="./assets/app-icon.webp" width="80" height="80" loading="lazy" alt=""><p class="hero-brand">Oh Tidepool · free on the App Store</p><h2 id="get-title">Take the guide<br>on your next shore day.</h2><a class="button" href="https://apps.apple.com/app/id6813742028">Download on the App Store <span aria-hidden="true">↗</span></a><p class="beta-note"><a href="mailto:support@nduwork.com">Tell us what helped you, or what needs work.</a></p></section>
   </main>
   <footer><span>© 2026 Oh Tidepool</span><a href="./privacy.html">Privacy</a><a href="./licenses.html">Licences &amp; data</a><a href="./app-media-credits.html">App image credits</a><a href="./support.html">Support</a><a href="mailto:support@nduwork.com">Contact</a></footer>
 </body>
